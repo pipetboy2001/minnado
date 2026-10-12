@@ -56,6 +56,8 @@ contenido es estático y versionado en este repositorio.
 | `npm run dev`        | Servidor de desarrollo                             |
 | `npm run build`      | Build de producción                                |
 | `npm run lint`       | ESLint                                             |
+| `npm run typecheck`  | Verifica tipos de TypeScript                       |
+| `npm test`           | Corre la suite de tests (Vitest)                   |
 | `npm run format`     | Formatea el proyecto con Prettier                  |
 | `npm run db:migrate` | Aplica migraciones de Prisma (desarrollo)          |
 | `npm run db:deploy`  | Aplica migraciones de Prisma (producción)          |

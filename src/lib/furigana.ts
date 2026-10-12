@@ -6,7 +6,19 @@ export interface FuriganaSegment {
   reading?: string;
 }
 
-const BRACKET_PATTERN = /([^\[\]]+)\[([^\[\]]+)\]/g;
+const KANJI_RANGE = "一-鿿";
+const KANA_RANGE = "ぁ-んァ-ヶー";
+
+// The base must start at a kanji (optionally followed by more kanji/kana,
+// e.g. trailing okurigana like the き in "大き[おおき]"). Without that
+// anchor, a greedy `[^\[\]]+` would also swallow any plain text sitting
+// between the previous bracket and this one — e.g. in "は学生[がくせい]",
+// the base would wrongly become "は学生" instead of just "学生", putting
+// the reading over text it doesn't apply to.
+const BRACKET_PATTERN = new RegExp(
+  `([${KANJI_RANGE}][${KANJI_RANGE}${KANA_RANGE}]*)\\[([^\\[\\]]+)\\]`,
+  "g",
+);
 
 /**
  * Parses bracket-notation furigana, e.g. "大き[おおき]い" into
@@ -76,7 +88,7 @@ function getDictionary() {
   return { dictionary, keys: cachedKeysByLengthDesc };
 }
 
-const KANJI_PATTERN = /[一-鿿]/;
+const KANJI_PATTERN = new RegExp(`[${KANJI_RANGE}]`);
 
 /**
  * Greedily tokenizes a short string (a vocab word, chip, or option
