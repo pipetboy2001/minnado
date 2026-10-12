@@ -108,5 +108,69 @@
         "meaningEs": "todo el día"
       }
     ]
+  },
+  {
+    "id": "n5-kanji-0008",
+    "character": "今",
+    "jlptLevel": "N5",
+    "strokeCount": 4,
+    "onyomi": ["コン", "キン"],
+    "kunyomi": ["いま"],
+    "meaningEs": "ahora",
+    "radicals": ["人"],
+    "exampleWords": [
+      { "word": "今日", "reading": "きょう", "meaningEs": "hoy" },
+      { "word": "今週", "reading": "こんしゅう", "meaningEs": "esta semana" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0009",
+    "character": "時",
+    "jlptLevel": "N5",
+    "strokeCount": 10,
+    "onyomi": ["ジ"],
+    "kunyomi": ["とき"],
+    "meaningEs": "hora, tiempo, momento",
+    "radicals": ["日"],
+    "exampleWords": [
+      {
+        "word": "時間",
+        "reading": "じかん",
+        "meaningEs": "tiempo, hora (duración)"
+      },
+      { "word": "何時", "reading": "なんじ", "meaningEs": "qué hora" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0010",
+    "character": "半",
+    "jlptLevel": "N5",
+    "strokeCount": 5,
+    "onyomi": ["ハン"],
+    "kunyomi": ["なか-ば"],
+    "meaningEs": "mitad, y media",
+    "radicals": ["十"],
+    "exampleWords": [
+      { "word": "半分", "reading": "はんぶん", "meaningEs": "la mitad" },
+      { "word": "前半", "reading": "ぜんはん", "meaningEs": "primera mitad" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0011",
+    "character": "休",
+    "jlptLevel": "N5",
+    "strokeCount": 6,
+    "onyomi": ["キュウ"],
+    "kunyomi": ["やす-む"],
+    "meaningEs": "descanso, descansar",
+    "radicals": ["人"],
+    "exampleWords": [
+      {
+        "word": "休み",
+        "reading": "やすみ",
+        "meaningEs": "descanso, vacaciones"
+      },
+      { "word": "休日", "reading": "きゅうじつ", "meaningEs": "día feriado" }
+    ]
   }
 ]

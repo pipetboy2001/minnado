@@ -263,5 +263,75 @@
       { "jp": "九", "reading": "きゅう", "es": "nueve (9)" },
       { "jp": "十", "reading": "じゅう", "es": "diez (10)" }
     ]
+  },
+  {
+    "id": "n5-gram-0017",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "今〜時〜分です (decir la hora)",
+    "pattern": "今、[número]時[半]です。",
+    "explanationEs": "Para decir la hora se usa 今 (ahora) + número + 時 (hora) + です. 半 agrega 'y media'. Algunos números tienen lecturas irregulares como hora: 4時(よじ), 7時(しちじ), 9時(くじ).",
+    "examples": [
+      {
+        "jp": "今、3時です。",
+        "reading": "いま、さんじです。",
+        "es": "Son las 3 (ahora)."
+      },
+      {
+        "jp": "今、3時半です。",
+        "reading": "いま、さんじはんです。",
+        "es": "Son las 3 y media."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0018",
+    "jlptLevel": "N5",
+    "category": "particles",
+    "title": "〜から〜まで (desde~hasta~)",
+    "pattern": "[Inicio]から[Fin]まで",
+    "explanationEs": "から marca el punto de inicio y まで el punto final, tanto en tiempo como en espacio.",
+    "examples": [
+      {
+        "jp": "9時から5時まで働きます。",
+        "reading": "くじからごじまではたらきます。",
+        "es": "Trabajo de 9 a 5."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0019",
+    "jlptLevel": "N5",
+    "category": "verb-forms",
+    "title": "Verbos de rutina diaria + に (forma ます)",
+    "pattern": "[Hora]に[Verbo]ます。",
+    "explanationEs": "に marca el punto en el tiempo en que ocurre la acción. 起きます (despertarse), 寝ます (dormir), 働きます (trabajar), 勉強します (estudiar) y 休みます (descansar) son verbos de rutina diaria en forma ます.",
+    "examples": [
+      {
+        "jp": "毎日、7時に起きます。",
+        "reading": "まいにち、しちじにおきます。",
+        "es": "Todos los días me levanto a las 7."
+      },
+      {
+        "jp": "11時に寝ます。",
+        "reading": "じゅういちじにねます。",
+        "es": "Me duermo a las 11."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0020",
+    "jlptLevel": "N5",
+    "category": "particles",
+    "title": "〜ね (partícula de confirmación)",
+    "pattern": "[Oración]ね。",
+    "explanationEs": "ね se agrega al final de la oración para buscar acuerdo o confirmación del oyente, como '¿verdad?' o '¿no?' en español.",
+    "examples": [
+      {
+        "jp": "田中さんは元気ですね。",
+        "reading": "たなかさんはげんきですね。",
+        "es": "El señor Tanaka está bien de salud, ¿verdad?"
+      }
+    ]
   }
 ]

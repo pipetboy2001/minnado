@@ -955,5 +955,199 @@
     "translationEs": "El gato está debajo del escritorio.",
     "explanationEs": "います se usa para seres vivos como 猫 (gato).",
     "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0060",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-05",
+    "promptEs": "Son las 3 y media. Elige la palabra correcta.",
+    "questionJp": "今[いま]、3時[さんじ]{{1}}です。",
+    "options": [
+      { "id": "a", "textJp": "半", "isCorrect": true },
+      { "id": "b", "textJp": "分", "isCorrect": false },
+      { "id": "c", "textJp": "時", "isCorrect": false },
+      { "id": "d", "textJp": "今", "isCorrect": false }
+    ],
+    "explanationEs": "半 significa 'y media'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0061",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "particles",
+    "lessonId": "n5-lesson-05",
+    "promptEs": "Elige la partícula que marca el INICIO del horario.",
+    "questionJp": "9時[くじ]{{1}}5時[ごじ]まで働[はたら]きます。",
+    "options": [
+      { "id": "a", "textJp": "から", "isCorrect": true },
+      { "id": "b", "textJp": "まで", "isCorrect": false },
+      { "id": "c", "textJp": "に", "isCorrect": false },
+      { "id": "d", "textJp": "と", "isCorrect": false }
+    ],
+    "explanationEs": "から marca el inicio; まで marca el final.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0062",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "particles",
+    "lessonId": "n5-lesson-05",
+    "promptEs": "Me levanto todos los días a las 7.",
+    "sentenceTemplate": "毎日[まいにち]、7時[しちじ]{{1}}起[お]きます。",
+    "translationEs": "Todos los días me levanto a las 7.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["に"],
+        "options": ["に", "で", "を", "は"]
+      }
+    ],
+    "explanationEs": "に marca el punto en el tiempo en que ocurre la acción.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0063",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "particles",
+    "lessonId": "n5-lesson-05",
+    "promptEs": "Buscas confirmación: 'El señor Tanaka está bien de salud, ¿verdad?'.",
+    "sentenceTemplate": "田中[たなか]さんは元気[げんき]です{{1}}。",
+    "translationEs": "El señor Tanaka está bien de salud, ¿verdad?",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["ね"],
+        "options": ["ね", "よ", "か", "な"]
+      }
+    ],
+    "explanationEs": "ね busca acuerdo o confirmación del oyente.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0064",
+    "type": "word-order",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-05",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["5時まで", "働きます", "9時から"],
+    "correctOrder": ["9時から", "5時まで", "働きます"],
+    "translationEs": "Trabajo de 9 a 5.",
+    "explanationEs": "Orden: [Inicio]から + [Fin]まで + Verbo。",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0065",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-05",
+    "promptEs": "Une cada verbo de rutina con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "起きます", "right": "despertarse / levantarse" },
+      { "id": "p2", "left": "寝ます", "right": "dormir / acostarse" },
+      { "id": "p3", "left": "働きます", "right": "trabajar" },
+      { "id": "p4", "left": "勉強します", "right": "estudiar" },
+      { "id": "p5", "left": "休みます", "right": "descansar / faltar" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0066",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-05",
+    "promptEs": "¿Cómo se lee 今 (ahora) como palabra independiente?",
+    "questionJp": "今",
+    "options": [
+      { "id": "a", "textJp": "いま", "isCorrect": true },
+      { "id": "b", "textJp": "こん", "isCorrect": false },
+      { "id": "c", "textJp": "きん", "isCorrect": false },
+      { "id": "d", "textJp": "いん", "isCorrect": false }
+    ],
+    "explanationEs": "今 se lee いま como palabra independiente ('ahora'); こん aparece en compuestos como 今週 (こんしゅう, esta semana).",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0067",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-05",
+    "promptEs": "Une cada kanji con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "今", "right": "ahora" },
+      { "id": "p2", "left": "時", "right": "hora, tiempo" },
+      { "id": "p3", "left": "半", "right": "mitad, y media" },
+      { "id": "p4", "left": "休", "right": "descanso, descansar" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0068",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-05",
+    "promptEs": "Te vas a dormir a las 11. Elige el verbo correcto.",
+    "questionJp": "毎日[まいにち]、11時[じゅういちじ]に{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "寝ます", "isCorrect": true },
+      { "id": "b", "textJp": "起きます", "isCorrect": false },
+      { "id": "c", "textJp": "働きます", "isCorrect": false },
+      { "id": "d", "textJp": "勉強します", "isCorrect": false }
+    ],
+    "explanationEs": "寝ます significa 'dormir, acostarse'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0069",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-05",
+    "promptEs": "Estudio todos los días.",
+    "sentenceTemplate": "毎日[まいにち]、{{1}}。",
+    "translationEs": "Estudio todos los días.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["勉強します", "べんきょうします"],
+        "options": ["勉強します", "休みます", "寝ます", "起きます"]
+      }
+    ],
+    "explanationEs": "勉強します significa 'estudiar'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0070",
+    "type": "speaking",
+    "jlptLevel": "N5",
+    "skill": "speaking",
+    "lessonId": "n5-lesson-05",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "毎日[まいにち]、7時[しちじ]に起[お]きます。",
+    "translationEs": "Todos los días me levanto a las 7.",
+    "explanationEs": "に marca el punto en el tiempo en que ocurre la acción.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0071",
+    "type": "listening",
+    "jlptLevel": "N5",
+    "skill": "listening",
+    "lessonId": "n5-lesson-05",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "9時[くじ]から5時[ごじ]まで働[はたら]きます。",
+    "targetReading": "くじからごじまではたらきます。",
+    "translationEs": "Trabajo de 9 a 5.",
+    "explanationEs": "から marca el inicio; まで marca el final.",
+    "difficulty": 2
   }
 ]

@@ -127,9 +127,57 @@
     ]
   },
   {
-    "id": "n5-lesson-03",
+    "id": "n5-lesson-05",
     "jlptLevel": "N5",
     "order": 4,
+    "title": "Lección 4 — Rutina diaria y hora (起きます・寝ます)",
+    "description": "Cómo decir la hora, 〜から〜まで, verbos de rutina diaria (起きます/寝ます/働きます/勉強します/休みます) y la partícula ね, basado en Minna no Nihongo Lección 4.",
+    "kind": "lesson",
+    "vocabIds": [
+      "n5-voc-0041",
+      "n5-voc-0042",
+      "n5-voc-0043",
+      "n5-voc-0044",
+      "n5-voc-0045",
+      "n5-voc-0046",
+      "n5-voc-0047",
+      "n5-voc-0048",
+      "n5-voc-0049",
+      "n5-voc-0050",
+      "n5-voc-0051",
+      "n5-voc-0052"
+    ],
+    "kanjiIds": [
+      "n5-kanji-0008",
+      "n5-kanji-0009",
+      "n5-kanji-0010",
+      "n5-kanji-0011"
+    ],
+    "grammarIds": [
+      "n5-gram-0017",
+      "n5-gram-0018",
+      "n5-gram-0019",
+      "n5-gram-0020"
+    ],
+    "exerciseIds": [
+      "n5-ex-0060",
+      "n5-ex-0061",
+      "n5-ex-0062",
+      "n5-ex-0063",
+      "n5-ex-0064",
+      "n5-ex-0065",
+      "n5-ex-0066",
+      "n5-ex-0067",
+      "n5-ex-0068",
+      "n5-ex-0069",
+      "n5-ex-0070",
+      "n5-ex-0071"
+    ]
+  },
+  {
+    "id": "n5-lesson-03",
+    "jlptLevel": "N5",
+    "order": 5,
     "title": "Repaso — Partículas, Adjetivos y Formas Verbales",
     "description": "Módulo de repaso transversal: partícula correcta, adjetivos い/な, y conjugación verbal (forma ます y て) a través de varias lecciones.",
     "kind": "review",
