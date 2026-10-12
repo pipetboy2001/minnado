@@ -63,6 +63,103 @@
     "difficulty": 1
   },
   {
+    "id": "n5-ex-0036",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "particles",
+    "lessonId": "n5-lesson-01",
+    "promptEs": "Elige la partícula correcta para marcar el objeto directo.",
+    "questionJp": "わたしは　水[みず]{{1}}飲[の]みます。",
+    "options": [
+      { "id": "a", "textJp": "を", "isCorrect": true },
+      { "id": "b", "textJp": "は", "isCorrect": false },
+      { "id": "c", "textJp": "に", "isCorrect": false },
+      { "id": "d", "textJp": "で", "isCorrect": false }
+    ],
+    "explanationEs": "を marca el objeto directo del verbo 飲みます (beber): 'bebo agua'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0037",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-01",
+    "promptEs": "Niega el adjetivo-な en forma educada.",
+    "sentenceTemplate": "田中[たなか]さんは元気[げんき]{{1}}。",
+    "translationEs": "El señor Tanaka no está bien de salud.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["じゃないです", "ではないです"],
+        "options": ["じゃないです", "くないです", "ではある", "いないです"]
+      }
+    ],
+    "explanationEs": "Los adjetivos-な se niegan como los sustantivos: 元気 + じゃないです.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0038",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-01",
+    "promptEs": "¿Cuál es la lectura correcta de 日本人 (persona japonesa)?",
+    "questionJp": "日本人",
+    "options": [
+      { "id": "a", "textJp": "にほんじん", "isCorrect": true },
+      { "id": "b", "textJp": "にほんご", "isCorrect": false },
+      { "id": "c", "textJp": "にっぽん", "isCorrect": false },
+      { "id": "d", "textJp": "がいこくじん", "isCorrect": false }
+    ],
+    "explanationEs": "日本人 (にほんじん) = 日本 (Japón) + 人 (persona).",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0039",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-01",
+    "promptEs": "Une cada kanji con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "日", "right": "día / sol" },
+      { "id": "p2", "left": "人", "right": "persona" },
+      { "id": "p3", "left": "学", "right": "estudiar / aprendizaje" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0040",
+    "type": "word-order",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-01",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["大きいです", "この", "家は"],
+    "correctOrder": ["この", "家は", "大きいです"],
+    "translationEs": "Esta casa es grande.",
+    "explanationEs": "この + sustantivo señala algo cercano; 大きいです es la forma afirmativa educada del adjetivo-い.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0041",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-01",
+    "promptEs": "Elige la forma correcta para terminar la oración de manera educada.",
+    "questionJp": "たなかさんは　学生[がくせい]{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "です", "isCorrect": true },
+      { "id": "b", "textJp": "だ", "isCorrect": false },
+      { "id": "c", "textJp": "じゃない", "isCorrect": false },
+      { "id": "d", "textJp": "ます", "isCorrect": false }
+    ],
+    "explanationEs": "です es la forma educada del verbo copulativo para afirmar identidad: N は N です.",
+    "difficulty": 1
+  },
+  {
     "id": "n5-ex-0005",
     "type": "multiple-choice",
     "jlptLevel": "N5",
@@ -132,6 +229,100 @@
       { "id": "d", "textJp": "これ", "isCorrect": false }
     ],
     "explanationEs": "あそこ se usa para un lugar lejos tanto del hablante como del oyente.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0042",
+    "type": "word-order",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-02",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["本です", "これは", "私の"],
+    "correctOrder": ["これは", "私の", "本です"],
+    "translationEs": "Esto es mi libro.",
+    "explanationEs": "の conecta 私 (yo) con 本 (libro) para marcar posesión.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0043",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-02",
+    "promptEs": "Une cada palabra de ubicación con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "ここ", "right": "aquí" },
+      { "id": "p2", "left": "そこ", "right": "ahí" },
+      { "id": "p3", "left": "あそこ", "right": "allá" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0044",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-02",
+    "promptEs": "Delante de un sustantivo se usa この/その/あの, no これ/それ/あれ. Elige la forma correcta.",
+    "questionJp": "{{1}}本[ほん]です。",
+    "options": [
+      { "id": "a", "textJp": "この", "isCorrect": true },
+      { "id": "b", "textJp": "これ", "isCorrect": false },
+      { "id": "c", "textJp": "その", "isCorrect": false },
+      { "id": "d", "textJp": "あの", "isCorrect": false }
+    ],
+    "explanationEs": "この va siempre seguido de un sustantivo; これ se usa solo, sin sustantivo después.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0045",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-02",
+    "promptEs": "El libro está en un lugar cerca de la persona con la que hablas.",
+    "sentenceTemplate": "本[ほん]は{{1}}です。",
+    "translationEs": "El libro está ahí.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["そこ"],
+        "options": ["そこ", "ここ", "あそこ", "それ"]
+      }
+    ],
+    "explanationEs": "そこ se usa para ubicaciones cercanas al oyente; それ (sin ubicación) es para objetos, no lugares.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0046",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "particles",
+    "lessonId": "n5-lesson-02",
+    "promptEs": "El libro es de Tanaka. Elige la partícula correcta.",
+    "questionJp": "この本[ほん]はたなかさん{{1}}です。",
+    "options": [
+      { "id": "a", "textJp": "の", "isCorrect": true },
+      { "id": "b", "textJp": "は", "isCorrect": false },
+      { "id": "c", "textJp": "を", "isCorrect": false },
+      { "id": "d", "textJp": "に", "isCorrect": false }
+    ],
+    "explanationEs": "の puede reemplazar al sustantivo cuando ya se sobreentiende: 'es el [libro] de Tanaka'.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0047",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-02",
+    "promptEs": "Une cada pronombre demostrativo con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "これ", "right": "esto" },
+      { "id": "p2", "left": "それ", "right": "eso" },
+      { "id": "p3", "left": "あれ", "right": "aquello" }
+    ],
     "difficulty": 1
   },
   {
