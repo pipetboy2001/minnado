@@ -26,7 +26,13 @@
     "sentenceTemplate": "この　家は　大き{{1}}です。",
     "sentenceReading": "このいえはおおき{{1}}です。",
     "translationEs": "Esta casa no es grande.",
-    "blanks": [{ "id": "1", "acceptedAnswers": ["くない", "くないです"] }],
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["くない", "くないです"],
+        "options": ["くない", "くて", "じゃない", "い"]
+      }
+    ],
     "explanationEs": "Se quita la い final de 大きい y se agrega くない para la forma negativa.",
     "difficulty": 2
   },
@@ -84,7 +90,13 @@
     "sentenceTemplate": "{{1}}本はたなかさんのです。",
     "sentenceReading": "{{1}}ほんはたなかさんのです。",
     "translationEs": "Ese libro es del señor Tanaka.",
-    "blanks": [{ "id": "1", "acceptedAnswers": ["その"] }],
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["その"],
+        "options": ["この", "その", "あの"]
+      }
+    ],
     "explanationEs": "その＋sustantivo se usa cuando el objeto está cerca del oyente, no del hablante.",
     "difficulty": 2
   },
@@ -98,7 +110,13 @@
     "sentenceTemplate": "これはわたし{{1}}本です。",
     "sentenceReading": "これはわたし{{1}}ほんです。",
     "translationEs": "Esto es mi libro.",
-    "blanks": [{ "id": "1", "acceptedAnswers": ["の"] }],
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["の"],
+        "options": ["の", "は", "を"]
+      }
+    ],
     "explanationEs": "の conecta 'わたし' (yo) con '本' (libro) indicando posesión: el libro de mí.",
     "difficulty": 1
   },
@@ -197,7 +215,13 @@
     "sentenceTemplate": "これは　わたし{{1}}本です。",
     "sentenceReading": "これはわたし{{1}}ほんです。",
     "translationEs": "Esto es mi libro.",
-    "blanks": [{ "id": "1", "acceptedAnswers": ["の"] }],
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["の"],
+        "options": ["の", "は", "を"]
+      }
+    ],
     "explanationEs": "の conecta al poseedor con la cosa poseída.",
     "difficulty": 1
   },
@@ -211,7 +235,13 @@
     "sentenceTemplate": "まいにち　学校{{1}}行きます。",
     "sentenceReading": "まいにちがっこう{{1}}いきます。",
     "translationEs": "Voy a la escuela todos los días.",
-    "blanks": [{ "id": "1", "acceptedAnswers": ["に"] }],
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["に"],
+        "options": ["に", "で", "を"]
+      }
+    ],
     "explanationEs": "に marca el destino del movimiento.",
     "difficulty": 2
   },
@@ -225,7 +255,13 @@
     "sentenceTemplate": "この家は大き{{1}}新しいです。",
     "sentenceReading": "このいえはおおき{{1}}あたらしいです。",
     "translationEs": "Esta casa es grande y nueva.",
-    "blanks": [{ "id": "1", "acceptedAnswers": ["くて"] }],
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["くて"],
+        "options": ["くて", "くない", "で"]
+      }
+    ],
     "explanationEs": "大きい pierde su い final y se convierte en 大きくて para conectar con el siguiente adjetivo.",
     "difficulty": 2
   },
@@ -239,7 +275,13 @@
     "sentenceTemplate": "たなかさんは元気{{1}}、親切です。",
     "sentenceReading": "たなかさんはげんき{{1}}、しんせつです。",
     "translationEs": "El señor Tanaka está lleno de energía y es amable.",
-    "blanks": [{ "id": "1", "acceptedAnswers": ["で"] }],
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["で"],
+        "options": ["で", "くて", "の"]
+      }
+    ],
     "explanationEs": "Los adjetivos-な agregan で (en vez de です) cuando conectan con otro adjetivo.",
     "difficulty": 2
   },

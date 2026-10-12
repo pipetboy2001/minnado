@@ -142,6 +142,7 @@ export const fillInBlankExerciseSchema = z.object({
       z.object({
         id: z.string(),
         acceptedAnswers: z.array(z.string()).min(1),
+        options: z.array(z.string()).min(2).optional(),
       }),
     )
     .min(1),

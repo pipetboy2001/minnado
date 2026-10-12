@@ -36,6 +36,12 @@ export interface MultipleChoiceExercise extends BaseExercise {
 export interface FillInBlankBlank {
   id: string;
   acceptedAnswers: string[];
+  /**
+   * Optional multiple-choice options for this blank (correct answer +
+   * distractors), rendered as buttons instead of a free-text input.
+   * Typing Japanese without an IME is hard, so prefer this when possible.
+   */
+  options?: string[];
 }
 
 export interface FillInBlankExercise extends BaseExercise {
