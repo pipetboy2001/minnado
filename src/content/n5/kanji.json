@@ -376,5 +376,69 @@
       { "word": "友達", "reading": "ともだち", "meaningEs": "amigo, amiga" },
       { "word": "友人", "reading": "ゆうじん", "meaningEs": "amigo (formal)" }
     ]
+  },
+  {
+    "id": "n5-kanji-0024",
+    "character": "高",
+    "jlptLevel": "N5",
+    "strokeCount": 10,
+    "onyomi": ["コウ"],
+    "kunyomi": ["たか-い"],
+    "meaningEs": "alto, caro",
+    "radicals": ["高"],
+    "exampleWords": [
+      {
+        "word": "高校",
+        "reading": "こうこう",
+        "meaningEs": "escuela secundaria"
+      },
+      { "word": "高い", "reading": "たかい", "meaningEs": "alto, caro" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0025",
+    "character": "安",
+    "jlptLevel": "N5",
+    "strokeCount": 6,
+    "onyomi": ["アン"],
+    "kunyomi": ["やす-い"],
+    "meaningEs": "barato, tranquilo",
+    "radicals": ["宀"],
+    "exampleWords": [
+      { "word": "安全", "reading": "あんぜん", "meaningEs": "seguridad" },
+      { "word": "安い", "reading": "やすい", "meaningEs": "barato" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0026",
+    "character": "古",
+    "jlptLevel": "N5",
+    "strokeCount": 5,
+    "onyomi": ["コ"],
+    "kunyomi": ["ふる-い"],
+    "meaningEs": "viejo, antiguo",
+    "radicals": ["口"],
+    "exampleWords": [
+      {
+        "word": "中古",
+        "reading": "ちゅうこ",
+        "meaningEs": "usado, de segunda mano"
+      },
+      { "word": "古い", "reading": "ふるい", "meaningEs": "viejo" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0027",
+    "character": "難",
+    "jlptLevel": "N5",
+    "strokeCount": 18,
+    "onyomi": ["ナン"],
+    "kunyomi": ["むずか-しい"],
+    "meaningEs": "difícil",
+    "radicals": ["隹"],
+    "exampleWords": [
+      { "word": "難しい", "reading": "むずかしい", "meaningEs": "difícil" },
+      { "word": "困難", "reading": "こんなん", "meaningEs": "dificultad" }
+    ]
   }
 ]

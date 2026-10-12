@@ -528,5 +528,65 @@
         "es": "Recibo mucho chocolate."
       }
     ]
+  },
+  {
+    "id": "n5-gram-0033",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "とても + adjetivo (muy)",
+    "pattern": "とても + [Adjetivo]です。",
+    "explanationEs": "とても intensifica un adjetivo, como 'muy' en español.",
+    "examples": [
+      {
+        "jp": "この本はとても難しいです。",
+        "reading": "このほんはとてもむずかしいです。",
+        "es": "Este libro es muy difícil."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0034",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "あまり + adjetivo negativo (no muy)",
+    "pattern": "あまり + [Adjetivo en forma negativa]。",
+    "explanationEs": "あまり se usa junto con la forma negativa del adjetivo para decir 'no muy'.",
+    "examples": [
+      {
+        "jp": "この本はあまり難しくないです。",
+        "reading": "このほんはあまりむずかしくないです。",
+        "es": "Este libro no es muy difícil."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0035",
+    "jlptLevel": "N5",
+    "category": "questions",
+    "title": "どうですか (pedir opinión)",
+    "pattern": "[Tema]はどうですか。",
+    "explanationEs": "どうですか pregunta la opinión u opinión de alguien sobre algo, como '¿qué te parece...?' en español.",
+    "examples": [
+      {
+        "jp": "この本はどうですか。",
+        "reading": "このほんはどうですか。",
+        "es": "¿Qué te parece este libro?"
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0036",
+    "jlptLevel": "N5",
+    "category": "particles",
+    "title": "〜が、〜 (contraste)",
+    "pattern": "[Oración A]が、[Oración B]。",
+    "explanationEs": "が conecta dos oraciones con un matiz de contraste, como 'pero' en español.",
+    "examples": [
+      {
+        "jp": "高いですが、おいしいです。",
+        "reading": "たかいですが、おいしいです。",
+        "es": "Es caro, pero es rico."
+      }
+    ]
   }
 ]

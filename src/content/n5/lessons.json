@@ -316,9 +316,55 @@
     ]
   },
   {
-    "id": "n5-lesson-03",
+    "id": "n5-lesson-09",
     "jlptLevel": "N5",
     "order": 8,
+    "title": "Lección 8 — Describir con adjetivos (とても・あまり)",
+    "description": "とても (muy) y あまり〜ない (no muy) con adjetivos, どうですか para pedir opinión, y が para contraste, basado en Minna no Nihongo Lección 8.",
+    "kind": "lesson",
+    "vocabIds": [
+      "n5-voc-0086",
+      "n5-voc-0087",
+      "n5-voc-0088",
+      "n5-voc-0089",
+      "n5-voc-0090",
+      "n5-voc-0091",
+      "n5-voc-0092",
+      "n5-voc-0093",
+      "n5-voc-0094",
+      "n5-voc-0095"
+    ],
+    "kanjiIds": [
+      "n5-kanji-0024",
+      "n5-kanji-0025",
+      "n5-kanji-0026",
+      "n5-kanji-0027"
+    ],
+    "grammarIds": [
+      "n5-gram-0033",
+      "n5-gram-0034",
+      "n5-gram-0035",
+      "n5-gram-0036"
+    ],
+    "exerciseIds": [
+      "n5-ex-0108",
+      "n5-ex-0109",
+      "n5-ex-0110",
+      "n5-ex-0111",
+      "n5-ex-0112",
+      "n5-ex-0113",
+      "n5-ex-0114",
+      "n5-ex-0115",
+      "n5-ex-0116",
+      "n5-ex-0117",
+      "n5-ex-0118",
+      "n5-ex-0119"
+    ]
+  },
+  {
+    "id": "n5-lesson-03",
+    "jlptLevel": "N5",
+    "order": 9,
     "title": "Repaso — Partículas, Adjetivos y Formas Verbales",
     "description": "Módulo de repaso transversal: partícula correcta, adjetivos い/な, y conjugación verbal (forma ます y て) a través de varias lecciones.",
     "kind": "review",

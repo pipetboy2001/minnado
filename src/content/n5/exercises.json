@@ -1728,5 +1728,198 @@
     "translationEs": "Recibo un regalo en mi cumpleaños.",
     "explanationEs": "もらいます se usa cuando el hablante recibe algo.",
     "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0108",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-09",
+    "promptEs": "Este libro es MUY difícil. Elige el adverbio correcto.",
+    "questionJp": "この本[ほん]は{{1}}難[むずか]しいです。",
+    "options": [
+      { "id": "a", "textJp": "とても", "isCorrect": true },
+      { "id": "b", "textJp": "あまり", "isCorrect": false },
+      { "id": "c", "textJp": "もう", "isCorrect": false },
+      { "id": "d", "textJp": "まだ", "isCorrect": false }
+    ],
+    "explanationEs": "とても intensifica un adjetivo afirmativo, como 'muy'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0109",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-09",
+    "promptEs": "Este libro no es MUY difícil (negativo). Elige el adverbio correcto.",
+    "questionJp": "この本[ほん]は{{1}}難[むずか]しくないです。",
+    "options": [
+      { "id": "a", "textJp": "あまり", "isCorrect": true },
+      { "id": "b", "textJp": "とても", "isCorrect": false },
+      { "id": "c", "textJp": "もう", "isCorrect": false },
+      { "id": "d", "textJp": "少し", "isCorrect": false }
+    ],
+    "explanationEs": "あまり se usa junto con la forma negativa del adjetivo para decir 'no muy'.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0110",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-09",
+    "promptEs": "Pregunta qué te parece este libro.",
+    "sentenceTemplate": "この本[ほん]は{{1}}ですか。",
+    "translationEs": "¿Qué te parece este libro?",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["どう"],
+        "options": ["どう", "なに", "いつ", "どこ"]
+      }
+    ],
+    "explanationEs": "どうですか pregunta la opinión de alguien sobre algo.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0111",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "particles",
+    "lessonId": "n5-lesson-09",
+    "promptEs": "Es caro, pero es rico.",
+    "sentenceTemplate": "高[たか]いです{{1}}、おいしいです。",
+    "translationEs": "Es caro, pero es rico.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["が"],
+        "options": ["が", "を", "と", "も"]
+      }
+    ],
+    "explanationEs": "が conecta dos oraciones con un matiz de contraste, como 'pero'.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0112",
+    "type": "word-order",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-09",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["とても", "この本は", "難しいです"],
+    "correctOrder": ["この本は", "とても", "難しいです"],
+    "translationEs": "Este libro es muy difícil.",
+    "explanationEs": "Orden: Tema は + とても + Adjetivo。",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0113",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-09",
+    "promptEs": "Une cada adjetivo con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "高い", "right": "caro, alto" },
+      { "id": "p2", "left": "安い", "right": "barato" },
+      { "id": "p3", "left": "おいしい", "right": "sabroso, rico" },
+      { "id": "p4", "left": "古い", "right": "viejo (objetos)" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0114",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-09",
+    "promptEs": "¿Cómo se lee 難しい (difícil)?",
+    "questionJp": "難しい",
+    "options": [
+      { "id": "a", "textJp": "むずかしい", "isCorrect": true },
+      { "id": "b", "textJp": "なんしい", "isCorrect": false },
+      { "id": "c", "textJp": "かたい", "isCorrect": false },
+      { "id": "d", "textJp": "むずい", "isCorrect": false }
+    ],
+    "explanationEs": "難しい se lee むずかしい.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0115",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-09",
+    "promptEs": "Une cada kanji con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "高", "right": "alto, caro" },
+      { "id": "p2", "left": "安", "right": "barato, tranquilo" },
+      { "id": "p3", "left": "古", "right": "viejo, antiguo" },
+      { "id": "p4", "left": "難", "right": "difícil" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0116",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-09",
+    "promptEs": "Este lugar está limpio/es bonito. Elige el adjetivo correcto.",
+    "questionJp": "ここは{{1}}です。",
+    "options": [
+      { "id": "a", "textJp": "きれい", "isCorrect": true },
+      { "id": "b", "textJp": "にぎやか", "isCorrect": false },
+      { "id": "c", "textJp": "高い", "isCorrect": false },
+      { "id": "d", "textJp": "安い", "isCorrect": false }
+    ],
+    "explanationEs": "きれい significa 'bonito, limpio'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0117",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-09",
+    "promptEs": "Este libro es fácil (no difícil).",
+    "sentenceTemplate": "この本[ほん]は{{1}}です。",
+    "translationEs": "Este libro es fácil.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["簡単", "かんたん"],
+        "options": ["簡単", "難しい", "高い", "古い"]
+      }
+    ],
+    "explanationEs": "簡単 significa 'fácil, simple'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0118",
+    "type": "speaking",
+    "jlptLevel": "N5",
+    "skill": "speaking",
+    "lessonId": "n5-lesson-09",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "この本[ほん]はとても難[むずか]しいです。",
+    "translationEs": "Este libro es muy difícil.",
+    "explanationEs": "とても intensifica el adjetivo.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0119",
+    "type": "listening",
+    "jlptLevel": "N5",
+    "skill": "listening",
+    "lessonId": "n5-lesson-09",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "高[たか]いですが、おいしいです。",
+    "targetReading": "たかいですが、おいしいです。",
+    "translationEs": "Es caro, pero es rico.",
+    "explanationEs": "が conecta dos oraciones con un matiz de contraste.",
+    "difficulty": 2
   }
 ]
