@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Check, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -30,6 +30,15 @@ export function ExercisePlayer({
   const isFinished = index >= exercises.length;
   const isAnswered = answer !== undefined;
   const progress = (index / exercises.length) * 100;
+
+  useEffect(() => {
+    if (!isFinished) return;
+    void fetch("/api/lesson-progress", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ lessonId }),
+    });
+  }, [isFinished, lessonId]);
 
   function handleCheck() {
     if (!answer) return;
@@ -88,6 +97,12 @@ export function ExercisePlayer({
               Volver a la lección
             </Button>
           </div>
+          <Link
+            href="/actividades/progreso"
+            className="text-sm text-muted-foreground underline"
+          >
+            Ver mi progreso
+          </Link>
         </CardContent>
       </Card>
     );
