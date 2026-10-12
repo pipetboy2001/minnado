@@ -1,4 +1,4 @@
-# にほんご — Plataforma Open Source de Aprendizaje de Japonés
+# Minnado — Plataforma Open Source de Aprendizaje de Japonés
 
 Plataforma web open source para practicar japonés a nivel **N5/N4**, basada en
 el método **Minna no Nihongo**. Incluye vocabulario, kanji, gramática y

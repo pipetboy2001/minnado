@@ -90,7 +90,7 @@ export function ResetPasswordForm() {
   return (
     <Card className="w-full max-w-sm">
       <CardHeader>
-        <CardTitle>にほんご — Nueva contraseña</CardTitle>
+        <CardTitle>Minnado — Nueva contraseña</CardTitle>
         <CardDescription>Elige tu nueva contraseña.</CardDescription>
       </CardHeader>
       <CardContent>

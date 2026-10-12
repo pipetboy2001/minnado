@@ -12,11 +12,11 @@ const transporter = nodemailer.createTransport({
 
 export async function sendPasswordResetEmail(to: string, resetUrl: string) {
   await transporter.sendMail({
-    from: `"にほんご" <${process.env.SMTP_USER}>`,
+    from: `"Minnado" <${process.env.SMTP_USER}>`,
     to,
-    subject: "Restablece tu contraseña — にほんご",
+    subject: "Restablece tu contraseña — Minnado",
     html: `
-      <p>Recibimos una solicitud para restablecer la contraseña de tu cuenta en にほんご.</p>
+      <p>Recibimos una solicitud para restablecer la contraseña de tu cuenta en Minnado.</p>
       <p><a href="${resetUrl}">Haz clic aquí para elegir una nueva contraseña</a></p>
       <p>Este enlace vence en 1 hora. Si no solicitaste este cambio, puedes ignorar este correo.</p>
     `,

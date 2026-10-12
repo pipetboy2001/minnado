@@ -78,7 +78,7 @@ export default function RegisterPage() {
       </div>
       <Card className="w-full max-w-sm">
         <CardHeader>
-          <CardTitle>にほんご — Crear cuenta</CardTitle>
+          <CardTitle>Minnado — Crear cuenta</CardTitle>
           <CardDescription>
             Regístrate para guardar tu progreso.
           </CardDescription>

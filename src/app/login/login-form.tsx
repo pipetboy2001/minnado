@@ -59,7 +59,7 @@ export function LoginForm() {
   return (
     <Card className="w-full max-w-sm">
       <CardHeader>
-        <CardTitle>にほんご — Iniciar sesión</CardTitle>
+        <CardTitle>Minnado — Iniciar sesión</CardTitle>
         <CardDescription>Entra para practicar japonés N5/N4.</CardDescription>
       </CardHeader>
       <CardContent>

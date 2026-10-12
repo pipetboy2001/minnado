@@ -52,7 +52,7 @@ export function ForgotPasswordForm() {
   return (
     <Card className="w-full max-w-sm">
       <CardHeader>
-        <CardTitle>にほんご — Recuperar contraseña</CardTitle>
+        <CardTitle>Minnado — Recuperar contraseña</CardTitle>
         <CardDescription>
           Te enviaremos un enlace para elegir una nueva contraseña.
         </CardDescription>

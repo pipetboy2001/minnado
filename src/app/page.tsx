@@ -11,7 +11,7 @@ export default async function Home() {
       <div className="absolute top-4 right-4">
         <ThemeToggle />
       </div>
-      <h1 className="text-4xl font-bold tracking-tight">にほんご</h1>
+      <h1 className="text-4xl font-bold tracking-tight">Minnado</h1>
       <p className="max-w-md text-muted-foreground">
         Plataforma open source para practicar japonés N5/N4 basada en Minna no
         Nihongo — vocabulario, kanji, gramática y ejercicios interactivos.
