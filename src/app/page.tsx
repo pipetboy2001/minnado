@@ -2,8 +2,6 @@ import Link from "next/link";
 import { auth } from "@/auth";
 import { Button } from "@/components/ui/button";
 
-export const instant = false;
-
 export default async function Home() {
   const session = await auth();
 

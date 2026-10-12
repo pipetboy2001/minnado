@@ -10,8 +10,6 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
-export const instant = false;
-
 export default async function ActividadesPage() {
   const session = await auth();
   const lessons = getLessonsN5();

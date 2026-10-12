@@ -15,8 +15,6 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
-export const instant = false;
-
 export default async function LessonPage({
   params,
 }: {
