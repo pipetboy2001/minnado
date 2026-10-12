@@ -7,6 +7,7 @@ import { z } from "zod";
 import { signIn } from "next-auth/react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
+import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -45,10 +46,13 @@ export function LoginForm() {
     });
 
     if (result?.error) {
-      setServerError("Correo o contraseña incorrectos.");
+      const message = "Correo o contraseña incorrectos.";
+      setServerError(message);
+      toast.error(message);
       return;
     }
 
+    toast.success("¡Bienvenido de vuelta!");
     router.push(callbackUrl);
   }
 

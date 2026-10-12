@@ -7,6 +7,7 @@ import { z } from "zod";
 import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -17,6 +18,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 const registerSchema = z.object({
   name: z.string().min(1, "El nombre es obligatorio"),
@@ -47,7 +49,9 @@ export default function RegisterPage() {
 
     if (!response.ok) {
       const data = await response.json().catch(() => null);
-      setServerError(data?.error ?? "No se pudo crear la cuenta.");
+      const message = data?.error ?? "No se pudo crear la cuenta.";
+      setServerError(message);
+      toast.error(message);
       return;
     }
 
@@ -58,15 +62,20 @@ export default function RegisterPage() {
     });
 
     if (signInResult?.error) {
+      toast.success("¡Cuenta creada! Inicia sesión para continuar.");
       router.push("/login");
       return;
     }
 
+    toast.success("¡Cuenta creada!");
     router.push("/actividades");
   }
 
   return (
-    <div className="flex min-h-screen items-center justify-center p-4">
+    <div className="relative flex min-h-screen items-center justify-center p-4">
+      <div className="absolute top-4 right-4">
+        <ThemeToggle />
+      </div>
       <Card className="w-full max-w-sm">
         <CardHeader>
           <CardTitle>にほんご — Crear cuenta</CardTitle>

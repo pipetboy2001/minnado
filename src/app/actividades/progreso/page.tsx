@@ -14,6 +14,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 const dateFormatter = new Intl.DateTimeFormat("es", {
   day: "2-digit",
@@ -35,12 +36,15 @@ export default async function ProgresoPage() {
 
   return (
     <div className="mx-auto w-full max-w-3xl flex-1 p-6">
-      <Link
-        href="/actividades"
-        className="text-sm text-muted-foreground underline"
-      >
-        ← Volver a actividades
-      </Link>
+      <div className="flex items-center justify-between">
+        <Link
+          href="/actividades"
+          className="text-sm text-muted-foreground underline"
+        >
+          ← Volver a actividades
+        </Link>
+        <ThemeToggle />
+      </div>
       <h1 className="mt-2 mb-6 text-2xl font-bold">Mi progreso</h1>
 
       <div className="mb-4 grid grid-cols-3 gap-3">

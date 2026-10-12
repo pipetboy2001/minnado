@@ -11,6 +11,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 export default async function ActividadesPage() {
   const session = await auth();
@@ -30,11 +31,18 @@ export default async function ActividadesPage() {
           </p>
         </div>
         <div className="flex items-center gap-2">
+          <ThemeToggle />
           <Button
             variant="outline"
             render={<Link href="/actividades/progreso" />}
           >
             Mi progreso
+          </Button>
+          <Button
+            variant="outline"
+            render={<Link href="/actividades/cuenta" />}
+          >
+            Mi cuenta
           </Button>
           <form
             action={async () => {
