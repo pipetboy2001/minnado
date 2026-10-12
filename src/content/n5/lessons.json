@@ -271,9 +271,54 @@
     ]
   },
   {
-    "id": "n5-lesson-03",
+    "id": "n5-lesson-08",
     "jlptLevel": "N5",
     "order": 7,
+    "title": "Lección 7 — Dar y recibir (あげます・もらいます)",
+    "description": "あげます (dar) y もらいます (recibir), 〜をください para pedir algo, y 少し／たくさん para cantidad, basado en Minna no Nihongo Lección 7.",
+    "kind": "lesson",
+    "vocabIds": [
+      "n5-voc-0077",
+      "n5-voc-0078",
+      "n5-voc-0079",
+      "n5-voc-0080",
+      "n5-voc-0081",
+      "n5-voc-0082",
+      "n5-voc-0083",
+      "n5-voc-0084",
+      "n5-voc-0085"
+    ],
+    "kanjiIds": [
+      "n5-kanji-0020",
+      "n5-kanji-0021",
+      "n5-kanji-0022",
+      "n5-kanji-0023"
+    ],
+    "grammarIds": [
+      "n5-gram-0029",
+      "n5-gram-0030",
+      "n5-gram-0031",
+      "n5-gram-0032"
+    ],
+    "exerciseIds": [
+      "n5-ex-0096",
+      "n5-ex-0097",
+      "n5-ex-0098",
+      "n5-ex-0099",
+      "n5-ex-0100",
+      "n5-ex-0101",
+      "n5-ex-0102",
+      "n5-ex-0103",
+      "n5-ex-0104",
+      "n5-ex-0105",
+      "n5-ex-0106",
+      "n5-ex-0107"
+    ]
+  },
+  {
+    "id": "n5-lesson-03",
+    "jlptLevel": "N5",
+    "order": 8,
     "title": "Repaso — Partículas, Adjetivos y Formas Verbales",
     "description": "Módulo de repaso transversal: partícula correcta, adjetivos い/な, y conjugación verbal (forma ます y て) a través de varias lecciones.",
     "kind": "review",

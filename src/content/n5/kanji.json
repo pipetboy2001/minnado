@@ -308,5 +308,73 @@
       { "word": "新聞", "reading": "しんぶん", "meaningEs": "periódico" },
       { "word": "聞こえる", "reading": "きこえる", "meaningEs": "poder oír" }
     ]
+  },
+  {
+    "id": "n5-kanji-0020",
+    "character": "花",
+    "jlptLevel": "N5",
+    "strokeCount": 7,
+    "onyomi": ["カ"],
+    "kunyomi": ["はな"],
+    "meaningEs": "flor",
+    "radicals": ["艸"],
+    "exampleWords": [
+      {
+        "word": "花見",
+        "reading": "はなみ",
+        "meaningEs": "contemplación de flores de cerezo"
+      },
+      {
+        "word": "花火",
+        "reading": "はなび",
+        "meaningEs": "fuegos artificiales"
+      }
+    ]
+  },
+  {
+    "id": "n5-kanji-0021",
+    "character": "少",
+    "jlptLevel": "N5",
+    "strokeCount": 4,
+    "onyomi": ["ショウ"],
+    "kunyomi": ["すこ-し", "すく-ない"],
+    "meaningEs": "poco, escaso",
+    "radicals": ["小"],
+    "exampleWords": [
+      { "word": "少し", "reading": "すこし", "meaningEs": "un poco" },
+      { "word": "少年", "reading": "しょうねん", "meaningEs": "niño, muchacho" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0022",
+    "character": "多",
+    "jlptLevel": "N5",
+    "strokeCount": 6,
+    "onyomi": ["タ"],
+    "kunyomi": ["おお-い"],
+    "meaningEs": "mucho, numeroso",
+    "radicals": ["夕"],
+    "exampleWords": [
+      {
+        "word": "多分",
+        "reading": "たぶん",
+        "meaningEs": "quizás, probablemente"
+      },
+      { "word": "多い", "reading": "おおい", "meaningEs": "ser mucho/numeroso" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0023",
+    "character": "友",
+    "jlptLevel": "N5",
+    "strokeCount": 4,
+    "onyomi": ["ユウ"],
+    "kunyomi": ["とも"],
+    "meaningEs": "amigo",
+    "radicals": ["又"],
+    "exampleWords": [
+      { "word": "友達", "reading": "ともだち", "meaningEs": "amigo, amiga" },
+      { "word": "友人", "reading": "ゆうじん", "meaningEs": "amigo (formal)" }
+    ]
   }
 ]

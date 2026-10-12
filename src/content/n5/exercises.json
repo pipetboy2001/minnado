@@ -1535,5 +1535,198 @@
     "translationEs": "¿No quieres escuchar música?",
     "explanationEs": "ませんか invita a hacer algo juntos.",
     "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0096",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "particles",
+    "lessonId": "n5-lesson-08",
+    "promptEs": "Elige la partícula que marca a quien recibe.",
+    "questionJp": "友達[ともだち]{{1}}花[はな]をあげます。",
+    "options": [
+      { "id": "a", "textJp": "に", "isCorrect": true },
+      { "id": "b", "textJp": "を", "isCorrect": false },
+      { "id": "c", "textJp": "が", "isCorrect": false },
+      { "id": "d", "textJp": "と", "isCorrect": false }
+    ],
+    "explanationEs": "に marca a la persona que recibe la acción de あげます.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0097",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-08",
+    "promptEs": "Recibes un regalo de un amigo.",
+    "questionJp": "友達[ともだち]にプレゼントを{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "もらいます", "isCorrect": true },
+      { "id": "b", "textJp": "あげます", "isCorrect": false },
+      { "id": "c", "textJp": "ください", "isCorrect": false },
+      { "id": "d", "textJp": "します", "isCorrect": false }
+    ],
+    "explanationEs": "もらいます se usa cuando el hablante recibe algo.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0098",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "particles",
+    "lessonId": "n5-lesson-08",
+    "promptEs": "Pide flores, por favor.",
+    "sentenceTemplate": "花[はな]{{1}}ください。",
+    "translationEs": "Deme flores, por favor.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["を"],
+        "options": ["を", "に", "が", "の"]
+      }
+    ],
+    "explanationEs": "を marca lo que se pide con ください.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0099",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-08",
+    "promptEs": "Recibes MUCHO chocolate.",
+    "sentenceTemplate": "チョコレートを{{1}}もらいます。",
+    "translationEs": "Recibo mucho chocolate.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["たくさん"],
+        "options": ["たくさん", "少し", "いつ", "もう"]
+      }
+    ],
+    "explanationEs": "たくさん significa 'mucho'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0100",
+    "type": "word-order",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-08",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["花を", "友達に", "あげます"],
+    "correctOrder": ["友達に", "花を", "あげます"],
+    "translationEs": "Le doy flores a un amigo.",
+    "explanationEs": "Orden: [Receptor]に + [Cosa]を + あげます。",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0101",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-08",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "あげます", "right": "dar" },
+      { "id": "p2", "left": "もらいます", "right": "recibir" },
+      { "id": "p3", "left": "プレゼント", "right": "regalo" },
+      { "id": "p4", "left": "誕生日", "right": "cumpleaños" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0102",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-08",
+    "promptEs": "¿Cómo se lee 花 (flor) como palabra independiente?",
+    "questionJp": "花",
+    "options": [
+      { "id": "a", "textJp": "はな", "isCorrect": true },
+      { "id": "b", "textJp": "か", "isCorrect": false },
+      { "id": "c", "textJp": "かえ", "isCorrect": false },
+      { "id": "d", "textJp": "はい", "isCorrect": false }
+    ],
+    "explanationEs": "花 se lee はな como palabra independiente; か aparece en compuestos como 花火 (はなび, fuegos artificiales).",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0103",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-08",
+    "promptEs": "Une cada kanji con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "花", "right": "flor" },
+      { "id": "p2", "left": "少", "right": "poco, escaso" },
+      { "id": "p3", "left": "多", "right": "mucho, numeroso" },
+      { "id": "p4", "left": "友", "right": "amigo" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0104",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-08",
+    "promptEs": "Le DAS flores a un amigo en su cumpleaños.",
+    "questionJp": "誕生日[たんじょうび]に友達[ともだち]に花[はな]を{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "あげます", "isCorrect": true },
+      { "id": "b", "textJp": "もらいます", "isCorrect": false },
+      { "id": "c", "textJp": "ください", "isCorrect": false },
+      { "id": "d", "textJp": "行きます", "isCorrect": false }
+    ],
+    "explanationEs": "あげます se usa cuando el hablante da algo a otra persona.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0105",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "particles",
+    "lessonId": "n5-lesson-08",
+    "promptEs": "Recibes un regalo DE un amigo (origen).",
+    "sentenceTemplate": "友達[ともだち]{{1}}プレゼントをもらいます。",
+    "translationEs": "Recibo un regalo de un amigo.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["から", "に"],
+        "options": ["から", "へ", "で", "と"]
+      }
+    ],
+    "explanationEs": "から marca el origen de lo que se recibe.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0106",
+    "type": "speaking",
+    "jlptLevel": "N5",
+    "skill": "speaking",
+    "lessonId": "n5-lesson-08",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "友達[ともだち]に花[はな]をあげます。",
+    "translationEs": "Le doy flores a un amigo.",
+    "explanationEs": "に marca a quien recibe la acción de あげます.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0107",
+    "type": "listening",
+    "jlptLevel": "N5",
+    "skill": "listening",
+    "lessonId": "n5-lesson-08",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "誕生日[たんじょうび]にプレゼントをもらいます。",
+    "targetReading": "たんじょうびにプレゼントをもらいます。",
+    "translationEs": "Recibo un regalo en mi cumpleaños.",
+    "explanationEs": "もらいます se usa cuando el hablante recibe algo.",
+    "difficulty": 2
   }
 ]

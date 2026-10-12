@@ -463,5 +463,70 @@
         "es": "Sí, escuchemos."
       }
     ]
+  },
+  {
+    "id": "n5-gram-0029",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "あげます (dar) + に",
+    "pattern": "[Receptor]に[Cosa]をあげます。",
+    "explanationEs": "あげます se usa cuando el hablante (o un tercero) da algo a otra persona. に marca a quien recibe.",
+    "examples": [
+      {
+        "jp": "友達に花をあげます。",
+        "reading": "ともだちにはなをあげます。",
+        "es": "Le doy flores a un amigo."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0030",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "もらいます (recibir) + から／に",
+    "pattern": "[Donante]から／に[Cosa]をもらいます。",
+    "explanationEs": "もらいます se usa cuando el hablante recibe algo. El donante se marca con から (más común) o に.",
+    "examples": [
+      {
+        "jp": "友達にプレゼントをもらいます。",
+        "reading": "ともだちにプレゼントをもらいます。",
+        "es": "Recibo un regalo de un amigo."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0031",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "〜をください (pedir algo)",
+    "pattern": "[Cosa]をください。",
+    "explanationEs": "ください se usa para pedir algo educadamente, como 'déme...' en español.",
+    "examples": [
+      {
+        "jp": "花をください。",
+        "reading": "はなをください。",
+        "es": "Deme flores, por favor."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0032",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "少し／たくさん (cantidad)",
+    "pattern": "少し／たくさん + [Verbo]",
+    "explanationEs": "少し significa 'un poco' y たくさん significa 'mucho'; ambos modifican al verbo.",
+    "examples": [
+      {
+        "jp": "花を少しもらいます。",
+        "reading": "はなをすこしもらいます。",
+        "es": "Recibo un poco de flores."
+      },
+      {
+        "jp": "チョコレートをたくさんもらいます。",
+        "reading": "チョコレートをたくさんもらいます。",
+        "es": "Recibo mucho chocolate."
+      }
+    ]
   }
 ]
