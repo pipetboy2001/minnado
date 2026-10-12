@@ -248,5 +248,65 @@
         "meaningEs": "Estación de Tokio"
       }
     ]
+  },
+  {
+    "id": "n5-kanji-0016",
+    "character": "買",
+    "jlptLevel": "N5",
+    "strokeCount": 12,
+    "onyomi": ["バイ"],
+    "kunyomi": ["か-う"],
+    "meaningEs": "comprar",
+    "radicals": ["貝"],
+    "exampleWords": [
+      { "word": "買い物", "reading": "かいもの", "meaningEs": "compras" },
+      { "word": "売買", "reading": "ばいばい", "meaningEs": "compraventa" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0017",
+    "character": "読",
+    "jlptLevel": "N5",
+    "strokeCount": 14,
+    "onyomi": ["ドク"],
+    "kunyomi": ["よ-む"],
+    "meaningEs": "leer",
+    "radicals": ["言"],
+    "exampleWords": [
+      { "word": "読書", "reading": "どくしょ", "meaningEs": "lectura" },
+      {
+        "word": "音読",
+        "reading": "おんどく",
+        "meaningEs": "lectura en voz alta"
+      }
+    ]
+  },
+  {
+    "id": "n5-kanji-0018",
+    "character": "書",
+    "jlptLevel": "N5",
+    "strokeCount": 10,
+    "onyomi": ["ショ"],
+    "kunyomi": ["か-く"],
+    "meaningEs": "escribir",
+    "radicals": ["曰"],
+    "exampleWords": [
+      { "word": "辞書", "reading": "じしょ", "meaningEs": "diccionario" },
+      { "word": "図書館", "reading": "としょかん", "meaningEs": "biblioteca" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0019",
+    "character": "聞",
+    "jlptLevel": "N5",
+    "strokeCount": 14,
+    "onyomi": ["ブン", "モン"],
+    "kunyomi": ["き-く"],
+    "meaningEs": "escuchar, preguntar",
+    "radicals": ["耳"],
+    "exampleWords": [
+      { "word": "新聞", "reading": "しんぶん", "meaningEs": "periódico" },
+      { "word": "聞こえる", "reading": "きこえる", "meaningEs": "poder oír" }
+    ]
   }
 ]

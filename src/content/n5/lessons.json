@@ -223,9 +223,57 @@
     ]
   },
   {
-    "id": "n5-lesson-03",
+    "id": "n5-lesson-07",
     "jlptLevel": "N5",
     "order": 6,
+    "title": "Lección 6 — Verbos transitivos e invitaciones (〜ませんか)",
+    "description": "Verbos transitivos con を (読みます/書きます/買います/聞きます/作ります/教えます), 何を〜か, invitaciones con 〜ませんか y sugerencias con 〜ましょう, basado en Minna no Nihongo Lección 6.",
+    "kind": "lesson",
+    "vocabIds": [
+      "n5-voc-0065",
+      "n5-voc-0066",
+      "n5-voc-0067",
+      "n5-voc-0068",
+      "n5-voc-0069",
+      "n5-voc-0070",
+      "n5-voc-0071",
+      "n5-voc-0072",
+      "n5-voc-0073",
+      "n5-voc-0074",
+      "n5-voc-0075",
+      "n5-voc-0076"
+    ],
+    "kanjiIds": [
+      "n5-kanji-0016",
+      "n5-kanji-0017",
+      "n5-kanji-0018",
+      "n5-kanji-0019"
+    ],
+    "grammarIds": [
+      "n5-gram-0025",
+      "n5-gram-0026",
+      "n5-gram-0027",
+      "n5-gram-0028"
+    ],
+    "exerciseIds": [
+      "n5-ex-0084",
+      "n5-ex-0085",
+      "n5-ex-0086",
+      "n5-ex-0087",
+      "n5-ex-0088",
+      "n5-ex-0089",
+      "n5-ex-0090",
+      "n5-ex-0091",
+      "n5-ex-0092",
+      "n5-ex-0093",
+      "n5-ex-0094",
+      "n5-ex-0095"
+    ]
+  },
+  {
+    "id": "n5-lesson-03",
+    "jlptLevel": "N5",
+    "order": 7,
     "title": "Repaso — Partículas, Adjetivos y Formas Verbales",
     "description": "Módulo de repaso transversal: partícula correcta, adjetivos い/な, y conjugación verbal (forma ます y て) a través de varias lecciones.",
     "kind": "review",

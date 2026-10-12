@@ -398,5 +398,70 @@
         "es": "¿Cuándo vas a Japón?"
       }
     ]
+  },
+  {
+    "id": "n5-gram-0025",
+    "jlptLevel": "N5",
+    "category": "particles",
+    "title": "[Objeto]を[Verbo] (verbos transitivos)",
+    "pattern": "[Objeto]を[Verbo]ます。",
+    "explanationEs": "を marca el objeto directo de verbos transitivos como 読みます, 書きます, 買います y 聞きます.",
+    "examples": [
+      {
+        "jp": "新聞を読みます。",
+        "reading": "しんぶんをよみます。",
+        "es": "Leo el periódico."
+      },
+      {
+        "jp": "手紙を書きます。",
+        "reading": "てがみをかきます。",
+        "es": "Escribo una carta."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0026",
+    "jlptLevel": "N5",
+    "category": "questions",
+    "title": "何を〜か (preguntar qué)",
+    "pattern": "何を[Verbo]か。",
+    "explanationEs": "何 (qué) + を pregunta por el objeto de la acción.",
+    "examples": [
+      {
+        "jp": "何を飲みますか。",
+        "reading": "なにをのみますか。",
+        "es": "¿Qué bebes?"
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0027",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "〜ませんか (invitación)",
+    "pattern": "[Verbo-ます (negativo)]か。",
+    "explanationEs": "ませんか invita a hacer algo juntos, como '¿no quieres...?' en español. Es más educado que una invitación directa.",
+    "examples": [
+      {
+        "jp": "音楽を聞きませんか。",
+        "reading": "おんがくをききませんか。",
+        "es": "¿No quieres escuchar música?"
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0028",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "〜ましょう (sugerencia)",
+    "pattern": "[Raíz de Verbo-ます]ましょう。",
+    "explanationEs": "ましょう se usa para sugerir o aceptar hacer algo juntos, como 'hagamos...' en español.",
+    "examples": [
+      {
+        "jp": "はい、聞きましょう。",
+        "reading": "はい、ききましょう。",
+        "es": "Sí, escuchemos."
+      }
+    ]
   }
 ]

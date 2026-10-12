@@ -1342,5 +1342,198 @@
     "translationEs": "La próxima semana voy a Japón.",
     "explanationEs": "来週 significa 'la próxima semana'.",
     "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0084",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "particles",
+    "lessonId": "n5-lesson-07",
+    "promptEs": "Elige la partícula del objeto directo.",
+    "questionJp": "新聞[しんぶん]{{1}}読[よ]みます。",
+    "options": [
+      { "id": "a", "textJp": "を", "isCorrect": true },
+      { "id": "b", "textJp": "は", "isCorrect": false },
+      { "id": "c", "textJp": "に", "isCorrect": false },
+      { "id": "d", "textJp": "で", "isCorrect": false }
+    ],
+    "explanationEs": "を marca el objeto directo del verbo transitivo 読みます.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0085",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-07",
+    "promptEs": "Invita a alguien a escuchar música.",
+    "questionJp": "音楽[おんがく]を聞[き]き{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "ませんか", "isCorrect": true },
+      { "id": "b", "textJp": "ます", "isCorrect": false },
+      { "id": "c", "textJp": "ました", "isCorrect": false },
+      { "id": "d", "textJp": "ません", "isCorrect": false }
+    ],
+    "explanationEs": "ませんか invita a hacer algo juntos: '¿no quieres escuchar música?'.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0086",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-07",
+    "promptEs": "Responde aceptando la invitación: 'Sí, escuchemos'.",
+    "sentenceTemplate": "はい、聞[き]き{{1}}。",
+    "translationEs": "Sí, escuchemos.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["ましょう"],
+        "options": ["ましょう", "ません", "ました", "ますか"]
+      }
+    ],
+    "explanationEs": "ましょう acepta o propone hacer algo juntos.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0087",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-07",
+    "promptEs": "Pregunta qué bebe.",
+    "sentenceTemplate": "{{1}}飲[の]みますか。",
+    "translationEs": "¿Qué bebes?",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["何を", "なにを"],
+        "options": ["何を", "どこで", "いつ", "だれが"]
+      }
+    ],
+    "explanationEs": "何を pregunta por el objeto de la acción.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0088",
+    "type": "word-order",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-07",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["読みます", "新聞を"],
+    "correctOrder": ["新聞を", "読みます"],
+    "translationEs": "Leo el periódico.",
+    "explanationEs": "Orden: [Objeto]を + Verbo。",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0089",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-07",
+    "promptEs": "Une cada verbo con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "読みます", "right": "leer" },
+      { "id": "p2", "left": "書きます", "right": "escribir" },
+      { "id": "p3", "left": "買います", "right": "comprar" },
+      { "id": "p4", "left": "聞きます", "right": "escuchar, preguntar" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0090",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-07",
+    "promptEs": "¿Cómo se lee 聞きます (escuchar/preguntar)?",
+    "questionJp": "聞きます",
+    "options": [
+      { "id": "a", "textJp": "ききます", "isCorrect": true },
+      { "id": "b", "textJp": "きります", "isCorrect": false },
+      { "id": "c", "textJp": "よみます", "isCorrect": false },
+      { "id": "d", "textJp": "かきます", "isCorrect": false }
+    ],
+    "explanationEs": "聞く se lee きく; en forma ます es ききます.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0091",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-07",
+    "promptEs": "Une cada kanji con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "買", "right": "comprar" },
+      { "id": "p2", "left": "読", "right": "leer" },
+      { "id": "p3", "left": "書", "right": "escribir" },
+      { "id": "p4", "left": "聞", "right": "escuchar, preguntar" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0092",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-07",
+    "promptEs": "Compones música. Elige el verbo correcto.",
+    "questionJp": "音楽[おんがく]を{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "作ります", "isCorrect": true },
+      { "id": "b", "textJp": "読みます", "isCorrect": false },
+      { "id": "c", "textJp": "買います", "isCorrect": false },
+      { "id": "d", "textJp": "行きます", "isCorrect": false }
+    ],
+    "explanationEs": "作ります significa 'hacer, fabricar' (también 'componer' en el caso de música).",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0093",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-07",
+    "promptEs": "Entiendes japonés.",
+    "sentenceTemplate": "日本語[にほんご]{{1}}分[わ]かります。",
+    "translationEs": "Entiendo japonés.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["が"],
+        "options": ["が", "を", "は", "に"]
+      }
+    ],
+    "explanationEs": "分かります usa が (no を) para marcar lo que se entiende.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0094",
+    "type": "speaking",
+    "jlptLevel": "N5",
+    "skill": "speaking",
+    "lessonId": "n5-lesson-07",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "新聞[しんぶん]を読[よ]みます。",
+    "translationEs": "Leo el periódico.",
+    "explanationEs": "を marca el objeto directo del verbo transitivo.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0095",
+    "type": "listening",
+    "jlptLevel": "N5",
+    "skill": "listening",
+    "lessonId": "n5-lesson-07",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "音楽[おんがく]を聞[き]きませんか。",
+    "targetReading": "おんがくをききませんか。",
+    "translationEs": "¿No quieres escuchar música?",
+    "explanationEs": "ませんか invita a hacer algo juntos.",
+    "difficulty": 2
   }
 ]
