@@ -1921,5 +1921,198 @@
     "translationEs": "Es caro, pero es rico.",
     "explanationEs": "が conecta dos oraciones con un matiz de contraste.",
     "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0120",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "particles",
+    "lessonId": "n5-lesson-10",
+    "promptEs": "Elige la partícula de comparación.",
+    "questionJp": "この本[ほん]はその本[ほん]{{1}}難[むずか]しいです。",
+    "options": [
+      { "id": "a", "textJp": "より", "isCorrect": true },
+      { "id": "b", "textJp": "と", "isCorrect": false },
+      { "id": "c", "textJp": "や", "isCorrect": false },
+      { "id": "d", "textJp": "とか", "isCorrect": false }
+    ],
+    "explanationEs": "より marca el punto de comparación: 'más ~ que'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0121",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-10",
+    "promptEs": "Pregunta cuál de los dos prefiere (verano o invierno).",
+    "questionJp": "夏[なつ]と冬[ふゆ]と{{1}}が好[す]きですか。",
+    "options": [
+      { "id": "a", "textJp": "どちら", "isCorrect": true },
+      { "id": "b", "textJp": "どこ", "isCorrect": false },
+      { "id": "c", "textJp": "いつ", "isCorrect": false },
+      { "id": "d", "textJp": "なに", "isCorrect": false }
+    ],
+    "explanationEs": "どちら pregunta cuál de dos opciones.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0122",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-10",
+    "promptEs": "Te gusta MÁS el verano (comparado con otra estación).",
+    "sentenceTemplate": "夏[なつ]の{{1}}が好[す]きです。",
+    "translationEs": "Me gusta más el verano.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["方", "ほう"],
+        "options": ["方", "人", "時", "方々"]
+      }
+    ],
+    "explanationEs": "の方が indica cuál de las dos opciones tiene más de una cualidad.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0123",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-10",
+    "promptEs": "El verano es el que MÁS te gusta (entre varias estaciones).",
+    "sentenceTemplate": "夏[なつ]が{{1}}好[す]きです。",
+    "translationEs": "El verano es el que más me gusta.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["一番", "いちばん"],
+        "options": ["一番", "とても", "あまり", "もう"]
+      }
+    ],
+    "explanationEs": "一番 indica el máximo grado entre tres o más opciones.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0124",
+    "type": "word-order",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-10",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["難しいです", "その本より", "この本は"],
+    "correctOrder": ["この本は", "その本より", "難しいです"],
+    "translationEs": "Este libro es más difícil que ese libro.",
+    "explanationEs": "Orden: Aは + Bより + Adjetivo。",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0125",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-10",
+    "promptEs": "Une cada estación del año con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "春", "right": "primavera" },
+      { "id": "p2", "left": "夏", "right": "verano" },
+      { "id": "p3", "left": "秋", "right": "otoño" },
+      { "id": "p4", "left": "冬", "right": "invierno" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0126",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-10",
+    "promptEs": "¿Cómo se lee 夏 (verano)?",
+    "questionJp": "夏",
+    "options": [
+      { "id": "a", "textJp": "なつ", "isCorrect": true },
+      { "id": "b", "textJp": "か", "isCorrect": false },
+      { "id": "c", "textJp": "げ", "isCorrect": false },
+      { "id": "d", "textJp": "なっ", "isCorrect": false }
+    ],
+    "explanationEs": "夏 se lee なつ como palabra independiente.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0127",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-10",
+    "promptEs": "Une cada kanji con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "方", "right": "lado, dirección, manera" },
+      { "id": "p2", "left": "春", "right": "primavera" },
+      { "id": "p3", "left": "夏", "right": "verano" },
+      { "id": "p4", "left": "秋", "right": "otoño" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0128",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-10",
+    "promptEs": "Te gusta el verano. Elige la palabra correcta.",
+    "questionJp": "私[わたし]は夏[なつ]が{{1}}です。",
+    "options": [
+      { "id": "a", "textJp": "好き", "isCorrect": true },
+      { "id": "b", "textJp": "高い", "isCorrect": false },
+      { "id": "c", "textJp": "安い", "isCorrect": false },
+      { "id": "d", "textJp": "難しい", "isCorrect": false }
+    ],
+    "explanationEs": "好き significa 'que gusta, favorito' y se usa con la partícula が.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0129",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "particles",
+    "lessonId": "n5-lesson-10",
+    "promptEs": "Esa casa es más grande que esta.",
+    "sentenceTemplate": "その家[いえ]はこの家[いえ]{{1}}大[おお]きいです。",
+    "translationEs": "Esa casa es más grande que esta.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["より"],
+        "options": ["より", "と", "や", "か"]
+      }
+    ],
+    "explanationEs": "より marca el punto de comparación.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0130",
+    "type": "speaking",
+    "jlptLevel": "N5",
+    "skill": "speaking",
+    "lessonId": "n5-lesson-10",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "夏[なつ]の方[ほう]が好[す]きです。",
+    "translationEs": "Me gusta más el verano.",
+    "explanationEs": "の方が indica cuál de las dos opciones prefieres.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0131",
+    "type": "listening",
+    "jlptLevel": "N5",
+    "skill": "listening",
+    "lessonId": "n5-lesson-10",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "夏[なつ]と冬[ふゆ]とどちらが好[す]きですか。",
+    "targetReading": "なつとふゆとどちらがすきですか。",
+    "translationEs": "¿Cuál te gusta más, el verano o el invierno?",
+    "explanationEs": "どちら pregunta cuál de dos opciones.",
+    "difficulty": 2
   }
 ]

@@ -362,9 +362,55 @@
     ]
   },
   {
-    "id": "n5-lesson-03",
+    "id": "n5-lesson-10",
     "jlptLevel": "N5",
     "order": 9,
+    "title": "Lección 9 — Comparaciones (〜より・の方が・一番)",
+    "description": "Comparar con より, preguntar con どちら, indicar preferencia con の方が, y superlativo con 一番, basado en Minna no Nihongo Lección 9.",
+    "kind": "lesson",
+    "vocabIds": [
+      "n5-voc-0096",
+      "n5-voc-0097",
+      "n5-voc-0098",
+      "n5-voc-0099",
+      "n5-voc-0100",
+      "n5-voc-0101",
+      "n5-voc-0102",
+      "n5-voc-0103",
+      "n5-voc-0104",
+      "n5-voc-0105"
+    ],
+    "kanjiIds": [
+      "n5-kanji-0028",
+      "n5-kanji-0029",
+      "n5-kanji-0030",
+      "n5-kanji-0031"
+    ],
+    "grammarIds": [
+      "n5-gram-0037",
+      "n5-gram-0038",
+      "n5-gram-0039",
+      "n5-gram-0040"
+    ],
+    "exerciseIds": [
+      "n5-ex-0120",
+      "n5-ex-0121",
+      "n5-ex-0122",
+      "n5-ex-0123",
+      "n5-ex-0124",
+      "n5-ex-0125",
+      "n5-ex-0126",
+      "n5-ex-0127",
+      "n5-ex-0128",
+      "n5-ex-0129",
+      "n5-ex-0130",
+      "n5-ex-0131"
+    ]
+  },
+  {
+    "id": "n5-lesson-03",
+    "jlptLevel": "N5",
+    "order": 10,
     "title": "Repaso — Partículas, Adjetivos y Formas Verbales",
     "description": "Módulo de repaso transversal: partícula correcta, adjetivos い/な, y conjugación verbal (forma ます y て) a través de varias lecciones.",
     "kind": "review",

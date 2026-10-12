@@ -440,5 +440,81 @@
       { "word": "難しい", "reading": "むずかしい", "meaningEs": "difícil" },
       { "word": "困難", "reading": "こんなん", "meaningEs": "dificultad" }
     ]
+  },
+  {
+    "id": "n5-kanji-0028",
+    "character": "方",
+    "jlptLevel": "N5",
+    "strokeCount": 4,
+    "onyomi": ["ホウ"],
+    "kunyomi": ["かた"],
+    "meaningEs": "lado, dirección, manera",
+    "radicals": ["方"],
+    "exampleWords": [
+      { "word": "方法", "reading": "ほうほう", "meaningEs": "método" },
+      { "word": "夕方", "reading": "ゆうがた", "meaningEs": "atardecer" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0029",
+    "character": "春",
+    "jlptLevel": "N5",
+    "strokeCount": 9,
+    "onyomi": ["シュン"],
+    "kunyomi": ["はる"],
+    "meaningEs": "primavera",
+    "radicals": ["日"],
+    "exampleWords": [
+      { "word": "青春", "reading": "せいしゅん", "meaningEs": "juventud" },
+      {
+        "word": "春休み",
+        "reading": "はるやすみ",
+        "meaningEs": "vacaciones de primavera"
+      }
+    ]
+  },
+  {
+    "id": "n5-kanji-0030",
+    "character": "夏",
+    "jlptLevel": "N5",
+    "strokeCount": 10,
+    "onyomi": ["カ"],
+    "kunyomi": ["なつ"],
+    "meaningEs": "verano",
+    "radicals": ["夊"],
+    "exampleWords": [
+      {
+        "word": "夏休み",
+        "reading": "なつやすみ",
+        "meaningEs": "vacaciones de verano"
+      },
+      {
+        "word": "初夏",
+        "reading": "しょか",
+        "meaningEs": "principios de verano"
+      }
+    ]
+  },
+  {
+    "id": "n5-kanji-0031",
+    "character": "秋",
+    "jlptLevel": "N5",
+    "strokeCount": 9,
+    "onyomi": ["シュウ"],
+    "kunyomi": ["あき"],
+    "meaningEs": "otoño",
+    "radicals": ["禾"],
+    "exampleWords": [
+      {
+        "word": "秋晴れ",
+        "reading": "あきばれ",
+        "meaningEs": "cielo despejado de otoño"
+      },
+      {
+        "word": "晩秋",
+        "reading": "ばんしゅう",
+        "meaningEs": "finales de otoño"
+      }
+    ]
   }
 ]

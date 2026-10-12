@@ -588,5 +588,65 @@
         "es": "Es caro, pero es rico."
       }
     ]
+  },
+  {
+    "id": "n5-gram-0037",
+    "jlptLevel": "N5",
+    "category": "particles",
+    "title": "AはBより〜 (comparación)",
+    "pattern": "AはBより[Adjetivo]です。",
+    "explanationEs": "より marca el punto de comparación: 'A es más ~ que B'.",
+    "examples": [
+      {
+        "jp": "この本はその本より難しいです。",
+        "reading": "このほんはそのほんよりむずかしいです。",
+        "es": "Este libro es más difícil que ese libro."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0038",
+    "jlptLevel": "N5",
+    "category": "questions",
+    "title": "AとBとどちらが〜ですか (pregunta comparativa)",
+    "pattern": "AとBとどちらが[Adjetivo]ですか。",
+    "explanationEs": "どちら pregunta cuál de dos opciones, usado junto con が y un adjetivo.",
+    "examples": [
+      {
+        "jp": "夏と冬とどちらが好きですか。",
+        "reading": "なつとふゆとどちらがすきですか。",
+        "es": "¿Cuál te gusta más, el verano o el invierno?"
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0039",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "〜の方が〜 (el que más, entre dos)",
+    "pattern": "Aの方がBより[Adjetivo]です。",
+    "explanationEs": "の方が indica cuál de las dos opciones tiene más de una cualidad.",
+    "examples": [
+      {
+        "jp": "夏の方が好きです。",
+        "reading": "なつのほうがすきです。",
+        "es": "Me gusta más el verano."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0040",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "一番 (superlativo, entre varios)",
+    "pattern": "[Grupo]で一番[Adjetivo]です。",
+    "explanationEs": "一番 indica el máximo grado entre tres o más opciones, como 'el más' en español.",
+    "examples": [
+      {
+        "jp": "夏が一番好きです。",
+        "reading": "なつがいちばんすきです。",
+        "es": "El verano es el que más me gusta."
+      }
+    ]
   }
 ]
