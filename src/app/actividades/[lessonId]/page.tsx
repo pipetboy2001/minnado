@@ -17,6 +17,8 @@ import {
 import { Button } from "@/components/ui/button";
 import { Furigana } from "@/components/furigana";
 import { SpeakButton } from "@/components/speak-button";
+import { VocabCard } from "@/components/vocab-card";
+import { KanjiCard } from "@/components/kanji-card";
 
 export default async function LessonPage({
   params,
@@ -54,22 +56,7 @@ export default async function LessonPage({
         <h2 className="mb-3 text-lg font-semibold">Vocabulario</h2>
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
           {vocab.map((word) => (
-            <Card key={word.id}>
-              <CardContent className="p-4">
-                <div className="flex items-center gap-1">
-                  <Furigana
-                    text={
-                      word.word === word.reading
-                        ? word.word
-                        : `${word.word}[${word.reading}]`
-                    }
-                    className="text-xl"
-                  />
-                  <SpeakButton text={word.word} />
-                </div>
-                <p className="text-sm">{word.meaningEs}</p>
-              </CardContent>
-            </Card>
+            <VocabCard key={word.id} word={word} />
           ))}
         </div>
       </section>
@@ -79,26 +66,7 @@ export default async function LessonPage({
           <h2 className="mb-3 text-lg font-semibold">Kanji</h2>
           <div className="grid grid-cols-3 gap-3 sm:grid-cols-4">
             {kanji.map((k) => (
-              <Card key={k.id}>
-                <CardContent className="flex flex-col items-center gap-1 p-4 text-center">
-                  <span className="font-jp text-3xl">{k.character}</span>
-                  {k.onyomi.length > 0 && (
-                    <div className="flex items-center gap-1 text-sm">
-                      <span className="text-muted-foreground">音:</span>
-                      <span className="font-jp">{k.onyomi.join("、")}</span>
-                      <SpeakButton text={k.onyomi.join("、")} size="icon-xs" />
-                    </div>
-                  )}
-                  {k.kunyomi.length > 0 && (
-                    <div className="flex items-center gap-1 text-sm">
-                      <span className="text-muted-foreground">訓:</span>
-                      <span className="font-jp">{k.kunyomi.join("、")}</span>
-                      <SpeakButton text={k.kunyomi.join("、")} size="icon-xs" />
-                    </div>
-                  )}
-                  <p className="text-sm text-muted-foreground">{k.meaningEs}</p>
-                </CardContent>
-              </Card>
+              <KanjiCard key={k.id} kanji={k} />
             ))}
           </div>
         </section>
