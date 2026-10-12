@@ -31,14 +31,19 @@ export default async function LessonPage({
 
   const vocab = getVocabN5().filter((v) => lesson.vocabIds.includes(v.id));
   const kanji = getKanjiN5().filter((k) => lesson.kanjiIds.includes(k.id));
-  const grammar = getGrammarN5().filter((g) => lesson.grammarIds.includes(g.id));
+  const grammar = getGrammarN5().filter((g) =>
+    lesson.grammarIds.includes(g.id),
+  );
   const exercises = getExercisesN5().filter((e) =>
-    lesson.exerciseIds.includes(e.id)
+    lesson.exerciseIds.includes(e.id),
   );
 
   return (
     <div className="mx-auto w-full max-w-3xl flex-1 p-6">
-      <Link href="/actividades" className="text-sm text-muted-foreground underline">
+      <Link
+        href="/actividades"
+        className="text-sm text-muted-foreground underline"
+      >
         ← Volver a actividades
       </Link>
       <h1 className="mt-2 mb-1 text-2xl font-bold">{lesson.title}</h1>
@@ -102,7 +107,7 @@ export default async function LessonPage({
         <p className="text-sm text-muted-foreground">
           El motor interactivo de ejercicios se implementará en el próximo
           ticket (JPN-2). Por ahora, estos son los tipos de ejercicio
-          disponibles en esta lección: {" "}
+          disponibles en esta lección:{" "}
           {Array.from(new Set(exercises.map((e) => e.type))).join(", ")}.
         </p>
       </section>

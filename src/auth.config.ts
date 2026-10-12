@@ -13,7 +13,8 @@ export const authConfig: NextAuthConfig = {
   callbacks: {
     authorized({ auth, request }) {
       const isLoggedIn = !!auth?.user;
-      const isProtectedRoute = request.nextUrl.pathname.startsWith("/actividades");
+      const isProtectedRoute =
+        request.nextUrl.pathname.startsWith("/actividades");
       return !isProtectedRoute || isLoggedIn;
     },
   },

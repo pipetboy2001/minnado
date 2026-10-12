@@ -1,10 +1,7 @@
 import type { ExerciseSkill, JlptLevel } from "./jlpt";
 
 export type ExerciseType =
-  | "multiple-choice"
-  | "fill-in-blank"
-  | "word-order"
-  | "matching";
+  "multiple-choice" | "fill-in-blank" | "word-order" | "matching";
 
 export type ExerciseDifficulty = 1 | 2 | 3;
 

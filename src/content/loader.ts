@@ -1,5 +1,10 @@
 import type { ZodSchema } from "zod";
-import type { VocabWord, KanjiEntry, GrammarRule, Lesson } from "@/types/content";
+import type {
+  VocabWord,
+  KanjiEntry,
+  GrammarRule,
+  Lesson,
+} from "@/types/content";
 import type { Exercise } from "@/types/exercise";
 import {
   vocabFileSchema,
@@ -16,13 +21,17 @@ import n5Lessons from "./n5/lessons.json";
 import n5Exercises from "./n5/exercises.json";
 import n4Kanji from "./n4/kanji.json";
 
-function parseContent<T>(schema: ZodSchema<T>, data: unknown, label: string): T {
+function parseContent<T>(
+  schema: ZodSchema<T>,
+  data: unknown,
+  label: string,
+): T {
   const result = schema.safeParse(data);
   if (!result.success) {
     throw new Error(
       `Invalid content file "${label}": ${result.error.issues
         .map((i) => `${i.path.join(".")} — ${i.message}`)
-        .join("; ")}`
+        .join("; ")}`,
     );
   }
   return result.data;

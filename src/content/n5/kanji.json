@@ -23,7 +23,11 @@
     "meaningEs": "persona",
     "radicals": ["人"],
     "exampleWords": [
-      { "word": "日本人", "reading": "にほんじん", "meaningEs": "persona japonesa" },
+      {
+        "word": "日本人",
+        "reading": "にほんじん",
+        "meaningEs": "persona japonesa"
+      },
       { "word": "外人", "reading": "がいじん", "meaningEs": "extranjero" }
     ]
   },

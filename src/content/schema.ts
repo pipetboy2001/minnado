@@ -123,7 +123,7 @@ export const multipleChoiceExerciseSchema = z.object({
         id: z.string(),
         textJp: z.string().min(1),
         isCorrect: z.boolean(),
-      })
+      }),
     )
     .min(2)
     .refine((opts) => opts.some((o) => o.isCorrect), {
@@ -142,7 +142,7 @@ export const fillInBlankExerciseSchema = z.object({
       z.object({
         id: z.string(),
         acceptedAnswers: z.array(z.string()).min(1),
-      })
+      }),
     )
     .min(1),
 });
@@ -164,7 +164,7 @@ export const matchingExerciseSchema = z.object({
         id: z.string(),
         left: z.string().min(1),
         right: z.string().min(1),
-      })
+      }),
     )
     .min(2),
 });

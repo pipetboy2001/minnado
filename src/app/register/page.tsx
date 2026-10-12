@@ -70,22 +70,36 @@ export default function RegisterPage() {
       <Card className="w-full max-w-sm">
         <CardHeader>
           <CardTitle>にほんご — Crear cuenta</CardTitle>
-          <CardDescription>Regístrate para guardar tu progreso.</CardDescription>
+          <CardDescription>
+            Regístrate para guardar tu progreso.
+          </CardDescription>
         </CardHeader>
         <CardContent>
-          <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4">
+          <form
+            onSubmit={handleSubmit(onSubmit)}
+            className="flex flex-col gap-4"
+          >
             <div className="flex flex-col gap-2">
               <Label htmlFor="name">Nombre</Label>
               <Input id="name" autoComplete="name" {...register("name")} />
               {errors.name && (
-                <p className="text-sm text-destructive">{errors.name.message}</p>
+                <p className="text-sm text-destructive">
+                  {errors.name.message}
+                </p>
               )}
             </div>
             <div className="flex flex-col gap-2">
               <Label htmlFor="email">Correo</Label>
-              <Input id="email" type="email" autoComplete="email" {...register("email")} />
+              <Input
+                id="email"
+                type="email"
+                autoComplete="email"
+                {...register("email")}
+              />
               {errors.email && (
-                <p className="text-sm text-destructive">{errors.email.message}</p>
+                <p className="text-sm text-destructive">
+                  {errors.email.message}
+                </p>
               )}
             </div>
             <div className="flex flex-col gap-2">
@@ -97,10 +111,14 @@ export default function RegisterPage() {
                 {...register("password")}
               />
               {errors.password && (
-                <p className="text-sm text-destructive">{errors.password.message}</p>
+                <p className="text-sm text-destructive">
+                  {errors.password.message}
+                </p>
               )}
             </div>
-            {serverError && <p className="text-sm text-destructive">{serverError}</p>}
+            {serverError && (
+              <p className="text-sm text-destructive">{serverError}</p>
+            )}
             <Button type="submit" disabled={isSubmitting} className="mt-2">
               {isSubmitting ? "Creando cuenta..." : "Crear cuenta"}
             </Button>

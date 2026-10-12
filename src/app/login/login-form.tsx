@@ -62,7 +62,12 @@ export function LoginForm() {
         <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4">
           <div className="flex flex-col gap-2">
             <Label htmlFor="email">Correo</Label>
-            <Input id="email" type="email" autoComplete="email" {...register("email")} />
+            <Input
+              id="email"
+              type="email"
+              autoComplete="email"
+              {...register("email")}
+            />
             {errors.email && (
               <p className="text-sm text-destructive">{errors.email.message}</p>
             )}
@@ -76,10 +81,14 @@ export function LoginForm() {
               {...register("password")}
             />
             {errors.password && (
-              <p className="text-sm text-destructive">{errors.password.message}</p>
+              <p className="text-sm text-destructive">
+                {errors.password.message}
+              </p>
             )}
           </div>
-          {serverError && <p className="text-sm text-destructive">{serverError}</p>}
+          {serverError && (
+            <p className="text-sm text-destructive">{serverError}</p>
+          )}
           <Button type="submit" disabled={isSubmitting} className="mt-2">
             {isSubmitting ? "Ingresando..." : "Ingresar"}
           </Button>

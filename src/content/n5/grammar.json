@@ -7,7 +7,11 @@
     "pattern": "[Sustantivo A] は [Sustantivo B] です。",
     "explanationEs": "Estructura básica para decir que A es B. La partícula は marca el tema de la oración.",
     "examples": [
-      { "jp": "私は学生です。", "reading": "わたしはがくせいです。", "es": "Yo soy estudiante." }
+      {
+        "jp": "私は学生です。",
+        "reading": "わたしはがくせいです。",
+        "es": "Yo soy estudiante."
+      }
     ]
   },
   {
@@ -18,7 +22,11 @@
     "pattern": "[Sustantivo] を [Verbo]。",
     "explanationEs": "を marca el objeto directo de un verbo transitivo.",
     "examples": [
-      { "jp": "水を飲みます。", "reading": "みずをのみます。", "es": "Bebo agua." }
+      {
+        "jp": "水を飲みます。",
+        "reading": "みずをのみます。",
+        "es": "Bebo agua."
+      }
     ]
   },
   {
@@ -30,7 +38,11 @@
     "explanationEs": "Para negar un adjetivo-い, se quita la い final y se agrega くないです。",
     "structureNotes": "Excepción: いい (bueno) se convierte en よくないです。",
     "examples": [
-      { "jp": "この家は大きくないです。", "reading": "このいえはおおきくないです。", "es": "Esta casa no es grande." }
+      {
+        "jp": "この家は大きくないです。",
+        "reading": "このいえはおおきくないです。",
+        "es": "Esta casa no es grande."
+      }
     ]
   },
   {
@@ -41,7 +53,11 @@
     "pattern": "[Adjetivo-な] + じゃないです / ではありません。",
     "explanationEs": "Los adjetivos-な se comportan como sustantivos: para negar se usa じゃないです (informal) o ではありません (formal).",
     "examples": [
-      { "jp": "元気じゃないです。", "reading": "げんきじゃないです。", "es": "No estoy bien de salud." }
+      {
+        "jp": "元気じゃないです。",
+        "reading": "げんきじゃないです。",
+        "es": "No estoy bien de salud."
+      }
     ]
   }
 ]

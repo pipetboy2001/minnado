@@ -25,9 +25,4 @@ export type GrammarCategory =
   | "numbers-counters";
 
 export type ExerciseSkill =
-  | "vocabulary"
-  | "kanji"
-  | "grammar"
-  | "particles"
-  | "reading"
-  | "listening";
+  "vocabulary" | "kanji" | "grammar" | "particles" | "reading" | "listening";

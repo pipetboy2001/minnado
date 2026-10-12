@@ -26,9 +26,7 @@
     "sentenceTemplate": "この　家は　大き{{1}}です。",
     "sentenceReading": "このいえはおおき{{1}}です。",
     "translationEs": "Esta casa no es grande.",
-    "blanks": [
-      { "id": "1", "acceptedAnswers": ["くない", "くないです"] }
-    ],
+    "blanks": [{ "id": "1", "acceptedAnswers": ["くない", "くないです"] }],
     "explanationEs": "Se quita la い final de 大きい y se agrega くない para la forma negativa.",
     "difficulty": 2
   },

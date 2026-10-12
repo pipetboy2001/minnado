@@ -28,12 +28,20 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
           return null;
         }
 
-        const isValidPassword = await bcrypt.compare(password, user.passwordHash);
+        const isValidPassword = await bcrypt.compare(
+          password,
+          user.passwordHash,
+        );
         if (!isValidPassword) {
           return null;
         }
 
-        return { id: user.id, name: user.name, email: user.email, image: user.image };
+        return {
+          id: user.id,
+          name: user.name,
+          email: user.email,
+          image: user.image,
+        };
       },
     }),
   ],

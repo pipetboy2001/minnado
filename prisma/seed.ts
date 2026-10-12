@@ -65,7 +65,8 @@ async function main() {
   console.log(`Lecciones sincronizadas: ${lessons.length}`);
 
   for (const word of vocab) {
-    const lessonId = lessons.find((l) => l.vocabIds.includes(word.id))?.id ?? null;
+    const lessonId =
+      lessons.find((l) => l.vocabIds.includes(word.id))?.id ?? null;
     const data = {
       jlptLevel: word.jlptLevel,
       word: word.word,
@@ -89,7 +90,8 @@ async function main() {
   console.log(`Vocabulario sincronizado: ${vocab.length}`);
 
   for (const entry of kanji) {
-    const lessonId = lessons.find((l) => l.kanjiIds.includes(entry.id))?.id ?? null;
+    const lessonId =
+      lessons.find((l) => l.kanjiIds.includes(entry.id))?.id ?? null;
     const data = {
       character: entry.character,
       jlptLevel: entry.jlptLevel,
@@ -111,7 +113,8 @@ async function main() {
   console.log(`Kanji sincronizados: ${kanji.length}`);
 
   for (const rule of grammar) {
-    const lessonId = lessons.find((l) => l.grammarIds.includes(rule.id))?.id ?? null;
+    const lessonId =
+      lessons.find((l) => l.grammarIds.includes(rule.id))?.id ?? null;
     const data = {
       jlptLevel: rule.jlptLevel,
       category: toEnum(rule.category) as never,

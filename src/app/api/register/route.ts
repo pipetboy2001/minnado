@@ -16,7 +16,7 @@ export async function POST(request: Request) {
   if (!parsed.success) {
     return NextResponse.json(
       { error: parsed.error.issues[0]?.message ?? "Datos inválidos" },
-      { status: 400 }
+      { status: 400 },
     );
   }
 
@@ -26,7 +26,7 @@ export async function POST(request: Request) {
   if (existingUser) {
     return NextResponse.json(
       { error: "Ya existe una cuenta con este correo" },
-      { status: 409 }
+      { status: 409 },
     );
   }
 
