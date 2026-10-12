@@ -1,0 +1,13 @@
+[
+  {
+    "id": "n5-lesson-01",
+    "jlptLevel": "N5",
+    "order": 1,
+    "title": "Lección 1 — Presentaciones (私は学生です)",
+    "description": "Introducción a は, を, adjetivos い/な y vocabulario básico basado en Minna no Nihongo Lección 1.",
+    "vocabIds": ["n5-voc-0001", "n5-voc-0002", "n5-voc-0003", "n5-voc-0004", "n5-voc-0005", "n5-voc-0006"],
+    "kanjiIds": ["n5-kanji-0001", "n5-kanji-0002", "n5-kanji-0003"],
+    "grammarIds": ["n5-gram-0001", "n5-gram-0002", "n5-gram-0003", "n5-gram-0004"],
+    "exerciseIds": ["n5-ex-0001", "n5-ex-0002", "n5-ex-0003", "n5-ex-0004"]
+  }
+]

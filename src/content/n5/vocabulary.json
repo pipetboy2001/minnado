@@ -1,0 +1,80 @@
+[
+  {
+    "id": "n5-voc-0001",
+    "jlptLevel": "N5",
+    "word": "私",
+    "reading": "わたし",
+    "romaji": "watashi",
+    "meaningEs": "yo",
+    "partOfSpeech": "pronoun",
+    "exampleSentenceJp": "私は学生です。",
+    "exampleSentenceReading": "わたしはがくせいです。",
+    "exampleSentenceEs": "Yo soy estudiante.",
+    "tags": ["pronombres", "minna-no-nihongo-l1"]
+  },
+  {
+    "id": "n5-voc-0002",
+    "jlptLevel": "N5",
+    "word": "学生",
+    "reading": "がくせい",
+    "romaji": "gakusei",
+    "meaningEs": "estudiante",
+    "partOfSpeech": "noun",
+    "exampleSentenceJp": "田中さんは学生です。",
+    "exampleSentenceReading": "たなかさんはがくせいです。",
+    "exampleSentenceEs": "El señor Tanaka es estudiante.",
+    "tags": ["ocupaciones", "minna-no-nihongo-l1"]
+  },
+  {
+    "id": "n5-voc-0003",
+    "jlptLevel": "N5",
+    "word": "食べる",
+    "reading": "たべる",
+    "romaji": "taberu",
+    "meaningEs": "comer",
+    "partOfSpeech": "verb-ru",
+    "exampleSentenceJp": "朝ご飯を食べます。",
+    "exampleSentenceReading": "あさごはんをたべます。",
+    "exampleSentenceEs": "Como el desayuno.",
+    "tags": ["verbos", "comida"]
+  },
+  {
+    "id": "n5-voc-0004",
+    "jlptLevel": "N5",
+    "word": "飲む",
+    "reading": "のむ",
+    "romaji": "nomu",
+    "meaningEs": "beber",
+    "partOfSpeech": "verb-u",
+    "exampleSentenceJp": "水を飲みます。",
+    "exampleSentenceReading": "みずをのみます。",
+    "exampleSentenceEs": "Bebo agua.",
+    "tags": ["verbos", "comida"]
+  },
+  {
+    "id": "n5-voc-0005",
+    "jlptLevel": "N5",
+    "word": "大きい",
+    "reading": "おおきい",
+    "romaji": "ookii",
+    "meaningEs": "grande",
+    "partOfSpeech": "i-adjective",
+    "exampleSentenceJp": "この家は大きいです。",
+    "exampleSentenceReading": "このいえはおおきいです。",
+    "exampleSentenceEs": "Esta casa es grande.",
+    "tags": ["adjetivos-i"]
+  },
+  {
+    "id": "n5-voc-0006",
+    "jlptLevel": "N5",
+    "word": "元気",
+    "reading": "げんき",
+    "romaji": "genki",
+    "meaningEs": "con energía / de buena salud",
+    "partOfSpeech": "na-adjective",
+    "exampleSentenceJp": "元気な子供です。",
+    "exampleSentenceReading": "げんきなこどもです。",
+    "exampleSentenceEs": "Es un niño lleno de energía.",
+    "tags": ["adjetivos-na"]
+  }
+]

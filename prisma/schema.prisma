@@ -1,0 +1,254 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum JlptLevel {
+  N5
+  N4
+  N3
+  N2
+  N1
+}
+
+enum KanjiJlptLevel {
+  N5
+  N4
+}
+
+enum PartOfSpeech {
+  NOUN
+  PRONOUN
+  VERB_RU
+  VERB_U
+  VERB_IRREGULAR
+  I_ADJECTIVE
+  NA_ADJECTIVE
+  ADVERB
+  PARTICLE
+  CONJUNCTION
+  COUNTER
+  EXPRESSION
+}
+
+enum GrammarCategory {
+  PARTICLES
+  ADJECTIVES_I
+  ADJECTIVES_NA
+  VERB_FORMS
+  SENTENCE_STRUCTURE
+  CONJUGATION
+  QUESTIONS
+  NUMBERS_COUNTERS
+}
+
+enum ExerciseType {
+  MULTIPLE_CHOICE
+  FILL_IN_BLANK
+  WORD_ORDER
+  MATCHING
+}
+
+enum ExerciseSkill {
+  VOCABULARY
+  KANJI
+  GRAMMAR
+  PARTICLES
+  READING
+  LISTENING
+}
+
+// --- Auth (Auth.js / NextAuth v5 + Credentials) ---
+
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String?   @unique
+  emailVerified DateTime?
+  image         String?
+  passwordHash  String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  accounts         Account[]
+  sessions         Session[]
+  lessonProgress   UserLessonProgress[]
+  exerciseAttempts UserExerciseAttempt[]
+
+  @@map("users")
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+  @@map("accounts")
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("sessions")
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+  @@map("verification_tokens")
+}
+
+// --- Content (N5/N4 pipeline) ---
+
+model Lesson {
+  id          String    @id
+  jlptLevel   JlptLevel
+  order       Int
+  title       String
+  description String?
+
+  vocabWords   VocabWord[]
+  kanjiEntries KanjiEntry[]
+  grammarRules GrammarRule[]
+  exercises    Exercise[]
+  progress     UserLessonProgress[]
+
+  @@index([jlptLevel, order])
+  @@map("lessons")
+}
+
+model VocabWord {
+  id                     String       @id
+  jlptLevel              JlptLevel
+  word                   String
+  reading                String
+  romaji                 String
+  meaningEs              String
+  meaningEn              String?
+  partOfSpeech           PartOfSpeech
+  exampleSentenceJp      String?
+  exampleSentenceReading String?
+  exampleSentenceEs      String?
+  tags                   String[]
+
+  lessonId String?
+  lesson   Lesson? @relation(fields: [lessonId], references: [id])
+
+  @@index([jlptLevel])
+  @@map("vocab_words")
+}
+
+model KanjiEntry {
+  id           String         @id
+  character    String
+  jlptLevel    KanjiJlptLevel
+  strokeCount  Int
+  onyomi       String[]
+  kunyomi      String[]
+  meaningEs    String
+  meaningEn    String?
+  radicals     String[]
+  exampleWords Json
+
+  lessonId String?
+  lesson   Lesson? @relation(fields: [lessonId], references: [id])
+
+  @@index([jlptLevel])
+  @@map("kanji_entries")
+}
+
+model GrammarRule {
+  id                String          @id
+  jlptLevel         JlptLevel
+  category          GrammarCategory
+  title             String
+  pattern           String
+  explanationEs     String
+  structureNotes    String?
+  examples          Json
+  relatedGrammarIds String[]
+
+  lessonId String?
+  lesson   Lesson? @relation(fields: [lessonId], references: [id])
+
+  @@index([jlptLevel])
+  @@map("grammar_rules")
+}
+
+model Exercise {
+  id            String        @id
+  type          ExerciseType
+  jlptLevel     JlptLevel
+  skill         ExerciseSkill
+  promptEs      String
+  explanationEs String?
+  difficulty    Int?
+  data          Json
+
+  lessonId String?
+  lesson   Lesson? @relation(fields: [lessonId], references: [id])
+
+  attempts UserExerciseAttempt[]
+
+  @@index([jlptLevel, skill])
+  @@map("exercises")
+}
+
+// --- Progress tracking ---
+
+model UserLessonProgress {
+  id          String    @id @default(cuid())
+  userId      String
+  lessonId    String
+  completed   Boolean   @default(false)
+  completedAt DateTime?
+  updatedAt   DateTime  @updatedAt
+
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  lesson Lesson @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, lessonId])
+  @@map("user_lesson_progress")
+}
+
+model UserExerciseAttempt {
+  id          String   @id @default(cuid())
+  userId      String
+  exerciseId  String
+  isCorrect   Boolean
+  userAnswer  Json
+  attemptedAt DateTime @default(now())
+
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  exercise Exercise @relation(fields: [exerciseId], references: [id], onDelete: Cascade)
+
+  @@index([userId, exerciseId])
+  @@map("user_exercise_attempts")
+}

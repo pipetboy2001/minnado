@@ -1,0 +1,47 @@
+[
+  {
+    "id": "n5-gram-0001",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "N は N です (afirmación de identidad)",
+    "pattern": "[Sustantivo A] は [Sustantivo B] です。",
+    "explanationEs": "Estructura básica para decir que A es B. La partícula は marca el tema de la oración.",
+    "examples": [
+      { "jp": "私は学生です。", "reading": "わたしはがくせいです。", "es": "Yo soy estudiante." }
+    ]
+  },
+  {
+    "id": "n5-gram-0002",
+    "jlptLevel": "N5",
+    "category": "particles",
+    "title": "Partícula を (objeto directo)",
+    "pattern": "[Sustantivo] を [Verbo]。",
+    "explanationEs": "を marca el objeto directo de un verbo transitivo.",
+    "examples": [
+      { "jp": "水を飲みます。", "reading": "みずをのみます。", "es": "Bebo agua." }
+    ]
+  },
+  {
+    "id": "n5-gram-0003",
+    "jlptLevel": "N5",
+    "category": "adjectives-i",
+    "title": "Adjetivos い en forma negativa",
+    "pattern": "[Adjetivo-い (sin い)] + くないです。",
+    "explanationEs": "Para negar un adjetivo-い, se quita la い final y se agrega くないです。",
+    "structureNotes": "Excepción: いい (bueno) se convierte en よくないです。",
+    "examples": [
+      { "jp": "この家は大きくないです。", "reading": "このいえはおおきくないです。", "es": "Esta casa no es grande." }
+    ]
+  },
+  {
+    "id": "n5-gram-0004",
+    "jlptLevel": "N5",
+    "category": "adjectives-na",
+    "title": "Adjetivos な en forma negativa",
+    "pattern": "[Adjetivo-な] + じゃないです / ではありません。",
+    "explanationEs": "Los adjetivos-な se comportan como sustantivos: para negar se usa じゃないです (informal) o ではありません (formal).",
+    "examples": [
+      { "jp": "元気じゃないです。", "reading": "げんきじゃないです。", "es": "No estoy bien de salud." }
+    ]
+  }
+]

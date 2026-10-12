@@ -1,0 +1,29 @@
+[
+  {
+    "id": "n4-kanji-0001",
+    "character": "持",
+    "jlptLevel": "N4",
+    "strokeCount": 9,
+    "onyomi": ["ジ"],
+    "kunyomi": ["も-つ"],
+    "meaningEs": "sostener, poseer",
+    "radicals": ["手"],
+    "exampleWords": [
+      { "word": "持つ", "reading": "もつ", "meaningEs": "sostener, llevar" },
+      { "word": "気持ち", "reading": "きもち", "meaningEs": "sentimiento" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0002",
+    "character": "働",
+    "jlptLevel": "N4",
+    "strokeCount": 13,
+    "onyomi": ["ドウ"],
+    "kunyomi": ["はた-らく"],
+    "meaningEs": "trabajar",
+    "radicals": ["人"],
+    "exampleWords": [
+      { "word": "働く", "reading": "はたらく", "meaningEs": "trabajar" }
+    ]
+  }
+]

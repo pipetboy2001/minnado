@@ -1,0 +1,62 @@
+[
+  {
+    "id": "n5-ex-0001",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "particles",
+    "lessonId": "n5-lesson-01",
+    "promptEs": "Elige la partícula correcta.",
+    "questionJp": "わたし＿がくせいです。",
+    "options": [
+      { "id": "a", "textJp": "は", "isCorrect": true },
+      { "id": "b", "textJp": "を", "isCorrect": false },
+      { "id": "c", "textJp": "に", "isCorrect": false },
+      { "id": "d", "textJp": "で", "isCorrect": false }
+    ],
+    "explanationEs": "は marca el tema de la oración: 'En cuanto a mí, soy estudiante.'",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0002",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-01",
+    "promptEs": "Completa la oración negando el adjetivo-い.",
+    "sentenceTemplate": "この　家は　大き{{1}}です。",
+    "sentenceReading": "このいえはおおき{{1}}です。",
+    "translationEs": "Esta casa no es grande.",
+    "blanks": [
+      { "id": "1", "acceptedAnswers": ["くない", "くないです"] }
+    ],
+    "explanationEs": "Se quita la い final de 大きい y se agrega くない para la forma negativa.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0003",
+    "type": "word-order",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-01",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["水", "を", "飲みます", "私は"],
+    "correctOrder": ["私は", "水", "を", "飲みます"],
+    "translationEs": "Yo bebo agua.",
+    "explanationEs": "Orden básico SOV: Sujeto は + Objeto を + Verbo.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0004",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-01",
+    "promptEs": "Une cada palabra en japonés con su significado en español.",
+    "pairs": [
+      { "id": "p1", "left": "学生", "right": "estudiante" },
+      { "id": "p2", "left": "元気", "right": "con energía / de buena salud" },
+      { "id": "p3", "left": "大きい", "right": "grande" }
+    ],
+    "difficulty": 1
+  }
+]

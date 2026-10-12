@@ -1,0 +1,44 @@
+[
+  {
+    "id": "n5-kanji-0001",
+    "character": "日",
+    "jlptLevel": "N5",
+    "strokeCount": 4,
+    "onyomi": ["ニチ", "ジツ"],
+    "kunyomi": ["ひ", "か"],
+    "meaningEs": "día, sol",
+    "radicals": ["日"],
+    "exampleWords": [
+      { "word": "日本", "reading": "にほん", "meaningEs": "Japón" },
+      { "word": "今日", "reading": "きょう", "meaningEs": "hoy" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0002",
+    "character": "人",
+    "jlptLevel": "N5",
+    "strokeCount": 2,
+    "onyomi": ["ジン", "ニン"],
+    "kunyomi": ["ひと"],
+    "meaningEs": "persona",
+    "radicals": ["人"],
+    "exampleWords": [
+      { "word": "日本人", "reading": "にほんじん", "meaningEs": "persona japonesa" },
+      { "word": "外人", "reading": "がいじん", "meaningEs": "extranjero" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0003",
+    "character": "学",
+    "jlptLevel": "N5",
+    "strokeCount": 8,
+    "onyomi": ["ガク"],
+    "kunyomi": ["まな-ぶ"],
+    "meaningEs": "estudiar, aprendizaje",
+    "radicals": ["子"],
+    "exampleWords": [
+      { "word": "学生", "reading": "がくせい", "meaningEs": "estudiante" },
+      { "word": "大学", "reading": "だいがく", "meaningEs": "universidad" }
+    ]
+  }
+]
