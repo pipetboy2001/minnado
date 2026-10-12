@@ -21,24 +21,74 @@ export function createSpeechRecognition(): SpeechRecognition | null {
   return Ctor ? new Ctor() : null;
 }
 
+// getVoices() returns [] until the browser finishes loading voices
+// asynchronously, which on a fresh page load is often *after* the user's
+// first click — so the very first word spoken would silently fall back to
+// a non-Japanese default voice. Caching the list once "voiceschanged"
+// fires (and re-checking on every call in the meantime) fixes that.
+let cachedVoices: SpeechSynthesisVoice[] | null = null;
+
+if (typeof window !== "undefined" && isSpeechSynthesisSupported()) {
+  const synth = window.speechSynthesis;
+  const loadVoices = () => {
+    const voices = synth.getVoices();
+    if (voices.length) cachedVoices = voices;
+  };
+  loadVoices();
+  synth.addEventListener("voiceschanged", loadVoices);
+}
+
 function getJapaneseVoice(): SpeechSynthesisVoice | undefined {
-  const voices = window.speechSynthesis.getVoices();
+  const voices = cachedVoices?.length
+    ? cachedVoices
+    : window.speechSynthesis.getVoices();
   return (
     voices.find((v) => v.lang === "ja-JP") ??
     voices.find((v) => v.lang.startsWith("ja"))
   );
 }
 
-/** Speaks Japanese text aloud. No-op if speechSynthesis isn't available. */
+const SPEECH_SPEED_KEY = "jp-speech-speed";
+export const SPEECH_SPEEDS = [0.5, 1, 1.5] as const;
+export type SpeechSpeed = (typeof SPEECH_SPEEDS)[number];
+
+/** The user's preferred global audio speed multiplier, persisted across sessions. */
+export function getSpeechSpeed(): SpeechSpeed {
+  if (typeof window === "undefined") return 1;
+  const stored = Number(window.localStorage.getItem(SPEECH_SPEED_KEY));
+  return (SPEECH_SPEEDS as readonly number[]).includes(stored)
+    ? (stored as SpeechSpeed)
+    : 1;
+}
+
+export function setSpeechSpeed(speed: SpeechSpeed) {
+  window.localStorage.setItem(SPEECH_SPEED_KEY, String(speed));
+  window.dispatchEvent(new Event("jp-speech-speed-change"));
+}
+
+/**
+ * Speaks Japanese text aloud. No-op if speechSynthesis isn't available.
+ * `rate` is the exercise's own baseline (e.g. listening practice reads
+ * slower by design); the user's global speed preference scales that
+ * baseline rather than replacing it.
+ */
 export function speakJapanese(text: string, rate = 0.9) {
   if (!isSpeechSynthesisSupported() || !text.trim()) return;
-  window.speechSynthesis.cancel();
+  const synth = window.speechSynthesis;
+  synth.cancel();
   const utterance = new SpeechSynthesisUtterance(text);
   utterance.lang = "ja-JP";
-  utterance.rate = rate;
+  utterance.rate = rate * getSpeechSpeed();
   const voice = getJapaneseVoice();
   if (voice) utterance.voice = voice;
-  window.speechSynthesis.speak(utterance);
+  // Chrome has a long-standing bug where speak() silently does nothing if
+  // called in the same tick as cancel() — deferring to the next tick lets
+  // the cancel flush first. resume() guards against the engine getting
+  // stuck "paused" after the tab was backgrounded or idle.
+  setTimeout(() => {
+    synth.resume();
+    synth.speak(utterance);
+  }, 0);
 }
 
 const JP_PUNCTUATION = /[。、！？!?.,、\s　「」『』・~〜]/g;

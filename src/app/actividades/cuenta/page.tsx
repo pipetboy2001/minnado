@@ -7,6 +7,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { SpeechSpeedControl } from "@/components/speech-speed-control";
 import { ChangePasswordForm } from "./change-password-form";
 
 export default async function CuentaPage() {
@@ -23,7 +24,7 @@ export default async function CuentaPage() {
         </Link>
         <ThemeToggle />
       </div>
-      <h1 className="mt-2 mb-6 text-2xl font-bold">Mi cuenta</h1>
+      <h1 className="mt-2 mb-6 text-2xl font-bold">Configuración</h1>
 
       <Card>
         <CardHeader>
@@ -33,6 +34,16 @@ export default async function CuentaPage() {
           <CardDescription>{session?.user?.email}</CardDescription>
         </CardHeader>
       </Card>
+
+      <div className="mt-6 flex items-center justify-between">
+        <div>
+          <h2 className="text-lg font-semibold">Velocidad de audio</h2>
+          <p className="text-sm text-muted-foreground">
+            Aplica a toda la pronunciación del sitio.
+          </p>
+        </div>
+        <SpeechSpeedControl />
+      </div>
 
       <h2 className="mt-6 mb-3 text-lg font-semibold">Cambiar contraseña</h2>
       <ChangePasswordForm />
