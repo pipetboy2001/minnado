@@ -36,6 +36,7 @@ export const exerciseSkillSchema = z.enum([
   "particles",
   "reading",
   "listening",
+  "speaking",
 ]);
 
 export const vocabWordSchema = z.object({
@@ -168,11 +169,19 @@ export const matchingExerciseSchema = z.object({
     .min(2),
 });
 
+export const speakingExerciseSchema = z.object({
+  ...baseExerciseSchema,
+  type: z.literal("speaking"),
+  targetJp: z.string().min(1),
+  translationEs: z.string().optional(),
+});
+
 export const exerciseSchema = z.discriminatedUnion("type", [
   multipleChoiceExerciseSchema,
   fillInBlankExerciseSchema,
   wordOrderExerciseSchema,
   matchingExerciseSchema,
+  speakingExerciseSchema,
 ]);
 
 export const vocabFileSchema = z.array(vocabWordSchema);

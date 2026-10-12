@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 import { AutoFurigana } from "@/components/furigana";
+import { SpeakButton } from "@/components/speak-button";
 import type { WordOrderExercise } from "@/types/exercise";
 import type { WordOrderAnswer } from "./grading";
 
@@ -75,10 +76,15 @@ export function WordOrderQuestion({
         )}
       </div>
 
-      {revealed && !isCorrect && (
-        <p className="animate-shake text-sm text-destructive">
-          Orden correcto: {exercise.correctOrder.join(" ")}
-        </p>
+      {revealed && (
+        <div className="flex items-center gap-1">
+          {!isCorrect && (
+            <p className="animate-shake text-sm text-destructive">
+              Orden correcto: {exercise.correctOrder.join(" ")}
+            </p>
+          )}
+          <SpeakButton text={exercise.correctOrder.join("")} />
+        </div>
       )}
     </div>
   );

@@ -34,6 +34,13 @@ export function parseFuriganaBrackets(text: string): FuriganaSegment[] {
   return segments;
 }
 
+/** Strips bracket-notation furigana down to the base text, e.g. "大き[おおき]い" → "大きい". */
+export function stripFuriganaBrackets(text: string): string {
+  return parseFuriganaBrackets(text)
+    .map((segment) => segment.text)
+    .join("");
+}
+
 let cachedDictionary: Map<string, string> | null = null;
 let cachedKeysByLengthDesc: string[] | null = null;
 

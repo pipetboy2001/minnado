@@ -54,6 +54,7 @@ enum ExerciseType {
   FILL_IN_BLANK
   WORD_ORDER
   MATCHING
+  SPEAKING
 }
 
 enum ExerciseSkill {
@@ -63,6 +64,7 @@ enum ExerciseSkill {
   PARTICLES
   READING
   LISTENING
+  SPEAKING
 }
 
 // --- Auth (Auth.js / NextAuth v5 + Credentials) ---

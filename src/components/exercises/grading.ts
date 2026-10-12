@@ -1,12 +1,19 @@
+import { stripFuriganaBrackets } from "@/lib/furigana";
+import { isPronunciationMatch } from "@/lib/speech";
 import type { Exercise } from "@/types/exercise";
 
 export type MultipleChoiceAnswer = { selectedOptionId: string };
 export type FillInBlankAnswer = { values: Record<string, string> };
 export type WordOrderAnswer = { order: string[] };
 export type MatchingAnswer = { selections: Record<string, string> };
+export type SpeakingAnswer = { transcript: string };
 
 export type ExerciseAnswer =
-  MultipleChoiceAnswer | FillInBlankAnswer | WordOrderAnswer | MatchingAnswer;
+  | MultipleChoiceAnswer
+  | FillInBlankAnswer
+  | WordOrderAnswer
+  | MatchingAnswer
+  | SpeakingAnswer;
 
 function normalize(value: string) {
   return value.trim();
@@ -43,6 +50,13 @@ export function gradeExercise(
     case "matching": {
       const { selections } = answer as MatchingAnswer;
       return exercise.pairs.every((pair) => selections[pair.id] === pair.right);
+    }
+    case "speaking": {
+      const { transcript } = answer as SpeakingAnswer;
+      return isPronunciationMatch(
+        stripFuriganaBrackets(exercise.targetJp),
+        transcript,
+      );
     }
   }
 }

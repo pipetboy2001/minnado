@@ -4,7 +4,8 @@ import { Check, X } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
 import { RubyText, AutoFurigana } from "@/components/furigana";
-import { parseFuriganaBrackets } from "@/lib/furigana";
+import { SpeakButton } from "@/components/speak-button";
+import { parseFuriganaBrackets, stripFuriganaBrackets } from "@/lib/furigana";
 import type { FillInBlankExercise } from "@/types/exercise";
 import type { FillInBlankAnswer } from "./grading";
 
@@ -33,6 +34,14 @@ export function FillInBlankQuestion({
 }) {
   const parts = splitTemplate(exercise.sentenceTemplate);
   const values = value?.values ?? {};
+  const resolvedSentence = parts
+    .map((part) =>
+      part.kind === "text"
+        ? stripFuriganaBrackets(part.value)
+        : (exercise.blanks.find((b) => b.id === part.id)?.acceptedAnswers[0] ??
+          ""),
+    )
+    .join("");
 
   function setBlank(id: string, text: string) {
     onChange({ values: { ...values, [id]: text } });
@@ -40,47 +49,53 @@ export function FillInBlankQuestion({
 
   return (
     <div className="flex flex-col gap-5">
-      <p className="flex flex-wrap items-center gap-1.5 text-xl leading-loose font-jp">
-        {parts.map((part, i) => {
-          if (part.kind === "text") {
-            return (
-              <RubyText key={i} segments={parseFuriganaBrackets(part.value)} />
+      <div className="flex flex-wrap items-center gap-1.5">
+        <p className="flex flex-wrap items-center gap-1.5 text-xl leading-loose font-jp">
+          {parts.map((part, i) => {
+            if (part.kind === "text") {
+              return (
+                <RubyText
+                  key={i}
+                  segments={parseFuriganaBrackets(part.value)}
+                />
+              );
+            }
+
+            const blank = exercise.blanks.find((b) => b.id === part.id);
+            const currentValue = values[part.id] ?? "";
+            const isCorrect = blank?.acceptedAnswers.some(
+              (a) => a.trim() === currentValue.trim(),
             );
-          }
+            const slotState = revealed
+              ? isCorrect
+                ? "correct"
+                : "incorrect"
+              : currentValue
+                ? "filled"
+                : "empty";
 
-          const blank = exercise.blanks.find((b) => b.id === part.id);
-          const currentValue = values[part.id] ?? "";
-          const isCorrect = blank?.acceptedAnswers.some(
-            (a) => a.trim() === currentValue.trim(),
-          );
-          const slotState = revealed
-            ? isCorrect
-              ? "correct"
-              : "incorrect"
-            : currentValue
-              ? "filled"
-              : "empty";
-
-          return (
-            <span
-              key={i}
-              className={cn(
-                "inline-flex min-w-12 items-center justify-center rounded-md border-2 px-2 py-0.5 text-lg transition-all",
-                slotState === "empty" &&
-                  "border-dashed border-muted-foreground/40 text-muted-foreground",
-                slotState === "filled" &&
-                  "scale-105 border-primary bg-primary/10 font-medium shadow-sm",
-                slotState === "correct" &&
-                  "border-green-600 bg-green-600/10 font-medium",
-                slotState === "incorrect" &&
-                  "animate-shake border-destructive bg-destructive/10 font-medium",
-              )}
-            >
-              {currentValue || " "}
-            </span>
-          );
-        })}
-      </p>
+            return (
+              <span
+                key={i}
+                className={cn(
+                  "inline-flex min-w-12 items-center justify-center rounded-md border-2 px-2 py-0.5 text-lg transition-all",
+                  slotState === "empty" &&
+                    "border-dashed border-muted-foreground/40 text-muted-foreground",
+                  slotState === "filled" &&
+                    "scale-105 border-primary bg-primary/10 font-medium shadow-sm",
+                  slotState === "correct" &&
+                    "border-green-600 bg-green-600/10 font-medium",
+                  slotState === "incorrect" &&
+                    "animate-shake border-destructive bg-destructive/10 font-medium",
+                )}
+              >
+                {currentValue || " "}
+              </span>
+            );
+          })}
+        </p>
+        {revealed && <SpeakButton text={resolvedSentence} />}
+      </div>
 
       {exercise.blanks.map((blank) => {
         if (!blank.options) {

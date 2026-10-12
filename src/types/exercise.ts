@@ -1,7 +1,7 @@
 import type { ExerciseSkill, JlptLevel } from "./jlpt";
 
 export type ExerciseType =
-  "multiple-choice" | "fill-in-blank" | "word-order" | "matching";
+  "multiple-choice" | "fill-in-blank" | "word-order" | "matching" | "speaking";
 
 export type ExerciseDifficulty = 1 | 2 | 3;
 
@@ -75,11 +75,24 @@ export interface MatchingExercise extends BaseExercise {
   pairs: MatchingPair[];
 }
 
+/**
+ * Pronunciation exercise: the user speaks `targetJp` aloud and the browser's
+ * speech recognition transcribes it for grading against that same text.
+ * Requires SpeechRecognition support (Chrome/Edge) — hidden elsewhere when
+ * unsupported.
+ */
+export interface SpeakingExercise extends BaseExercise {
+  type: "speaking";
+  targetJp: string;
+  translationEs?: string;
+}
+
 export type Exercise =
   | MultipleChoiceExercise
   | FillInBlankExercise
   | WordOrderExercise
-  | MatchingExercise;
+  | MatchingExercise
+  | SpeakingExercise;
 
 export interface ExerciseAttemptResult {
   exerciseId: string;

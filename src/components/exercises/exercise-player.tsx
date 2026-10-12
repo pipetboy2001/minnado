@@ -1,20 +1,22 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { Check, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
+import { isSpeechRecognitionSupported } from "@/lib/speech";
 import type { Exercise } from "@/types/exercise";
 import { gradeExercise, type ExerciseAnswer } from "./grading";
 import { MultipleChoiceQuestion } from "./multiple-choice-question";
 import { FillInBlankQuestion } from "./fill-in-blank-question";
 import { WordOrderQuestion } from "./word-order-question";
 import { MatchingQuestion } from "./matching-question";
+import { SpeakingQuestion } from "./speaking-question";
 
 export function ExercisePlayer({
-  exercises,
+  exercises: allExercises,
   lessonId,
 }: {
   exercises: Exercise[];
@@ -25,6 +27,20 @@ export function ExercisePlayer({
   const [revealed, setRevealed] = useState(false);
   const [lastCorrect, setLastCorrect] = useState(false);
   const [score, setScore] = useState(0);
+  // Defaults to unsupported so the first client render matches the SSR
+  // render (no window) and avoids a hydration mismatch; corrected right
+  // after mount, same pattern as ThemeToggle.
+  const [canSpeak, setCanSpeak] = useState(false);
+
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setCanSpeak(isSpeechRecognitionSupported());
+  }, []);
+
+  const exercises = useMemo(
+    () => allExercises.filter((e) => e.type !== "speaking" || canSpeak),
+    [allExercises, canSpeak],
+  );
 
   const exercise = exercises[index];
   const isFinished = index >= exercises.length;
@@ -169,6 +185,16 @@ export function ExercisePlayer({
         )}
         {exercise.type === "matching" && (
           <MatchingQuestion
+            key={exercise.id}
+            exercise={exercise}
+            value={answer as never}
+            onChange={setAnswer}
+            revealed={revealed}
+            disabled={revealed}
+          />
+        )}
+        {exercise.type === "speaking" && (
+          <SpeakingQuestion
             key={exercise.id}
             exercise={exercise}
             value={answer as never}

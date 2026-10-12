@@ -16,6 +16,7 @@ import {
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Furigana } from "@/components/furigana";
+import { SpeakButton } from "@/components/speak-button";
 
 export default async function LessonPage({
   params,
@@ -55,14 +56,17 @@ export default async function LessonPage({
           {vocab.map((word) => (
             <Card key={word.id}>
               <CardContent className="p-4">
-                <Furigana
-                  text={
-                    word.word === word.reading
-                      ? word.word
-                      : `${word.word}[${word.reading}]`
-                  }
-                  className="text-xl"
-                />
+                <div className="flex items-center gap-1">
+                  <Furigana
+                    text={
+                      word.word === word.reading
+                        ? word.word
+                        : `${word.word}[${word.reading}]`
+                    }
+                    className="text-xl"
+                  />
+                  <SpeakButton text={word.word} />
+                </div>
                 <p className="text-sm">{word.meaningEs}</p>
               </CardContent>
             </Card>
@@ -76,11 +80,16 @@ export default async function LessonPage({
           <div className="grid grid-cols-3 gap-3 sm:grid-cols-4">
             {kanji.map((k) => (
               <Card key={k.id}>
-                <CardContent className="p-4 text-center">
-                  <Furigana
-                    text={`${k.character}[${k.kunyomi[0] ?? k.onyomi[0] ?? ""}]`}
-                    className="text-3xl"
-                  />
+                <CardContent className="flex flex-col items-center p-4 text-center">
+                  <div className="flex items-center gap-1">
+                    <Furigana
+                      text={`${k.character}[${k.kunyomi[0] ?? k.onyomi[0] ?? ""}]`}
+                      className="text-3xl"
+                    />
+                    <SpeakButton
+                      text={k.kunyomi[0] ?? k.onyomi[0] ?? k.character}
+                    />
+                  </div>
                   <p className="text-sm text-muted-foreground">{k.meaningEs}</p>
                 </CardContent>
               </Card>
@@ -101,9 +110,14 @@ export default async function LessonPage({
               <CardContent className="text-sm">
                 <p className="mb-2">{rule.explanationEs}</p>
                 {rule.examples.map((ex, i) => (
-                  <p key={i} className="text-muted-foreground">
-                    {ex.jp} — {ex.es}
-                  </p>
+                  <div
+                    key={i}
+                    className="flex items-center gap-1 text-muted-foreground"
+                  >
+                    <Furigana text={ex.jp} />
+                    <SpeakButton text={ex.jp} />
+                    <span>— {ex.es}</span>
+                  </div>
                 ))}
               </CardContent>
             </Card>
@@ -117,7 +131,8 @@ export default async function LessonPage({
         </h2>
         <p className="mb-4 text-sm text-muted-foreground">
           Partículas, adjetivos, formas verbales, vocabulario y más — en formato
-          de opción múltiple, completar espacio, ordenar palabras y emparejar.
+          de opción múltiple, completar espacio, ordenar palabras, emparejar y
+          pronunciación.
         </p>
         <Button render={<Link href={`/actividades/${lesson.id}/practica`} />}>
           Practicar ejercicios

@@ -494,5 +494,41 @@
     ],
     "explanationEs": "Verbos-る: se quita る y se agrega て.",
     "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0030",
+    "type": "speaking",
+    "jlptLevel": "N5",
+    "skill": "speaking",
+    "lessonId": "n5-lesson-01",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "私[わたし]は学生[がくせい]です。",
+    "translationEs": "Yo soy estudiante.",
+    "explanationEs": "Recuerda pronunciar は como 'wa' cuando funciona como partícula de tema.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0031",
+    "type": "speaking",
+    "jlptLevel": "N5",
+    "skill": "speaking",
+    "lessonId": "n5-lesson-02",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "これは私[わたし]の本[ほん]です。",
+    "translationEs": "Esto es mi libro.",
+    "explanationEs": "の conecta 私 (yo) con 本 (libro) para marcar posesión.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0032",
+    "type": "speaking",
+    "jlptLevel": "N5",
+    "skill": "speaking",
+    "lessonId": "n5-lesson-03",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "本[ほん]を読[よ]みます。",
+    "translationEs": "Leo un libro.",
+    "explanationEs": "読みます es la forma educada (ます) del verbo 読む (leer).",
+    "difficulty": 2
   }
 ]

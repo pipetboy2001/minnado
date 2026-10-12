@@ -3,6 +3,7 @@
 import { useMemo } from "react";
 import { cn } from "@/lib/utils";
 import { AutoFurigana } from "@/components/furigana";
+import { SpeakButton } from "@/components/speak-button";
 import type { MatchingExercise } from "@/types/exercise";
 import type { MatchingAnswer } from "./grading";
 
@@ -45,8 +46,9 @@ export function MatchingQuestion({
         const isCorrect = revealed && selected === pair.right;
         return (
           <div key={pair.id} className="flex items-center gap-3">
-            <span className="w-28 shrink-0 text-lg">
+            <span className="flex w-32 shrink-0 items-center gap-0.5 text-lg">
               <AutoFurigana text={pair.left} />
+              <SpeakButton text={pair.left} size="icon-xs" />
             </span>
             <select
               value={selected ?? ""}
