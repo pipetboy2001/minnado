@@ -24,13 +24,19 @@ export interface MultipleChoiceOption {
 
 export interface MultipleChoiceExercise extends BaseExercise {
   type: "multiple-choice";
+  /**
+   * Japanese text. May contain a `{{1}}` slot placeholder (rendered as a
+   * fill-in box in the sentence) and/or bracket-notation furigana, e.g.
+   * "田中[たなか]さん{{1}}学生[がくせい]です。". Use bracket notation
+   * ("漢字[かな]") for any kanji that needs a reading hint.
+   */
   questionJp: string;
-  questionReading?: string;
   options: MultipleChoiceOption[];
 }
 
 /**
- * sentenceTemplate uses numbered placeholders, e.g. "わたし{{1}}がくせい{{2}}。"
+ * sentenceTemplate uses numbered placeholders, e.g. "わたし{{1}}がくせい{{2}}。",
+ * plus optional bracket-notation furigana, e.g. "大[おお]き{{1}}です。".
  * blanks[i].id must match the {{i}} placeholder number as a string.
  */
 export interface FillInBlankBlank {
@@ -47,7 +53,6 @@ export interface FillInBlankBlank {
 export interface FillInBlankExercise extends BaseExercise {
   type: "fill-in-blank";
   sentenceTemplate: string;
-  sentenceReading?: string;
   translationEs?: string;
   blanks: FillInBlankBlank[];
 }

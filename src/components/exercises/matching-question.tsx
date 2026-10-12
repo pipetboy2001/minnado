@@ -2,6 +2,7 @@
 
 import { useMemo } from "react";
 import { cn } from "@/lib/utils";
+import { AutoFurigana } from "@/components/furigana";
 import type { MatchingExercise } from "@/types/exercise";
 import type { MatchingAnswer } from "./grading";
 
@@ -44,15 +45,20 @@ export function MatchingQuestion({
         const isCorrect = revealed && selected === pair.right;
         return (
           <div key={pair.id} className="flex items-center gap-3">
-            <span className="w-28 shrink-0 text-lg">{pair.left}</span>
+            <span className="w-28 shrink-0 text-lg">
+              <AutoFurigana text={pair.left} />
+            </span>
             <select
               value={selected ?? ""}
               disabled={disabled}
               onChange={(e) => setSelection(pair.id, e.target.value)}
               className={cn(
-                "flex-1 rounded-md border bg-background px-3 py-2 text-base",
+                "flex-1 rounded-md border-2 bg-background px-3 py-2 text-base transition-colors",
+                !revealed && selected && "border-primary",
                 revealed &&
-                  (isCorrect ? "border-green-600" : "border-destructive"),
+                  (isCorrect
+                    ? "border-green-600"
+                    : "animate-shake border-destructive"),
               )}
             >
               <option value="" disabled>

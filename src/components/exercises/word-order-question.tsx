@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
+import { AutoFurigana } from "@/components/furigana";
 import type { WordOrderExercise } from "@/types/exercise";
 import type { WordOrderAnswer } from "./grading";
 
@@ -32,7 +33,12 @@ export function WordOrderQuestion({
 
   return (
     <div className="flex flex-col gap-4">
-      <div className="flex min-h-12 flex-wrap gap-2 rounded-lg border border-dashed p-3">
+      <div
+        className={cn(
+          "flex min-h-12 flex-wrap gap-2 rounded-lg border-2 border-dashed p-3 transition-colors",
+          revealed && (isCorrect ? "border-green-600" : "border-destructive"),
+        )}
+      >
         {usedIndices.length === 0 && (
           <span className="text-sm text-muted-foreground">
             Toca las palabras en orden...
@@ -46,9 +52,9 @@ export function WordOrderQuestion({
             onClick={() =>
               setUsedIndices((prev) => prev.filter((_, p) => p !== pos))
             }
-            className="rounded-md border border-primary bg-primary/10 px-3 py-1.5 text-lg"
+            className="scale-100 rounded-md border border-primary bg-primary/10 px-3 py-1.5 text-lg shadow-sm transition-transform hover:scale-105"
           >
-            {exercise.wordBank[i]}
+            <AutoFurigana text={exercise.wordBank[i]} />
           </button>
         ))}
       </div>
@@ -61,21 +67,16 @@ export function WordOrderQuestion({
               type="button"
               disabled={disabled}
               onClick={() => setUsedIndices((prev) => [...prev, i])}
-              className="rounded-md border px-3 py-1.5 text-lg hover:bg-muted"
+              className="rounded-md border px-3 py-1.5 text-lg transition-transform hover:scale-105 hover:bg-muted"
             >
-              {word}
+              <AutoFurigana text={word} />
             </button>
           ),
         )}
       </div>
 
-      {revealed && (
-        <p
-          className={cn(
-            "text-sm",
-            isCorrect ? "text-green-600" : "text-destructive",
-          )}
-        >
+      {revealed && !isCorrect && (
+        <p className="animate-shake text-sm text-destructive">
           Orden correcto: {exercise.correctOrder.join(" ")}
         </p>
       )}

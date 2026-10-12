@@ -116,7 +116,6 @@ export const multipleChoiceExerciseSchema = z.object({
   ...baseExerciseSchema,
   type: z.literal("multiple-choice"),
   questionJp: z.string().min(1),
-  questionReading: z.string().optional(),
   options: z
     .array(
       z.object({
@@ -135,7 +134,6 @@ export const fillInBlankExerciseSchema = z.object({
   ...baseExerciseSchema,
   type: z.literal("fill-in-blank"),
   sentenceTemplate: z.string().min(1),
-  sentenceReading: z.string().optional(),
   translationEs: z.string().optional(),
   blanks: z
     .array(

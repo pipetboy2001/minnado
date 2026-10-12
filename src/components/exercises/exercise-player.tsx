@@ -2,8 +2,10 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { Check, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { cn } from "@/lib/utils";
 import type { Exercise } from "@/types/exercise";
 import { gradeExercise, type ExerciseAnswer } from "./grading";
 import { MultipleChoiceQuestion } from "./multiple-choice-question";
@@ -21,16 +23,19 @@ export function ExercisePlayer({
   const [index, setIndex] = useState(0);
   const [answer, setAnswer] = useState<ExerciseAnswer | undefined>(undefined);
   const [revealed, setRevealed] = useState(false);
+  const [lastCorrect, setLastCorrect] = useState(false);
   const [score, setScore] = useState(0);
 
   const exercise = exercises[index];
   const isFinished = index >= exercises.length;
   const isAnswered = answer !== undefined;
+  const progress = (index / exercises.length) * 100;
 
   function handleCheck() {
     if (!answer) return;
     const isCorrect = gradeExercise(exercise, answer);
     setRevealed(true);
+    setLastCorrect(isCorrect);
     if (isCorrect) setScore((s) => s + 1);
 
     void fetch("/api/attempts", {
@@ -91,11 +96,19 @@ export function ExercisePlayer({
   return (
     <Card>
       <CardContent className="flex flex-col gap-6 p-6">
-        <div className="flex items-center justify-between text-sm text-muted-foreground">
-          <span>
-            Pregunta {index + 1} / {exercises.length}
-          </span>
-          <span>Puntaje: {score}</span>
+        <div className="flex flex-col gap-2">
+          <div className="flex items-center justify-between text-sm text-muted-foreground">
+            <span>
+              {index + 1} / {exercises.length}
+            </span>
+            <span>Puntaje: {score}</span>
+          </div>
+          <div className="h-2 w-full overflow-hidden rounded-full bg-muted">
+            <div
+              className="h-full rounded-full bg-primary transition-all duration-500 ease-out"
+              style={{ width: `${progress}%` }}
+            />
+          </div>
         </div>
 
         <p className="text-base text-muted-foreground">{exercise.promptEs}</p>
@@ -140,10 +153,31 @@ export function ExercisePlayer({
           />
         )}
 
-        {revealed && exercise.explanationEs && (
-          <p className="rounded-md bg-muted p-3 text-sm">
-            {exercise.explanationEs}
-          </p>
+        {revealed && (
+          <div
+            className={cn(
+              "flex items-start gap-2 rounded-md p-3 text-sm",
+              lastCorrect
+                ? "bg-green-600/10 text-green-700 dark:text-green-400"
+                : "bg-destructive/10 text-destructive",
+            )}
+          >
+            {lastCorrect ? (
+              <Check className="mt-0.5 size-4 shrink-0" />
+            ) : (
+              <X className="mt-0.5 size-4 shrink-0" />
+            )}
+            <div>
+              <p className="font-medium">
+                {lastCorrect ? "¡Correcto!" : "Incorrecto"}
+              </p>
+              {exercise.explanationEs && (
+                <p className="mt-0.5 text-foreground/80">
+                  {exercise.explanationEs}
+                </p>
+              )}
+            </div>
+          </div>
         )}
 
         <div className="flex justify-end gap-3">

@@ -15,6 +15,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { Furigana } from "@/components/furigana";
 
 export default async function LessonPage({
   params,
@@ -54,8 +55,14 @@ export default async function LessonPage({
           {vocab.map((word) => (
             <Card key={word.id}>
               <CardContent className="p-4">
-                <p className="text-xl">{word.word}</p>
-                <p className="text-sm text-muted-foreground">{word.reading}</p>
+                <Furigana
+                  text={
+                    word.word === word.reading
+                      ? word.word
+                      : `${word.word}[${word.reading}]`
+                  }
+                  className="text-xl"
+                />
                 <p className="text-sm">{word.meaningEs}</p>
               </CardContent>
             </Card>
@@ -70,7 +77,10 @@ export default async function LessonPage({
             {kanji.map((k) => (
               <Card key={k.id}>
                 <CardContent className="p-4 text-center">
-                  <p className="text-3xl">{k.character}</p>
+                  <Furigana
+                    text={`${k.character}[${k.kunyomi[0] ?? k.onyomi[0] ?? ""}]`}
+                    className="text-3xl"
+                  />
                   <p className="text-sm text-muted-foreground">{k.meaningEs}</p>
                 </CardContent>
               </Card>

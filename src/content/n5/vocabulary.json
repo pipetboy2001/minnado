@@ -362,5 +362,18 @@
     "exampleSentenceReading": "たなかさんはしんせつです。",
     "exampleSentenceEs": "El señor Tanaka es amable.",
     "tags": ["adjetivos-na"]
+  },
+  {
+    "id": "n5-voc-0029",
+    "jlptLevel": "N5",
+    "word": "水",
+    "reading": "みず",
+    "romaji": "mizu",
+    "meaningEs": "agua",
+    "partOfSpeech": "noun",
+    "exampleSentenceJp": "水を飲みます。",
+    "exampleSentenceReading": "みずをのみます。",
+    "exampleSentenceEs": "Bebo agua.",
+    "tags": ["comida", "minna-no-nihongo-l1"]
   }
 ]
