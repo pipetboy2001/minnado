@@ -648,5 +648,65 @@
         "es": "El verano es el que más me gusta."
       }
     ]
+  },
+  {
+    "id": "n5-gram-0041",
+    "jlptLevel": "N5",
+    "category": "verb-forms",
+    "title": "ました (pasado afirmativo)",
+    "pattern": "[Raíz de Verbo-ます]ました。",
+    "explanationEs": "ました es la forma pasada educada afirmativa; se forma cambiando ます por ました.",
+    "examples": [
+      {
+        "jp": "先週、日本へ行きました。",
+        "reading": "せんしゅう、にほんへいきました。",
+        "es": "La semana pasada fui a Japón."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0042",
+    "jlptLevel": "N5",
+    "category": "verb-forms",
+    "title": "ませんでした (pasado negativo)",
+    "pattern": "[Raíz de Verbo-ます]ませんでした。",
+    "explanationEs": "ませんでした es la forma pasada educada negativa.",
+    "examples": [
+      {
+        "jp": "去年は旅行しませんでした。",
+        "reading": "きょねんはりょこうしませんでした。",
+        "es": "El año pasado no viajé."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0043",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "もう〜ました (ya hice...)",
+    "pattern": "もう[Verbo]ました。",
+    "explanationEs": "もう indica que la acción ya se completó.",
+    "examples": [
+      {
+        "jp": "もう宿題をしました。",
+        "reading": "もうしゅくだいをしました。",
+        "es": "Ya hice la tarea."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0044",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "まだです (todavía no, respuesta corta)",
+    "pattern": "まだです。",
+    "explanationEs": "まだです responde que algo todavía no se ha hecho, como respuesta corta a '¿ya...?'.",
+    "examples": [
+      {
+        "jp": "まだです。",
+        "reading": "まだです。",
+        "es": "Todavía no."
+      }
+    ]
   }
 ]

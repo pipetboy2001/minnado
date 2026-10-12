@@ -2114,5 +2114,198 @@
     "translationEs": "¿Cuál te gusta más, el verano o el invierno?",
     "explanationEs": "どちら pregunta cuál de dos opciones.",
     "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0132",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-11",
+    "promptEs": "La semana pasada fuiste a Japón (pasado).",
+    "questionJp": "先週[せんしゅう]、日本[にほん]へ{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "行きました", "isCorrect": true },
+      { "id": "b", "textJp": "行きます", "isCorrect": false },
+      { "id": "c", "textJp": "行きません", "isCorrect": false },
+      { "id": "d", "textJp": "行く", "isCorrect": false }
+    ],
+    "explanationEs": "ました es la forma pasada educada afirmativa.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0133",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-11",
+    "promptEs": "El año pasado NO viajaste (pasado negativo).",
+    "questionJp": "去年[きょねん]は旅行[りょこう]を{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "しませんでした", "isCorrect": true },
+      { "id": "b", "textJp": "します", "isCorrect": false },
+      { "id": "c", "textJp": "しました", "isCorrect": false },
+      { "id": "d", "textJp": "しません", "isCorrect": false }
+    ],
+    "explanationEs": "ませんでした es la forma pasada educada negativa.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0134",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-11",
+    "promptEs": "Ya hiciste la tarea.",
+    "sentenceTemplate": "{{1}}宿題[しゅくだい]をしました。",
+    "translationEs": "Ya hice la tarea.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["もう"],
+        "options": ["もう", "まだ", "もし", "また"]
+      }
+    ],
+    "explanationEs": "もう indica que la acción ya se completó.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0135",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-11",
+    "promptEs": "Responde que todavía no (respuesta corta).",
+    "sentenceTemplate": "{{1}}です。",
+    "translationEs": "Todavía no.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["まだ"],
+        "options": ["まだ", "もう", "もし", "いつ"]
+      }
+    ],
+    "explanationEs": "まだです responde que algo todavía no se ha hecho.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0136",
+    "type": "word-order",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-11",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["行きました", "日本へ", "先週"],
+    "correctOrder": ["先週", "日本へ", "行きました"],
+    "translationEs": "La semana pasada fui a Japón.",
+    "explanationEs": "Orden: [Tiempo] + [Destino]へ + Verbo-ました。",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0137",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-11",
+    "promptEs": "Une cada palabra de tiempo con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "先週", "right": "la semana pasada" },
+      { "id": "p2", "left": "先月", "right": "el mes pasado" },
+      { "id": "p3", "left": "去年", "right": "el año pasado" },
+      { "id": "p4", "left": "今年", "right": "este año" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0138",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-11",
+    "promptEs": "¿Cómo se lee 先週 (la semana pasada)?",
+    "questionJp": "先週",
+    "options": [
+      { "id": "a", "textJp": "せんしゅう", "isCorrect": true },
+      { "id": "b", "textJp": "さきしゅう", "isCorrect": false },
+      { "id": "c", "textJp": "せんしゅ", "isCorrect": false },
+      { "id": "d", "textJp": "せんげつ", "isCorrect": false }
+    ],
+    "explanationEs": "先週 se lee せんしゅう.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0139",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-11",
+    "promptEs": "Une cada kanji con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "先", "right": "antes, previo, punta" },
+      { "id": "p2", "left": "週", "right": "semana" },
+      { "id": "p3", "left": "月", "right": "mes, luna" },
+      { "id": "p4", "left": "年", "right": "año" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0140",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-11",
+    "promptEs": "HOY harás la tarea (presente/futuro, no pasado).",
+    "questionJp": "今日[きょう]、宿題[しゅくだい]を{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "します", "isCorrect": true },
+      { "id": "b", "textJp": "しました", "isCorrect": false },
+      { "id": "c", "textJp": "しませんでした", "isCorrect": false },
+      { "id": "d", "textJp": "した", "isCorrect": false }
+    ],
+    "explanationEs": "します es la forma educada de presente/futuro, no de pasado.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0141",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-11",
+    "promptEs": "El año pasado no viajaste.",
+    "sentenceTemplate": "去年[きょねん]は{{1}}をしませんでした。",
+    "translationEs": "El año pasado no viajé.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["旅行", "りょこう"],
+        "options": ["旅行", "宿題", "勉強", "休み"]
+      }
+    ],
+    "explanationEs": "旅行 significa 'viaje'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0142",
+    "type": "speaking",
+    "jlptLevel": "N5",
+    "skill": "speaking",
+    "lessonId": "n5-lesson-11",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "先週[せんしゅう]、日本[にほん]へ行[い]きました。",
+    "translationEs": "La semana pasada fui a Japón.",
+    "explanationEs": "ました es la forma pasada educada afirmativa.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0143",
+    "type": "listening",
+    "jlptLevel": "N5",
+    "skill": "listening",
+    "lessonId": "n5-lesson-11",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "もう宿題[しゅくだい]をしました。",
+    "targetReading": "もうしゅくだいをしました。",
+    "translationEs": "Ya hice la tarea.",
+    "explanationEs": "もう indica que la acción ya se completó.",
+    "difficulty": 2
   }
 ]

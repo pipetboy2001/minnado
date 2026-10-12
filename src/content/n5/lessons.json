@@ -408,9 +408,53 @@
     ]
   },
   {
-    "id": "n5-lesson-03",
+    "id": "n5-lesson-11",
     "jlptLevel": "N5",
     "order": 10,
+    "title": "Lección 10 — Pasado (ました・ませんでした)",
+    "description": "Forma pasada educada afirmativa (ました) y negativa (ませんでした), y もう／まだ para indicar si algo ya se hizo, basado en Minna no Nihongo Lección 10.",
+    "kind": "lesson",
+    "vocabIds": [
+      "n5-voc-0106",
+      "n5-voc-0107",
+      "n5-voc-0108",
+      "n5-voc-0109",
+      "n5-voc-0110",
+      "n5-voc-0111",
+      "n5-voc-0112",
+      "n5-voc-0113"
+    ],
+    "kanjiIds": [
+      "n5-kanji-0032",
+      "n5-kanji-0033",
+      "n5-kanji-0034",
+      "n5-kanji-0035"
+    ],
+    "grammarIds": [
+      "n5-gram-0041",
+      "n5-gram-0042",
+      "n5-gram-0043",
+      "n5-gram-0044"
+    ],
+    "exerciseIds": [
+      "n5-ex-0132",
+      "n5-ex-0133",
+      "n5-ex-0134",
+      "n5-ex-0135",
+      "n5-ex-0136",
+      "n5-ex-0137",
+      "n5-ex-0138",
+      "n5-ex-0139",
+      "n5-ex-0140",
+      "n5-ex-0141",
+      "n5-ex-0142",
+      "n5-ex-0143"
+    ]
+  },
+  {
+    "id": "n5-lesson-03",
+    "jlptLevel": "N5",
+    "order": 11,
     "title": "Repaso — Partículas, Adjetivos y Formas Verbales",
     "description": "Módulo de repaso transversal: partícula correcta, adjetivos い/な, y conjugación verbal (forma ます y て) a través de varias lecciones.",
     "kind": "review",

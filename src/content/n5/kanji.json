@@ -516,5 +516,69 @@
         "meaningEs": "finales de otoño"
       }
     ]
+  },
+  {
+    "id": "n5-kanji-0032",
+    "character": "先",
+    "jlptLevel": "N5",
+    "strokeCount": 6,
+    "onyomi": ["セン"],
+    "kunyomi": ["さき"],
+    "meaningEs": "antes, previo, punta",
+    "radicals": ["儿"],
+    "exampleWords": [
+      {
+        "word": "先週",
+        "reading": "せんしゅう",
+        "meaningEs": "la semana pasada"
+      },
+      {
+        "word": "先生",
+        "reading": "せんせい",
+        "meaningEs": "profesor, maestro"
+      }
+    ]
+  },
+  {
+    "id": "n5-kanji-0033",
+    "character": "週",
+    "jlptLevel": "N5",
+    "strokeCount": 11,
+    "onyomi": ["シュウ"],
+    "kunyomi": [],
+    "meaningEs": "semana",
+    "radicals": ["辶"],
+    "exampleWords": [
+      { "word": "今週", "reading": "こんしゅう", "meaningEs": "esta semana" },
+      { "word": "週末", "reading": "しゅうまつ", "meaningEs": "fin de semana" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0034",
+    "character": "月",
+    "jlptLevel": "N5",
+    "strokeCount": 4,
+    "onyomi": ["ゲツ", "ガツ"],
+    "kunyomi": ["つき"],
+    "meaningEs": "mes, luna",
+    "radicals": ["月"],
+    "exampleWords": [
+      { "word": "来月", "reading": "らいげつ", "meaningEs": "el próximo mes" },
+      { "word": "一月", "reading": "いちがつ", "meaningEs": "enero" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0035",
+    "character": "年",
+    "jlptLevel": "N5",
+    "strokeCount": 6,
+    "onyomi": ["ネン"],
+    "kunyomi": ["とし"],
+    "meaningEs": "año",
+    "radicals": ["干"],
+    "exampleWords": [
+      { "word": "来年", "reading": "らいねん", "meaningEs": "el próximo año" },
+      { "word": "今年", "reading": "ことし", "meaningEs": "este año" }
+    ]
   }
 ]
