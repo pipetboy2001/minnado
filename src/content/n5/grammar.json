@@ -708,5 +708,65 @@
         "es": "Todavía no."
       }
     ]
+  },
+  {
+    "id": "n5-gram-0045",
+    "jlptLevel": "N5",
+    "category": "numbers-counters",
+    "title": "一つ・二つ・三つ (contador genérico)",
+    "pattern": "[Número]つ",
+    "explanationEs": "一つ・二つ・三つ... es el contador genérico para objetos, con lecturas nativas irregulares (no son los números chinos いち、に、さん).",
+    "examples": [
+      {
+        "jp": "りんごを三つください。",
+        "reading": "りんごをみっつください。",
+        "es": "Deme tres manzanas, por favor."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0046",
+    "jlptLevel": "N5",
+    "category": "numbers-counters",
+    "title": "一人・二人・三人 (contador de personas)",
+    "pattern": "[Número]人",
+    "explanationEs": "一人 y 二人 tienen lecturas irregulares (ひとり, ふたり); desde 三人 se usa la lectura china + 人 (さんにん).",
+    "examples": [
+      {
+        "jp": "友達が二人来ます。",
+        "reading": "ともだちがふたりきます。",
+        "es": "Vienen dos amigos."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0047",
+    "jlptLevel": "N5",
+    "category": "numbers-counters",
+    "title": "〜枚 (contador de cosas planas)",
+    "pattern": "[Número]枚",
+    "explanationEs": "枚 cuenta objetos planos y delgados, como papel, estampillas o boletos.",
+    "examples": [
+      {
+        "jp": "切手を三枚ください。",
+        "reading": "きってをさんまいください。",
+        "es": "Deme tres estampillas, por favor."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0048",
+    "jlptLevel": "N5",
+    "category": "numbers-counters",
+    "title": "〜ぐらい (aproximadamente)",
+    "pattern": "[Cantidad]ぐらい",
+    "explanationEs": "ぐらい se agrega después de una cantidad para indicar aproximación.",
+    "examples": [
+      {
+        "jp": "りんごを五つぐらい買います。",
+        "reading": "りんごをいつつぐらいかいます。",
+        "es": "Compro aproximadamente cinco manzanas."
+      }
+    ]
   }
 ]

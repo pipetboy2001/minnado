@@ -580,5 +580,55 @@
       { "word": "来年", "reading": "らいねん", "meaningEs": "el próximo año" },
       { "word": "今年", "reading": "ことし", "meaningEs": "este año" }
     ]
+  },
+  {
+    "id": "n5-kanji-0036",
+    "character": "枚",
+    "jlptLevel": "N5",
+    "strokeCount": 8,
+    "onyomi": ["マイ"],
+    "kunyomi": [],
+    "meaningEs": "contador de cosas planas",
+    "radicals": ["木"],
+    "exampleWords": [
+      {
+        "word": "一枚",
+        "reading": "いちまい",
+        "meaningEs": "una (cosa plana)"
+      },
+      { "word": "枚数", "reading": "まいすう", "meaningEs": "número de hojas" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0037",
+    "character": "全",
+    "jlptLevel": "N5",
+    "strokeCount": 6,
+    "onyomi": ["ゼン"],
+    "kunyomi": ["まった-く"],
+    "meaningEs": "todo, completo",
+    "radicals": ["入"],
+    "exampleWords": [
+      { "word": "全部", "reading": "ぜんぶ", "meaningEs": "todo, en total" },
+      {
+        "word": "全員",
+        "reading": "ぜんいん",
+        "meaningEs": "todos los miembros"
+      }
+    ]
+  },
+  {
+    "id": "n5-kanji-0038",
+    "character": "部",
+    "jlptLevel": "N5",
+    "strokeCount": 11,
+    "onyomi": ["ブ"],
+    "kunyomi": [],
+    "meaningEs": "parte, sección",
+    "radicals": ["阝"],
+    "exampleWords": [
+      { "word": "部屋", "reading": "へや", "meaningEs": "habitación" },
+      { "word": "一部", "reading": "いちぶ", "meaningEs": "una parte" }
+    ]
   }
 ]

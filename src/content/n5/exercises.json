@@ -2307,5 +2307,197 @@
     "translationEs": "Ya hice la tarea.",
     "explanationEs": "もう indica que la acción ya se completó.",
     "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0144",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-12",
+    "promptEs": "Pide tres manzanas (objeto genérico).",
+    "questionJp": "りんごを{{1}}ください。",
+    "options": [
+      { "id": "a", "textJp": "三つ", "isCorrect": true },
+      { "id": "b", "textJp": "三人", "isCorrect": false },
+      { "id": "c", "textJp": "三枚", "isCorrect": false },
+      { "id": "d", "textJp": "三時", "isCorrect": false }
+    ],
+    "explanationEs": "〜つ es el contador genérico para objetos.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0145",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-12",
+    "promptEs": "Vienen DOS amigos (personas).",
+    "questionJp": "友達[ともだち]が{{1}}来[き]ます。",
+    "options": [
+      { "id": "a", "textJp": "二人", "isCorrect": true },
+      { "id": "b", "textJp": "二つ", "isCorrect": false },
+      { "id": "c", "textJp": "二枚", "isCorrect": false },
+      { "id": "d", "textJp": "二時", "isCorrect": false }
+    ],
+    "explanationEs": "〜人 cuenta personas; 二人 (ふたり) es una lectura irregular.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0146",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-12",
+    "promptEs": "Pide tres estampillas.",
+    "sentenceTemplate": "切手[きって]を{{1}}ください。",
+    "translationEs": "Deme tres estampillas, por favor.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["三枚", "さんまい"],
+        "options": ["三枚", "三つ", "三人", "三時"]
+      }
+    ],
+    "explanationEs": "枚 cuenta objetos planos y delgados.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0147",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "particles",
+    "lessonId": "n5-lesson-12",
+    "promptEs": "Compras aproximadamente cinco manzanas.",
+    "sentenceTemplate": "りんごを五[いつ]つ{{1}}買[か]います。",
+    "translationEs": "Compro aproximadamente cinco manzanas.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["ぐらい"],
+        "options": ["ぐらい", "など", "だけ", "ごろ"]
+      }
+    ],
+    "explanationEs": "ぐらい indica aproximación de una cantidad.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0148",
+    "type": "word-order",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-12",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["ください", "三つ", "りんごを"],
+    "correctOrder": ["りんごを", "三つ", "ください"],
+    "translationEs": "Deme tres manzanas, por favor.",
+    "explanationEs": "Orden: [Cosa]を + [Cantidad] + ください。",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0149",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-12",
+    "promptEs": "Une cada contador con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "一つ", "right": "uno (objetos)" },
+      { "id": "p2", "left": "二つ", "right": "dos (objetos)" },
+      { "id": "p3", "left": "一人", "right": "una persona" },
+      { "id": "p4", "left": "二人", "right": "dos personas" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0150",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-12",
+    "promptEs": "¿Cómo se lee 全部 (todo, en total)?",
+    "questionJp": "全部",
+    "options": [
+      { "id": "a", "textJp": "ぜんぶ", "isCorrect": true },
+      { "id": "b", "textJp": "ぜんぶん", "isCorrect": false },
+      { "id": "c", "textJp": "まるぶ", "isCorrect": false },
+      { "id": "d", "textJp": "ぜんぷ", "isCorrect": false }
+    ],
+    "explanationEs": "全部 se lee ぜんぶ.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0151",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-12",
+    "promptEs": "Une cada kanji con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "枚", "right": "contador de cosas planas" },
+      { "id": "p2", "left": "全", "right": "todo, completo" },
+      { "id": "p3", "left": "部", "right": "parte, sección" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0152",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-12",
+    "promptEs": "En total, son tres manzanas.",
+    "sentenceTemplate": "{{1}}でりんごが三[みっ]つです。",
+    "translationEs": "En total son tres manzanas.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["全部", "ぜんぶ"],
+        "options": ["全部", "一番", "とても", "もう"]
+      }
+    ],
+    "explanationEs": "全部 significa 'todo, en total'.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0153",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "particles",
+    "lessonId": "n5-lesson-12",
+    "promptEs": "Compras aproximadamente cinco manzanas. Elige la partícula correcta.",
+    "questionJp": "りんごを五[いつ]つ{{1}}買[か]います。",
+    "options": [
+      { "id": "a", "textJp": "ぐらい", "isCorrect": true },
+      { "id": "b", "textJp": "だけ", "isCorrect": false },
+      { "id": "c", "textJp": "など", "isCorrect": false },
+      { "id": "d", "textJp": "とか", "isCorrect": false }
+    ],
+    "explanationEs": "ぐらい indica aproximación de una cantidad.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0154",
+    "type": "speaking",
+    "jlptLevel": "N5",
+    "skill": "speaking",
+    "lessonId": "n5-lesson-12",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "りんごを三[みっ]つください。",
+    "translationEs": "Deme tres manzanas, por favor.",
+    "explanationEs": "〜つ es el contador genérico para objetos.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0155",
+    "type": "listening",
+    "jlptLevel": "N5",
+    "skill": "listening",
+    "lessonId": "n5-lesson-12",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "友達[ともだち]が二人[ふたり]来[き]ます。",
+    "targetReading": "ともだちがふたりきます。",
+    "translationEs": "Vienen dos amigos.",
+    "explanationEs": "二人 (ふたり) es una lectura irregular del contador de personas.",
+    "difficulty": 2
   }
 ]

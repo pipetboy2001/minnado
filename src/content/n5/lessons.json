@@ -452,9 +452,50 @@
     ]
   },
   {
-    "id": "n5-lesson-03",
+    "id": "n5-lesson-12",
     "jlptLevel": "N5",
     "order": 11,
+    "title": "Lección 11 — Contadores (〜つ・〜人・〜枚)",
+    "description": "Contador genérico de objetos (一つ・二つ・三つ), contador de personas (一人・二人・三人), 〜枚 para objetos planos, y ぐらい para aproximar cantidades, basado en Minna no Nihongo Lección 11.",
+    "kind": "lesson",
+    "vocabIds": [
+      "n5-voc-0114",
+      "n5-voc-0115",
+      "n5-voc-0116",
+      "n5-voc-0117",
+      "n5-voc-0118",
+      "n5-voc-0119",
+      "n5-voc-0120",
+      "n5-voc-0121",
+      "n5-voc-0122",
+      "n5-voc-0123"
+    ],
+    "kanjiIds": ["n5-kanji-0036", "n5-kanji-0037", "n5-kanji-0038"],
+    "grammarIds": [
+      "n5-gram-0045",
+      "n5-gram-0046",
+      "n5-gram-0047",
+      "n5-gram-0048"
+    ],
+    "exerciseIds": [
+      "n5-ex-0144",
+      "n5-ex-0145",
+      "n5-ex-0146",
+      "n5-ex-0147",
+      "n5-ex-0148",
+      "n5-ex-0149",
+      "n5-ex-0150",
+      "n5-ex-0151",
+      "n5-ex-0152",
+      "n5-ex-0153",
+      "n5-ex-0154",
+      "n5-ex-0155"
+    ]
+  },
+  {
+    "id": "n5-lesson-03",
+    "jlptLevel": "N5",
+    "order": 12,
     "title": "Repaso — Partículas, Adjetivos y Formas Verbales",
     "description": "Módulo de repaso transversal: partícula correcta, adjetivos い/な, y conjugación verbal (forma ます y て) a través de varias lecciones.",
     "kind": "review",
