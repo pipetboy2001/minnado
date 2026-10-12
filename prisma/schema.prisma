@@ -81,6 +81,7 @@ model User {
   sessions         Session[]
   lessonProgress   UserLessonProgress[]
   exerciseAttempts UserExerciseAttempt[]
+  practiceSessions PracticeSession[]
 
   @@map("users")
 }
@@ -134,11 +135,12 @@ model Lesson {
   title       String
   description String?
 
-  vocabWords   VocabWord[]
-  kanjiEntries KanjiEntry[]
-  grammarRules GrammarRule[]
-  exercises    Exercise[]
-  progress     UserLessonProgress[]
+  vocabWords       VocabWord[]
+  kanjiEntries     KanjiEntry[]
+  grammarRules     GrammarRule[]
+  exercises        Exercise[]
+  progress         UserLessonProgress[]
+  practiceSessions PracticeSession[]
 
   @@index([jlptLevel, order])
   @@map("lessons")
@@ -251,4 +253,19 @@ model UserExerciseAttempt {
 
   @@index([userId, exerciseId])
   @@map("user_exercise_attempts")
+}
+
+model PracticeSession {
+  id             String   @id @default(cuid())
+  userId         String
+  lessonId       String
+  score          Int
+  totalExercises Int
+  completedAt    DateTime @default(now())
+
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  lesson Lesson @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+
+  @@index([userId, completedAt])
+  @@map("practice_sessions")
 }

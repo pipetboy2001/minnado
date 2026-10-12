@@ -38,6 +38,16 @@ export function ExercisePlayer({
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ lessonId }),
     });
+    void fetch("/api/sessions", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        lessonId,
+        score,
+        totalExercises: exercises.length,
+      }),
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isFinished, lessonId]);
 
   function handleCheck() {

@@ -16,6 +16,22 @@ export interface LessonProgressSummary {
   completedAt: Date | null;
 }
 
+export interface SessionStats {
+  totalSessions: number;
+  averageScorePercent: number;
+  bestScorePercent: number;
+}
+
+export interface SessionSummary {
+  id: string;
+  lessonId: string;
+  lessonTitle: string;
+  score: number;
+  totalExercises: number;
+  percentage: number;
+  completedAt: Date;
+}
+
 export async function getUserOverallStats(
   userId: string,
 ): Promise<OverallStats> {
@@ -70,4 +86,54 @@ export async function getUserLessonProgress(
       completedAt: progress?.completedAt ?? null,
     };
   });
+}
+
+export async function getUserSessionStats(
+  userId: string,
+): Promise<SessionStats> {
+  const sessions = await prisma.practiceSession.findMany({
+    where: { userId },
+    select: { score: true, totalExercises: true },
+  });
+
+  if (sessions.length === 0) {
+    return { totalSessions: 0, averageScorePercent: 0, bestScorePercent: 0 };
+  }
+
+  const percentages = sessions.map((s) =>
+    s.totalExercises === 0 ? 0 : Math.round((s.score / s.totalExercises) * 100),
+  );
+
+  return {
+    totalSessions: sessions.length,
+    averageScorePercent: Math.round(
+      percentages.reduce((sum, p) => sum + p, 0) / percentages.length,
+    ),
+    bestScorePercent: Math.max(...percentages),
+  };
+}
+
+export async function getRecentSessions(
+  userId: string,
+  limit = 10,
+): Promise<SessionSummary[]> {
+  const sessions = await prisma.practiceSession.findMany({
+    where: { userId },
+    orderBy: { completedAt: "desc" },
+    take: limit,
+    include: { lesson: { select: { title: true } } },
+  });
+
+  return sessions.map((s) => ({
+    id: s.id,
+    lessonId: s.lessonId,
+    lessonTitle: s.lesson.title,
+    score: s.score,
+    totalExercises: s.totalExercises,
+    percentage:
+      s.totalExercises === 0
+        ? 0
+        : Math.round((s.score / s.totalExercises) * 100),
+    completedAt: s.completedAt,
+  }));
 }
