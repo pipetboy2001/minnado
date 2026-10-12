@@ -530,5 +530,44 @@
     "translationEs": "Leo un libro.",
     "explanationEs": "読みます es la forma educada (ます) del verbo 読む (leer).",
     "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0033",
+    "type": "listening",
+    "jlptLevel": "N5",
+    "skill": "listening",
+    "lessonId": "n5-lesson-01",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "水[みず]を飲[の]みます。",
+    "targetReading": "みずをのみます。",
+    "translationEs": "Bebo agua.",
+    "explanationEs": "を marca el objeto directo; 飲みます es la forma educada de 飲む (beber).",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0034",
+    "type": "listening",
+    "jlptLevel": "N5",
+    "skill": "listening",
+    "lessonId": "n5-lesson-02",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "この本[ほん]は面白[おもしろ]いです。",
+    "targetReading": "このほんはおもしろいです。",
+    "translationEs": "Este libro es interesante.",
+    "explanationEs": "面白い es un adjetivo-い que significa 'interesante'.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0035",
+    "type": "listening",
+    "jlptLevel": "N5",
+    "skill": "listening",
+    "lessonId": "n5-lesson-03",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "朝[あさ]ご飯[はん]を食[た]べて、学校[がっこう]に行[い]きます。",
+    "targetReading": "あさごはんをたべて、がっこうにいきます。",
+    "translationEs": "Como el desayuno y voy a la escuela.",
+    "explanationEs": "て conecta dos acciones en secuencia: comer y luego ir.",
+    "difficulty": 3
   }
 ]

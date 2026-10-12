@@ -18,12 +18,16 @@ export function SpeakButton({
   text,
   rate,
   size = "icon-sm",
+  variant = "ghost",
   className,
+  iconClassName,
 }: {
   text: string;
   rate?: number;
   size?: "icon" | "icon-xs" | "icon-sm" | "icon-lg";
+  variant?: "ghost" | "outline" | "default" | "secondary";
   className?: string;
+  iconClassName?: string;
 }) {
   const [supported, setSupported] = useState(false);
 
@@ -37,17 +41,20 @@ export function SpeakButton({
   return (
     <Button
       type="button"
-      variant="ghost"
+      variant={variant}
       size={size}
       aria-label="Escuchar pronunciación"
-      className={cn("text-muted-foreground hover:text-foreground", className)}
+      className={cn(
+        variant === "ghost" && "text-muted-foreground hover:text-foreground",
+        className,
+      )}
       onClick={(e) => {
         e.preventDefault();
         e.stopPropagation();
         speakJapanese(stripFuriganaBrackets(text), rate);
       }}
     >
-      <Volume2 />
+      <Volume2 className={iconClassName} />
     </Button>
   );
 }

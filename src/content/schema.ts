@@ -176,12 +176,21 @@ export const speakingExerciseSchema = z.object({
   translationEs: z.string().optional(),
 });
 
+export const listeningExerciseSchema = z.object({
+  ...baseExerciseSchema,
+  type: z.literal("listening"),
+  targetJp: z.string().min(1),
+  targetReading: z.string().optional(),
+  translationEs: z.string().optional(),
+});
+
 export const exerciseSchema = z.discriminatedUnion("type", [
   multipleChoiceExerciseSchema,
   fillInBlankExerciseSchema,
   wordOrderExerciseSchema,
   matchingExerciseSchema,
   speakingExerciseSchema,
+  listeningExerciseSchema,
 ]);
 
 export const vocabFileSchema = z.array(vocabWordSchema);

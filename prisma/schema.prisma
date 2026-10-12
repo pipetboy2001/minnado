@@ -55,6 +55,7 @@ enum ExerciseType {
   WORD_ORDER
   MATCHING
   SPEAKING
+  LISTENING
 }
 
 enum ExerciseSkill {

@@ -80,16 +80,22 @@ export default async function LessonPage({
           <div className="grid grid-cols-3 gap-3 sm:grid-cols-4">
             {kanji.map((k) => (
               <Card key={k.id}>
-                <CardContent className="flex flex-col items-center p-4 text-center">
-                  <div className="flex items-center gap-1">
-                    <Furigana
-                      text={`${k.character}[${k.kunyomi[0] ?? k.onyomi[0] ?? ""}]`}
-                      className="text-3xl"
-                    />
-                    <SpeakButton
-                      text={k.kunyomi[0] ?? k.onyomi[0] ?? k.character}
-                    />
-                  </div>
+                <CardContent className="flex flex-col items-center gap-1 p-4 text-center">
+                  <span className="font-jp text-3xl">{k.character}</span>
+                  {k.onyomi.length > 0 && (
+                    <div className="flex items-center gap-1 text-sm">
+                      <span className="text-muted-foreground">音:</span>
+                      <span className="font-jp">{k.onyomi.join("、")}</span>
+                      <SpeakButton text={k.onyomi.join("、")} size="icon-xs" />
+                    </div>
+                  )}
+                  {k.kunyomi.length > 0 && (
+                    <div className="flex items-center gap-1 text-sm">
+                      <span className="text-muted-foreground">訓:</span>
+                      <span className="font-jp">{k.kunyomi.join("、")}</span>
+                      <SpeakButton text={k.kunyomi.join("、")} size="icon-xs" />
+                    </div>
+                  )}
                   <p className="text-sm text-muted-foreground">{k.meaningEs}</p>
                 </CardContent>
               </Card>
@@ -131,8 +137,8 @@ export default async function LessonPage({
         </h2>
         <p className="mb-4 text-sm text-muted-foreground">
           Partículas, adjetivos, formas verbales, vocabulario y más — en formato
-          de opción múltiple, completar espacio, ordenar palabras, emparejar y
-          pronunciación.
+          de opción múltiple, completar espacio, ordenar palabras, emparejar,
+          pronunciación y comprensión auditiva.
         </p>
         <Button render={<Link href={`/actividades/${lesson.id}/practica`} />}>
           Practicar ejercicios

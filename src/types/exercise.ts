@@ -1,7 +1,12 @@
 import type { ExerciseSkill, JlptLevel } from "./jlpt";
 
 export type ExerciseType =
-  "multiple-choice" | "fill-in-blank" | "word-order" | "matching" | "speaking";
+  | "multiple-choice"
+  | "fill-in-blank"
+  | "word-order"
+  | "matching"
+  | "speaking"
+  | "listening";
 
 export type ExerciseDifficulty = 1 | 2 | 3;
 
@@ -87,12 +92,28 @@ export interface SpeakingExercise extends BaseExercise {
   translationEs?: string;
 }
 
+/**
+ * Dictation exercise: audio of `targetJp` plays via speechSynthesis (no
+ * script shown beforehand) and the user types what they heard in Japanese
+ * — no romaji, by design, since typing kana is itself the practice.
+ * `targetReading` (plain hiragana/katakana) is optional and, when present,
+ * is also accepted so the learner isn't marked wrong for not guessing which
+ * kanji the audio implied.
+ */
+export interface ListeningExercise extends BaseExercise {
+  type: "listening";
+  targetJp: string;
+  targetReading?: string;
+  translationEs?: string;
+}
+
 export type Exercise =
   | MultipleChoiceExercise
   | FillInBlankExercise
   | WordOrderExercise
   | MatchingExercise
-  | SpeakingExercise;
+  | SpeakingExercise
+  | ListeningExercise;
 
 export interface ExerciseAttemptResult {
   exerciseId: string;
