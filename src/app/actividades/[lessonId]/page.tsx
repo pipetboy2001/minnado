@@ -14,6 +14,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 
 export default async function LessonPage({
   params,
@@ -62,19 +63,21 @@ export default async function LessonPage({
         </div>
       </section>
 
-      <section className="mb-8">
-        <h2 className="mb-3 text-lg font-semibold">Kanji</h2>
-        <div className="grid grid-cols-3 gap-3 sm:grid-cols-4">
-          {kanji.map((k) => (
-            <Card key={k.id}>
-              <CardContent className="p-4 text-center">
-                <p className="text-3xl">{k.character}</p>
-                <p className="text-sm text-muted-foreground">{k.meaningEs}</p>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-      </section>
+      {kanji.length > 0 && (
+        <section className="mb-8">
+          <h2 className="mb-3 text-lg font-semibold">Kanji</h2>
+          <div className="grid grid-cols-3 gap-3 sm:grid-cols-4">
+            {kanji.map((k) => (
+              <Card key={k.id}>
+                <CardContent className="p-4 text-center">
+                  <p className="text-3xl">{k.character}</p>
+                  <p className="text-sm text-muted-foreground">{k.meaningEs}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </section>
+      )}
 
       <section className="mb-8">
         <h2 className="mb-3 text-lg font-semibold">Gramática</h2>
@@ -102,12 +105,13 @@ export default async function LessonPage({
         <h2 className="mb-3 text-lg font-semibold">
           Ejercicios ({exercises.length})
         </h2>
-        <p className="text-sm text-muted-foreground">
-          El motor interactivo de ejercicios se implementará en el próximo
-          ticket (JPN-2). Por ahora, estos son los tipos de ejercicio
-          disponibles en esta lección:{" "}
-          {Array.from(new Set(exercises.map((e) => e.type))).join(", ")}.
+        <p className="mb-4 text-sm text-muted-foreground">
+          Partículas, adjetivos, formas verbales, vocabulario y más — en formato
+          de opción múltiple, completar espacio, ordenar palabras y emparejar.
         </p>
+        <Button render={<Link href={`/actividades/${lesson.id}/practica`} />}>
+          Practicar ejercicios
+        </Button>
       </section>
     </div>
   );
