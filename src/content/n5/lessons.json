@@ -21,5 +21,83 @@
       "n5-gram-0004"
     ],
     "exerciseIds": ["n5-ex-0001", "n5-ex-0002", "n5-ex-0003", "n5-ex-0004"]
+  },
+  {
+    "id": "n5-lesson-02",
+    "jlptLevel": "N5",
+    "order": 2,
+    "title": "Lección 2 — Demostrativos (これ・それ・あれ)",
+    "description": "Pronombres y adjetivos demostrativos, ubicación (ここ/そこ/あそこ) y la partícula posesiva の, basado en Minna no Nihongo Lección 2.",
+    "vocabIds": [
+      "n5-voc-0007",
+      "n5-voc-0008",
+      "n5-voc-0009",
+      "n5-voc-0010",
+      "n5-voc-0011",
+      "n5-voc-0012",
+      "n5-voc-0013",
+      "n5-voc-0014",
+      "n5-voc-0015",
+      "n5-voc-0016",
+      "n5-voc-0017"
+    ],
+    "kanjiIds": [],
+    "grammarIds": [
+      "n5-gram-0005",
+      "n5-gram-0006",
+      "n5-gram-0007",
+      "n5-gram-0008"
+    ],
+    "exerciseIds": ["n5-ex-0005", "n5-ex-0006", "n5-ex-0007", "n5-ex-0008"]
+  },
+  {
+    "id": "n5-lesson-03",
+    "jlptLevel": "N5",
+    "order": 3,
+    "title": "Práctica de Gramática — Partículas, Adjetivos y Formas Verbales",
+    "description": "Módulo de ejercitación interactiva: completar oraciones con la partícula correcta, conectar adjetivos い/な, y conjugar verbos a la forma ます y て.",
+    "vocabIds": [
+      "n5-voc-0018",
+      "n5-voc-0019",
+      "n5-voc-0020",
+      "n5-voc-0021",
+      "n5-voc-0022",
+      "n5-voc-0023",
+      "n5-voc-0024",
+      "n5-voc-0025",
+      "n5-voc-0026",
+      "n5-voc-0027",
+      "n5-voc-0028"
+    ],
+    "kanjiIds": [],
+    "grammarIds": [
+      "n5-gram-0009",
+      "n5-gram-0010",
+      "n5-gram-0011",
+      "n5-gram-0012"
+    ],
+    "exerciseIds": [
+      "n5-ex-0009",
+      "n5-ex-0010",
+      "n5-ex-0011",
+      "n5-ex-0012",
+      "n5-ex-0013",
+      "n5-ex-0014",
+      "n5-ex-0015",
+      "n5-ex-0016",
+      "n5-ex-0017",
+      "n5-ex-0018",
+      "n5-ex-0019",
+      "n5-ex-0020",
+      "n5-ex-0021",
+      "n5-ex-0022",
+      "n5-ex-0023",
+      "n5-ex-0024",
+      "n5-ex-0025",
+      "n5-ex-0026",
+      "n5-ex-0027",
+      "n5-ex-0028",
+      "n5-ex-0029"
+    ]
   }
 ]

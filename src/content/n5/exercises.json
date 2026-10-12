@@ -56,5 +56,408 @@
       { "id": "p3", "left": "大きい", "right": "grande" }
     ],
     "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0005",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-02",
+    "promptEs": "Tienes el libro en tus propias manos. Elige la palabra correcta.",
+    "questionJp": "＿は本です。",
+    "options": [
+      { "id": "a", "textJp": "これ", "isCorrect": true },
+      { "id": "b", "textJp": "それ", "isCorrect": false },
+      { "id": "c", "textJp": "あれ", "isCorrect": false },
+      { "id": "d", "textJp": "この", "isCorrect": false }
+    ],
+    "explanationEs": "これ se usa para algo que está cerca de quien habla.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0006",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-02",
+    "promptEs": "El libro está cerca de la persona con la que hablas. Completa con この/その/あの.",
+    "sentenceTemplate": "{{1}}本はたなかさんのです。",
+    "sentenceReading": "{{1}}ほんはたなかさんのです。",
+    "translationEs": "Ese libro es del señor Tanaka.",
+    "blanks": [{ "id": "1", "acceptedAnswers": ["その"] }],
+    "explanationEs": "その＋sustantivo se usa cuando el objeto está cerca del oyente, no del hablante.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0007",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "particles",
+    "lessonId": "n5-lesson-02",
+    "promptEs": "Completa con la partícula posesiva.",
+    "sentenceTemplate": "これはわたし{{1}}本です。",
+    "sentenceReading": "これはわたし{{1}}ほんです。",
+    "translationEs": "Esto es mi libro.",
+    "blanks": [{ "id": "1", "acceptedAnswers": ["の"] }],
+    "explanationEs": "の conecta 'わたし' (yo) con '本' (libro) indicando posesión: el libro de mí.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0008",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-02",
+    "promptEs": "Preguntas por el baño, que está lejos de ti y de tu oyente.",
+    "questionJp": "トイレは＿です。",
+    "options": [
+      { "id": "a", "textJp": "ここ", "isCorrect": false },
+      { "id": "b", "textJp": "そこ", "isCorrect": false },
+      { "id": "c", "textJp": "あそこ", "isCorrect": true },
+      { "id": "d", "textJp": "これ", "isCorrect": false }
+    ],
+    "explanationEs": "あそこ se usa para un lugar lejos tanto del hablante como del oyente.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0009",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "particles",
+    "lessonId": "n5-lesson-03",
+    "promptEs": "Elige la partícula correcta.",
+    "questionJp": "田中さん＿学生です。",
+    "options": [
+      { "id": "a", "textJp": "は", "isCorrect": true },
+      { "id": "b", "textJp": "を", "isCorrect": false },
+      { "id": "c", "textJp": "に", "isCorrect": false },
+      { "id": "d", "textJp": "で", "isCorrect": false }
+    ],
+    "explanationEs": "は marca el tema de la oración.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0010",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "particles",
+    "lessonId": "n5-lesson-03",
+    "promptEs": "Elige la partícula correcta.",
+    "questionJp": "本＿買います。",
+    "options": [
+      { "id": "a", "textJp": "を", "isCorrect": true },
+      { "id": "b", "textJp": "に", "isCorrect": false },
+      { "id": "c", "textJp": "で", "isCorrect": false },
+      { "id": "d", "textJp": "の", "isCorrect": false }
+    ],
+    "explanationEs": "を marca el objeto directo del verbo 買う (comprar).",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0011",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "particles",
+    "lessonId": "n5-lesson-03",
+    "promptEs": "Elige la partícula correcta.",
+    "questionJp": "レストラン＿食べます。",
+    "options": [
+      { "id": "a", "textJp": "で", "isCorrect": true },
+      { "id": "b", "textJp": "を", "isCorrect": false },
+      { "id": "c", "textJp": "は", "isCorrect": false },
+      { "id": "d", "textJp": "の", "isCorrect": false }
+    ],
+    "explanationEs": "で marca el lugar donde ocurre una acción: 'comer en el restaurante'.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0012",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "particles",
+    "lessonId": "n5-lesson-03",
+    "promptEs": "Elige la partícula correcta.",
+    "questionJp": "日本＿行きます。",
+    "options": [
+      { "id": "a", "textJp": "に", "isCorrect": true },
+      { "id": "b", "textJp": "を", "isCorrect": false },
+      { "id": "c", "textJp": "で", "isCorrect": false },
+      { "id": "d", "textJp": "の", "isCorrect": false }
+    ],
+    "explanationEs": "に marca el destino de un verbo de movimiento como 行く (ir).",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0013",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "particles",
+    "lessonId": "n5-lesson-03",
+    "promptEs": "Completa con la partícula posesiva.",
+    "sentenceTemplate": "これは　わたし{{1}}本です。",
+    "sentenceReading": "これはわたし{{1}}ほんです。",
+    "translationEs": "Esto es mi libro.",
+    "blanks": [{ "id": "1", "acceptedAnswers": ["の"] }],
+    "explanationEs": "の conecta al poseedor con la cosa poseída.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0014",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "particles",
+    "lessonId": "n5-lesson-03",
+    "promptEs": "Completa con la partícula de destino.",
+    "sentenceTemplate": "まいにち　学校{{1}}行きます。",
+    "sentenceReading": "まいにちがっこう{{1}}いきます。",
+    "translationEs": "Voy a la escuela todos los días.",
+    "blanks": [{ "id": "1", "acceptedAnswers": ["に"] }],
+    "explanationEs": "に marca el destino del movimiento.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0015",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-03",
+    "promptEs": "Conecta los dos adjetivos-い con くて.",
+    "sentenceTemplate": "この家は大き{{1}}新しいです。",
+    "sentenceReading": "このいえはおおき{{1}}あたらしいです。",
+    "translationEs": "Esta casa es grande y nueva.",
+    "blanks": [{ "id": "1", "acceptedAnswers": ["くて"] }],
+    "explanationEs": "大きい pierde su い final y se convierte en 大きくて para conectar con el siguiente adjetivo.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0016",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-03",
+    "promptEs": "Conecta el adjetivo-な con で.",
+    "sentenceTemplate": "たなかさんは元気{{1}}、親切です。",
+    "sentenceReading": "たなかさんはげんき{{1}}、しんせつです。",
+    "translationEs": "El señor Tanaka está lleno de energía y es amable.",
+    "blanks": [{ "id": "1", "acceptedAnswers": ["で"] }],
+    "explanationEs": "Los adjetivos-な agregan で (en vez de です) cuando conectan con otro adjetivo.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0017",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-03",
+    "promptEs": "¿Cuál es la forma negativa correcta de 親切 (な-adjetivo)?",
+    "questionJp": "親切 の否定形は？",
+    "options": [
+      { "id": "a", "textJp": "親切じゃないです", "isCorrect": true },
+      { "id": "b", "textJp": "親切くないです", "isCorrect": false },
+      { "id": "c", "textJp": "親切のです", "isCorrect": false },
+      { "id": "d", "textJp": "親切ではある", "isCorrect": false }
+    ],
+    "explanationEs": "Los adjetivos-な se niegan como sustantivos: 親切じゃないです (o ではありません en formal).",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0018",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-03",
+    "promptEs": "¿Cuál es la forma negativa correcta de 新しい (い-adjetivo)?",
+    "questionJp": "新しい の否定形は？",
+    "options": [
+      { "id": "a", "textJp": "新しくないです", "isCorrect": true },
+      { "id": "b", "textJp": "新しいじゃないです", "isCorrect": false },
+      { "id": "c", "textJp": "新しくではないです", "isCorrect": false },
+      { "id": "d", "textJp": "新しいくない", "isCorrect": false }
+    ],
+    "explanationEs": "Se quita la い final y se agrega くないです: 新しい → 新しくないです。",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0019",
+    "type": "word-order",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-03",
+    "promptEs": "Ordena las palabras conectando los dos adjetivos.",
+    "wordBank": ["たなかさんは", "元気で", "親切です"],
+    "correctOrder": ["たなかさんは", "元気で", "親切です"],
+    "translationEs": "El señor Tanaka está lleno de energía y es amable.",
+    "explanationEs": "El adjetivo-な con で va antes del segundo adjetivo que cierra la oración.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0020",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-03",
+    "promptEs": "¿Cuál es la forma ます de 食べる?",
+    "questionJp": "食べる の「ます形」は？",
+    "options": [
+      { "id": "a", "textJp": "たべます", "isCorrect": true },
+      { "id": "b", "textJp": "たべります", "isCorrect": false },
+      { "id": "c", "textJp": "たべんます", "isCorrect": false },
+      { "id": "d", "textJp": "たべるます", "isCorrect": false }
+    ],
+    "explanationEs": "食べる es un verbo-る: se quita る y se agrega ます.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0021",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-03",
+    "promptEs": "¿Cuál es la forma て de 食べる?",
+    "questionJp": "食べる の「て形」は？",
+    "options": [
+      { "id": "a", "textJp": "たべて", "isCorrect": true },
+      { "id": "b", "textJp": "たべって", "isCorrect": false },
+      { "id": "c", "textJp": "たべいて", "isCorrect": false },
+      { "id": "d", "textJp": "たべんで", "isCorrect": false }
+    ],
+    "explanationEs": "Verbos-る: se quita る y se agrega て.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0022",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-03",
+    "promptEs": "¿Cuál es la forma ます de 飲む?",
+    "questionJp": "飲む の「ます形」は？",
+    "options": [
+      { "id": "a", "textJp": "のみます", "isCorrect": true },
+      { "id": "b", "textJp": "のむます", "isCorrect": false },
+      { "id": "c", "textJp": "のめます", "isCorrect": false },
+      { "id": "d", "textJp": "のんます", "isCorrect": false }
+    ],
+    "explanationEs": "Verbos-う del grupo む: la u final cambia a i (飲む→飲み) y se agrega ます.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0023",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-03",
+    "promptEs": "¿Cuál es la forma て de 飲む?",
+    "questionJp": "飲む の「て形」は？",
+    "options": [
+      { "id": "a", "textJp": "のんで", "isCorrect": true },
+      { "id": "b", "textJp": "のみて", "isCorrect": false },
+      { "id": "c", "textJp": "のって", "isCorrect": false },
+      { "id": "d", "textJp": "のいで", "isCorrect": false }
+    ],
+    "explanationEs": "Verbos-う del grupo む/ぶ/ぬ: la terminación se vuelve んで.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0024",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-03",
+    "promptEs": "¿Cuál es la forma て de 行く? (¡Cuidado, es una excepción!)",
+    "questionJp": "行く の「て形」は？",
+    "options": [
+      { "id": "a", "textJp": "いって", "isCorrect": true },
+      { "id": "b", "textJp": "いいて", "isCorrect": false },
+      { "id": "c", "textJp": "いくて", "isCorrect": false },
+      { "id": "d", "textJp": "いんで", "isCorrect": false }
+    ],
+    "explanationEs": "行く es una excepción: en vez de seguir el patrón く→いて, se vuelve 行って.",
+    "difficulty": 3
+  },
+  {
+    "id": "n5-ex-0025",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-03",
+    "promptEs": "¿Cuál es la forma ます de する?",
+    "questionJp": "する の「ます形」は？",
+    "options": [
+      { "id": "a", "textJp": "します", "isCorrect": true },
+      { "id": "b", "textJp": "すります", "isCorrect": false },
+      { "id": "c", "textJp": "すます", "isCorrect": false },
+      { "id": "d", "textJp": "しんます", "isCorrect": false }
+    ],
+    "explanationEs": "する es irregular y se vuelve します en la forma educada.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0026",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-03",
+    "promptEs": "¿Cuál es la forma て de 来る?",
+    "questionJp": "来る の「て形」は？",
+    "options": [
+      { "id": "a", "textJp": "きて", "isCorrect": true },
+      { "id": "b", "textJp": "くて", "isCorrect": false },
+      { "id": "c", "textJp": "きって", "isCorrect": false },
+      { "id": "d", "textJp": "こて", "isCorrect": false }
+    ],
+    "explanationEs": "来る es irregular: su forma て es きて.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0027",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-03",
+    "promptEs": "¿Cuál es la forma て de 買う?",
+    "questionJp": "買う の「て形」は？",
+    "options": [
+      { "id": "a", "textJp": "かって", "isCorrect": true },
+      { "id": "b", "textJp": "かいて", "isCorrect": false },
+      { "id": "c", "textJp": "かんで", "isCorrect": false },
+      { "id": "d", "textJp": "かて", "isCorrect": false }
+    ],
+    "explanationEs": "Verbos-う del grupo う/つ/る: la terminación se vuelve って.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0028",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-03",
+    "promptEs": "¿Cuál es la forma て de 書く?",
+    "questionJp": "書く の「て形」は？",
+    "options": [
+      { "id": "a", "textJp": "かいて", "isCorrect": true },
+      { "id": "b", "textJp": "かって", "isCorrect": false },
+      { "id": "c", "textJp": "かいで", "isCorrect": false },
+      { "id": "d", "textJp": "かきて", "isCorrect": false }
+    ],
+    "explanationEs": "Verbos-う del grupo く: la terminación se vuelve いて.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0029",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-03",
+    "promptEs": "¿Cuál es la forma て de 見る?",
+    "questionJp": "見る の「て形」は？",
+    "options": [
+      { "id": "a", "textJp": "みて", "isCorrect": true },
+      { "id": "b", "textJp": "みいて", "isCorrect": false },
+      { "id": "c", "textJp": "みんで", "isCorrect": false },
+      { "id": "d", "textJp": "みって", "isCorrect": false }
+    ],
+    "explanationEs": "Verbos-る: se quita る y se agrega て.",
+    "difficulty": 1
   }
 ]

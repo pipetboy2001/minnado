@@ -59,5 +59,133 @@
         "es": "No estoy bien de salud."
       }
     ]
+  },
+  {
+    "id": "n5-gram-0005",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "これ／それ／あれ (pronombres demostrativos)",
+    "pattern": "これ／それ／あれ は N です。",
+    "explanationEs": "これ se usa para algo cerca del hablante, それ para algo cerca del oyente, y あれ para algo lejos de ambos. No se combinan directamente con un sustantivo (para eso se usa この／その／あの).",
+    "examples": [
+      {
+        "jp": "これは本です。",
+        "reading": "これはほんです。",
+        "es": "Esto es un libro."
+      },
+      {
+        "jp": "あれは田中さんの本です。",
+        "reading": "あれはたなかさんのほんです。",
+        "es": "Aquello es el libro del señor Tanaka."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0006",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "この／その／あの + Sustantivo",
+    "pattern": "この／その／あの + [Sustantivo]",
+    "explanationEs": "A diferencia de これ／それ／あれ, este grupo siempre va pegado a un sustantivo que modifica, igual que 'este/ese/aquel libro' en español.",
+    "examples": [
+      {
+        "jp": "この本は面白いです。",
+        "reading": "このほんはおもしろいです。",
+        "es": "Este libro es interesante."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0007",
+    "jlptLevel": "N5",
+    "category": "particles",
+    "title": "Partícula の (posesión/pertenencia)",
+    "pattern": "[Poseedor] の [Cosa poseída]",
+    "explanationEs": "の conecta dos sustantivos indicando posesión o pertenencia, como 'de' en español pero en orden inverso.",
+    "examples": [
+      {
+        "jp": "これは私の本です。",
+        "reading": "これはわたしのほんです。",
+        "es": "Esto es mi libro (el libro de mí)."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0008",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "ここ／そこ／あそこ (ubicación)",
+    "pattern": "[Lugar] は ここ／そこ／あそこ です。",
+    "explanationEs": "Indican la ubicación de un lugar respecto al hablante (ここ, cerca), al oyente (そこ) o lejos de ambos (あそこ).",
+    "examples": [
+      {
+        "jp": "トイレはあそこです。",
+        "reading": "といれはあそこです。",
+        "es": "El baño está allá."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0009",
+    "jlptLevel": "N5",
+    "category": "verb-forms",
+    "title": "Forma ます (presente educado)",
+    "pattern": "Verbo-う: [raíz]+い→ます ・ Verbo-る: quitar る+ます ・ irregulares: する→します, 来る→きます",
+    "explanationEs": "La forma ます es la forma educada de presente/futuro. Verbos-う cambian la vocal final u→i antes de añadir ます (飲む→飲みます); verbos-る quitan る y añaden ます (食べる→食べます); する y 来る son irregulares.",
+    "structureNotes": "Verbos-う: 行く→行きます、買う→買います、読む→読みます、書く→書きます、持つ→持ちます。Verbos-る: 見る→見ます。Irregulares: する→します、来る→きます。",
+    "examples": [
+      {
+        "jp": "本を読みます。",
+        "reading": "ほんをよみます。",
+        "es": "Leo un libro."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0010",
+    "jlptLevel": "N5",
+    "category": "verb-forms",
+    "title": "Forma て (conectar acciones / peticiones)",
+    "pattern": "Verbo-う: う/つ/る→って ・ む/ぶ/ぬ→んで ・ く→いて ・ ぐ→いで ・ す→して ・ Verbo-る: quitar る+て ・ irregulares: する→して, 来る→きて",
+    "explanationEs": "La forma て conecta acciones en secuencia y se usa para pedir algo con ください. Cada grupo de verbos-う tiene su propia terminación; hay que memorizarlas por grupo.",
+    "structureNotes": "Excepción importante: 行く (grupo く) no sigue el patrón normal y se vuelve 行って en vez de 行いて.",
+    "examples": [
+      {
+        "jp": "朝ご飯を食べて、学校に行きます。",
+        "reading": "あさごはんをたべて、がっこうにいきます。",
+        "es": "Como el desayuno y voy a la escuela."
+      }
+    ],
+    "relatedGrammarIds": ["n5-gram-0009"]
+  },
+  {
+    "id": "n5-gram-0011",
+    "jlptLevel": "N5",
+    "category": "adjectives-i",
+    "title": "Conectar dos adjetivos-い con くて",
+    "pattern": "[Adjetivo-い (sin い)] + くて + [segundo adjetivo]。",
+    "explanationEs": "Para describir algo con dos adjetivos-い en una misma oración, el primero cambia su terminación い por くて.",
+    "examples": [
+      {
+        "jp": "この家は大きくて新しいです。",
+        "reading": "このいえはおおきくてあたらしいです。",
+        "es": "Esta casa es grande y nueva."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0012",
+    "jlptLevel": "N5",
+    "category": "adjectives-na",
+    "title": "Conectar un adjetivo-な con で",
+    "pattern": "[Adjetivo-な] + で + [segundo adjetivo]。",
+    "explanationEs": "Para describir algo con un adjetivo-な seguido de otro adjetivo, se agrega で después del adjetivo-な (igual que です se vuelve で al conectar).",
+    "examples": [
+      {
+        "jp": "田中さんは元気で、親切です。",
+        "reading": "たなかさんはげんきで、しんせつです。",
+        "es": "El señor Tanaka está lleno de energía y es amable."
+      }
+    ]
   }
 ]
