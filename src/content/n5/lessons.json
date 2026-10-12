@@ -5,6 +5,7 @@
     "order": 1,
     "title": "Lección 1 — Presentaciones (私は学生です)",
     "description": "Introducción a は, を, adjetivos い/な y vocabulario básico basado en Minna no Nihongo Lección 1.",
+    "kind": "lesson",
     "vocabIds": [
       "n5-voc-0001",
       "n5-voc-0002",
@@ -42,6 +43,7 @@
     "order": 2,
     "title": "Lección 2 — Demostrativos (これ・それ・あれ)",
     "description": "Pronombres y adjetivos demostrativos, ubicación (ここ/そこ/あそこ) y la partícula posesiva の, basado en Minna no Nihongo Lección 2.",
+    "kind": "lesson",
     "vocabIds": [
       "n5-voc-0007",
       "n5-voc-0008",
@@ -83,6 +85,7 @@
     "order": 3,
     "title": "Lección 3 — Existencia y ubicación (あります・います)",
     "description": "あります／います para expresar existencia, palabras de ubicación (上/下/前/後ろ/中) y los números del 1 al 10, basado en Minna no Nihongo Lección 3.",
+    "kind": "lesson",
     "vocabIds": [
       "n5-voc-0030",
       "n5-voc-0031",
@@ -127,8 +130,9 @@
     "id": "n5-lesson-03",
     "jlptLevel": "N5",
     "order": 4,
-    "title": "Práctica de Gramática — Partículas, Adjetivos y Formas Verbales",
-    "description": "Módulo de ejercitación interactiva: completar oraciones con la partícula correcta, conectar adjetivos い/な, y conjugar verbos a la forma ます y て.",
+    "title": "Repaso — Partículas, Adjetivos y Formas Verbales",
+    "description": "Módulo de repaso transversal: partícula correcta, adjetivos い/な, y conjugación verbal (forma ます y て) a través de varias lecciones.",
+    "kind": "review",
     "vocabIds": [
       "n5-voc-0018",
       "n5-voc-0019",

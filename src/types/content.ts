@@ -58,6 +58,7 @@ export interface Lesson {
   order: number;
   title: string;
   description?: string;
+  kind: "lesson" | "review";
   vocabIds: string[];
   kanjiIds: string[];
   grammarIds: string[];

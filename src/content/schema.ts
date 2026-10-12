@@ -97,6 +97,12 @@ export const lessonSchema = z.object({
   order: z.number().int().nonnegative(),
   title: z.string().min(1),
   description: z.string().optional(),
+  /**
+   * "lesson" = sequential Minna no Nihongo lesson (its own vocab/kanji/
+   * grammar + exercises). "review" = a cross-cutting module that drills
+   * grammar from multiple lessons at once, not tied to one vocab set.
+   */
+  kind: z.enum(["lesson", "review"]).default("lesson"),
   vocabIds: z.array(z.string()),
   kanjiIds: z.array(z.string()),
   grammarIds: z.array(z.string()),
