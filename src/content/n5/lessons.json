@@ -78,9 +78,55 @@
     ]
   },
   {
-    "id": "n5-lesson-03",
+    "id": "n5-lesson-04",
     "jlptLevel": "N5",
     "order": 3,
+    "title": "Lección 3 — Existencia y ubicación (あります・います)",
+    "description": "あります／います para expresar existencia, palabras de ubicación (上/下/前/後ろ/中) y los números del 1 al 10, basado en Minna no Nihongo Lección 3.",
+    "vocabIds": [
+      "n5-voc-0030",
+      "n5-voc-0031",
+      "n5-voc-0032",
+      "n5-voc-0033",
+      "n5-voc-0034",
+      "n5-voc-0035",
+      "n5-voc-0036",
+      "n5-voc-0037",
+      "n5-voc-0038",
+      "n5-voc-0039",
+      "n5-voc-0040"
+    ],
+    "kanjiIds": [
+      "n5-kanji-0004",
+      "n5-kanji-0005",
+      "n5-kanji-0006",
+      "n5-kanji-0007"
+    ],
+    "grammarIds": [
+      "n5-gram-0013",
+      "n5-gram-0014",
+      "n5-gram-0015",
+      "n5-gram-0016"
+    ],
+    "exerciseIds": [
+      "n5-ex-0048",
+      "n5-ex-0049",
+      "n5-ex-0050",
+      "n5-ex-0051",
+      "n5-ex-0052",
+      "n5-ex-0053",
+      "n5-ex-0054",
+      "n5-ex-0055",
+      "n5-ex-0056",
+      "n5-ex-0057",
+      "n5-ex-0058",
+      "n5-ex-0059"
+    ]
+  },
+  {
+    "id": "n5-lesson-03",
+    "jlptLevel": "N5",
+    "order": 4,
     "title": "Práctica de Gramática — Partículas, Adjetivos y Formas Verbales",
     "description": "Módulo de ejercitación interactiva: completar oraciones con la partícula correcta, conectar adjetivos い/な, y conjugar verbos a la forma ます y て.",
     "vocabIds": [

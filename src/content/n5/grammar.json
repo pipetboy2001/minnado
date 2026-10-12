@@ -187,5 +187,81 @@
         "es": "El señor Tanaka está lleno de energía y es amable."
       }
     ]
+  },
+  {
+    "id": "n5-gram-0013",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "あります／います (existencia)",
+    "pattern": "[Lugar]に[Cosa]があります。／[Lugar]に[Persona/Animal]がいます。",
+    "explanationEs": "あります se usa para la existencia de cosas inanimadas; います para seres vivos (personas y animales). Ambos se marcan con la partícula が.",
+    "structureNotes": "El orden también puede invertirse: [Cosa]は[Lugar]にあります。",
+    "examples": [
+      {
+        "jp": "つくえの上に本があります。",
+        "reading": "つくえのうえにほんがあります。",
+        "es": "Hay un libro sobre el escritorio."
+      },
+      {
+        "jp": "つくえの下に猫がいます。",
+        "reading": "つくえのしたにねこがいます。",
+        "es": "Hay un gato debajo del escritorio."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0014",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "Palabras de ubicación: 上・下・前・後ろ・中",
+    "pattern": "[Sustantivo]の[上/下/前/後ろ/中]に",
+    "explanationEs": "Estas palabras indican posición relativa y siempre van después de の + sustantivo.",
+    "examples": [
+      {
+        "jp": "テーブルの前に犬がいます。",
+        "reading": "テーブルのまえにいぬがいます。",
+        "es": "Hay un perro delante de la mesa."
+      },
+      {
+        "jp": "猫はテーブルの後ろにいます。",
+        "reading": "ねこはテーブルのうしろにいます。",
+        "es": "El gato está detrás de la mesa."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0015",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "〜は〜にあります／います (orden invertido)",
+    "pattern": "[Cosa/Persona]は[Lugar]にあります／います。",
+    "explanationEs": "Cuando la cosa o persona ya es el tema de la conversación, se marca con は y la oración se invierte: en vez de 'hay un libro ahí', se dice 'el libro está ahí'.",
+    "examples": [
+      {
+        "jp": "本はつくえの上にあります。",
+        "reading": "ほんはつくえのうえにあります。",
+        "es": "El libro está sobre el escritorio."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0016",
+    "jlptLevel": "N5",
+    "category": "numbers-counters",
+    "title": "Números del 1 al 10",
+    "pattern": "一・二・三・四・五・六・七・八・九・十",
+    "explanationEs": "Los números del 1 al 10 son la base para contar en japonés. 四 y 七 tienen dos lecturas comunes.",
+    "examples": [
+      { "jp": "一", "reading": "いち", "es": "uno (1)" },
+      { "jp": "二", "reading": "に", "es": "dos (2)" },
+      { "jp": "三", "reading": "さん", "es": "tres (3)" },
+      { "jp": "四", "reading": "し／よん", "es": "cuatro (4)" },
+      { "jp": "五", "reading": "ご", "es": "cinco (5)" },
+      { "jp": "六", "reading": "ろく", "es": "seis (6)" },
+      { "jp": "七", "reading": "しち／なな", "es": "siete (7)" },
+      { "jp": "八", "reading": "はち", "es": "ocho (8)" },
+      { "jp": "九", "reading": "きゅう", "es": "nueve (9)" },
+      { "jp": "十", "reading": "じゅう", "es": "diez (10)" }
+    ]
   }
 ]

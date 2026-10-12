@@ -44,5 +44,69 @@
       { "word": "学生", "reading": "がくせい", "meaningEs": "estudiante" },
       { "word": "大学", "reading": "だいがく", "meaningEs": "universidad" }
     ]
+  },
+  {
+    "id": "n5-kanji-0004",
+    "character": "上",
+    "jlptLevel": "N5",
+    "strokeCount": 3,
+    "onyomi": ["ジョウ"],
+    "kunyomi": ["うえ", "あ-げる", "あ-がる"],
+    "meaningEs": "arriba, encima, subir",
+    "radicals": ["一"],
+    "exampleWords": [
+      { "word": "上手", "reading": "じょうず", "meaningEs": "hábil, diestro" },
+      {
+        "word": "屋上",
+        "reading": "おくじょう",
+        "meaningEs": "terraza, azotea"
+      }
+    ]
+  },
+  {
+    "id": "n5-kanji-0005",
+    "character": "下",
+    "jlptLevel": "N5",
+    "strokeCount": 3,
+    "onyomi": ["カ", "ゲ"],
+    "kunyomi": ["した", "しも", "くだ-る"],
+    "meaningEs": "abajo, debajo, bajar",
+    "radicals": ["一"],
+    "exampleWords": [
+      { "word": "下手", "reading": "へた", "meaningEs": "torpe, poco hábil" },
+      { "word": "地下", "reading": "ちか", "meaningEs": "subterráneo" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0006",
+    "character": "前",
+    "jlptLevel": "N5",
+    "strokeCount": 9,
+    "onyomi": ["ゼン"],
+    "kunyomi": ["まえ"],
+    "meaningEs": "delante, antes, frente",
+    "radicals": ["刀"],
+    "exampleWords": [
+      { "word": "午前", "reading": "ごぜん", "meaningEs": "a.m., la mañana" },
+      { "word": "名前", "reading": "なまえ", "meaningEs": "nombre" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0007",
+    "character": "中",
+    "jlptLevel": "N5",
+    "strokeCount": 4,
+    "onyomi": ["チュウ"],
+    "kunyomi": ["なか"],
+    "meaningEs": "dentro, medio, centro",
+    "radicals": ["丨"],
+    "exampleWords": [
+      { "word": "中国", "reading": "ちゅうごく", "meaningEs": "China" },
+      {
+        "word": "一日中",
+        "reading": "いちにちじゅう",
+        "meaningEs": "todo el día"
+      }
+    ]
   }
 ]

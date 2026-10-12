@@ -760,5 +760,200 @@
     "translationEs": "Como el desayuno y voy a la escuela.",
     "explanationEs": "て conecta dos acciones en secuencia: comer y luego ir.",
     "difficulty": 3
+  },
+  {
+    "id": "n5-ex-0048",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-04",
+    "promptEs": "Elige el verbo de existencia correcto para un objeto inanimado.",
+    "questionJp": "つくえの上[うえ]に本[ほん]が{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "あります", "isCorrect": true },
+      { "id": "b", "textJp": "います", "isCorrect": false },
+      { "id": "c", "textJp": "です", "isCorrect": false },
+      { "id": "d", "textJp": "あげます", "isCorrect": false }
+    ],
+    "explanationEs": "あります se usa para cosas inanimadas, como 本 (libro).",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0049",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-04",
+    "promptEs": "Elige el verbo de existencia correcto para un ser vivo.",
+    "questionJp": "つくえの下[した]に猫[ねこ]が{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "います", "isCorrect": true },
+      { "id": "b", "textJp": "あります", "isCorrect": false },
+      { "id": "c", "textJp": "です", "isCorrect": false },
+      { "id": "d", "textJp": "いません", "isCorrect": false }
+    ],
+    "explanationEs": "います se usa para seres vivos, como 猫 (gato).",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0050",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-04",
+    "promptEs": "El perro está debajo de la mesa.",
+    "sentenceTemplate": "テーブルの{{1}}に犬[いぬ]がいます。",
+    "translationEs": "El perro está debajo de la mesa.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["下"],
+        "options": ["下", "上", "前", "中"]
+      }
+    ],
+    "explanationEs": "下 significa 'debajo'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0051",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-04",
+    "promptEs": "El gato está delante del escritorio.",
+    "sentenceTemplate": "机[つくえ]の{{1}}に猫[ねこ]がいます。",
+    "translationEs": "El gato está delante del escritorio.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["前"],
+        "options": ["前", "後ろ", "中", "上"]
+      }
+    ],
+    "explanationEs": "前 significa 'delante'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0052",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-04",
+    "promptEs": "El gato está dentro de la casa.",
+    "sentenceTemplate": "家[いえ]の{{1}}に猫[ねこ]がいます。",
+    "translationEs": "El gato está dentro de la casa.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["中"],
+        "options": ["中", "上", "下", "前"]
+      }
+    ],
+    "explanationEs": "中 significa 'dentro, en medio'.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0053",
+    "type": "word-order",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-04",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["本が", "あります", "テーブルの", "上に"],
+    "correctOrder": ["テーブルの", "上に", "本が", "あります"],
+    "translationEs": "Hay un libro sobre la mesa.",
+    "explanationEs": "Orden: [Lugar]に + [Cosa]が + あります／います。",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0054",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-04",
+    "promptEs": "Une cada palabra de ubicación con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "上", "right": "arriba / encima" },
+      { "id": "p2", "left": "下", "right": "abajo / debajo" },
+      { "id": "p3", "left": "前", "right": "delante" },
+      { "id": "p4", "left": "後ろ", "right": "detrás" },
+      { "id": "p5", "left": "中", "right": "dentro / en medio" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0055",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "particles",
+    "lessonId": "n5-lesson-04",
+    "promptEs": "El libro ya es el tema de la conversación. Elige la partícula correcta.",
+    "questionJp": "本[ほん]{{1}}机[つくえ]の上[うえ]にあります。",
+    "options": [
+      { "id": "a", "textJp": "は", "isCorrect": true },
+      { "id": "b", "textJp": "が", "isCorrect": false },
+      { "id": "c", "textJp": "を", "isCorrect": false },
+      { "id": "d", "textJp": "に", "isCorrect": false }
+    ],
+    "explanationEs": "Cuando la cosa ya es el tema de la oración, se marca con は en vez de が.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0056",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-04",
+    "promptEs": "Une cada número con su valor.",
+    "pairs": [
+      { "id": "p1", "left": "一", "right": "uno (1)" },
+      { "id": "p2", "left": "二", "right": "dos (2)" },
+      { "id": "p3", "left": "三", "right": "tres (3)" },
+      { "id": "p4", "left": "四", "right": "cuatro (4)" },
+      { "id": "p5", "left": "五", "right": "cinco (5)" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0057",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-04",
+    "promptEs": "¿Cómo se lee 九 (nueve) como número independiente?",
+    "questionJp": "九",
+    "options": [
+      { "id": "a", "textJp": "きゅう", "isCorrect": true },
+      { "id": "b", "textJp": "く", "isCorrect": false },
+      { "id": "c", "textJp": "じゅう", "isCorrect": false },
+      { "id": "d", "textJp": "はち", "isCorrect": false }
+    ],
+    "explanationEs": "九 como número independiente se lee きゅう (く aparece en compuestos como 九時, 'las nueve').",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0058",
+    "type": "speaking",
+    "jlptLevel": "N5",
+    "skill": "speaking",
+    "lessonId": "n5-lesson-04",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "机[つくえ]の上[うえ]に本[ほん]があります。",
+    "translationEs": "Hay un libro sobre el escritorio.",
+    "explanationEs": "あります se usa para la existencia de cosas inanimadas.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0059",
+    "type": "listening",
+    "jlptLevel": "N5",
+    "skill": "listening",
+    "lessonId": "n5-lesson-04",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "猫[ねこ]は机[つくえ]の下[した]にいます。",
+    "targetReading": "ねこはつくえのしたにいます。",
+    "translationEs": "El gato está debajo del escritorio.",
+    "explanationEs": "います se usa para seres vivos como 猫 (gato).",
+    "difficulty": 2
   }
 ]
