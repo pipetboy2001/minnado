@@ -34,6 +34,12 @@ export default async function ActividadesPage() {
           <ThemeToggle />
           <Button
             variant="outline"
+            render={<Link href="/actividades/repaso" />}
+          >
+            Repaso
+          </Button>
+          <Button
+            variant="outline"
             render={<Link href="/actividades/diccionario" />}
           >
             Diccionario
