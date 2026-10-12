@@ -175,9 +175,57 @@
     ]
   },
   {
-    "id": "n5-lesson-03",
+    "id": "n5-lesson-06",
     "jlptLevel": "N5",
     "order": 5,
+    "title": "Lección 5 — Verbos de movimiento (行きます・来ます・帰ります)",
+    "description": "行きます／来ます／帰ります, la partícula へ (dirección), で (medio de transporte), と (compañía) e いつ (cuándo), basado en Minna no Nihongo Lección 5.",
+    "kind": "lesson",
+    "vocabIds": [
+      "n5-voc-0053",
+      "n5-voc-0054",
+      "n5-voc-0055",
+      "n5-voc-0056",
+      "n5-voc-0057",
+      "n5-voc-0058",
+      "n5-voc-0059",
+      "n5-voc-0060",
+      "n5-voc-0061",
+      "n5-voc-0062",
+      "n5-voc-0063",
+      "n5-voc-0064"
+    ],
+    "kanjiIds": [
+      "n5-kanji-0012",
+      "n5-kanji-0013",
+      "n5-kanji-0014",
+      "n5-kanji-0015"
+    ],
+    "grammarIds": [
+      "n5-gram-0021",
+      "n5-gram-0022",
+      "n5-gram-0023",
+      "n5-gram-0024"
+    ],
+    "exerciseIds": [
+      "n5-ex-0072",
+      "n5-ex-0073",
+      "n5-ex-0074",
+      "n5-ex-0075",
+      "n5-ex-0076",
+      "n5-ex-0077",
+      "n5-ex-0078",
+      "n5-ex-0079",
+      "n5-ex-0080",
+      "n5-ex-0081",
+      "n5-ex-0082",
+      "n5-ex-0083"
+    ]
+  },
+  {
+    "id": "n5-lesson-03",
+    "jlptLevel": "N5",
+    "order": 6,
     "title": "Repaso — Partículas, Adjetivos y Formas Verbales",
     "description": "Módulo de repaso transversal: partícula correcta, adjetivos い/な, y conjugación verbal (forma ます y て) a través de varias lecciones.",
     "kind": "review",

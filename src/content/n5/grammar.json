@@ -333,5 +333,70 @@
         "es": "El señor Tanaka está bien de salud, ¿verdad?"
       }
     ]
+  },
+  {
+    "id": "n5-gram-0021",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "行きます／来ます／帰ります + へ (dirección)",
+    "pattern": "[Lugar]へ行きます／来ます／帰ります。",
+    "explanationEs": "行きます (ir), 来ます (venir) y 帰ります (volver) son verbos de movimiento. へ marca el destino o dirección (se pronuncia 'e', no 'he').",
+    "examples": [
+      {
+        "jp": "学校へ行きます。",
+        "reading": "がっこうへいきます。",
+        "es": "Voy a la escuela."
+      },
+      {
+        "jp": "家へ帰ります。",
+        "reading": "いえへかえります。",
+        "es": "Vuelvo a casa."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0022",
+    "jlptLevel": "N5",
+    "category": "particles",
+    "title": "Medio de transporte で",
+    "pattern": "[Vehículo]で[Verbo de movimiento]",
+    "explanationEs": "で marca el medio de transporte usado para moverse (distinto del で que marca lugar de acción).",
+    "examples": [
+      {
+        "jp": "電車で学校へ行きます。",
+        "reading": "でんしゃでがっこうへいきます。",
+        "es": "Voy a la escuela en tren."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0023",
+    "jlptLevel": "N5",
+    "category": "particles",
+    "title": "〜と (compañía)",
+    "pattern": "[Persona]と[Verbo]",
+    "explanationEs": "と indica con quién se hace la acción, equivalente a 'con' en español.",
+    "examples": [
+      {
+        "jp": "友達と行きます。",
+        "reading": "ともだちといきます。",
+        "es": "Voy con un amigo."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0024",
+    "jlptLevel": "N5",
+    "category": "questions",
+    "title": "いつ (pregunta de tiempo)",
+    "pattern": "いつ[Verbo]か。",
+    "explanationEs": "いつ pregunta 'cuándo'. Funciona igual que otros pronombres interrogativos, con か al final para formar la pregunta.",
+    "examples": [
+      {
+        "jp": "いつ日本へ行きますか。",
+        "reading": "いつにほんへいきますか。",
+        "es": "¿Cuándo vas a Japón?"
+      }
+    ]
   }
 ]

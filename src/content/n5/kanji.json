@@ -172,5 +172,81 @@
       },
       { "word": "休日", "reading": "きゅうじつ", "meaningEs": "día feriado" }
     ]
+  },
+  {
+    "id": "n5-kanji-0012",
+    "character": "行",
+    "jlptLevel": "N5",
+    "strokeCount": 6,
+    "onyomi": ["コウ", "ギョウ"],
+    "kunyomi": ["い-く", "おこな-う"],
+    "meaningEs": "ir, realizar",
+    "radicals": ["行"],
+    "exampleWords": [
+      { "word": "旅行", "reading": "りょこう", "meaningEs": "viaje" },
+      { "word": "銀行", "reading": "ぎんこう", "meaningEs": "banco" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0013",
+    "character": "来",
+    "jlptLevel": "N5",
+    "strokeCount": 7,
+    "onyomi": ["ライ"],
+    "kunyomi": ["く-る"],
+    "meaningEs": "venir",
+    "radicals": ["木"],
+    "exampleWords": [
+      {
+        "word": "来週",
+        "reading": "らいしゅう",
+        "meaningEs": "la próxima semana"
+      },
+      { "word": "未来", "reading": "みらい", "meaningEs": "futuro" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0014",
+    "character": "帰",
+    "jlptLevel": "N5",
+    "strokeCount": 10,
+    "onyomi": ["キ"],
+    "kunyomi": ["かえ-る"],
+    "meaningEs": "volver, regresar",
+    "radicals": ["巾"],
+    "exampleWords": [
+      {
+        "word": "帰国",
+        "reading": "きこく",
+        "meaningEs": "regresar al país natal"
+      },
+      {
+        "word": "日帰り",
+        "reading": "ひがえり",
+        "meaningEs": "viaje de un día"
+      }
+    ]
+  },
+  {
+    "id": "n5-kanji-0015",
+    "character": "駅",
+    "jlptLevel": "N5",
+    "strokeCount": 14,
+    "onyomi": ["エキ"],
+    "kunyomi": [],
+    "meaningEs": "estación (de tren)",
+    "radicals": ["馬"],
+    "exampleWords": [
+      {
+        "word": "駅前",
+        "reading": "えきまえ",
+        "meaningEs": "frente a la estación"
+      },
+      {
+        "word": "東京駅",
+        "reading": "とうきょうえき",
+        "meaningEs": "Estación de Tokio"
+      }
+    ]
   }
 ]

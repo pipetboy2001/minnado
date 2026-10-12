@@ -1149,5 +1149,198 @@
     "translationEs": "Trabajo de 9 a 5.",
     "explanationEs": "から marca el inicio; まで marca el final.",
     "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0072",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "particles",
+    "lessonId": "n5-lesson-06",
+    "promptEs": "Elige la partícula de dirección.",
+    "questionJp": "学校[がっこう]{{1}}行[い]きます。",
+    "options": [
+      { "id": "a", "textJp": "へ", "isCorrect": true },
+      { "id": "b", "textJp": "を", "isCorrect": false },
+      { "id": "c", "textJp": "で", "isCorrect": false },
+      { "id": "d", "textJp": "と", "isCorrect": false }
+    ],
+    "explanationEs": "へ marca el destino de un verbo de movimiento como 行きます.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0073",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "particles",
+    "lessonId": "n5-lesson-06",
+    "promptEs": "Elige la partícula del medio de transporte.",
+    "questionJp": "電車[でんしゃ]{{1}}学校[がっこう]へ行[い]きます。",
+    "options": [
+      { "id": "a", "textJp": "で", "isCorrect": true },
+      { "id": "b", "textJp": "を", "isCorrect": false },
+      { "id": "c", "textJp": "に", "isCorrect": false },
+      { "id": "d", "textJp": "へ", "isCorrect": false }
+    ],
+    "explanationEs": "で marca el medio de transporte usado para moverse.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0074",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "particles",
+    "lessonId": "n5-lesson-06",
+    "promptEs": "Vas con un amigo.",
+    "sentenceTemplate": "友達[ともだち]{{1}}行[い]きます。",
+    "translationEs": "Voy con un amigo.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["と"],
+        "options": ["と", "に", "で", "は"]
+      }
+    ],
+    "explanationEs": "と indica con quién se hace la acción.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0075",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-06",
+    "promptEs": "Pregunta 'cuándo vas a Japón'.",
+    "sentenceTemplate": "{{1}}日本[にほん]へ行[い]きますか。",
+    "translationEs": "¿Cuándo vas a Japón?",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["いつ"],
+        "options": ["いつ", "どこ", "なに", "だれ"]
+      }
+    ],
+    "explanationEs": "いつ pregunta 'cuándo'.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0076",
+    "type": "word-order",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-06",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["学校へ", "電車で", "行きます"],
+    "correctOrder": ["電車で", "学校へ", "行きます"],
+    "translationEs": "Voy a la escuela en tren.",
+    "explanationEs": "Orden: [Medio]で + [Destino]へ + Verbo。",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0077",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-06",
+    "promptEs": "Une cada medio de transporte con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "電車", "right": "tren" },
+      { "id": "p2", "left": "バス", "right": "autobús" },
+      { "id": "p3", "left": "タクシー", "right": "taxi" },
+      { "id": "p4", "left": "飛行機", "right": "avión" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0078",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-06",
+    "promptEs": "¿Cómo se lee 帰ります (volver)?",
+    "questionJp": "帰ります",
+    "options": [
+      { "id": "a", "textJp": "かえります", "isCorrect": true },
+      { "id": "b", "textJp": "きます", "isCorrect": false },
+      { "id": "c", "textJp": "いきます", "isCorrect": false },
+      { "id": "d", "textJp": "かいります", "isCorrect": false }
+    ],
+    "explanationEs": "帰る se lee かえる; en forma ます es かえります.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0079",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-06",
+    "promptEs": "Une cada kanji con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "行", "right": "ir, realizar" },
+      { "id": "p2", "left": "来", "right": "venir" },
+      { "id": "p3", "left": "帰", "right": "volver, regresar" },
+      { "id": "p4", "left": "駅", "right": "estación" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0080",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-06",
+    "promptEs": "Un amigo viene a tu casa. Elige el verbo correcto.",
+    "questionJp": "友達[ともだち]が私[わたし]の家[いえ]に{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "来ます", "isCorrect": true },
+      { "id": "b", "textJp": "行きます", "isCorrect": false },
+      { "id": "c", "textJp": "帰ります", "isCorrect": false },
+      { "id": "d", "textJp": "休みます", "isCorrect": false }
+    ],
+    "explanationEs": "来ます se usa cuando alguien viene hacia el hablante.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0081",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-06",
+    "promptEs": "Vas a la estación en autobús.",
+    "sentenceTemplate": "バスで{{1}}へ行[い]きます。",
+    "translationEs": "Voy a la estación en autobús.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["駅"],
+        "options": ["駅", "学校", "猫", "机"]
+      }
+    ],
+    "explanationEs": "駅 significa 'estación (de tren)'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0082",
+    "type": "speaking",
+    "jlptLevel": "N5",
+    "skill": "speaking",
+    "lessonId": "n5-lesson-06",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "友達[ともだち]と電車[でんしゃ]で学校[がっこう]へ行[い]きます。",
+    "translationEs": "Voy a la escuela en tren con un amigo.",
+    "explanationEs": "と marca compañía; で marca el medio de transporte; へ marca el destino.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0083",
+    "type": "listening",
+    "jlptLevel": "N5",
+    "skill": "listening",
+    "lessonId": "n5-lesson-06",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "来週[らいしゅう]、日本[にほん]へ行[い]きます。",
+    "targetReading": "らいしゅう、にほんへいきます。",
+    "translationEs": "La próxima semana voy a Japón.",
+    "explanationEs": "来週 significa 'la próxima semana'.",
+    "difficulty": 2
   }
 ]
