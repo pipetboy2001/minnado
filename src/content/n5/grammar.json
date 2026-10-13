@@ -888,5 +888,70 @@
         "es": "¿Puedo abrir la ventana?"
       }
     ]
+  },
+  {
+    "id": "n5-gram-0057",
+    "jlptLevel": "N5",
+    "category": "verb-forms",
+    "title": "〜ています (acción en progreso)",
+    "pattern": "[Verbo-て]います。",
+    "explanationEs": "ています indica una acción en curso en este momento, como 'estoy haciendo' en español.",
+    "examples": [
+      {
+        "jp": "今、本を読んでいます。",
+        "reading": "いま、ほんをよんでいます。",
+        "es": "Ahora estoy leyendo un libro."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0058",
+    "jlptLevel": "N5",
+    "category": "verb-forms",
+    "title": "〜ています (estado continuo)",
+    "pattern": "[Verbo-て]います。(estado)",
+    "explanationEs": "Algunos verbos como 住む (vivir) y 勤める (trabajar en una empresa) usan ています para describir un estado permanente, no una acción en progreso.",
+    "examples": [
+      {
+        "jp": "東京に住んでいます。",
+        "reading": "とうきょうにすんでいます。",
+        "es": "Vivo en Tokio."
+      },
+      {
+        "jp": "銀行に勤めています。",
+        "reading": "ぎんこうにつとめています。",
+        "es": "Trabajo en un banco."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0059",
+    "jlptLevel": "N5",
+    "category": "verb-forms",
+    "title": "結婚しています (estar casado/a)",
+    "pattern": "結婚しています。／結婚していません。",
+    "explanationEs": "結婚する (casarse) también usa ています para describir el estado resultante: estar casado.",
+    "examples": [
+      {
+        "jp": "田中さんは結婚しています。",
+        "reading": "たなかさんはけっこんしています。",
+        "es": "El señor Tanaka está casado."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0060",
+    "jlptLevel": "N5",
+    "category": "questions",
+    "title": "〜を知っていますか (preguntar si alguien sabe algo)",
+    "pattern": "[Cosa/Persona]を知っていますか。",
+    "explanationEs": "知る (saber, conocer) casi siempre se usa en la forma ています para hablar del estado de 'saber' algo.",
+    "examples": [
+      {
+        "jp": "田中さんを知っていますか。",
+        "reading": "たなかさんをしっていますか。",
+        "es": "¿Conoces al señor Tanaka?"
+      }
+    ]
   }
 ]

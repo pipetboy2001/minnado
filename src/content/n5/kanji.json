@@ -750,5 +750,65 @@
       { "word": "電話", "reading": "でんわ", "meaningEs": "teléfono" },
       { "word": "電車", "reading": "でんしゃ", "meaningEs": "tren" }
     ]
+  },
+  {
+    "id": "n5-kanji-0047",
+    "character": "住",
+    "jlptLevel": "N5",
+    "strokeCount": 7,
+    "onyomi": ["ジュウ"],
+    "kunyomi": ["す-む"],
+    "meaningEs": "vivir, residir",
+    "radicals": ["人"],
+    "exampleWords": [
+      { "word": "住所", "reading": "じゅうしょ", "meaningEs": "dirección" },
+      { "word": "住む", "reading": "すむ", "meaningEs": "vivir, residir" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0048",
+    "character": "結",
+    "jlptLevel": "N5",
+    "strokeCount": 12,
+    "onyomi": ["ケツ"],
+    "kunyomi": ["むす-ぶ"],
+    "meaningEs": "atar, concluir",
+    "radicals": ["糸"],
+    "exampleWords": [
+      { "word": "結婚", "reading": "けっこん", "meaningEs": "matrimonio" },
+      { "word": "結果", "reading": "けっか", "meaningEs": "resultado" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0049",
+    "character": "婚",
+    "jlptLevel": "N5",
+    "strokeCount": 11,
+    "onyomi": ["コン"],
+    "kunyomi": [],
+    "meaningEs": "matrimonio",
+    "radicals": ["女"],
+    "exampleWords": [
+      { "word": "結婚", "reading": "けっこん", "meaningEs": "matrimonio" },
+      { "word": "新婚", "reading": "しんこん", "meaningEs": "recién casado" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0050",
+    "character": "社",
+    "jlptLevel": "N5",
+    "strokeCount": 7,
+    "onyomi": ["シャ"],
+    "kunyomi": [],
+    "meaningEs": "empresa, santuario",
+    "radicals": ["示"],
+    "exampleWords": [
+      { "word": "会社", "reading": "かいしゃ", "meaningEs": "empresa" },
+      {
+        "word": "神社",
+        "reading": "じんじゃ",
+        "meaningEs": "santuario sintoísta"
+      }
+    ]
   }
 ]

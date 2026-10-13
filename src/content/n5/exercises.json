@@ -2885,5 +2885,198 @@
     "translationEs": "No se puede fumar aquí.",
     "explanationEs": "〜てはいけません indica que algo está prohibido.",
     "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0180",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-15",
+    "promptEs": "Ahora estás leyendo un libro (acción en progreso).",
+    "questionJp": "今[いま]、本[ほん]を読[よ]んで{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "います", "isCorrect": true },
+      { "id": "b", "textJp": "ました", "isCorrect": false },
+      { "id": "c", "textJp": "です", "isCorrect": false },
+      { "id": "d", "textJp": "ません", "isCorrect": false }
+    ],
+    "explanationEs": "ています indica una acción en curso en este momento.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0181",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-15",
+    "promptEs": "Vives en Tokio (estado permanente).",
+    "questionJp": "東京[とうきょう]に{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "住んでいます", "isCorrect": true },
+      { "id": "b", "textJp": "住みます", "isCorrect": false },
+      { "id": "c", "textJp": "住みました", "isCorrect": false },
+      { "id": "d", "textJp": "住んでいました", "isCorrect": false }
+    ],
+    "explanationEs": "住む usa ています para describir un estado permanente.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0182",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-15",
+    "promptEs": "Trabajas en un banco.",
+    "sentenceTemplate": "銀行[ぎんこう]に{{1}}。",
+    "translationEs": "Trabajo en un banco.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["勤めています", "つとめています"],
+        "options": ["勤めています", "働きます", "行きます", "来ます"]
+      }
+    ],
+    "explanationEs": "勤める (trabajar en una empresa) usa ています para el estado permanente.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0183",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-15",
+    "promptEs": "El señor Tanaka está casado.",
+    "sentenceTemplate": "田中[たなか]さんは{{1}}。",
+    "translationEs": "El señor Tanaka está casado.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["結婚しています", "けっこんしています"],
+        "options": ["結婚しています", "結婚します", "休みます", "働きます"]
+      }
+    ],
+    "explanationEs": "結婚する usa ています para describir el estado de estar casado.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0184",
+    "type": "word-order",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-15",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["住んでいます", "東京に", "私は"],
+    "correctOrder": ["私は", "東京に", "住んでいます"],
+    "translationEs": "Yo vivo en Tokio.",
+    "explanationEs": "Orden: 私は + [Lugar]に + Verbo-ています。",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0185",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-15",
+    "promptEs": "Une cada verbo con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "住みます", "right": "vivir, residir" },
+      { "id": "p2", "left": "結婚します", "right": "casarse" },
+      { "id": "p3", "left": "知ります", "right": "saber, conocer" },
+      { "id": "p4", "left": "勤めます", "right": "trabajar (en una empresa)" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0186",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-15",
+    "promptEs": "¿Cómo se lee 結婚 (matrimonio, casarse)?",
+    "questionJp": "結婚",
+    "options": [
+      { "id": "a", "textJp": "けっこん", "isCorrect": true },
+      { "id": "b", "textJp": "けつこん", "isCorrect": false },
+      { "id": "c", "textJp": "けっこ", "isCorrect": false },
+      { "id": "d", "textJp": "ゆいこん", "isCorrect": false }
+    ],
+    "explanationEs": "結婚 se lee けっこん.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0187",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-15",
+    "promptEs": "Une cada kanji con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "住", "right": "vivir, residir" },
+      { "id": "p2", "left": "結", "right": "atar, concluir" },
+      { "id": "p3", "left": "婚", "right": "matrimonio" },
+      { "id": "p4", "left": "社", "right": "empresa, santuario" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0188",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-15",
+    "promptEs": "Pregunta si conoces al señor Tanaka.",
+    "questionJp": "田中[たなか]さんを{{1}}か。",
+    "options": [
+      { "id": "a", "textJp": "知っています", "isCorrect": true },
+      { "id": "b", "textJp": "知ります", "isCorrect": false },
+      { "id": "c", "textJp": "知りました", "isCorrect": false },
+      { "id": "d", "textJp": "知って", "isCorrect": false }
+    ],
+    "explanationEs": "知る casi siempre se usa en la forma ています.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0189",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-15",
+    "promptEs": "Trabajas en una empresa.",
+    "sentenceTemplate": "{{1}}に勤[つと]めています。",
+    "translationEs": "Trabajo en una empresa.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["会社", "かいしゃ"],
+        "options": ["会社", "銀行", "学校", "駅"]
+      }
+    ],
+    "explanationEs": "会社 significa 'empresa'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0190",
+    "type": "speaking",
+    "jlptLevel": "N5",
+    "skill": "speaking",
+    "lessonId": "n5-lesson-15",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "東京[とうきょう]に住[す]んでいます。",
+    "translationEs": "Vivo en Tokio.",
+    "explanationEs": "住む usa ています para un estado permanente.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0191",
+    "type": "listening",
+    "jlptLevel": "N5",
+    "skill": "listening",
+    "lessonId": "n5-lesson-15",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "田中[たなか]さんは結婚[けっこん]しています。",
+    "targetReading": "たなかさんはけっこんしています。",
+    "translationEs": "El señor Tanaka está casado.",
+    "explanationEs": "結婚する usa ています para el estado de estar casado.",
+    "difficulty": 2
   }
 ]

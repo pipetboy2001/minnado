@@ -583,9 +583,53 @@
     ]
   },
   {
-    "id": "n5-lesson-03",
+    "id": "n5-lesson-15",
     "jlptLevel": "N5",
     "order": 14,
+    "title": "Lección 14 — Acciones en progreso y estados (〜ています)",
+    "description": "ています para acción en curso (leer ahora) y para estado continuo (vivir, trabajar, estar casado), y 〜を知っていますか para preguntar si alguien sabe algo, basado en Minna no Nihongo Lección 14.",
+    "kind": "lesson",
+    "vocabIds": [
+      "n5-voc-0142",
+      "n5-voc-0143",
+      "n5-voc-0144",
+      "n5-voc-0145",
+      "n5-voc-0146",
+      "n5-voc-0147",
+      "n5-voc-0148",
+      "n5-voc-0149"
+    ],
+    "kanjiIds": [
+      "n5-kanji-0047",
+      "n5-kanji-0048",
+      "n5-kanji-0049",
+      "n5-kanji-0050"
+    ],
+    "grammarIds": [
+      "n5-gram-0057",
+      "n5-gram-0058",
+      "n5-gram-0059",
+      "n5-gram-0060"
+    ],
+    "exerciseIds": [
+      "n5-ex-0180",
+      "n5-ex-0181",
+      "n5-ex-0182",
+      "n5-ex-0183",
+      "n5-ex-0184",
+      "n5-ex-0185",
+      "n5-ex-0186",
+      "n5-ex-0187",
+      "n5-ex-0188",
+      "n5-ex-0189",
+      "n5-ex-0190",
+      "n5-ex-0191"
+    ]
+  },
+  {
+    "id": "n5-lesson-03",
+    "jlptLevel": "N5",
+    "order": 15,
     "title": "Repaso — Partículas, Adjetivos y Formas Verbales",
     "description": "Módulo de repaso transversal: partícula correcta, adjetivos い/な, y conjugación verbal (forma ます y て) a través de varias lecciones.",
     "kind": "review",
