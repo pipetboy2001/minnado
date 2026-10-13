@@ -4121,5 +4121,199 @@
     "translationEs": "Acabo de llegar al aeropuerto.",
     "explanationEs": "ばかりです: acabar de hacer algo.",
     "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0253",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-47",
+    "promptEs": "Elige la forma correcta para reportar lo que se escuchó.",
+    "questionJp": "天気予報[てんきよほう]によると、明日[あした]は雨[あめ]が{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "降るそうです", "isCorrect": true },
+      { "id": "b", "textJp": "降りそうです", "isCorrect": false },
+      { "id": "c", "textJp": "降るようです", "isCorrect": false },
+      { "id": "d", "textJp": "降ってください", "isCorrect": false }
+    ],
+    "explanationEs": "降るそうです (伝聞): dicen que va a llover, según el pronóstico.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0254",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-47",
+    "promptEs": "Elige la forma correcta para una inferencia.",
+    "questionJp": "この牛乳[ぎゅうにゅう]は{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "腐っているようです", "isCorrect": true },
+      { "id": "b", "textJp": "腐っているそうです", "isCorrect": false },
+      { "id": "c", "textJp": "腐ってください", "isCorrect": false },
+      { "id": "d", "textJp": "腐ってみます", "isCorrect": false }
+    ],
+    "explanationEs": "ようです: inferencia basada en lo que se percibe (ver, oler).",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0255",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-47",
+    "promptEs": "Elige la forma correcta para 'huele a'.",
+    "questionJp": "このミルクは変[へん]な{{1}}します。",
+    "options": [
+      { "id": "a", "textJp": "匂いが", "isCorrect": true },
+      { "id": "b", "textJp": "匂いを", "isCorrect": false },
+      { "id": "c", "textJp": "匂いは", "isCorrect": false },
+      { "id": "d", "textJp": "匂いで", "isCorrect": false }
+    ],
+    "explanationEs": "匂いがします: huele a (percepción sensorial).",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0256",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-47",
+    "promptEs": "Elige la palabra correcta.",
+    "questionJp": "彼[かれ]の話[はなし]は{{1}}です。",
+    "options": [
+      { "id": "a", "textJp": "不思議", "isCorrect": true },
+      { "id": "b", "textJp": "情報", "isCorrect": false },
+      { "id": "c", "textJp": "噂", "isCorrect": false },
+      { "id": "d", "textJp": "変", "isCorrect": false }
+    ],
+    "explanationEs": "不思議 significa 'misterioso, extraño'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0257",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-47",
+    "promptEs": "Completa con そうです (伝聞).",
+    "sentenceTemplate": "彼[かれ]は来月[らいげつ]結婚[けっこん]する{{1}}。",
+    "translationEs": "Dicen que él se casa el próximo mes.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["そうです"],
+        "options": ["そうです", "ようです", "らしいです", "みたいです"]
+      }
+    ],
+    "explanationEs": "そうです (伝聞): reporta lo que se escuchó, sin cambiar la oración.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0258",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-47",
+    "promptEs": "Completa con ようです.",
+    "sentenceTemplate": "隣[となり]の部屋[へや]に誰[だれ]かいる{{1}}。",
+    "translationEs": "Parece que hay alguien en el cuarto de al lado.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["ようです"],
+        "options": ["ようです", "そうです", "はずです", "つもりです"]
+      }
+    ],
+    "explanationEs": "ようです: inferencia basada en lo que se percibe.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0259",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-47",
+    "promptEs": "Completa con la expresión de percepción correcta.",
+    "sentenceTemplate": "このジュースは変[へん]な{{1}}します。",
+    "translationEs": "Este jugo sabe raro.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["味が"],
+        "options": ["味が", "味を", "味は", "味で"]
+      }
+    ],
+    "explanationEs": "味がします: sabe a (percepción sensorial).",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0260",
+    "type": "word-order",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-47",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["隣の部屋から", "変な音が", "します"],
+    "correctOrder": ["隣の部屋から", "変な音が", "します"],
+    "translationEs": "Se oye un ruido extraño desde la habitación de al lado.",
+    "explanationEs": "音がします: se oye un sonido.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0261",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-47",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "天気予報", "right": "pronóstico del tiempo" },
+      { "id": "p2", "left": "変", "right": "raro, extraño" },
+      { "id": "p3", "left": "腐る", "right": "pudrirse" },
+      { "id": "p4", "left": "噂", "right": "rumor" },
+      { "id": "p5", "left": "不思議", "right": "misterioso, extraño" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0262",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "kanji",
+    "lessonId": "n4-lesson-47",
+    "promptEs": "Une cada kanji con su lectura on'yomi.",
+    "pairs": [
+      { "id": "p1", "left": "報", "right": "ほう" },
+      { "id": "p2", "left": "変", "right": "へん" },
+      { "id": "p3", "left": "情", "right": "じょう" },
+      { "id": "p4", "left": "音", "right": "おん" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0263",
+    "type": "speaking",
+    "jlptLevel": "N4",
+    "skill": "speaking",
+    "lessonId": "n4-lesson-47",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "天気予報[てんきよほう]によると、明日[あした]は雨[あめ]が降[ふ]るそうです。",
+    "translationEs": "Según el pronóstico, dicen que mañana va a llover.",
+    "explanationEs": "Practica la fluidez de 降るそうです。",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0264",
+    "type": "listening",
+    "jlptLevel": "N4",
+    "skill": "listening",
+    "lessonId": "n4-lesson-47",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "この牛乳[ぎゅうにゅう]は腐[くさ]っているようです。",
+    "targetReading": "このぎゅうにゅうはくさっているようです。",
+    "translationEs": "Parece que esta leche se echó a perder.",
+    "explanationEs": "ようです: inferencia basada en evidencia.",
+    "difficulty": 2
   }
 ]

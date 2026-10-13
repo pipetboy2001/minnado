@@ -1317,5 +1317,57 @@
         "es": "Debería llegar a tiempo para el último tren."
       }
     ]
+  },
+  {
+    "id": "n4-gram-0064",
+    "jlptLevel": "N4",
+    "category": "sentence-structure",
+    "title": "そうです (伝聞: dicen que, he oído que)",
+    "pattern": "[Oración simple] + そうです。",
+    "explanationEs": "Esta そうです (伝聞, 'transmisión oída') es distinta de la そうです de apariencia (lección 43) — aquí reporta lo que el hablante escuchó, leyó o le dijeron, sin cambiar la forma de la oración. Se agrega そうです directamente después de la forma simple completa (a diferencia de 様態そう, que modifica la raíz).",
+    "structureNotes": "降るそうです (dicen que va a llover) — comparar con 降りそうです (parece que va a llover, lección 43)",
+    "examples": [
+      {
+        "jp": "天気予報によると、明日は雨が降るそうです。",
+        "reading": "てんきよほうによると、あしたはあめがふるそうです。",
+        "es": "Según el pronóstico, dicen que mañana va a llover."
+      }
+    ]
+  },
+  {
+    "id": "n4-gram-0065",
+    "jlptLevel": "N4",
+    "category": "sentence-structure",
+    "title": "〜ようです (parece que, inferencia basada en evidencia)",
+    "pattern": "[Oración simple] + ようです。",
+    "explanationEs": "ようです expresa una conclusión del hablante basada en lo que percibe directamente (ver, oír, sentir) — más subjetivo que はずです, y distinto de la そうです de apariencia porque se basa en una impresión general, no solo visual inmediata.",
+    "examples": [
+      {
+        "jp": "この牛乳は腐っているようです。",
+        "reading": "このぎゅうにゅうはくさっているようです。",
+        "es": "Parece que esta leche se echó a perder."
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0064"]
+  },
+  {
+    "id": "n4-gram-0066",
+    "jlptLevel": "N4",
+    "category": "sentence-structure",
+    "title": "音／匂い／味がします (percepción sensorial)",
+    "pattern": "[Descripción] + 音／匂い／味 + がします。",
+    "explanationEs": "Estas expresiones fijas usan がします para describir una percepción sensorial que simplemente 'ocurre' — no la controla nadie. 音がする (se oye/suena), 匂いがする (huele a), 味がする (sabe a).",
+    "examples": [
+      {
+        "jp": "このミルクは変な匂いがします。",
+        "reading": "このみるくはへんなにおいがします。",
+        "es": "Esta leche huele raro."
+      },
+      {
+        "jp": "隣の部屋から変な音がします。",
+        "reading": "となりのへやからへんなおとがします。",
+        "es": "Se oye un ruido extraño desde la habitación de al lado."
+      }
+    ]
   }
 ]

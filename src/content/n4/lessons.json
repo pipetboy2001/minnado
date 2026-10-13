@@ -838,5 +838,45 @@
       "n4-ex-0251",
       "n4-ex-0252"
     ]
+  },
+  {
+    "id": "n4-lesson-47",
+    "jlptLevel": "N4",
+    "order": 47,
+    "title": "Lección 47 — Rumores, inferencias y los sentidos (そうです・ようです・音がします)",
+    "description": "Reportar lo que se escuchó con そうです (伝聞), una inferencia basada en evidencia con ようです, y percepciones sensoriales con 音／匂い／味がします, con vocabulario de clima e información, basado en Minna no Nihongo Lección 47 (Libro 2).",
+    "kind": "lesson",
+    "vocabIds": [
+      "n4-voc-0190",
+      "n4-voc-0191",
+      "n4-voc-0192",
+      "n4-voc-0193",
+      "n4-voc-0194",
+      "n4-voc-0195",
+      "n4-voc-0196",
+      "n4-voc-0197",
+      "n4-voc-0198"
+    ],
+    "kanjiIds": [
+      "n4-kanji-0087",
+      "n4-kanji-0088",
+      "n4-kanji-0089",
+      "n4-kanji-0090"
+    ],
+    "grammarIds": ["n4-gram-0064", "n4-gram-0065", "n4-gram-0066"],
+    "exerciseIds": [
+      "n4-ex-0253",
+      "n4-ex-0254",
+      "n4-ex-0255",
+      "n4-ex-0256",
+      "n4-ex-0257",
+      "n4-ex-0258",
+      "n4-ex-0259",
+      "n4-ex-0260",
+      "n4-ex-0261",
+      "n4-ex-0262",
+      "n4-ex-0263",
+      "n4-ex-0264"
+    ]
   }
 ]

@@ -1224,5 +1224,53 @@
       { "word": "最近", "reading": "さいきん", "meaningEs": "recientemente" },
       { "word": "近い", "reading": "ちかい", "meaningEs": "cercano" }
     ]
+  },
+  {
+    "id": "n4-kanji-0087",
+    "character": "報",
+    "jlptLevel": "N4",
+    "strokeCount": 12,
+    "onyomi": ["ホウ"],
+    "kunyomi": [],
+    "meaningEs": "informe, noticia",
+    "radicals": ["土"],
+    "exampleWords": [
+      { "word": "予報", "reading": "よほう", "meaningEs": "pronóstico" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0088",
+    "character": "変",
+    "jlptLevel": "N4",
+    "strokeCount": 9,
+    "onyomi": ["ヘン"],
+    "kunyomi": ["か-わる", "か-える"],
+    "meaningEs": "cambiar; extraño",
+    "radicals": ["夂"],
+    "exampleWords": [{ "word": "変", "reading": "へん", "meaningEs": "raro" }]
+  },
+  {
+    "id": "n4-kanji-0089",
+    "character": "情",
+    "jlptLevel": "N4",
+    "strokeCount": 11,
+    "onyomi": ["ジョウ"],
+    "kunyomi": [],
+    "meaningEs": "sentimiento, información",
+    "radicals": ["忄"],
+    "exampleWords": [
+      { "word": "情報", "reading": "じょうほう", "meaningEs": "información" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0090",
+    "character": "音",
+    "jlptLevel": "N4",
+    "strokeCount": 9,
+    "onyomi": ["オン"],
+    "kunyomi": ["おと", "ね"],
+    "meaningEs": "sonido",
+    "radicals": ["音"],
+    "exampleWords": [{ "word": "音", "reading": "おと", "meaningEs": "sonido" }]
   }
 ]
