@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import { parseFuriganaBrackets } from "@/lib/furigana";
 import {
   getVocabN5,
   getKanjiN5,
@@ -95,6 +96,35 @@ describe("content loaders", () => {
       expect(new Set(slotIds), `exercise ${exercise.id}`).toEqual(
         new Set(blankIds),
       );
+    }
+  });
+
+  it("keeps every furigana-bracket string in every content file in sync with its plain-text form", () => {
+    // Regression guard for the furigana rendering bug: parseFuriganaBrackets
+    // must rejoin to exactly the string with "[reading]" runs stripped, for
+    // every Japanese string any content file actually ships.
+    const strings: string[] = [];
+    for (const w of getVocabN5()) {
+      if (w.exampleSentenceJp) strings.push(w.exampleSentenceJp);
+    }
+    for (const k of [...getKanjiN5(), ...getKanjiN4()]) {
+      for (const ex of k.exampleWords) strings.push(ex.word);
+    }
+    for (const g of getGrammarN5()) {
+      for (const ex of g.examples) strings.push(ex.jp);
+    }
+    for (const e of getExercisesN5()) {
+      if ("questionJp" in e) strings.push(e.questionJp);
+      if ("sentenceTemplate" in e) strings.push(e.sentenceTemplate);
+      if ("targetJp" in e) strings.push(e.targetJp);
+    }
+
+    for (const str of strings) {
+      const rejoined = parseFuriganaBrackets(str)
+        .map((s) => s.text)
+        .join("");
+      const strippedBrackets = str.replace(/\[[^\[\]]+\]/g, "");
+      expect(rejoined, str).toBe(strippedBrackets);
     }
   });
 });
