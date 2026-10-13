@@ -64,7 +64,7 @@ export function LoginForm() {
           <LogIn className="size-5 text-primary" />
           Minnado — Iniciar sesión
         </CardTitle>
-        <CardDescription>Entra para practicar japonés N5/N4.</CardDescription>
+        <CardDescription>Entra para practicar japonés N5.</CardDescription>
       </CardHeader>
       <CardContent>
         <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4">

@@ -21,9 +21,9 @@ const notoSansJP = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-  title: "Minnado — Aprende japonés N5/N4",
+  title: "Minnado — Aprende japonés N5",
   description:
-    "Plataforma open source para practicar japonés N5/N4 basada en Minna no Nihongo.",
+    "Plataforma open source para practicar japonés N5 basada en Minna no Nihongo.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
