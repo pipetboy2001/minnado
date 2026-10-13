@@ -23,13 +23,7 @@ const links = [
 ];
 
 /** Hamburger menu shown only below sm: the icon row doesn't have room there. */
-export function MobileNav({
-  userName,
-  logoutForm,
-}: {
-  userName: string;
-  logoutForm: ReactNode;
-}) {
+export function MobileNav({ logoutForm }: { logoutForm: ReactNode }) {
   return (
     <Dialog.Root>
       <Dialog.Trigger
@@ -41,10 +35,8 @@ export function MobileNav({
       <Dialog.Portal>
         <Dialog.Backdrop className="fixed inset-0 z-50 bg-black/40 transition-opacity duration-200 data-[ending-style]:opacity-0 data-[starting-style]:opacity-0" />
         <Dialog.Popup className="fixed inset-y-0 right-0 z-50 flex h-full w-72 max-w-[80vw] flex-col border-l border-border bg-background p-4 shadow-lg transition-transform duration-200 data-[ending-style]:translate-x-full data-[starting-style]:translate-x-full">
-          <div className="mb-4 flex items-center justify-between gap-2">
-            <Dialog.Title className="truncate text-sm font-medium">
-              {userName}
-            </Dialog.Title>
+          <div className="mb-4 flex items-center justify-end gap-2">
+            <Dialog.Title className="sr-only">Menú</Dialog.Title>
             <Dialog.Close
               render={<Button variant="ghost" size="icon" />}
               aria-label="Cerrar menú"

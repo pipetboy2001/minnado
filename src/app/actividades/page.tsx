@@ -71,7 +71,6 @@ export default async function ActividadesPage() {
           </form>
         </div>
         <MobileNav
-          userName={session.user.name ?? session.user.email ?? ""}
           logoutForm={
             <form action={signOutAction}>
               <Button
