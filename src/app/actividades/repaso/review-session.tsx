@@ -44,9 +44,11 @@ function buildQueue(vocab: VocabWord[], kanji: KanjiEntry[]): QueueItem[] {
 export function ReviewSession({
   vocab,
   kanji,
+  nextDueLabel,
 }: {
   vocab: VocabWord[];
   kanji: KanjiEntry[];
+  nextDueLabel?: string | null;
 }) {
   const [queue] = useState(() => buildQueue(vocab, kanji));
   const [index, setIndex] = useState(0);
@@ -90,8 +92,9 @@ export function ReviewSession({
             ¡No tienes repasos pendientes por hoy!
           </h2>
           <p className="text-sm text-muted-foreground">
-            Vuelve más tarde — el sistema espacía los repasos según qué tan bien
-            recuerdas cada palabra o kanji.
+            {nextDueLabel
+              ? `Tu próximo repaso estará disponible ${nextDueLabel}.`
+              : "Vuelve más tarde — el sistema espacía los repasos según qué tan bien recuerdas cada palabra o kanji."}
           </p>
           <Link
             href="/actividades"

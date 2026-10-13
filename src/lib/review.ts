@@ -83,6 +83,33 @@ export async function getDueReviewCards(
   return { vocab, kanji };
 }
 
+/**
+ * Earliest dueAt among all of the user's review cards, vocab or kanji.
+ * Only meaningful to call when getDueReviewCards() returned nothing —
+ * every enrolled card is then in the future, so the minimum is the next
+ * time the user will have something to review.
+ */
+export async function getNextDueDate(userId: string): Promise<Date | null> {
+  const [nextVocab, nextKanji] = await Promise.all([
+    prisma.vocabReviewCard.findFirst({
+      where: { userId },
+      orderBy: { dueAt: "asc" },
+      select: { dueAt: true },
+    }),
+    prisma.kanjiReviewCard.findFirst({
+      where: { userId },
+      orderBy: { dueAt: "asc" },
+      select: { dueAt: true },
+    }),
+  ]);
+
+  const candidates = [nextVocab?.dueAt, nextKanji?.dueAt].filter(
+    (d): d is Date => !!d,
+  );
+  if (candidates.length === 0) return null;
+  return candidates.reduce((min, d) => (d < min ? d : min));
+}
+
 export interface ReviewStats {
   totalEnrolled: number;
   totalDue: number;
