@@ -758,5 +758,45 @@
       "n4-ex-0227",
       "n4-ex-0228"
     ]
+  },
+  {
+    "id": "n4-lesson-45",
+    "jlptLevel": "N4",
+    "order": 45,
+    "title": "Lección 45 — Condiciones y contraste (〜場合は・〜のに・のに vs が)",
+    "description": "Instrucciones para una situación hipotética con 〜場合は, el contraste emocional de 〜のに, y la diferencia de matiz entre のに y が, con vocabulario de emergencias, basado en Minna no Nihongo Lección 45 (Libro 2).",
+    "kind": "lesson",
+    "vocabIds": [
+      "n4-voc-0172",
+      "n4-voc-0173",
+      "n4-voc-0174",
+      "n4-voc-0175",
+      "n4-voc-0176",
+      "n4-voc-0177",
+      "n4-voc-0178",
+      "n4-voc-0179",
+      "n4-voc-0180"
+    ],
+    "kanjiIds": [
+      "n4-kanji-0079",
+      "n4-kanji-0080",
+      "n4-kanji-0081",
+      "n4-kanji-0082"
+    ],
+    "grammarIds": ["n4-gram-0058", "n4-gram-0059", "n4-gram-0060"],
+    "exerciseIds": [
+      "n4-ex-0229",
+      "n4-ex-0230",
+      "n4-ex-0231",
+      "n4-ex-0232",
+      "n4-ex-0233",
+      "n4-ex-0234",
+      "n4-ex-0235",
+      "n4-ex-0236",
+      "n4-ex-0237",
+      "n4-ex-0238",
+      "n4-ex-0239",
+      "n4-ex-0240"
+    ]
   }
 ]

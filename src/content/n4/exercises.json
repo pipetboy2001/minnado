@@ -3733,5 +3733,199 @@
     "translationEs": "Esta herramienta es fácil de usar.",
     "explanationEs": "やすい: fácil de hacer algo.",
     "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0229",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-45",
+    "promptEs": "Elige la forma correcta para una instrucción de emergencia.",
+    "questionJp": "地震[じしん]の{{1}}、机[つくえ]の下[した]に隠[かく]れてください。",
+    "options": [
+      { "id": "a", "textJp": "場合は", "isCorrect": true },
+      { "id": "b", "textJp": "ように", "isCorrect": false },
+      { "id": "c", "textJp": "ために", "isCorrect": false },
+      { "id": "d", "textJp": "けど", "isCorrect": false }
+    ],
+    "explanationEs": "場合は: en caso de terremoto.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0230",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-45",
+    "promptEs": "Elige la forma correcta para expresar decepción.",
+    "questionJp": "頑張[がんば]った{{1}}、合格[ごうかく]できませんでした。",
+    "options": [
+      { "id": "a", "textJp": "のに", "isCorrect": true },
+      { "id": "b", "textJp": "ので", "isCorrect": false },
+      { "id": "c", "textJp": "から", "isCorrect": false },
+      { "id": "d", "textJp": "なら", "isCorrect": false }
+    ],
+    "explanationEs": "のに: a pesar de que me esforcé (sorpresa/decepción).",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0231",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-45",
+    "promptEs": "Elige la forma que exprese frustración (no solo contraste neutral).",
+    "questionJp": "約束[やくそく]を守[まも]った{{1}}、信[しん]じてもらえませんでした。",
+    "options": [
+      { "id": "a", "textJp": "のに", "isCorrect": true },
+      { "id": "b", "textJp": "が", "isCorrect": false },
+      { "id": "c", "textJp": "けど", "isCorrect": false },
+      { "id": "d", "textJp": "そして", "isCorrect": false }
+    ],
+    "explanationEs": "のに agrega el matiz emocional de frustración, a diferencia de が.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0232",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-45",
+    "promptEs": "Elige la palabra correcta.",
+    "questionJp": "火事[かじ]の場合[ばあい]は、{{1}}から出[で]てください。",
+    "options": [
+      { "id": "a", "textJp": "非常口", "isCorrect": true },
+      { "id": "b", "textJp": "地震", "isCorrect": false },
+      { "id": "c", "textJp": "残念", "isCorrect": false },
+      { "id": "d", "textJp": "期待", "isCorrect": false }
+    ],
+    "explanationEs": "非常口 significa 'salida de emergencia'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0233",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-45",
+    "promptEs": "Completa con 場合は.",
+    "sentenceTemplate": "火事[かじ]の{{1}}、非常口[ひじょうぐち]から出[で]てください。",
+    "translationEs": "En caso de incendio, sal por la salida de emergencia.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["場合は"],
+        "options": ["場合は", "ように", "ために", "けど"]
+      }
+    ],
+    "explanationEs": "場合は: en caso de incendio.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0234",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-45",
+    "promptEs": "Completa con のに.",
+    "sentenceTemplate": "期待[きたい]していた{{1}}、がっかりしました。",
+    "translationEs": "A pesar de que tenía expectativas, me decepcioné.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["のに"],
+        "options": ["のに", "ので", "から", "なら"]
+      }
+    ],
+    "explanationEs": "のに: contraste con sorpresa/decepción.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0235",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-45",
+    "promptEs": "Completa la oración.",
+    "sentenceTemplate": "地震[じしん]が来[き]ても、{{1}}でください。",
+    "translationEs": "Aunque venga un terremoto, no te pongas nervioso.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["慌てない"],
+        "options": ["慌てない", "落ち着かない", "期待しない", "残念がらない"]
+      }
+    ],
+    "explanationEs": "慌てないでください: no te pongas nervioso.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0236",
+    "type": "word-order",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-45",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["落ち着いて", "行動して", "ください"],
+    "correctOrder": ["落ち着いて", "行動して", "ください"],
+    "translationEs": "Actúa con calma, por favor.",
+    "explanationEs": "落ち着いて + 行動する: actuar con calma.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0237",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-45",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "地震", "right": "terremoto" },
+      { "id": "p2", "left": "火事", "right": "incendio" },
+      { "id": "p3", "left": "非常口", "right": "salida de emergencia" },
+      { "id": "p4", "left": "残念", "right": "lástima, pena" },
+      { "id": "p5", "left": "期待する", "right": "esperar, tener expectativas" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0238",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "kanji",
+    "lessonId": "n4-lesson-45",
+    "promptEs": "Une cada kanji con su lectura on'yomi.",
+    "pairs": [
+      { "id": "p1", "left": "震", "right": "しん" },
+      { "id": "p2", "left": "火", "right": "か" },
+      { "id": "p3", "left": "残", "right": "ざん" },
+      { "id": "p4", "left": "念", "right": "ねん" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0239",
+    "type": "speaking",
+    "jlptLevel": "N4",
+    "skill": "speaking",
+    "lessonId": "n4-lesson-45",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "地震[じしん]の場合[ばあい]は、机[つくえ]の下[した]に隠[かく]れてください。",
+    "translationEs": "En caso de terremoto, escóndete debajo del escritorio.",
+    "explanationEs": "Practica la fluidez de 場合は。",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0240",
+    "type": "listening",
+    "jlptLevel": "N4",
+    "skill": "listening",
+    "lessonId": "n4-lesson-45",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "頑張[がんば]ったのに、合格[ごうかく]できませんでした。",
+    "targetReading": "がんばったのに、ごうかくできませんでした。",
+    "translationEs": "A pesar de que me esforcé, no pude aprobar.",
+    "explanationEs": "のに: contraste con decepción.",
+    "difficulty": 2
   }
 ]

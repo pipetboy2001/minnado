@@ -1119,5 +1119,57 @@
     "exampleWords": [
       { "word": "滑る", "reading": "すべる", "meaningEs": "resbalar" }
     ]
+  },
+  {
+    "id": "n4-kanji-0079",
+    "character": "震",
+    "jlptLevel": "N4",
+    "strokeCount": 15,
+    "onyomi": ["シン"],
+    "kunyomi": ["ふる-える"],
+    "meaningEs": "temblar, sacudirse",
+    "radicals": ["雨"],
+    "exampleWords": [
+      { "word": "地震", "reading": "じしん", "meaningEs": "terremoto" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0080",
+    "character": "火",
+    "jlptLevel": "N4",
+    "strokeCount": 4,
+    "onyomi": ["カ"],
+    "kunyomi": ["ひ"],
+    "meaningEs": "fuego",
+    "radicals": ["火"],
+    "exampleWords": [
+      { "word": "火事", "reading": "かじ", "meaningEs": "incendio" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0081",
+    "character": "残",
+    "jlptLevel": "N4",
+    "strokeCount": 10,
+    "onyomi": ["ザン"],
+    "kunyomi": ["のこ-る"],
+    "meaningEs": "quedar, restante",
+    "radicals": ["歹"],
+    "exampleWords": [
+      { "word": "残念", "reading": "ざんねん", "meaningEs": "lástima, pena" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0082",
+    "character": "念",
+    "jlptLevel": "N4",
+    "strokeCount": 8,
+    "onyomi": ["ネン"],
+    "kunyomi": [],
+    "meaningEs": "sentimiento, deseo",
+    "radicals": ["心"],
+    "exampleWords": [
+      { "word": "残念", "reading": "ざんねん", "meaningEs": "lástima, pena" }
+    ]
   }
 ]

@@ -1195,5 +1195,68 @@
       }
     ],
     "relatedGrammarIds": ["n4-gram-0056"]
+  },
+  {
+    "id": "n4-gram-0058",
+    "jlptLevel": "N4",
+    "category": "sentence-structure",
+    "title": "〜場合は (en caso de...)",
+    "pattern": "V (diccionario／た) ／ Sustantivo + の + 場合は、[Instrucción]。",
+    "explanationEs": "場合は introduce una situación hipotética o un caso específico, muy común en instrucciones formales, manuales y señales de emergencia — 'en el caso de que...'. Es más formal que なら.",
+    "structureNotes": "地震の場合は (en caso de terremoto, sustantivo + の) ｜ 事故が起きた場合は (en caso de que ocurra un accidente, verbo en forma た)",
+    "examples": [
+      {
+        "jp": "地震の場合は、机の下に隠れてください。",
+        "reading": "じしんのばあいは、つくえのしたにかくれてください。",
+        "es": "En caso de terremoto, escóndete debajo del escritorio."
+      },
+      {
+        "jp": "火事の場合は、非常口から出てください。",
+        "reading": "かじのばあいは、ひじょうぐちからでてください。",
+        "es": "En caso de incendio, sal por la salida de emergencia."
+      }
+    ]
+  },
+  {
+    "id": "n4-gram-0059",
+    "jlptLevel": "N4",
+    "category": "sentence-structure",
+    "title": "〜のに (contraste: a pesar de que, aunque)",
+    "pattern": "[Oración simple] + のに、[Resultado inesperado]。",
+    "explanationEs": "Esta のに (distinta de la のに de costo, lección 42) conecta dos ideas donde la segunda es inesperada o contraria a lo que se esperaría de la primera — con un matiz de sorpresa, decepción o queja. Es más emocional que けど o でも.",
+    "examples": [
+      {
+        "jp": "頑張ったのに、合格できませんでした。",
+        "reading": "がんばったのに、ごうかくできませんでした。",
+        "es": "A pesar de que me esforcé, no pude aprobar."
+      },
+      {
+        "jp": "期待していたのに、がっかりしました。",
+        "reading": "きたいしていたのに、がっかりしました。",
+        "es": "A pesar de que tenía expectativas, me decepcioné."
+      }
+    ]
+  },
+  {
+    "id": "n4-gram-0060",
+    "jlptLevel": "N4",
+    "category": "sentence-structure",
+    "title": "のに frente a が (diferencia de matiz)",
+    "pattern": "[A] のに、[B] (sorpresa／queja) ｜ [A] が、[B] (contraste neutral)",
+    "explanationEs": "が también conecta dos ideas contrastantes, pero de forma neutral, sin emoción — como 'pero' en español. のに, en cambio, siempre lleva un matiz de sorpresa, decepción o frustración, porque B contradice lo que A hacía esperar. Elegir のに en vez de が cambia el tono de la oración, no solo la gramática.",
+    "structureNotes": "約束を守ったが、信じてもらえませんでした (neutral: pasó, pero...) ｜ 約束を守ったのに、信じてもらえませんでした (con frustración: ¡a pesar de que cumplí!)",
+    "examples": [
+      {
+        "jp": "約束を守ったのに、信じてもらえませんでした。",
+        "reading": "やくそくをまもったのに、しんじてもらえませんでした。",
+        "es": "A pesar de que cumplí mi promesa, no me creyeron."
+      },
+      {
+        "jp": "落ち着いているのに、周りはまだ慌てています。",
+        "reading": "おちついているのに、まわりはまだあわてています。",
+        "es": "A pesar de que estoy calmado, los demás siguen nerviosos."
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0059"]
   }
 ]
