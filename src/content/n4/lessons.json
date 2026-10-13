@@ -598,5 +598,45 @@
       "n4-ex-0179",
       "n4-ex-0180"
     ]
+  },
+  {
+    "id": "n4-lesson-41",
+    "jlptLevel": "N4",
+    "order": 41,
+    "title": "Lección 41 — Dar y recibir con cortesía (差し上げます・いただきます・くださいます)",
+    "description": "El registro cortés de dar y recibir: 差し上げます (dar, humilde) e いただきます (recibir, humilde) hacia un superior, y くださいます (dar, honorífico) desde un superior, con vocabulario de trabajo y regalos, basado en Minna no Nihongo Lección 41 (Libro 2).",
+    "kind": "lesson",
+    "vocabIds": [
+      "n4-voc-0136",
+      "n4-voc-0137",
+      "n4-voc-0138",
+      "n4-voc-0139",
+      "n4-voc-0140",
+      "n4-voc-0141",
+      "n4-voc-0142",
+      "n4-voc-0143",
+      "n4-voc-0144"
+    ],
+    "kanjiIds": [
+      "n4-kanji-0063",
+      "n4-kanji-0064",
+      "n4-kanji-0065",
+      "n4-kanji-0066"
+    ],
+    "grammarIds": ["n4-gram-0046", "n4-gram-0047", "n4-gram-0048"],
+    "exerciseIds": [
+      "n4-ex-0181",
+      "n4-ex-0182",
+      "n4-ex-0183",
+      "n4-ex-0184",
+      "n4-ex-0185",
+      "n4-ex-0186",
+      "n4-ex-0187",
+      "n4-ex-0188",
+      "n4-ex-0189",
+      "n4-ex-0190",
+      "n4-ex-0191",
+      "n4-ex-0192"
+    ]
   }
 ]

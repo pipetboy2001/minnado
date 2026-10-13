@@ -2937,5 +2937,214 @@
     "translationEs": "Voy a probarme esta camisa.",
     "explanationEs": "〜てみます: probar a hacer algo.",
     "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0181",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-41",
+    "promptEs": "Elige la forma correcta (dar, hacia un superior).",
+    "questionJp": "部長[ぶちょう]にお土産[みやげ]を{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "差し上げました", "isCorrect": true },
+      { "id": "b", "textJp": "いただきました", "isCorrect": false },
+      { "id": "c", "textJp": "くださいました", "isCorrect": false },
+      { "id": "d", "textJp": "くれました", "isCorrect": false }
+    ],
+    "explanationEs": "差し上げました: forma humilde de dar, hacia un superior (部長).",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0182",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-41",
+    "promptEs": "Elige la forma correcta (recibir, humilde).",
+    "questionJp": "課長[かちょう]から花束[はなたば]を{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "いただきました", "isCorrect": true },
+      { "id": "b", "textJp": "差し上げました", "isCorrect": false },
+      { "id": "c", "textJp": "くださいました", "isCorrect": false },
+      { "id": "d", "textJp": "くれました", "isCorrect": false }
+    ],
+    "explanationEs": "いただきました: forma humilde de recibir.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0183",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-41",
+    "promptEs": "Elige la forma correcta (dar, honorífico).",
+    "questionJp": "先生[せんせい]が辞書[じしょ]を{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "くださいました", "isCorrect": true },
+      { "id": "b", "textJp": "いただきました", "isCorrect": false },
+      { "id": "c", "textJp": "差し上げました", "isCorrect": false },
+      { "id": "d", "textJp": "もらいました", "isCorrect": false }
+    ],
+    "explanationEs": "くださいました: forma honorífica; el profesor (superior) da algo — sujeto de la oración.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0184",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-41",
+    "promptEs": "Elige la palabra correcta.",
+    "questionJp": "{{1}}には丁寧[ていねい]に話[はな]します。",
+    "options": [
+      { "id": "a", "textJp": "目上の人", "isCorrect": true },
+      { "id": "b", "textJp": "お土産", "isCorrect": false },
+      { "id": "c", "textJp": "花束", "isCorrect": false },
+      { "id": "d", "textJp": "課長", "isCorrect": false }
+    ],
+    "explanationEs": "目上の人 significa 'persona de mayor rango o edad'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0185",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-41",
+    "promptEs": "Completa con 差し上げます.",
+    "sentenceTemplate": "先生[せんせい]に花[はな]を{{1}}。",
+    "translationEs": "Le di flores al profesor.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["差し上げました"],
+        "options": [
+          "差し上げました",
+          "いただきました",
+          "くださいました",
+          "くれました"
+        ]
+      }
+    ],
+    "explanationEs": "差し上げました: dar, de forma humilde, a un superior.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0186",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-41",
+    "promptEs": "Completa con いただきます.",
+    "sentenceTemplate": "先生[せんせい]に本[ほん]を{{1}}。",
+    "translationEs": "Recibí un libro del profesor.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["いただきました"],
+        "options": [
+          "いただきました",
+          "差し上げました",
+          "くださいました",
+          "あげました"
+        ]
+      }
+    ],
+    "explanationEs": "いただきました: recibir, de forma humilde.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0187",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-41",
+    "promptEs": "Completa con くださいます.",
+    "sentenceTemplate": "部長[ぶちょう]が花束[はなたば]を{{1}}。",
+    "translationEs": "El jefe de departamento me dio un ramo de flores.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["くださいました"],
+        "options": [
+          "くださいました",
+          "いただきました",
+          "差し上げました",
+          "もらいました"
+        ]
+      }
+    ],
+    "explanationEs": "くださいました: el superior (部長) da algo — forma honorífica.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0188",
+    "type": "word-order",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-41",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["パーティーに", "部長を", "招きました"],
+    "correctOrder": ["パーティーに", "部長を", "招きました"],
+    "translationEs": "Invité al jefe de departamento a la fiesta.",
+    "explanationEs": "招く: invitar formalmente a alguien a un evento.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0189",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-41",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "部長", "right": "jefe de departamento" },
+      { "id": "p2", "left": "課長", "right": "jefe de sección" },
+      { "id": "p3", "left": "お土産", "right": "regalo, recuerdo de viaje" },
+      { "id": "p4", "left": "花束", "right": "ramo de flores" },
+      { "id": "p5", "left": "目上の人", "right": "persona de mayor rango" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0190",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "kanji",
+    "lessonId": "n4-lesson-41",
+    "promptEs": "Une cada kanji con su lectura on'yomi.",
+    "pairs": [
+      { "id": "p1", "left": "差", "right": "さ" },
+      { "id": "p2", "left": "頂", "right": "ちょう" },
+      { "id": "p3", "left": "束", "right": "そく" },
+      { "id": "p4", "left": "招", "right": "しょう" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0191",
+    "type": "speaking",
+    "jlptLevel": "N4",
+    "skill": "speaking",
+    "lessonId": "n4-lesson-41",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "部長[ぶちょう]にお土産[みやげ]を差[さ]し上[あ]げました。",
+    "translationEs": "Le di un recuerdo de viaje al jefe de departamento.",
+    "explanationEs": "Practica el registro humilde de 差し上げました。",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0192",
+    "type": "listening",
+    "jlptLevel": "N4",
+    "skill": "listening",
+    "lessonId": "n4-lesson-41",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "先生[せんせい]が辞書[じしょ]をくださいました。",
+    "targetReading": "せんせいがじしょをくださいました。",
+    "translationEs": "El profesor me dio un diccionario.",
+    "explanationEs": "くださいました: forma honorífica de dar.",
+    "difficulty": 2
   }
 ]

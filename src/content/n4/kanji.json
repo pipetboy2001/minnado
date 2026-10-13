@@ -901,5 +901,69 @@
     "exampleWords": [
       { "word": "選ぶ", "reading": "えらぶ", "meaningEs": "elegir" }
     ]
+  },
+  {
+    "id": "n4-kanji-0063",
+    "character": "差",
+    "jlptLevel": "N4",
+    "strokeCount": 10,
+    "onyomi": ["サ"],
+    "kunyomi": ["さ-す"],
+    "meaningEs": "diferencia; dar (en 差し上げる)",
+    "radicals": ["工"],
+    "exampleWords": [
+      {
+        "word": "差し上げる",
+        "reading": "さしあげる",
+        "meaningEs": "dar (humilde)"
+      }
+    ]
+  },
+  {
+    "id": "n4-kanji-0064",
+    "character": "頂",
+    "jlptLevel": "N4",
+    "strokeCount": 11,
+    "onyomi": ["チョウ"],
+    "kunyomi": ["いただ-く"],
+    "meaningEs": "cumbre; recibir (humilde)",
+    "radicals": ["頁"],
+    "exampleWords": [
+      {
+        "word": "頂く",
+        "reading": "いただく",
+        "meaningEs": "recibir (humilde)"
+      }
+    ]
+  },
+  {
+    "id": "n4-kanji-0065",
+    "character": "束",
+    "jlptLevel": "N4",
+    "strokeCount": 7,
+    "onyomi": ["ソク"],
+    "kunyomi": ["たば"],
+    "meaningEs": "atado, manojo",
+    "radicals": ["木"],
+    "exampleWords": [
+      { "word": "花束", "reading": "はなたば", "meaningEs": "ramo de flores" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0066",
+    "character": "招",
+    "jlptLevel": "N4",
+    "strokeCount": 8,
+    "onyomi": ["ショウ"],
+    "kunyomi": ["まね-く"],
+    "meaningEs": "invitar, llamar",
+    "radicals": ["扌"],
+    "exampleWords": [
+      {
+        "word": "招く",
+        "reading": "まねく",
+        "meaningEs": "invitar (formalmente)"
+      }
+    ]
   }
 ]

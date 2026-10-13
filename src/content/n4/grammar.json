@@ -952,5 +952,63 @@
         "es": "Quiero intentar algo nuevo."
       }
     ]
+  },
+  {
+    "id": "n4-gram-0046",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "差し上げます (dar — humilde, de uno a un superior)",
+    "pattern": "[Yo] は [Superior] に [Objeto] を 差し上げます。",
+    "explanationEs": "差し上げます es la forma humilde de あげます (dar), usada cuando el hablante le da algo a alguien de mayor estatus (jefe, cliente, profesor). Rebaja la acción del hablante como señal de respeto hacia quien recibe.",
+    "examples": [
+      {
+        "jp": "部長にお土産を差し上げました。",
+        "reading": "ぶちょうにおみやげをさしあげました。",
+        "es": "Le di un recuerdo de viaje al jefe de departamento."
+      }
+    ]
+  },
+  {
+    "id": "n4-gram-0047",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "いただきます (recibir — humilde)",
+    "pattern": "[Yo] は [Superior] に／から [Objeto] を いただきます。",
+    "explanationEs": "いただきます es la forma humilde de もらいます (recibir). Ya se vio como 〜ていただけませんか (lección 26); aquí es el verbo もらう completo, en su registro humilde — rebaja al hablante cuando recibe algo de alguien de mayor estatus.",
+    "examples": [
+      {
+        "jp": "課長から花束をいただきました。",
+        "reading": "かちょうからはなたばをいただきました。",
+        "es": "Recibí un ramo de flores del jefe de sección."
+      },
+      {
+        "jp": "先生に本をいただきました。",
+        "reading": "せんせいにほんをいただきました。",
+        "es": "Recibí un libro del profesor."
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0046"]
+  },
+  {
+    "id": "n4-gram-0048",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "くださいます (dar — honorífico, de un superior a uno)",
+    "pattern": "[Superior] が [Yo] に [Objeto] を くださいます。",
+    "explanationEs": "くださいます es la forma honorífica de くれます (dar a mí o a mi grupo). En vez de rebajar al hablante (como いただきます), eleva la acción de la persona de mayor estatus que da algo. El sujeto de la oración es quien da, no quien recibe — distinto de いただきます.",
+    "structureNotes": "先生が（私に）辞書をくださいました (el profesor me dio un diccionario — sujeto: 先生)",
+    "examples": [
+      {
+        "jp": "先生が辞書をくださいました。",
+        "reading": "せんせいがじしょをくださいました。",
+        "es": "El profesor me dio un diccionario."
+      },
+      {
+        "jp": "部長が花束をくださいました。",
+        "reading": "ぶちょうがはなたばをくださいました。",
+        "es": "El jefe de departamento me dio un ramo de flores."
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0046", "n4-gram-0047"]
   }
 ]
