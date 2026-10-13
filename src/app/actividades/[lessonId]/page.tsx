@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { BookText, ListChecks, Play, PenTool, ScrollText } from "lucide-react";
 import {
   getLessonsN5,
   getVocabN5,
@@ -53,7 +54,10 @@ export default async function LessonPage({
       <p className="mb-6 text-muted-foreground">{lesson.description}</p>
 
       <section className="mb-8">
-        <h2 className="mb-3 text-lg font-semibold">Vocabulario</h2>
+        <h2 className="mb-3 flex items-center gap-2 text-lg font-semibold">
+          <BookText className="size-5 text-muted-foreground" />
+          Vocabulario
+        </h2>
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
           {vocab.map((word) => (
             <VocabCard key={word.id} word={word} />
@@ -63,7 +67,10 @@ export default async function LessonPage({
 
       {kanji.length > 0 && (
         <section className="mb-8">
-          <h2 className="mb-3 text-lg font-semibold">Kanji</h2>
+          <h2 className="mb-3 flex items-center gap-2 text-lg font-semibold">
+            <PenTool className="size-5 text-muted-foreground" />
+            Kanji
+          </h2>
           <div className="grid grid-cols-3 gap-3 sm:grid-cols-4">
             {kanji.map((k) => (
               <KanjiCard key={k.id} kanji={k} />
@@ -73,7 +80,10 @@ export default async function LessonPage({
       )}
 
       <section className="mb-8">
-        <h2 className="mb-3 text-lg font-semibold">Gramática</h2>
+        <h2 className="mb-3 flex items-center gap-2 text-lg font-semibold">
+          <ScrollText className="size-5 text-muted-foreground" />
+          Gramática
+        </h2>
         <div className="flex flex-col gap-3">
           {grammar.map((rule) => (
             <Card key={rule.id}>
@@ -100,7 +110,8 @@ export default async function LessonPage({
       </section>
 
       <section>
-        <h2 className="mb-3 text-lg font-semibold">
+        <h2 className="mb-3 flex items-center gap-2 text-lg font-semibold">
+          <ListChecks className="size-5 text-muted-foreground" />
           Ejercicios ({exercises.length})
         </h2>
         <p className="mb-4 text-sm text-muted-foreground">
@@ -109,6 +120,7 @@ export default async function LessonPage({
           pronunciación y comprensión auditiva.
         </p>
         <Button render={<Link href={`/actividades/${lesson.id}/practica`} />}>
+          <Play />
           Practicar ejercicios
         </Button>
       </section>

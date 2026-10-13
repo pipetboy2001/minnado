@@ -3,6 +3,14 @@
 import { useState } from "react";
 import Link from "next/link";
 import { toast } from "sonner";
+import {
+  Coffee,
+  Eye,
+  PartyPopper,
+  RotateCcw,
+  ThumbsUp,
+  Zap,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { SpeakButton } from "@/components/speak-button";
@@ -77,6 +85,7 @@ export function ReviewSession({
     return (
       <Card>
         <CardContent className="flex flex-col items-center gap-2 p-8 text-center">
+          <Coffee className="size-8 text-muted-foreground" />
           <h2 className="text-lg font-semibold">
             ¡No tienes repasos pendientes por hoy!
           </h2>
@@ -99,6 +108,7 @@ export function ReviewSession({
     return (
       <Card>
         <CardContent className="flex flex-col items-center gap-3 p-8 text-center">
+          <PartyPopper className="size-8 text-primary" />
           <h2 className="text-xl font-bold">¡Repaso completo!</h2>
           <p className="text-muted-foreground">
             Repasaste {total} {total === 1 ? "tarjeta" : "tarjetas"} hoy.
@@ -138,6 +148,7 @@ export function ReviewSession({
               variant="outline"
               onClick={() => setRevealed(true)}
             >
+              <Eye />
               Mostrar respuesta
             </Button>
           ) : current.kind === "vocab" ? (
@@ -180,6 +191,7 @@ export function ReviewSession({
             disabled={submitting}
             onClick={() => grade("again")}
           >
+            <RotateCcw />
             Otra vez
           </Button>
           <Button
@@ -189,6 +201,7 @@ export function ReviewSession({
             disabled={submitting}
             onClick={() => grade("good")}
           >
+            <ThumbsUp />
             Bien
           </Button>
           <Button
@@ -197,6 +210,7 @@ export function ReviewSession({
             disabled={submitting}
             onClick={() => grade("easy")}
           >
+            <Zap />
             Fácil
           </Button>
         </div>

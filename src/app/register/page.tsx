@@ -8,8 +8,9 @@ import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { toast } from "sonner";
+import { UserPlus, User, Mail, Lock } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import { IconInput } from "@/components/ui/icon-input";
 import { Label } from "@/components/ui/label";
 import {
   Card,
@@ -78,7 +79,10 @@ export default function RegisterPage() {
       </div>
       <Card className="w-full max-w-sm">
         <CardHeader>
-          <CardTitle>Minnado — Crear cuenta</CardTitle>
+          <CardTitle className="flex items-center gap-2">
+            <UserPlus className="size-5 text-primary" />
+            Minnado — Crear cuenta
+          </CardTitle>
           <CardDescription>
             Regístrate para guardar tu progreso.
           </CardDescription>
@@ -90,7 +94,12 @@ export default function RegisterPage() {
           >
             <div className="flex flex-col gap-2">
               <Label htmlFor="name">Nombre</Label>
-              <Input id="name" autoComplete="name" {...register("name")} />
+              <IconInput
+                icon={User}
+                id="name"
+                autoComplete="name"
+                {...register("name")}
+              />
               {errors.name && (
                 <p className="text-sm text-destructive">
                   {errors.name.message}
@@ -99,7 +108,8 @@ export default function RegisterPage() {
             </div>
             <div className="flex flex-col gap-2">
               <Label htmlFor="email">Correo</Label>
-              <Input
+              <IconInput
+                icon={Mail}
                 id="email"
                 type="email"
                 autoComplete="email"
@@ -113,7 +123,8 @@ export default function RegisterPage() {
             </div>
             <div className="flex flex-col gap-2">
               <Label htmlFor="password">Contraseña</Label>
-              <Input
+              <IconInput
+                icon={Lock}
                 id="password"
                 type="password"
                 autoComplete="new-password"
@@ -129,6 +140,7 @@ export default function RegisterPage() {
               <p className="text-sm text-destructive">{serverError}</p>
             )}
             <Button type="submit" disabled={isSubmitting} className="mt-2">
+              <UserPlus />
               {isSubmitting ? "Creando cuenta..." : "Crear cuenta"}
             </Button>
           </form>

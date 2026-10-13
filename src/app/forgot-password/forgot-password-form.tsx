@@ -6,8 +6,9 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import Link from "next/link";
 import { toast } from "sonner";
+import { Send, MailCheck, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import { IconInput } from "@/components/ui/icon-input";
 import { Label } from "@/components/ui/label";
 import {
   Card,
@@ -52,14 +53,18 @@ export function ForgotPasswordForm() {
   return (
     <Card className="w-full max-w-sm">
       <CardHeader>
-        <CardTitle>Minnado — Recuperar contraseña</CardTitle>
+        <CardTitle className="flex items-center gap-2">
+          <Mail className="size-5 text-primary" />
+          Minnado — Recuperar contraseña
+        </CardTitle>
         <CardDescription>
           Te enviaremos un enlace para elegir una nueva contraseña.
         </CardDescription>
       </CardHeader>
       <CardContent>
         {sent ? (
-          <p className="text-sm text-muted-foreground">
+          <p className="flex items-start gap-2 text-sm text-muted-foreground">
+            <MailCheck className="mt-0.5 size-4 shrink-0 text-green-600" />
             Si el correo está registrado, te enviamos un enlace para restablecer
             tu contraseña. Revisa tu bandeja de entrada (y spam).
           </p>
@@ -70,7 +75,8 @@ export function ForgotPasswordForm() {
           >
             <div className="flex flex-col gap-2">
               <Label htmlFor="email">Correo</Label>
-              <Input
+              <IconInput
+                icon={Mail}
                 id="email"
                 type="email"
                 autoComplete="email"
@@ -83,6 +89,7 @@ export function ForgotPasswordForm() {
               )}
             </div>
             <Button type="submit" disabled={isSubmitting} className="mt-2">
+              <Send />
               {isSubmitting ? "Enviando..." : "Enviar enlace"}
             </Button>
           </form>

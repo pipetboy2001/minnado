@@ -8,8 +8,9 @@ import { signIn } from "next-auth/react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { toast } from "sonner";
+import { LogIn, Mail, Lock } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import { IconInput } from "@/components/ui/icon-input";
 import { Label } from "@/components/ui/label";
 import {
   Card,
@@ -59,14 +60,18 @@ export function LoginForm() {
   return (
     <Card className="w-full max-w-sm">
       <CardHeader>
-        <CardTitle>Minnado — Iniciar sesión</CardTitle>
+        <CardTitle className="flex items-center gap-2">
+          <LogIn className="size-5 text-primary" />
+          Minnado — Iniciar sesión
+        </CardTitle>
         <CardDescription>Entra para practicar japonés N5/N4.</CardDescription>
       </CardHeader>
       <CardContent>
         <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4">
           <div className="flex flex-col gap-2">
             <Label htmlFor="email">Correo</Label>
-            <Input
+            <IconInput
+              icon={Mail}
               id="email"
               type="email"
               autoComplete="email"
@@ -86,7 +91,8 @@ export function LoginForm() {
                 ¿Olvidaste tu contraseña?
               </Link>
             </div>
-            <Input
+            <IconInput
+              icon={Lock}
               id="password"
               type="password"
               autoComplete="current-password"
@@ -102,6 +108,7 @@ export function LoginForm() {
             <p className="text-sm text-destructive">{serverError}</p>
           )}
           <Button type="submit" disabled={isSubmitting} className="mt-2">
+            <LogIn />
             {isSubmitting ? "Ingresando..." : "Ingresar"}
           </Button>
         </form>

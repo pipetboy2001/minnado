@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { ListChecks } from "lucide-react";
 import { getLessonsN5, getExercisesN5 } from "@/content/loader";
 import { ExercisePlayer } from "@/components/exercises/exercise-player";
 
@@ -27,7 +28,10 @@ export default async function PracticaPage({
       >
         ← Volver a la lección
       </Link>
-      <h1 className="mt-2 mb-6 text-2xl font-bold">{lesson.title}</h1>
+      <h1 className="mt-2 mb-6 flex items-center gap-2 text-2xl font-bold">
+        <ListChecks className="size-6 text-muted-foreground" />
+        {lesson.title}
+      </h1>
       <ExercisePlayer exercises={exercises} lessonId={lesson.id} />
     </div>
   );

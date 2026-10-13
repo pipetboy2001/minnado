@@ -6,8 +6,9 @@ import { z } from "zod";
 import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { toast } from "sonner";
+import { KeyRound, Lock, TriangleAlert } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import { IconInput } from "@/components/ui/icon-input";
 import { Label } from "@/components/ui/label";
 import {
   Card,
@@ -70,7 +71,10 @@ export function ResetPasswordForm() {
     return (
       <Card className="w-full max-w-sm">
         <CardHeader>
-          <CardTitle>Enlace inválido</CardTitle>
+          <CardTitle className="flex items-center gap-2">
+            <TriangleAlert className="size-5 text-destructive" />
+            Enlace inválido
+          </CardTitle>
           <CardDescription>
             Este enlace de recuperación es incompleto o ya fue usado.
           </CardDescription>
@@ -90,14 +94,18 @@ export function ResetPasswordForm() {
   return (
     <Card className="w-full max-w-sm">
       <CardHeader>
-        <CardTitle>Minnado — Nueva contraseña</CardTitle>
+        <CardTitle className="flex items-center gap-2">
+          <KeyRound className="size-5 text-primary" />
+          Minnado — Nueva contraseña
+        </CardTitle>
         <CardDescription>Elige tu nueva contraseña.</CardDescription>
       </CardHeader>
       <CardContent>
         <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4">
           <div className="flex flex-col gap-2">
             <Label htmlFor="newPassword">Nueva contraseña</Label>
-            <Input
+            <IconInput
+              icon={Lock}
               id="newPassword"
               type="password"
               autoComplete="new-password"
@@ -111,7 +119,8 @@ export function ResetPasswordForm() {
           </div>
           <div className="flex flex-col gap-2">
             <Label htmlFor="confirmPassword">Confirmar nueva contraseña</Label>
-            <Input
+            <IconInput
+              icon={Lock}
               id="confirmPassword"
               type="password"
               autoComplete="new-password"
@@ -124,6 +133,7 @@ export function ResetPasswordForm() {
             )}
           </div>
           <Button type="submit" disabled={isSubmitting} className="mt-2">
+            <KeyRound />
             {isSubmitting ? "Guardando..." : "Restablecer contraseña"}
           </Button>
         </form>

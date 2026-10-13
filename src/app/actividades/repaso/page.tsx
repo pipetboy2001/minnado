@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { RotateCcw } from "lucide-react";
 import { auth } from "@/auth";
 import { ensureReviewCardsSeeded, getDueReviewCards } from "@/lib/review";
 import { ReviewSession } from "./review-session";
@@ -18,7 +19,10 @@ export default async function ReviewPage() {
       >
         ← Volver a actividades
       </Link>
-      <h1 className="mt-2 mb-1 text-2xl font-bold">Repaso</h1>
+      <h1 className="mt-2 mb-1 flex items-center gap-2 text-2xl font-bold">
+        <RotateCcw className="size-6 text-muted-foreground" />
+        Repaso
+      </h1>
       <p className="mb-6 text-muted-foreground">
         Repetición espaciada: repasa hoy lo que toca, y el sistema decide cuándo
         te conviene volver a verlo.

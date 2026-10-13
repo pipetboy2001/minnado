@@ -4,8 +4,9 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { toast } from "sonner";
+import { KeyRound, Lock } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import { IconInput } from "@/components/ui/icon-input";
 import { Label } from "@/components/ui/label";
 
 const changePasswordSchema = z
@@ -57,7 +58,8 @@ export function ChangePasswordForm() {
     <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4">
       <div className="flex flex-col gap-2">
         <Label htmlFor="currentPassword">Contraseña actual</Label>
-        <Input
+        <IconInput
+          icon={Lock}
           id="currentPassword"
           type="password"
           autoComplete="current-password"
@@ -71,7 +73,8 @@ export function ChangePasswordForm() {
       </div>
       <div className="flex flex-col gap-2">
         <Label htmlFor="newPassword">Nueva contraseña</Label>
-        <Input
+        <IconInput
+          icon={Lock}
           id="newPassword"
           type="password"
           autoComplete="new-password"
@@ -85,7 +88,8 @@ export function ChangePasswordForm() {
       </div>
       <div className="flex flex-col gap-2">
         <Label htmlFor="confirmPassword">Confirmar nueva contraseña</Label>
-        <Input
+        <IconInput
+          icon={Lock}
           id="confirmPassword"
           type="password"
           autoComplete="new-password"
@@ -98,6 +102,7 @@ export function ChangePasswordForm() {
         )}
       </div>
       <Button type="submit" disabled={isSubmitting} className="mt-2">
+        <KeyRound />
         {isSubmitting ? "Guardando..." : "Cambiar contraseña"}
       </Button>
     </form>

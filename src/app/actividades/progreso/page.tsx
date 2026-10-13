@@ -1,5 +1,13 @@
 import Link from "next/link";
-import { CheckCircle2 } from "lucide-react";
+import {
+  BookOpen,
+  CheckCircle2,
+  History,
+  Pencil,
+  Percent,
+  Target,
+  Trophy,
+} from "lucide-react";
 import { auth } from "@/auth";
 import {
   getUserOverallStats,
@@ -49,7 +57,8 @@ export default async function ProgresoPage() {
 
       <div className="mb-4 grid grid-cols-3 gap-3">
         <Card>
-          <CardContent className="p-4 text-center">
+          <CardContent className="flex flex-col items-center gap-1 p-4 text-center">
+            <CheckCircle2 className="size-4 text-muted-foreground" />
             <p className="text-2xl font-bold">{sessionStats.totalSessions}</p>
             <p className="text-xs text-muted-foreground">
               Sesiones completadas
@@ -57,7 +66,8 @@ export default async function ProgresoPage() {
           </CardContent>
         </Card>
         <Card>
-          <CardContent className="p-4 text-center">
+          <CardContent className="flex flex-col items-center gap-1 p-4 text-center">
+            <Target className="size-4 text-muted-foreground" />
             <p className="text-2xl font-bold">
               {sessionStats.averageScorePercent}%
             </p>
@@ -67,7 +77,8 @@ export default async function ProgresoPage() {
           </CardContent>
         </Card>
         <Card>
-          <CardContent className="p-4 text-center">
+          <CardContent className="flex flex-col items-center gap-1 p-4 text-center">
+            <Trophy className="size-4 text-muted-foreground" />
             <p className="text-2xl font-bold">
               {sessionStats.bestScorePercent}%
             </p>
@@ -78,7 +89,8 @@ export default async function ProgresoPage() {
 
       <div className="mb-8 grid grid-cols-3 gap-3">
         <Card>
-          <CardContent className="p-4 text-center">
+          <CardContent className="flex flex-col items-center gap-1 p-4 text-center">
+            <Pencil className="size-4 text-muted-foreground" />
             <p className="text-2xl font-bold">{stats.totalAttempts}</p>
             <p className="text-xs text-muted-foreground">
               Ejercicios intentados
@@ -86,7 +98,8 @@ export default async function ProgresoPage() {
           </CardContent>
         </Card>
         <Card>
-          <CardContent className="p-4 text-center">
+          <CardContent className="flex flex-col items-center gap-1 p-4 text-center">
+            <CheckCircle2 className="size-4 text-muted-foreground" />
             <p className="text-2xl font-bold">{stats.correctAttempts}</p>
             <p className="text-xs text-muted-foreground">
               Respuestas correctas
@@ -94,7 +107,8 @@ export default async function ProgresoPage() {
           </CardContent>
         </Card>
         <Card>
-          <CardContent className="p-4 text-center">
+          <CardContent className="flex flex-col items-center gap-1 p-4 text-center">
+            <Percent className="size-4 text-muted-foreground" />
             <p className="text-2xl font-bold">{stats.accuracy}%</p>
             <p className="text-xs text-muted-foreground">Precisión general</p>
           </CardContent>
@@ -103,7 +117,10 @@ export default async function ProgresoPage() {
 
       {recentSessions.length > 0 && (
         <>
-          <h2 className="mb-3 text-lg font-semibold">Historial de sesiones</h2>
+          <h2 className="mb-3 flex items-center gap-2 text-lg font-semibold">
+            <History className="size-5 text-muted-foreground" />
+            Historial de sesiones
+          </h2>
           <div className="mb-8 flex flex-col gap-2">
             {recentSessions.map((s) => (
               <Card key={s.id}>
@@ -135,7 +152,10 @@ export default async function ProgresoPage() {
         </>
       )}
 
-      <h2 className="mb-3 text-lg font-semibold">Lecciones</h2>
+      <h2 className="mb-3 flex items-center gap-2 text-lg font-semibold">
+        <BookOpen className="size-5 text-muted-foreground" />
+        Lecciones
+      </h2>
       <div className="flex flex-col gap-3">
         {lessons.map((lesson) => {
           const percentage =

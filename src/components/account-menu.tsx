@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, Settings, TrendingUp, User } from "lucide-react";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -18,14 +18,17 @@ export function AccountMenu() {
       <DropdownMenuTrigger
         className={cn(buttonVariants({ variant: "outline" }), "gap-1")}
       >
+        <User />
         Mi cuenta
         <ChevronDown className="size-3.5" />
       </DropdownMenuTrigger>
       <DropdownMenuContent>
         <DropdownMenuItem render={<Link href="/actividades/cuenta" />}>
+          <Settings className="size-4" />
           Configuración
         </DropdownMenuItem>
         <DropdownMenuItem render={<Link href="/actividades/progreso" />}>
+          <TrendingUp className="size-4" />
           Mi progreso
         </DropdownMenuItem>
       </DropdownMenuContent>

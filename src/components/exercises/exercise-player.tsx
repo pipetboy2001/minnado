@@ -2,7 +2,17 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { Check, X } from "lucide-react";
+import {
+  ArrowLeftRight,
+  Check,
+  Headphones,
+  ListChecks,
+  Mic,
+  PenLine,
+  Shuffle,
+  X,
+} from "lucide-react";
+import type { LucideIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
@@ -10,7 +20,7 @@ import {
   isSpeechRecognitionSupported,
   isSpeechSynthesisSupported,
 } from "@/lib/speech";
-import type { Exercise } from "@/types/exercise";
+import type { Exercise, ExerciseType } from "@/types/exercise";
 import { gradeExercise, type ExerciseAnswer } from "./grading";
 import { MultipleChoiceQuestion } from "./multiple-choice-question";
 import { FillInBlankQuestion } from "./fill-in-blank-question";
@@ -18,6 +28,18 @@ import { WordOrderQuestion } from "./word-order-question";
 import { MatchingQuestion } from "./matching-question";
 import { SpeakingQuestion } from "./speaking-question";
 import { ListeningQuestion } from "./listening-question";
+
+const EXERCISE_TYPE_META: Record<
+  ExerciseType,
+  { icon: LucideIcon; label: string }
+> = {
+  "multiple-choice": { icon: ListChecks, label: "Opción múltiple" },
+  "fill-in-blank": { icon: PenLine, label: "Completar espacio" },
+  "word-order": { icon: ArrowLeftRight, label: "Ordenar palabras" },
+  matching: { icon: Shuffle, label: "Emparejar" },
+  speaking: { icon: Mic, label: "Pronunciación" },
+  listening: { icon: Headphones, label: "Comprensión auditiva" },
+};
 
 export function ExercisePlayer({
   exercises: allExercises,
@@ -145,6 +167,9 @@ export function ExercisePlayer({
     );
   }
 
+  const { icon: TypeIcon, label: typeLabel } =
+    EXERCISE_TYPE_META[exercise.type];
+
   return (
     <Card>
       <CardContent className="flex flex-col gap-6 p-6">
@@ -163,7 +188,13 @@ export function ExercisePlayer({
           </div>
         </div>
 
-        <p className="text-base text-muted-foreground">{exercise.promptEs}</p>
+        <div className="flex flex-col gap-1.5">
+          <span className="flex items-center gap-1.5 text-xs font-medium text-muted-foreground">
+            <TypeIcon className="size-3.5" />
+            {typeLabel}
+          </span>
+          <p className="text-base text-muted-foreground">{exercise.promptEs}</p>
+        </div>
 
         {exercise.type === "multiple-choice" && (
           <MultipleChoiceQuestion

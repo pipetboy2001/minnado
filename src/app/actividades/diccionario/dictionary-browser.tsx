@@ -1,7 +1,8 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { Input } from "@/components/ui/input";
+import { BookText, PenTool, Search } from "lucide-react";
+import { IconInput } from "@/components/ui/icon-input";
 import { Button } from "@/components/ui/button";
 import { VocabCard } from "@/components/vocab-card";
 import { KanjiCard } from "@/components/kanji-card";
@@ -51,6 +52,7 @@ export function DictionaryBrowser({
           variant={tab === "vocab" ? "default" : "outline"}
           onClick={() => setTab("vocab")}
         >
+          <BookText />
           Vocabulario ({vocab.length})
         </Button>
         <Button
@@ -58,11 +60,13 @@ export function DictionaryBrowser({
           variant={tab === "kanji" ? "default" : "outline"}
           onClick={() => setTab("kanji")}
         >
+          <PenTool />
           Kanji ({kanji.length})
         </Button>
       </div>
 
-      <Input
+      <IconInput
+        icon={Search}
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         placeholder={

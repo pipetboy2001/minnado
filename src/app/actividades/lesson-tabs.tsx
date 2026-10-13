@@ -2,7 +2,15 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { CheckCircle2 } from "lucide-react";
+import {
+  BookOpen,
+  BookText,
+  CheckCircle2,
+  ListChecks,
+  PenTool,
+  RotateCcw,
+  ScrollText,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -42,6 +50,7 @@ export function LessonTabs({
           variant={tab === "lesson" ? "default" : "outline"}
           onClick={() => setTab("lesson")}
         >
+          <BookOpen />
           Lecciones ({realLessons.length})
         </Button>
         <Button
@@ -49,6 +58,7 @@ export function LessonTabs({
           variant={tab === "review" ? "default" : "outline"}
           onClick={() => setTab("review")}
         >
+          <RotateCcw />
           Repaso ({reviewLessons.length})
         </Button>
       </div>
@@ -77,11 +87,23 @@ export function LessonTabs({
                   <CardDescription>{lesson.description}</CardDescription>
                 </CardHeader>
                 <CardContent className="flex flex-col gap-3">
-                  <div className="flex gap-4 text-sm text-muted-foreground">
-                    <span>{lesson.vocabIds.length} palabras</span>
-                    <span>{lesson.kanjiIds.length} kanji</span>
-                    <span>{lesson.grammarIds.length} reglas de gramática</span>
-                    <span>{lesson.exerciseIds.length} ejercicios</span>
+                  <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
+                    <span className="flex items-center gap-1">
+                      <BookText className="size-3.5" />
+                      {lesson.vocabIds.length} palabras
+                    </span>
+                    <span className="flex items-center gap-1">
+                      <PenTool className="size-3.5" />
+                      {lesson.kanjiIds.length} kanji
+                    </span>
+                    <span className="flex items-center gap-1">
+                      <ScrollText className="size-3.5" />
+                      {lesson.grammarIds.length} reglas de gramática
+                    </span>
+                    <span className="flex items-center gap-1">
+                      <ListChecks className="size-3.5" />
+                      {lesson.exerciseIds.length} ejercicios
+                    </span>
                   </div>
                   {percentage > 0 && (
                     <div className="h-1.5 w-full overflow-hidden rounded-full bg-muted">

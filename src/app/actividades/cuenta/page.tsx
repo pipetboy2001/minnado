@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { KeyRound, Settings, UserCircle, Volume2 } from "lucide-react";
 import { auth } from "@/auth";
 import {
   Card,
@@ -24,11 +25,15 @@ export default async function CuentaPage() {
         </Link>
         <ThemeToggle />
       </div>
-      <h1 className="mt-2 mb-6 text-2xl font-bold">Configuración</h1>
+      <h1 className="mt-2 mb-6 flex items-center gap-2 text-2xl font-bold">
+        <Settings className="size-6 text-muted-foreground" />
+        Configuración
+      </h1>
 
       <Card>
         <CardHeader>
-          <CardTitle className="text-base">
+          <CardTitle className="flex items-center gap-2 text-base">
+            <UserCircle className="size-5 text-muted-foreground" />
             {session?.user?.name ?? "Sin nombre"}
           </CardTitle>
           <CardDescription>{session?.user?.email}</CardDescription>
@@ -37,7 +42,10 @@ export default async function CuentaPage() {
 
       <div className="mt-6 flex items-center justify-between">
         <div>
-          <h2 className="text-lg font-semibold">Velocidad de audio</h2>
+          <h2 className="flex items-center gap-2 text-lg font-semibold">
+            <Volume2 className="size-4 text-muted-foreground" />
+            Velocidad de audio
+          </h2>
           <p className="text-sm text-muted-foreground">
             Aplica a toda la pronunciación del sitio.
           </p>
@@ -45,7 +53,10 @@ export default async function CuentaPage() {
         <SpeechSpeedControl />
       </div>
 
-      <h2 className="mt-6 mb-3 text-lg font-semibold">Cambiar contraseña</h2>
+      <h2 className="mt-6 mb-3 flex items-center gap-2 text-lg font-semibold">
+        <KeyRound className="size-4 text-muted-foreground" />
+        Cambiar contraseña
+      </h2>
       <ChangePasswordForm />
     </div>
   );
