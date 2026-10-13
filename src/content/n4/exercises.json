@@ -2549,5 +2549,199 @@
     "translationEs": "Se me da bien dibujar.",
     "explanationEs": "のが + 得意: una habilidad.",
     "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0157",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-39",
+    "promptEs": "Elige la forma correcta para la razón.",
+    "questionJp": "具合[ぐあい]が{{1}}、休[やす]みます。",
+    "options": [
+      { "id": "a", "textJp": "悪くて", "isCorrect": true },
+      { "id": "b", "textJp": "悪いので", "isCorrect": false },
+      { "id": "c", "textJp": "悪くないで", "isCorrect": false },
+      { "id": "d", "textJp": "悪かったら", "isCorrect": false }
+    ],
+    "explanationEs": "悪くて: forma くて del adjetivo -い, conecta la razón de forma simple.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0158",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-39",
+    "promptEs": "Elige la forma correcta para una razón formal y objetiva.",
+    "questionJp": "事故[じこ]があった{{1}}、電車[でんしゃ]が遅[おく]れました。",
+    "options": [
+      { "id": "a", "textJp": "ので", "isCorrect": true },
+      { "id": "b", "textJp": "から", "isCorrect": false },
+      { "id": "c", "textJp": "けど", "isCorrect": false },
+      { "id": "d", "textJp": "のに", "isCorrect": false }
+    ],
+    "explanationEs": "ので expresa la razón de forma más formal y objetiva que から.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0159",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-39",
+    "promptEs": "Elige la forma correcta.",
+    "questionJp": "会社[かいしゃ]に行[い]く{{1}}、コンビニに寄[よ]りました。",
+    "options": [
+      { "id": "a", "textJp": "途中で", "isCorrect": true },
+      { "id": "b", "textJp": "間に", "isCorrect": false },
+      { "id": "c", "textJp": "うちに", "isCorrect": false },
+      { "id": "d", "textJp": "まま", "isCorrect": false }
+    ],
+    "explanationEs": "途中で: a mitad de camino, mientras se hace algo.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0160",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-39",
+    "promptEs": "Elige la palabra correcta.",
+    "questionJp": "{{1}}があって、早[はや]く帰[かえ]ります。",
+    "options": [
+      { "id": "a", "textJp": "用事", "isCorrect": true },
+      { "id": "b", "textJp": "途中", "isCorrect": false },
+      { "id": "c", "textJp": "事故", "isCorrect": false },
+      { "id": "d", "textJp": "具合", "isCorrect": false }
+    ],
+    "explanationEs": "用事 significa 'asunto, diligencia'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0161",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-39",
+    "promptEs": "Completa con ので.",
+    "sentenceTemplate": "用事[ようじ]がある{{1}}、早[はや]く帰[かえ]ります。",
+    "translationEs": "Tengo un asunto, así que me voy temprano.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["ので"],
+        "options": ["ので", "のに", "けど", "でも"]
+      }
+    ],
+    "explanationEs": "ので conecta la razón de forma formal/objetiva.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0162",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-39",
+    "promptEs": "Completa con くて.",
+    "sentenceTemplate": "具合[ぐあい]が{{1}}、休[やす]みます。",
+    "translationEs": "Me siento mal, así que voy a faltar.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["悪くて"],
+        "options": ["悪くて", "悪いので", "悪くないで", "悪かったら"]
+      }
+    ],
+    "explanationEs": "悪くて: forma くて de 悪い, conecta razón y resultado de forma simple.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0163",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-39",
+    "promptEs": "Completa con 途中で.",
+    "sentenceTemplate": "{{1}}休憩[きゅうけい]しましょう。",
+    "translationEs": "Descansemos a mitad de camino.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["途中で"],
+        "options": ["途中で", "間に", "うちに", "まま"]
+      }
+    ],
+    "explanationEs": "途中で: a mitad de camino.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0164",
+    "type": "word-order",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-39",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["事故が", "あったので", "電車が遅れました"],
+    "correctOrder": ["事故が", "あったので", "電車が遅れました"],
+    "translationEs": "Como hubo un accidente, el tren se retrasó.",
+    "explanationEs": "La razón con ので va antes del resultado.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0165",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-39",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "事故", "right": "accidente" },
+      { "id": "p2", "left": "遅れる", "right": "retrasarse, llegar tarde" },
+      { "id": "p3", "left": "途中", "right": "a mitad de camino" },
+      { "id": "p4", "left": "用事", "right": "asunto, diligencia" },
+      { "id": "p5", "left": "具合", "right": "estado, condición" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0166",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "kanji",
+    "lessonId": "n4-lesson-39",
+    "promptEs": "Une cada kanji con su lectura on'yomi.",
+    "pairs": [
+      { "id": "p1", "left": "事", "right": "じ" },
+      { "id": "p2", "left": "途", "right": "と" },
+      { "id": "p3", "left": "具", "right": "ぐ" },
+      { "id": "p4", "left": "合", "right": "ごう" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0167",
+    "type": "speaking",
+    "jlptLevel": "N4",
+    "skill": "speaking",
+    "lessonId": "n4-lesson-39",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "会社[かいしゃ]に行[い]く途中[とちゅう]で、コンビニに寄[よ]りました。",
+    "translationEs": "De camino al trabajo, pasé por una tienda de conveniencia.",
+    "explanationEs": "Practica la fluidez de 途中で。",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0168",
+    "type": "listening",
+    "jlptLevel": "N4",
+    "skill": "listening",
+    "lessonId": "n4-lesson-39",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "事故[じこ]があったので、電車[でんしゃ]が遅[おく]れました。",
+    "targetReading": "じこがあったので、でんしゃがおくれました。",
+    "translationEs": "Como hubo un accidente, el tren se retrasó.",
+    "explanationEs": "ので: razón objetiva.",
+    "difficulty": 2
   }
 ]

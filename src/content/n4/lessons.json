@@ -518,5 +518,45 @@
       "n4-ex-0155",
       "n4-ex-0156"
     ]
+  },
+  {
+    "id": "n4-lesson-39",
+    "jlptLevel": "N4",
+    "order": 39,
+    "title": "Lección 39 — Causas y trayecto (Vて／くて・〜ので・〜途中で)",
+    "description": "Dar una razón de forma simple con Vて／くて, de forma más formal con 〜ので, y describir algo que pasa a mitad de camino con 〜途中で, con vocabulario de transporte y trabajo, basado en Minna no Nihongo Lección 39 (Libro 2).",
+    "kind": "lesson",
+    "vocabIds": [
+      "n4-voc-0118",
+      "n4-voc-0119",
+      "n4-voc-0120",
+      "n4-voc-0121",
+      "n4-voc-0122",
+      "n4-voc-0123",
+      "n4-voc-0124",
+      "n4-voc-0125",
+      "n4-voc-0126"
+    ],
+    "kanjiIds": [
+      "n4-kanji-0055",
+      "n4-kanji-0056",
+      "n4-kanji-0057",
+      "n4-kanji-0058"
+    ],
+    "grammarIds": ["n4-gram-0040", "n4-gram-0041", "n4-gram-0042"],
+    "exerciseIds": [
+      "n4-ex-0157",
+      "n4-ex-0158",
+      "n4-ex-0159",
+      "n4-ex-0160",
+      "n4-ex-0161",
+      "n4-ex-0162",
+      "n4-ex-0163",
+      "n4-ex-0164",
+      "n4-ex-0165",
+      "n4-ex-0166",
+      "n4-ex-0167",
+      "n4-ex-0168"
+    ]
   }
 ]

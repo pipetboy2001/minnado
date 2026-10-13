@@ -825,5 +825,68 @@
       }
     ],
     "relatedGrammarIds": ["n4-gram-0037"]
+  },
+  {
+    "id": "n4-gram-0040",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "Vて／くて (razón, conexión simple entre dos oraciones)",
+    "pattern": "Vて／Adjetivo-くて、[Resultado]。",
+    "explanationEs": "La forma て (de verbos) o くて (de adjetivos -い) puede conectar una razón con su resultado, de forma más suave y menos explícita que ので. Es común en descripciones donde la causa y el efecto son evidentes.",
+    "structureNotes": "道が渋滞していて、遅れました (había embotellamiento y por eso llegué tarde)",
+    "examples": [
+      {
+        "jp": "道が渋滞していて、遅れました。",
+        "reading": "みちがじゅうたいしていて、おくれました。",
+        "es": "Había un embotellamiento y llegué tarde."
+      },
+      {
+        "jp": "具合が悪くて、休みます。",
+        "reading": "ぐあいがわるくて、やすみます。",
+        "es": "Me siento mal, así que voy a faltar."
+      }
+    ]
+  },
+  {
+    "id": "n4-gram-0041",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "〜ので (razón, más formal y objetiva que から)",
+    "pattern": "[Oración simple] + ので、[Resultado]。",
+    "explanationEs": "ので expresa una razón de forma más suave, formal y objetiva que から — como si la causa fuera un hecho evidente para ambos, no una justificación personal. Se usa mucho en disculpas y contextos educados. Con sustantivos y adjetivos-な se usa なので.",
+    "structureNotes": "事故があったので、電車が遅れました (hecho objetivo: hubo un accidente)",
+    "examples": [
+      {
+        "jp": "事故があったので、電車が遅れました。",
+        "reading": "じこがあったので、でんしゃがおくれました。",
+        "es": "Como hubo un accidente, el tren se retrasó."
+      },
+      {
+        "jp": "用事があるので、早く帰ります。",
+        "reading": "ようじがあるので、はやくかえります。",
+        "es": "Tengo un asunto, así que me voy temprano."
+      }
+    ]
+  },
+  {
+    "id": "n4-gram-0042",
+    "jlptLevel": "N4",
+    "category": "sentence-structure",
+    "title": "〜途中で (a mitad de camino, mientras se hace algo)",
+    "pattern": "V (forma diccionario) ／ Sustantivo + の + 途中で、[Acción]。",
+    "explanationEs": "途中で expresa que algo pasa en medio de otra acción o trayecto que todavía no termina — 'a mitad de camino, mientras tanto'. Se usa con la forma diccionario de un verbo de movimiento, o con un sustantivo + の.",
+    "structureNotes": "会社に行く途中で (de camino al trabajo) ｜ 仕事の途中で (a mitad del trabajo)",
+    "examples": [
+      {
+        "jp": "会社に行く途中で、コンビニに寄りました。",
+        "reading": "かいしゃにいくとちゅうで、こんびにによりました。",
+        "es": "De camino al trabajo, pasé por una tienda de conveniencia."
+      },
+      {
+        "jp": "途中で休憩しましょう。",
+        "reading": "とちゅうできゅうけいしましょう。",
+        "es": "Descansemos a mitad de camino."
+      }
+    ]
   }
 ]

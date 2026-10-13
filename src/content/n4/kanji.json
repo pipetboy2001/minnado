@@ -786,5 +786,67 @@
       },
       { "word": "楽しい", "reading": "たのしい", "meaningEs": "divertido" }
     ]
+  },
+  {
+    "id": "n4-kanji-0055",
+    "character": "事",
+    "jlptLevel": "N4",
+    "strokeCount": 8,
+    "onyomi": ["ジ"],
+    "kunyomi": ["こと"],
+    "meaningEs": "asunto, cosa (abstracta)",
+    "radicals": ["亅"],
+    "exampleWords": [
+      { "word": "事故", "reading": "じこ", "meaningEs": "accidente" },
+      { "word": "用事", "reading": "ようじ", "meaningEs": "asunto, diligencia" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0056",
+    "character": "途",
+    "jlptLevel": "N4",
+    "strokeCount": 10,
+    "onyomi": ["ト"],
+    "kunyomi": [],
+    "meaningEs": "camino, trayecto",
+    "radicals": ["辶"],
+    "exampleWords": [
+      {
+        "word": "途中",
+        "reading": "とちゅう",
+        "meaningEs": "a mitad de camino"
+      }
+    ]
+  },
+  {
+    "id": "n4-kanji-0057",
+    "character": "具",
+    "jlptLevel": "N4",
+    "strokeCount": 8,
+    "onyomi": ["グ"],
+    "kunyomi": [],
+    "meaningEs": "herramienta, ingrediente; estado",
+    "radicals": ["八"],
+    "exampleWords": [
+      { "word": "具合", "reading": "ぐあい", "meaningEs": "estado, condición" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0058",
+    "character": "合",
+    "jlptLevel": "N4",
+    "strokeCount": 6,
+    "onyomi": ["ゴウ"],
+    "kunyomi": ["あ-う"],
+    "meaningEs": "juntar, coincidir",
+    "radicals": ["口"],
+    "exampleWords": [
+      { "word": "具合", "reading": "ぐあい", "meaningEs": "estado, condición" },
+      {
+        "word": "合う",
+        "reading": "あう",
+        "meaningEs": "coincidir, quedar bien"
+      }
+    ]
   }
 ]
