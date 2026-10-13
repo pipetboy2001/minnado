@@ -918,5 +918,45 @@
       "n4-ex-0275",
       "n4-ex-0276"
     ]
+  },
+  {
+    "id": "n4-lesson-49",
+    "jlptLevel": "N4",
+    "order": 49,
+    "title": "Lección 49 — Lenguaje honorífico (尊敬語・お＋Vになる・お＋Vください)",
+    "description": "Verbos honoríficos especiales (尊敬語) como いらっしゃる y おっしゃる, la forma regular お＋Vになる, y el pedido honorífico お＋Vください, con vocabulario de atención al cliente, basado en Minna no Nihongo Lección 49 (Libro 2).",
+    "kind": "lesson",
+    "vocabIds": [
+      "n4-voc-0208",
+      "n4-voc-0209",
+      "n4-voc-0210",
+      "n4-voc-0211",
+      "n4-voc-0212",
+      "n4-voc-0213",
+      "n4-voc-0214",
+      "n4-voc-0215",
+      "n4-voc-0216"
+    ],
+    "kanjiIds": [
+      "n4-kanji-0095",
+      "n4-kanji-0096",
+      "n4-kanji-0097",
+      "n4-kanji-0098"
+    ],
+    "grammarIds": ["n4-gram-0070", "n4-gram-0071", "n4-gram-0072"],
+    "exerciseIds": [
+      "n4-ex-0277",
+      "n4-ex-0278",
+      "n4-ex-0279",
+      "n4-ex-0280",
+      "n4-ex-0281",
+      "n4-ex-0282",
+      "n4-ex-0283",
+      "n4-ex-0284",
+      "n4-ex-0285",
+      "n4-ex-0286",
+      "n4-ex-0287",
+      "n4-ex-0288"
+    ]
   }
 ]

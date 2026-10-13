@@ -1324,5 +1324,61 @@
     "exampleWords": [
       { "word": "考える", "reading": "かんがえる", "meaningEs": "pensar" }
     ]
+  },
+  {
+    "id": "n4-kanji-0095",
+    "character": "客",
+    "jlptLevel": "N4",
+    "strokeCount": 9,
+    "onyomi": ["キャク", "カク"],
+    "kunyomi": [],
+    "meaningEs": "cliente, invitado",
+    "radicals": ["宀"],
+    "exampleWords": [
+      { "word": "お客様", "reading": "おきゃくさま", "meaningEs": "cliente" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0096",
+    "character": "様",
+    "jlptLevel": "N4",
+    "strokeCount": 14,
+    "onyomi": ["ヨウ"],
+    "kunyomi": ["さま"],
+    "meaningEs": "señor/señora (honorífico); manera",
+    "radicals": ["木"],
+    "exampleWords": [
+      { "word": "お客様", "reading": "おきゃくさま", "meaningEs": "cliente" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0097",
+    "character": "長",
+    "jlptLevel": "N4",
+    "strokeCount": 8,
+    "onyomi": ["チョウ"],
+    "kunyomi": ["なが-い"],
+    "meaningEs": "largo; jefe",
+    "radicals": ["長"],
+    "exampleWords": [
+      { "word": "社長", "reading": "しゃちょう", "meaningEs": "presidente" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0098",
+    "character": "存",
+    "jlptLevel": "N4",
+    "strokeCount": 6,
+    "onyomi": ["ソン", "ゾン"],
+    "kunyomi": [],
+    "meaningEs": "existir, saber",
+    "radicals": ["子"],
+    "exampleWords": [
+      {
+        "word": "ご存知",
+        "reading": "ごぞんじ",
+        "meaningEs": "saber (honorífico)"
+      }
+    ]
   }
 ]

@@ -4514,5 +4514,208 @@
     "translationEs": "¿Me permitiría salir temprano del trabajo?",
     "explanationEs": "させていただけませんか: pedido muy cortés.",
     "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0277",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-49",
+    "promptEs": "Elige la forma honorífica especial correcta.",
+    "questionJp": "社長[しゃちょう]はもう{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "いらっしゃいました", "isCorrect": true },
+      { "id": "b", "textJp": "います", "isCorrect": false },
+      { "id": "c", "textJp": "行きました", "isCorrect": false },
+      { "id": "d", "textJp": "来ました", "isCorrect": false }
+    ],
+    "explanationEs": "いらっしゃる: forma honorífica especial de いる/来る.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0278",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-49",
+    "promptEs": "Elige la forma honorífica regular correcta.",
+    "questionJp": "明日[あした]、何時[なんじ]に{{1}}か。",
+    "options": [
+      { "id": "a", "textJp": "お越しになります", "isCorrect": true },
+      { "id": "b", "textJp": "来ます", "isCorrect": false },
+      { "id": "c", "textJp": "来てください", "isCorrect": false },
+      { "id": "d", "textJp": "来させます", "isCorrect": false }
+    ],
+    "explanationEs": "お越しになる: forma honorífica regular de 来る.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0279",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-49",
+    "promptEs": "Elige el pedido honorífico correcto.",
+    "questionJp": "こちらを{{1}}ください。",
+    "options": [
+      { "id": "a", "textJp": "ご覧になって", "isCorrect": true },
+      { "id": "b", "textJp": "見て", "isCorrect": false },
+      { "id": "c", "textJp": "見させて", "isCorrect": false },
+      { "id": "d", "textJp": "見られて", "isCorrect": false }
+    ],
+    "explanationEs": "ご覧になってください: pedido honorífico de 'mire'.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0280",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-49",
+    "promptEs": "Elige la forma correcta.",
+    "questionJp": "お客様[きゃくさま]は何[なに]を{{1}}か。",
+    "options": [
+      { "id": "a", "textJp": "なさいます", "isCorrect": true },
+      { "id": "b", "textJp": "します", "isCorrect": false },
+      { "id": "c", "textJp": "させます", "isCorrect": false },
+      { "id": "d", "textJp": "されます", "isCorrect": false }
+    ],
+    "explanationEs": "なさる: forma honorífica especial de する.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0281",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-49",
+    "promptEs": "Completa con la forma honorífica de 言う.",
+    "sentenceTemplate": "先生[せんせい]が何[なに]か{{1}}。",
+    "translationEs": "El profesor dijo algo.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["おっしゃいました"],
+        "options": [
+          "おっしゃいました",
+          "言いました",
+          "言われました",
+          "言わせました"
+        ]
+      }
+    ],
+    "explanationEs": "おっしゃる: forma honorífica especial de 言う.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0282",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-49",
+    "promptEs": "Completa con la forma honorífica de saber.",
+    "sentenceTemplate": "そのニュースを{{1}}ですか。",
+    "translationEs": "¿Conoce esa noticia?",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["ご存知"],
+        "options": ["ご存知", "知って", "知る", "知られて"]
+      }
+    ],
+    "explanationEs": "ご存知ですか: forma honorífica de '¿sabe?'.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0283",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-49",
+    "promptEs": "Completa con la forma honorífica de comer.",
+    "sentenceTemplate": "どうぞ{{1}}ください。",
+    "translationEs": "Por favor, coma/sírvase.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["召し上がって"],
+        "options": ["召し上がって", "食べて", "食べさせて", "食べられて"]
+      }
+    ],
+    "explanationEs": "召し上がってください: forma honorífica especial de 食べてください.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0284",
+    "type": "word-order",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-49",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["お客様は", "何を", "なさいますか"],
+    "correctOrder": ["お客様は", "何を", "なさいますか"],
+    "translationEs": "¿Qué va a hacer el/la cliente?",
+    "explanationEs": "なさる: forma honorífica especial de する.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0285",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-49",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "いらっしゃる",
+        "right": "estar/ir/venir (honorífico)"
+      },
+      { "id": "p2", "left": "おっしゃる", "right": "decir (honorífico)" },
+      { "id": "p3", "left": "召し上がる", "right": "comer/beber (honorífico)" },
+      { "id": "p4", "left": "お客様", "right": "cliente (honorífico)" },
+      { "id": "p5", "left": "社長", "right": "presidente de la empresa" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0286",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "kanji",
+    "lessonId": "n4-lesson-49",
+    "promptEs": "Une cada kanji con su lectura on'yomi.",
+    "pairs": [
+      { "id": "p1", "left": "客", "right": "きゃく" },
+      { "id": "p2", "left": "様", "right": "よう" },
+      { "id": "p3", "left": "長", "right": "ちょう" },
+      { "id": "p4", "left": "存", "right": "ぞん" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0287",
+    "type": "speaking",
+    "jlptLevel": "N4",
+    "skill": "speaking",
+    "lessonId": "n4-lesson-49",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "社長[しゃちょう]はもういらっしゃいました。",
+    "translationEs": "El presidente ya llegó.",
+    "explanationEs": "Practica la fluidez de いらっしゃいました。",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0288",
+    "type": "listening",
+    "jlptLevel": "N4",
+    "skill": "listening",
+    "lessonId": "n4-lesson-49",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "どうぞ召[め]し上[あ]がってください。",
+    "targetReading": "どうぞめしあがってください。",
+    "translationEs": "Por favor, coma/sírvase.",
+    "explanationEs": "召し上がる: forma honorífica especial de comer/beber.",
+    "difficulty": 2
   }
 ]

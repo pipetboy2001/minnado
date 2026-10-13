@@ -1428,5 +1428,64 @@
       }
     ],
     "relatedGrammarIds": ["n4-gram-0067", "n4-gram-0068"]
+  },
+  {
+    "id": "n4-gram-0070",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "尊敬語: verbos honoríficos especiales",
+    "pattern": "いる／行く／来る → いらっしゃる ｜ 言う → おっしゃる ｜ 食べる／飲む → 召し上がる ｜ する → なさる ｜ 見る → ご覧になる",
+    "explanationEs": "El 尊敬語 (lenguaje respetuoso) eleva la acción de otra persona de mayor estatus — nunca se usa para las propias acciones del hablante. Algunos verbos muy comunes tienen una forma honorífica completamente especial e irregular, que hay que memorizar en vez de derivar con una regla.",
+    "examples": [
+      {
+        "jp": "社長はもういらっしゃいました。",
+        "reading": "しゃちょうはもういらっしゃいました。",
+        "es": "El presidente ya llegó."
+      },
+      {
+        "jp": "先生が何かおっしゃいました。",
+        "reading": "せんせいがなにかおっしゃいました。",
+        "es": "El profesor dijo algo."
+      }
+    ]
+  },
+  {
+    "id": "n4-gram-0071",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "お＋Vます(raíz)＋になる (forma honorífica regular)",
+    "pattern": "お + Vます (raíz) + になります。",
+    "explanationEs": "Para verbos que no tienen una forma honorífica especial, se usa este patrón regular: お + raíz ます + になる. Es más productivo que memorizar verbos irregulares, pero suena algo menos natural que los especiales cuando ambos existen.",
+    "structureNotes": "お越しになる (venir, honorífico de 来る — alternativa a いらっしゃる) ｜ お使いになる (usar, honorífico de 使う)",
+    "examples": [
+      {
+        "jp": "明日、何時にお越しになりますか。",
+        "reading": "あした、なんじにおこしになりますか。",
+        "es": "¿A qué hora vendrá mañana?"
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0070"]
+  },
+  {
+    "id": "n4-gram-0072",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "お＋Vます(raíz)＋ください (pedido honorífico)",
+    "pattern": "お + Vます (raíz) + ください。",
+    "explanationEs": "Esta es la versión honorífica, más cortés, de 〜てください — se usa al dirigirse a clientes o personas de mayor estatus. El verbo ver (見る) usa directamente ご覧ください en vez de una forma お〜ください regular.",
+    "structureNotes": "こちらをご覧ください (mire esto, por favor) ｜ どうぞ召し上がってください ya usa la forma especial en vez de una forma regular con 食べる",
+    "examples": [
+      {
+        "jp": "こちらをご覧になってください。",
+        "reading": "こちらをごらんになってください。",
+        "es": "Por favor, mire esto."
+      },
+      {
+        "jp": "どうぞ召し上がってください。",
+        "reading": "どうぞめしあがってください。",
+        "es": "Por favor, coma/sírvase."
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0070"]
   }
 ]
