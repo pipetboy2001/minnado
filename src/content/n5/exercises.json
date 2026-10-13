@@ -3656,5 +3656,198 @@
     "translationEs": "No olvides los documentos.",
     "explanationEs": "〜ないでください pide a alguien que NO haga algo.",
     "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0228",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "particles",
+    "lessonId": "n5-lesson-19",
+    "promptEs": "Creo que este problema es difícil.",
+    "questionJp": "この問題[もんだい]は難[むずか]しい{{1}}思[おも]います。",
+    "options": [
+      { "id": "a", "textJp": "と", "isCorrect": true },
+      { "id": "b", "textJp": "に", "isCorrect": false },
+      { "id": "c", "textJp": "を", "isCorrect": false },
+      { "id": "d", "textJp": "が", "isCorrect": false }
+    ],
+    "explanationEs": "と marca la oración citada antes de 思います.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0229",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "particles",
+    "lessonId": "n5-lesson-19",
+    "promptEs": "El señor Tanaka dijo que el examen es difícil.",
+    "questionJp": "田中[たなか]さんは試験[しけん]が難[むずか]しい{{1}}言[い]いました。",
+    "options": [
+      { "id": "a", "textJp": "と", "isCorrect": true },
+      { "id": "b", "textJp": "を", "isCorrect": false },
+      { "id": "c", "textJp": "に", "isCorrect": false },
+      { "id": "d", "textJp": "が", "isCorrect": false }
+    ],
+    "explanationEs": "と marca la oración citada antes de 言いました.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0230",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "particles",
+    "lessonId": "n5-lesson-19",
+    "promptEs": "Hablas acerca del examen.",
+    "sentenceTemplate": "試験[しけん]{{1}}話[はな]します。",
+    "translationEs": "Hablo acerca del examen.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["について"],
+        "options": ["について", "とは", "には", "では"]
+      }
+    ],
+    "explanationEs": "について indica el tema del que se habla.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0231",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-19",
+    "promptEs": "Este problema es importante.",
+    "sentenceTemplate": "この問題[もんだい]は{{1}}です。",
+    "translationEs": "Este problema es importante.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["大切", "たいせつ"],
+        "options": ["大切", "便利", "問題", "試験"]
+      }
+    ],
+    "explanationEs": "大切 significa 'importante'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0232",
+    "type": "word-order",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-19",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["と思います", "難しい", "この問題は"],
+    "correctOrder": ["この問題は", "難しい", "と思います"],
+    "translationEs": "Creo que este problema es difícil.",
+    "explanationEs": "Orden: [Tema]は + [Oración] + と思います。",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0233",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-19",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "思います", "right": "pensar, creer" },
+      { "id": "p2", "left": "言います", "right": "decir" },
+      { "id": "p3", "left": "話します", "right": "hablar" },
+      { "id": "p4", "left": "便利", "right": "conveniente, útil" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0234",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-19",
+    "promptEs": "¿Cómo se lee 大切 (importante)?",
+    "questionJp": "大切",
+    "options": [
+      { "id": "a", "textJp": "たいせつ", "isCorrect": true },
+      { "id": "b", "textJp": "だいせつ", "isCorrect": false },
+      { "id": "c", "textJp": "おおぎり", "isCorrect": false },
+      { "id": "d", "textJp": "たいぎり", "isCorrect": false }
+    ],
+    "explanationEs": "大切 se lee たいせつ.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0235",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-19",
+    "promptEs": "Une cada kanji con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "思", "right": "pensar" },
+      { "id": "p2", "left": "言", "right": "decir, palabra" },
+      { "id": "p3", "left": "切", "right": "cortar" },
+      { "id": "p4", "left": "便", "right": "conveniente, correo" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0236",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-19",
+    "promptEs": "Crees que las noticias son importantes (adjetivo-な + だ antes de と).",
+    "questionJp": "ニュースは大切[たいせつ]だ{{1}}思[おも]います。",
+    "options": [
+      { "id": "a", "textJp": "と", "isCorrect": true },
+      { "id": "b", "textJp": "を", "isCorrect": false },
+      { "id": "c", "textJp": "に", "isCorrect": false },
+      { "id": "d", "textJp": "が", "isCorrect": false }
+    ],
+    "explanationEs": "Los adjetivos-な necesitan だ antes de と思います.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0237",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-19",
+    "promptEs": "El examen tiene un problema.",
+    "sentenceTemplate": "試験[しけん]に{{1}}があります。",
+    "translationEs": "El examen tiene un problema.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["問題", "もんだい"],
+        "options": ["問題", "便利", "大切", "話"]
+      }
+    ],
+    "explanationEs": "問題 significa 'problema'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0238",
+    "type": "speaking",
+    "jlptLevel": "N5",
+    "skill": "speaking",
+    "lessonId": "n5-lesson-19",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "この問題[もんだい]は難[むずか]しいと思[おも]います。",
+    "translationEs": "Creo que este problema es difícil.",
+    "explanationEs": "〜と思います expresa la opinión del hablante.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0239",
+    "type": "listening",
+    "jlptLevel": "N5",
+    "skill": "listening",
+    "lessonId": "n5-lesson-19",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "田中[たなか]さんは試験[しけん]が難[むずか]しいと言[い]いました。",
+    "targetReading": "たなかさんはしけんがむずかしいといいました。",
+    "translationEs": "El señor Tanaka dijo que el examen es difícil.",
+    "explanationEs": "〜と言いました reporta lo que alguien dijo.",
+    "difficulty": 2
   }
 ]

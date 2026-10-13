@@ -972,5 +972,61 @@
       { "word": "書類", "reading": "しょるい", "meaningEs": "documentos" },
       { "word": "種類", "reading": "しゅるい", "meaningEs": "tipo, variedad" }
     ]
+  },
+  {
+    "id": "n5-kanji-0062",
+    "character": "思",
+    "jlptLevel": "N5",
+    "strokeCount": 9,
+    "onyomi": ["シ"],
+    "kunyomi": ["おも-う"],
+    "meaningEs": "pensar",
+    "radicals": ["心"],
+    "exampleWords": [
+      { "word": "思い出", "reading": "おもいで", "meaningEs": "recuerdo" },
+      { "word": "思う", "reading": "おもう", "meaningEs": "pensar, creer" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0063",
+    "character": "言",
+    "jlptLevel": "N5",
+    "strokeCount": 7,
+    "onyomi": ["ゲン", "ゴン"],
+    "kunyomi": ["い-う"],
+    "meaningEs": "decir, palabra",
+    "radicals": ["言"],
+    "exampleWords": [
+      { "word": "言葉", "reading": "ことば", "meaningEs": "palabra, idioma" },
+      { "word": "言う", "reading": "いう", "meaningEs": "decir" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0064",
+    "character": "切",
+    "jlptLevel": "N5",
+    "strokeCount": 4,
+    "onyomi": ["セツ"],
+    "kunyomi": ["き-る"],
+    "meaningEs": "cortar",
+    "radicals": ["刀"],
+    "exampleWords": [
+      { "word": "大切", "reading": "たいせつ", "meaningEs": "importante" },
+      { "word": "切る", "reading": "きる", "meaningEs": "cortar" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0065",
+    "character": "便",
+    "jlptLevel": "N5",
+    "strokeCount": 9,
+    "onyomi": ["ベン"],
+    "kunyomi": ["たよ-り"],
+    "meaningEs": "conveniente, correo",
+    "radicals": ["人"],
+    "exampleWords": [
+      { "word": "便利", "reading": "べんり", "meaningEs": "conveniente, útil" },
+      { "word": "郵便", "reading": "ゆうびん", "meaningEs": "correo postal" }
+    ]
   }
 ]

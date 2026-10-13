@@ -749,9 +749,53 @@
     ]
   },
   {
-    "id": "n5-lesson-03",
+    "id": "n5-lesson-19",
     "jlptLevel": "N5",
     "order": 18,
+    "title": "Lección 18 — Opiniones (〜と思います)",
+    "description": "Expresar opiniones con 〜と思います, reportar lo que alguien dijo con 〜と言いました, y hablar de un tema con 〜について, basado en Minna no Nihongo Lección 18.",
+    "kind": "lesson",
+    "vocabIds": [
+      "n5-voc-0169",
+      "n5-voc-0170",
+      "n5-voc-0171",
+      "n5-voc-0172",
+      "n5-voc-0173",
+      "n5-voc-0174",
+      "n5-voc-0175",
+      "n5-voc-0176"
+    ],
+    "kanjiIds": [
+      "n5-kanji-0062",
+      "n5-kanji-0063",
+      "n5-kanji-0064",
+      "n5-kanji-0065"
+    ],
+    "grammarIds": [
+      "n5-gram-0073",
+      "n5-gram-0074",
+      "n5-gram-0075",
+      "n5-gram-0076"
+    ],
+    "exerciseIds": [
+      "n5-ex-0228",
+      "n5-ex-0229",
+      "n5-ex-0230",
+      "n5-ex-0231",
+      "n5-ex-0232",
+      "n5-ex-0233",
+      "n5-ex-0234",
+      "n5-ex-0235",
+      "n5-ex-0236",
+      "n5-ex-0237",
+      "n5-ex-0238",
+      "n5-ex-0239"
+    ]
+  },
+  {
+    "id": "n5-lesson-03",
+    "jlptLevel": "N5",
+    "order": 19,
     "title": "Repaso — Partículas, Adjetivos y Formas Verbales",
     "description": "Módulo de repaso transversal: partícula correcta, adjetivos い/な, y conjugación verbal (forma ます y て) a través de varias lecciones.",
     "kind": "review",
