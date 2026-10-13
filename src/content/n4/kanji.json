@@ -502,5 +502,67 @@
       { "word": "禁煙", "reading": "きんえん", "meaningEs": "prohibido fumar" },
       { "word": "禁止", "reading": "きんし", "meaningEs": "prohibición" }
     ]
+  },
+  {
+    "id": "n4-kanji-0035",
+    "character": "順",
+    "jlptLevel": "N4",
+    "strokeCount": 12,
+    "onyomi": ["ジュン"],
+    "kunyomi": [],
+    "meaningEs": "orden, secuencia",
+    "radicals": ["頁"],
+    "exampleWords": [
+      {
+        "word": "手順",
+        "reading": "てじゅん",
+        "meaningEs": "procedimiento, pasos"
+      }
+    ]
+  },
+  {
+    "id": "n4-kanji-0036",
+    "character": "似",
+    "jlptLevel": "N4",
+    "strokeCount": 7,
+    "onyomi": ["ジ"],
+    "kunyomi": ["に-る"],
+    "meaningEs": "parecerse, similar",
+    "radicals": ["亻"],
+    "exampleWords": [
+      { "word": "真似", "reading": "まね", "meaningEs": "imitación" },
+      { "word": "似ている", "reading": "にている", "meaningEs": "parecerse" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0037",
+    "character": "習",
+    "jlptLevel": "N4",
+    "strokeCount": 11,
+    "onyomi": ["シュウ"],
+    "kunyomi": ["なら-う"],
+    "meaningEs": "aprender, practicar",
+    "radicals": ["羽"],
+    "exampleWords": [
+      { "word": "復習", "reading": "ふくしゅう", "meaningEs": "repaso" },
+      {
+        "word": "予習",
+        "reading": "よしゅう",
+        "meaningEs": "preparación previa"
+      }
+    ]
+  },
+  {
+    "id": "n4-kanji-0038",
+    "character": "傘",
+    "jlptLevel": "N4",
+    "strokeCount": 12,
+    "onyomi": ["サン"],
+    "kunyomi": ["かさ"],
+    "meaningEs": "paraguas",
+    "radicals": ["人"],
+    "exampleWords": [
+      { "word": "傘", "reading": "かさ", "meaningEs": "paraguas" }
+    ]
   }
 ]

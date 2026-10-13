@@ -1570,5 +1570,203 @@
     "translationEs": "Haz silencio.",
     "explanationEs": "なさい: orden suave, común de padres a hijos.",
     "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0097",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-34",
+    "promptEs": "Elige la forma correcta para seguir exactamente una instrucción.",
+    "questionJp": "先生[せんせい]が説明[せつめい]した{{1}}にしてください。",
+    "options": [
+      { "id": "a", "textJp": "とおり", "isCorrect": true },
+      { "id": "b", "textJp": "まま", "isCorrect": false },
+      { "id": "c", "textJp": "ながら", "isCorrect": false },
+      { "id": "d", "textJp": "ので", "isCorrect": false }
+    ],
+    "explanationEs": "とおりに: tal como se explicó, siguiendo exactamente.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0098",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-34",
+    "promptEs": "Elige la forma correcta para una secuencia de acciones.",
+    "questionJp": "授業[じゅぎょう]の{{1}}、復習[ふくしゅう]します。",
+    "options": [
+      { "id": "a", "textJp": "あとで", "isCorrect": true },
+      { "id": "b", "textJp": "まえに", "isCorrect": false },
+      { "id": "c", "textJp": "ながら", "isCorrect": false },
+      { "id": "d", "textJp": "ために", "isCorrect": false }
+    ],
+    "explanationEs": "あとで: después de la clase.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0099",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-34",
+    "promptEs": "Elige la forma correcta para 'sin hacer algo'.",
+    "questionJp": "傘[かさ]を{{1}}出[で]かけました。",
+    "options": [
+      { "id": "a", "textJp": "持たないで", "isCorrect": true },
+      { "id": "b", "textJp": "持って", "isCorrect": false },
+      { "id": "c", "textJp": "持たなくて", "isCorrect": false },
+      { "id": "d", "textJp": "持とう", "isCorrect": false }
+    ],
+    "explanationEs": "持たないで: sin llevar el paraguas.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0100",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-34",
+    "promptEs": "Elige la palabra correcta.",
+    "questionJp": "{{1}}早[はや]く来[き]てください。",
+    "options": [
+      { "id": "a", "textJp": "なるべく", "isCorrect": true },
+      { "id": "b", "textJp": "もちろん", "isCorrect": false },
+      { "id": "c", "textJp": "やっと", "isCorrect": false },
+      { "id": "d", "textJp": "ほとんど", "isCorrect": false }
+    ],
+    "explanationEs": "なるべく significa 'en lo posible, tanto como se pueda'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0101",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-34",
+    "promptEs": "Completa con とおりに.",
+    "sentenceTemplate": "手順[てじゅん]の{{1}}作[つく]ってください。",
+    "translationEs": "Hazlo siguiendo los pasos.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["とおりに"],
+        "options": ["とおりに", "ために", "ように", "のに"]
+      }
+    ],
+    "explanationEs": "Sustantivo + の + とおりに: siguiendo exactamente algo.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0102",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-34",
+    "promptEs": "Completa con あとで.",
+    "sentenceTemplate": "宿題[しゅくだい]をした{{1}}、テレビを見[み]ます。",
+    "translationEs": "Veo televisión después de hacer la tarea.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["あとで"],
+        "options": ["あとで", "まえに", "ときに", "のに"]
+      }
+    ],
+    "explanationEs": "Vた + あとで: después de hacer algo.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0103",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-34",
+    "promptEs": "Completa con ないで.",
+    "sentenceTemplate": "今日[きょう]は残業[ざんぎょう]{{1}}帰[かえ]ります。",
+    "translationEs": "Hoy me voy sin hacer horas extra.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["しないで"],
+        "options": ["しないで", "して", "しなくて", "しよう"]
+      }
+    ],
+    "explanationEs": "Vないで: sin hacer algo (conecta dos acciones).",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0104",
+    "type": "word-order",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-34",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["先生の", "真似を", "しないでください"],
+    "correctOrder": ["先生の", "真似を", "しないでください"],
+    "translationEs": "No imites al profesor, por favor.",
+    "explanationEs": "Vないでください: pedido de no hacer algo.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0105",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-34",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "説明する", "right": "explicar" },
+      { "id": "p2", "left": "復習する", "right": "repasar" },
+      {
+        "id": "p3",
+        "left": "予習する",
+        "right": "preparar de antemano (estudiar antes)"
+      },
+      { "id": "p4", "left": "残業する", "right": "hacer horas extra" },
+      { "id": "p5", "left": "傘", "right": "paraguas" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0106",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "kanji",
+    "lessonId": "n4-lesson-34",
+    "promptEs": "Une cada kanji con su lectura on'yomi.",
+    "pairs": [
+      { "id": "p1", "left": "順", "right": "じゅん" },
+      { "id": "p2", "left": "似", "right": "じ" },
+      { "id": "p3", "left": "習", "right": "しゅう" },
+      { "id": "p4", "left": "傘", "right": "さん" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0107",
+    "type": "speaking",
+    "jlptLevel": "N4",
+    "skill": "speaking",
+    "lessonId": "n4-lesson-34",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "先生[せんせい]が説明[せつめい]したとおりにしてください。",
+    "translationEs": "Haz tal como explicó el profesor.",
+    "explanationEs": "Practica la fluidez de したとおりに。",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0108",
+    "type": "listening",
+    "jlptLevel": "N4",
+    "skill": "listening",
+    "lessonId": "n4-lesson-34",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "傘[かさ]を持[も]たないで出[で]かけました。",
+    "targetReading": "かさをもたないででかけました。",
+    "translationEs": "Salí sin llevar el paraguas.",
+    "explanationEs": "Vないで: sin hacer algo.",
+    "difficulty": 2
   }
 ]

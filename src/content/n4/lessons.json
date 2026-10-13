@@ -318,5 +318,45 @@
       "n4-ex-0095",
       "n4-ex-0096"
     ]
+  },
+  {
+    "id": "n4-lesson-34",
+    "jlptLevel": "N4",
+    "order": 34,
+    "title": "Lección 34 — Seguir instrucciones y orden de acciones (Vとおりに・Vたあとで・Vないで)",
+    "description": "Hacer algo tal como se indicó con Vとおりに, secuenciar acciones con Vたあとで, y hacer algo sin otra acción con Vないで, con vocabulario de estudio, basado en Minna no Nihongo Lección 34 (Libro 2).",
+    "kind": "lesson",
+    "vocabIds": [
+      "n4-voc-0073",
+      "n4-voc-0074",
+      "n4-voc-0075",
+      "n4-voc-0076",
+      "n4-voc-0077",
+      "n4-voc-0078",
+      "n4-voc-0079",
+      "n4-voc-0080",
+      "n4-voc-0081"
+    ],
+    "kanjiIds": [
+      "n4-kanji-0035",
+      "n4-kanji-0036",
+      "n4-kanji-0037",
+      "n4-kanji-0038"
+    ],
+    "grammarIds": ["n4-gram-0025", "n4-gram-0026", "n4-gram-0027"],
+    "exerciseIds": [
+      "n4-ex-0097",
+      "n4-ex-0098",
+      "n4-ex-0099",
+      "n4-ex-0100",
+      "n4-ex-0101",
+      "n4-ex-0102",
+      "n4-ex-0103",
+      "n4-ex-0104",
+      "n4-ex-0105",
+      "n4-ex-0106",
+      "n4-ex-0107",
+      "n4-ex-0108"
+    ]
   }
 ]

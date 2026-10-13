@@ -506,5 +506,68 @@
         "es": "Escucha las órdenes del profesor."
       }
     ]
+  },
+  {
+    "id": "n4-gram-0025",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "Vとおりに (tal como, siguiendo exactamente)",
+    "pattern": "V (forma diccionario／た) + とおりに、[Acción]。",
+    "explanationEs": "とおりに expresa que una acción se hace exactamente igual a un modelo, instrucción o ejemplo — 'tal como'. Se usa después de la forma diccionario (para algo que siempre se sigue igual) o la forma た (para algo que ya se mostró o dijo).",
+    "structureNotes": "説明したとおりに (tal como se explicó) ｜ 手順のとおりに (según el procedimiento, con sustantivo + の)",
+    "examples": [
+      {
+        "jp": "先生が説明したとおりにしてください。",
+        "reading": "せんせいがせつめいしたとおりにしてください。",
+        "es": "Haz tal como explicó el profesor."
+      },
+      {
+        "jp": "手順のとおりに作ってください。",
+        "reading": "てじゅんのとおりにつくってください。",
+        "es": "Hazlo siguiendo los pasos."
+      }
+    ]
+  },
+  {
+    "id": "n4-gram-0026",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "Vたあとで (después de hacer algo)",
+    "pattern": "Vた (forma pasada simple) + あとで、[Acción siguiente]。",
+    "explanationEs": "Vたあとで conecta dos acciones del mismo sujeto en orden: primero pasa la acción con た + あとで, después la acción principal. Es más explícito que て, y enfatiza la secuencia temporal.",
+    "structureNotes": "授業のあとで (con sustantivo + の, 'después de la clase')",
+    "examples": [
+      {
+        "jp": "授業のあとで復習します。",
+        "reading": "じゅぎょうのあとでふくしゅうします。",
+        "es": "Repaso después de la clase."
+      },
+      {
+        "jp": "宿題をしたあとで、テレビを見ます。",
+        "reading": "しゅくだいをしたあとで、てれびをみます。",
+        "es": "Veo televisión después de hacer la tarea."
+      }
+    ]
+  },
+  {
+    "id": "n4-gram-0027",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "Vないで (sin hacer algo)",
+    "pattern": "Vない (forma negativa simple) + で、[Acción]。",
+    "explanationEs": "Vないで expresa que una acción se hace sin que pase otra — 'sin hacer X, hago Y'. No confundir con 〜なくて (que da una razón): ないで siempre conecta dos acciones del mismo sujeto.",
+    "structureNotes": "傘を持たないで (sin llevar el paraguas) ｜ 残業しないで (sin hacer horas extra)",
+    "examples": [
+      {
+        "jp": "傘を持たないで出かけました。",
+        "reading": "かさをもたないででかけました。",
+        "es": "Salí sin llevar el paraguas."
+      },
+      {
+        "jp": "今日は残業しないで帰ります。",
+        "reading": "きょうはざんぎょうしないでかえります。",
+        "es": "Hoy me voy sin hacer horas extra."
+      }
+    ]
   }
 ]
