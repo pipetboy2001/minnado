@@ -1,3 +1,4 @@
+import { cache } from "react";
 import type { ZodSchema } from "zod";
 import type {
   VocabWord,
@@ -37,26 +38,32 @@ function parseContent<T>(
   return result.data;
 }
 
-export function getVocabN5(): VocabWord[] {
-  return parseContent(vocabFileSchema, n5Vocab, "n5/vocabulary.json");
-}
+// Content files are static and re-validating the same JSON with Zod on
+// every call is pure waste — exercises.json alone is 178KB/311 entries,
+// and a single page can call these getters several times. cache() dedupes
+// repeated calls within a request (and, since this content never changes,
+// keeping a stale result around for the process lifetime outside of a
+// request context — e.g. tests — is harmless too).
+export const getVocabN5 = cache((): VocabWord[] =>
+  parseContent(vocabFileSchema, n5Vocab, "n5/vocabulary.json"),
+);
 
-export function getKanjiN5(): KanjiEntry[] {
-  return parseContent(kanjiFileSchema, n5Kanji, "n5/kanji.json");
-}
+export const getKanjiN5 = cache((): KanjiEntry[] =>
+  parseContent(kanjiFileSchema, n5Kanji, "n5/kanji.json"),
+);
 
-export function getKanjiN4(): KanjiEntry[] {
-  return parseContent(kanjiFileSchema, n4Kanji, "n4/kanji.json");
-}
+export const getKanjiN4 = cache((): KanjiEntry[] =>
+  parseContent(kanjiFileSchema, n4Kanji, "n4/kanji.json"),
+);
 
-export function getGrammarN5(): GrammarRule[] {
-  return parseContent(grammarFileSchema, n5Grammar, "n5/grammar.json");
-}
+export const getGrammarN5 = cache((): GrammarRule[] =>
+  parseContent(grammarFileSchema, n5Grammar, "n5/grammar.json"),
+);
 
-export function getLessonsN5(): Lesson[] {
-  return parseContent(lessonFileSchema, n5Lessons, "n5/lessons.json");
-}
+export const getLessonsN5 = cache((): Lesson[] =>
+  parseContent(lessonFileSchema, n5Lessons, "n5/lessons.json"),
+);
 
-export function getExercisesN5(): Exercise[] {
-  return parseContent(exerciseFileSchema, n5Exercises, "n5/exercises.json");
-}
+export const getExercisesN5 = cache((): Exercise[] =>
+  parseContent(exerciseFileSchema, n5Exercises, "n5/exercises.json"),
+);
