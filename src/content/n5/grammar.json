@@ -953,5 +953,65 @@
         "es": "¿Conoces al señor Tanaka?"
       }
     ]
+  },
+  {
+    "id": "n5-gram-0061",
+    "jlptLevel": "N5",
+    "category": "verb-forms",
+    "title": "〜たことがあります (experiencia pasada)",
+    "pattern": "[Verbo-た]ことがあります。",
+    "explanationEs": "Indica que el hablante tiene la experiencia de haber hecho algo alguna vez, como 'he hecho...' en español.",
+    "examples": [
+      {
+        "jp": "富士山に登ったことがあります。",
+        "reading": "ふじさんにのぼったことがあります。",
+        "es": "He subido al Monte Fuji (alguna vez)."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0062",
+    "jlptLevel": "N5",
+    "category": "verb-forms",
+    "title": "〜たことがありません (nunca he hecho)",
+    "pattern": "[Verbo-た]ことがありません。",
+    "explanationEs": "Niega la experiencia: el hablante nunca ha hecho esa acción.",
+    "examples": [
+      {
+        "jp": "外国に行ったことがありません。",
+        "reading": "がいこくにいったことがありません。",
+        "es": "Nunca he ido al extranjero."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0063",
+    "jlptLevel": "N5",
+    "category": "verb-forms",
+    "title": "〜たり〜たりします (enumerar acciones)",
+    "pattern": "[Verbo-た]り、[Verbo-た]りします。",
+    "explanationEs": "たり〜たりします enumera varias acciones representativas entre otras posibles, no una lista exhaustiva.",
+    "examples": [
+      {
+        "jp": "週末は散歩したり、掃除したりします。",
+        "reading": "しゅうまつはさんぽしたり、そうじしたりします。",
+        "es": "Los fines de semana paseo, limpio, entre otras cosas."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0064",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "〜時 (cuando...)",
+    "pattern": "[Verbo/Adjetivo]時、[Oración]。",
+    "explanationEs": "時 conecta una cláusula temporal con la oración principal, como 'cuando...' en español.",
+    "examples": [
+      {
+        "jp": "日本へ行った時、富士山に登りました。",
+        "reading": "にほんへいったとき、ふじさんにのぼりました。",
+        "es": "Cuando fui a Japón, subí al Monte Fuji."
+      }
+    ]
   }
 ]

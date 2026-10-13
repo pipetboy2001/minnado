@@ -810,5 +810,61 @@
         "meaningEs": "santuario sintoísta"
       }
     ]
+  },
+  {
+    "id": "n5-kanji-0051",
+    "character": "登",
+    "jlptLevel": "N5",
+    "strokeCount": 12,
+    "onyomi": ["トウ"],
+    "kunyomi": ["のぼ-る"],
+    "meaningEs": "subir, escalar",
+    "radicals": ["癹"],
+    "exampleWords": [
+      { "word": "登山", "reading": "とざん", "meaningEs": "alpinismo" },
+      { "word": "登る", "reading": "のぼる", "meaningEs": "subir, escalar" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0052",
+    "character": "洗",
+    "jlptLevel": "N5",
+    "strokeCount": 9,
+    "onyomi": ["セン"],
+    "kunyomi": ["あら-う"],
+    "meaningEs": "lavar",
+    "radicals": ["水"],
+    "exampleWords": [
+      { "word": "洗濯", "reading": "せんたく", "meaningEs": "lavado de ropa" },
+      { "word": "洗面所", "reading": "せんめんじょ", "meaningEs": "lavabo" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0053",
+    "character": "掃",
+    "jlptLevel": "N5",
+    "strokeCount": 11,
+    "onyomi": ["ソウ"],
+    "kunyomi": ["は-く"],
+    "meaningEs": "barrer, limpiar",
+    "radicals": ["手"],
+    "exampleWords": [
+      { "word": "掃除", "reading": "そうじ", "meaningEs": "limpieza" },
+      { "word": "掃く", "reading": "はく", "meaningEs": "barrer" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0054",
+    "character": "除",
+    "jlptLevel": "N5",
+    "strokeCount": 10,
+    "onyomi": ["ジョ"],
+    "kunyomi": ["のぞ-く"],
+    "meaningEs": "eliminar, excepto",
+    "radicals": ["阝"],
+    "exampleWords": [
+      { "word": "掃除", "reading": "そうじ", "meaningEs": "limpieza" },
+      { "word": "除外", "reading": "じょがい", "meaningEs": "exclusión" }
+    ]
   }
 ]

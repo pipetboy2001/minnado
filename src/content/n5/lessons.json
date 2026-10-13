@@ -627,9 +627,52 @@
     ]
   },
   {
-    "id": "n5-lesson-03",
+    "id": "n5-lesson-16",
     "jlptLevel": "N5",
     "order": 15,
+    "title": "Lección 15 — Experiencias (〜たことがあります)",
+    "description": "Hablar de experiencias pasadas con 〜たことがあります, enumerar acciones con 〜たり〜たりします, y conectar cláusulas con 〜時, basado en Minna no Nihongo Lección 15.",
+    "kind": "lesson",
+    "vocabIds": [
+      "n5-voc-0150",
+      "n5-voc-0151",
+      "n5-voc-0152",
+      "n5-voc-0153",
+      "n5-voc-0154",
+      "n5-voc-0155",
+      "n5-voc-0156"
+    ],
+    "kanjiIds": [
+      "n5-kanji-0051",
+      "n5-kanji-0052",
+      "n5-kanji-0053",
+      "n5-kanji-0054"
+    ],
+    "grammarIds": [
+      "n5-gram-0061",
+      "n5-gram-0062",
+      "n5-gram-0063",
+      "n5-gram-0064"
+    ],
+    "exerciseIds": [
+      "n5-ex-0192",
+      "n5-ex-0193",
+      "n5-ex-0194",
+      "n5-ex-0195",
+      "n5-ex-0196",
+      "n5-ex-0197",
+      "n5-ex-0198",
+      "n5-ex-0199",
+      "n5-ex-0200",
+      "n5-ex-0201",
+      "n5-ex-0202",
+      "n5-ex-0203"
+    ]
+  },
+  {
+    "id": "n5-lesson-03",
+    "jlptLevel": "N5",
+    "order": 16,
     "title": "Repaso — Partículas, Adjetivos y Formas Verbales",
     "description": "Módulo de repaso transversal: partícula correcta, adjetivos い/な, y conjugación verbal (forma ます y て) a través de varias lecciones.",
     "kind": "review",

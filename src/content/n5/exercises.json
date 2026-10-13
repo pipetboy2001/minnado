@@ -3078,5 +3078,198 @@
     "translationEs": "El señor Tanaka está casado.",
     "explanationEs": "結婚する usa ています para el estado de estar casado.",
     "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0192",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-16",
+    "promptEs": "Has subido al Monte Fuji (alguna vez).",
+    "questionJp": "富士山[ふじさん]に登[のぼ]った{{1}}あります。",
+    "options": [
+      { "id": "a", "textJp": "ことが", "isCorrect": true },
+      { "id": "b", "textJp": "ものが", "isCorrect": false },
+      { "id": "c", "textJp": "のが", "isCorrect": false },
+      { "id": "d", "textJp": "とこが", "isCorrect": false }
+    ],
+    "explanationEs": "〜たことがあります indica experiencia pasada.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0193",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-16",
+    "promptEs": "Nunca has ido al extranjero.",
+    "questionJp": "外国[がいこく]に行[い]った{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "ことがありません", "isCorrect": true },
+      { "id": "b", "textJp": "ことがあります", "isCorrect": false },
+      { "id": "c", "textJp": "ことができます", "isCorrect": false },
+      { "id": "d", "textJp": "ことになります", "isCorrect": false }
+    ],
+    "explanationEs": "〜たことがありません niega la experiencia pasada.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0194",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-16",
+    "promptEs": "Los fines de semana paseas, limpias, entre otras cosas.",
+    "sentenceTemplate": "週末[しゅうまつ]は散歩[さんぽ]したり、掃除[そうじ]{{1}}します。",
+    "translationEs": "Los fines de semana paseo, limpio, entre otras cosas.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["したり"],
+        "options": ["したり", "します", "した", "して"]
+      }
+    ],
+    "explanationEs": "たり〜たりします enumera varias acciones representativas.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0195",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-16",
+    "promptEs": "Cuando fuiste a Japón, subiste al Monte Fuji.",
+    "sentenceTemplate": "日本[にほん]へ行[い]った{{1}}、富士山[ふじさん]に登[のぼ]りました。",
+    "translationEs": "Cuando fui a Japón, subí al Monte Fuji.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["時", "とき"],
+        "options": ["時", "こと", "もの", "ところ"]
+      }
+    ],
+    "explanationEs": "時 conecta una cláusula temporal con la oración principal.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0196",
+    "type": "word-order",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-16",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["あります", "登った", "富士山に", "ことが"],
+    "correctOrder": ["富士山に", "登った", "ことが", "あります"],
+    "translationEs": "He subido al Monte Fuji (alguna vez).",
+    "explanationEs": "Orden: [Lugar]に + Verbo-た + ことが + あります。",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0197",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-16",
+    "promptEs": "Une cada verbo con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "登ります", "right": "subir, escalar" },
+      { "id": "p2", "left": "泊まります", "right": "alojarse, pasar la noche" },
+      { "id": "p3", "left": "散歩します", "right": "pasear" },
+      { "id": "p4", "left": "掃除します", "right": "limpiar" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0198",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-16",
+    "promptEs": "¿Cómo se lee 掃除 (limpieza, limpiar)?",
+    "questionJp": "掃除",
+    "options": [
+      { "id": "a", "textJp": "そうじ", "isCorrect": true },
+      { "id": "b", "textJp": "はらいじょ", "isCorrect": false },
+      { "id": "c", "textJp": "そうじょ", "isCorrect": false },
+      { "id": "d", "textJp": "かきじ", "isCorrect": false }
+    ],
+    "explanationEs": "掃除 se lee そうじ.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0199",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-16",
+    "promptEs": "Une cada kanji con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "登", "right": "subir, escalar" },
+      { "id": "p2", "left": "洗", "right": "lavar" },
+      { "id": "p3", "left": "掃", "right": "barrer, limpiar" },
+      { "id": "p4", "left": "除", "right": "eliminar, excepto" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0200",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-16",
+    "promptEs": "Lavas la ropa el fin de semana.",
+    "questionJp": "週末[しゅうまつ]は{{1}}します。",
+    "options": [
+      { "id": "a", "textJp": "洗濯", "isCorrect": true },
+      { "id": "b", "textJp": "登り", "isCorrect": false },
+      { "id": "c", "textJp": "泊まり", "isCorrect": false },
+      { "id": "d", "textJp": "富士山", "isCorrect": false }
+    ],
+    "explanationEs": "洗濯します significa 'lavar ropa'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0201",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-16",
+    "promptEs": "Te alojas en Tokio.",
+    "sentenceTemplate": "東京[とうきょう]に{{1}}。",
+    "translationEs": "Me alojo en Tokio.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["泊まります", "とまります"],
+        "options": ["泊まります", "登ります", "散歩します", "掃除します"]
+      }
+    ],
+    "explanationEs": "泊まります significa 'alojarse, pasar la noche'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0202",
+    "type": "speaking",
+    "jlptLevel": "N5",
+    "skill": "speaking",
+    "lessonId": "n5-lesson-16",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "富士山[ふじさん]に登[のぼ]ったことがあります。",
+    "translationEs": "He subido al Monte Fuji (alguna vez).",
+    "explanationEs": "〜たことがあります indica experiencia pasada.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0203",
+    "type": "listening",
+    "jlptLevel": "N5",
+    "skill": "listening",
+    "lessonId": "n5-lesson-16",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "週末[しゅうまつ]は散歩[さんぽ]したり、掃除[そうじ]したりします。",
+    "targetReading": "しゅうまつはさんぽしたり、そうじしたりします。",
+    "translationEs": "Los fines de semana paseo, limpio, entre otras cosas.",
+    "explanationEs": "たり〜たりします enumera varias acciones representativas.",
+    "difficulty": 2
   }
 ]
