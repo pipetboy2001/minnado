@@ -125,5 +125,67 @@
         "es": "En la billetera solo tengo mil yenes."
       }
     ]
+  },
+  {
+    "id": "n4-gram-0007",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "〜ながら (hacer dos cosas al mismo tiempo)",
+    "pattern": "Vます (raíz) + ながら、[Verbo principal]。",
+    "explanationEs": "〜ながら une dos acciones que el mismo sujeto hace al mismo tiempo. La acción principal (la más importante) va en el verbo final; la secundaria lleva ながら. Se forma con la raíz ます del verbo (quitando ます) + ながら.",
+    "structureNotes": "聞きます → 聞きながら",
+    "examples": [
+      {
+        "jp": "音楽を聞きながら散歩します。",
+        "reading": "おんがくをききながらさんぽします。",
+        "es": "Paseo mientras escucho música."
+      },
+      {
+        "jp": "テレビを見ながらご飯を食べます。",
+        "reading": "てれびをみながらごはんをたべます。",
+        "es": "Como mientras veo televisión."
+      }
+    ]
+  },
+  {
+    "id": "n4-gram-0008",
+    "jlptLevel": "N4",
+    "category": "sentence-structure",
+    "title": "〜し、〜し (enumerar razones o cualidades)",
+    "pattern": "[Razón 1] し、[Razón 2] し、[Conclusión]。",
+    "explanationEs": "し conecta varias razones o cualidades para llegar a una conclusión; a diferencia de て, し da la sensación de 'y además...', sumando motivos. Se usa con la forma simple de verbos y adjetivos, y con 〜だし para sustantivos y adjetivos-な.",
+    "examples": [
+      {
+        "jp": "この店は安いし、おいしいし、便利です。",
+        "reading": "このみせはやすいし、おいしいし、べんりです。",
+        "es": "Esta tienda es barata, es rica, y además es conveniente."
+      },
+      {
+        "jp": "田中さんは親切だし、頭もいいです。",
+        "reading": "たなかさんはしんせつだし、あたまもいいです。",
+        "es": "El señor Tanaka es amable, y además es inteligente."
+      }
+    ]
+  },
+  {
+    "id": "n4-gram-0009",
+    "jlptLevel": "N4",
+    "category": "sentence-structure",
+    "title": "それに (además, encima)",
+    "pattern": "[Oración 1]。それに、[Oración 2]。",
+    "explanationEs": "それに se usa al inicio de una segunda oración para agregar otra razón o información en la misma dirección que la primera — como 'además' en español. A diferencia de し, que conecta dentro de una misma oración, それに empieza una oración nueva.",
+    "examples": [
+      {
+        "jp": "この部屋は広いです。それに、静かです。",
+        "reading": "このへやはひろいです。それに、しずかです。",
+        "es": "Este cuarto es amplio. Además, es tranquilo."
+      },
+      {
+        "jp": "今日は雨です。それに、寒いです。",
+        "reading": "きょうはあめです。それに、さむいです。",
+        "es": "Hoy llueve. Además, hace frío."
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0008"]
   }
 ]

@@ -152,5 +152,72 @@
       { "word": "全然", "reading": "ぜんぜん", "meaningEs": "en absoluto" },
       { "word": "全部", "reading": "ぜんぶ", "meaningEs": "todo, en total" }
     ]
+  },
+  {
+    "id": "n4-kanji-0011",
+    "character": "性",
+    "jlptLevel": "N4",
+    "strokeCount": 8,
+    "onyomi": ["セイ", "ショウ"],
+    "kunyomi": [],
+    "meaningEs": "naturaleza, carácter",
+    "radicals": ["忄"],
+    "exampleWords": [
+      {
+        "word": "性格",
+        "reading": "せいかく",
+        "meaningEs": "personalidad, carácter"
+      }
+    ]
+  },
+  {
+    "id": "n4-kanji-0012",
+    "character": "格",
+    "jlptLevel": "N4",
+    "strokeCount": 10,
+    "onyomi": ["カク"],
+    "kunyomi": [],
+    "meaningEs": "estatus, norma, carácter",
+    "radicals": ["木"],
+    "exampleWords": [
+      {
+        "word": "性格",
+        "reading": "せいかく",
+        "meaningEs": "personalidad, carácter"
+      },
+      {
+        "word": "合格",
+        "reading": "ごうかく",
+        "meaningEs": "aprobar (un examen)"
+      }
+    ]
+  },
+  {
+    "id": "n4-kanji-0013",
+    "character": "親",
+    "jlptLevel": "N4",
+    "strokeCount": 16,
+    "onyomi": ["シン"],
+    "kunyomi": ["おや", "した-しい"],
+    "meaningEs": "padre/madre, íntimo",
+    "radicals": ["見"],
+    "exampleWords": [
+      { "word": "親切", "reading": "しんせつ", "meaningEs": "amable" },
+      { "word": "両親", "reading": "りょうしん", "meaningEs": "padres" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0014",
+    "character": "切",
+    "jlptLevel": "N4",
+    "strokeCount": 4,
+    "onyomi": ["セツ"],
+    "kunyomi": ["き-る"],
+    "meaningEs": "cortar; urgente",
+    "radicals": ["刀"],
+    "exampleWords": [
+      { "word": "親切", "reading": "しんせつ", "meaningEs": "amable" },
+      { "word": "切る", "reading": "きる", "meaningEs": "cortar" }
+    ]
   }
 ]

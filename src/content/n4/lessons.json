@@ -78,5 +78,45 @@
       "n4-ex-0023",
       "n4-ex-0024"
     ]
+  },
+  {
+    "id": "n4-lesson-28",
+    "jlptLevel": "N4",
+    "order": 28,
+    "title": "Lección 28 — Dos cosas a la vez y varias razones (〜ながら・〜し〜し・それに)",
+    "description": "Hacer dos acciones al mismo tiempo con 〜ながら, enumerar razones o cualidades con 〜し〜し, y agregar información con それに, con vocabulario sobre personalidad, basado en Minna no Nihongo Lección 28 (Libro 2).",
+    "kind": "lesson",
+    "vocabIds": [
+      "n4-voc-0019",
+      "n4-voc-0020",
+      "n4-voc-0021",
+      "n4-voc-0022",
+      "n4-voc-0023",
+      "n4-voc-0024",
+      "n4-voc-0025",
+      "n4-voc-0026",
+      "n4-voc-0027"
+    ],
+    "kanjiIds": [
+      "n4-kanji-0011",
+      "n4-kanji-0012",
+      "n4-kanji-0013",
+      "n4-kanji-0014"
+    ],
+    "grammarIds": ["n4-gram-0007", "n4-gram-0008", "n4-gram-0009"],
+    "exerciseIds": [
+      "n4-ex-0025",
+      "n4-ex-0026",
+      "n4-ex-0027",
+      "n4-ex-0028",
+      "n4-ex-0029",
+      "n4-ex-0030",
+      "n4-ex-0031",
+      "n4-ex-0032",
+      "n4-ex-0033",
+      "n4-ex-0034",
+      "n4-ex-0035",
+      "n4-ex-0036"
+    ]
   }
 ]
