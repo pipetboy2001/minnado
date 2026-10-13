@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono, Noto_Sans_JP } from "next/font/google";
 import "./globals.css";
 import { Providers } from "@/components/providers";
@@ -20,10 +20,32 @@ const notoSansJP = Noto_Sans_JP({
   weight: ["400", "500", "700"],
 });
 
+const SITE_URL = "https://minnado.vercel.app";
+const SITE_TITLE = "Minnado — Aprende japonés N5";
+const SITE_DESCRIPTION =
+  "Plataforma open source para practicar japonés N5 basada en Minna no Nihongo.";
+
 export const metadata: Metadata = {
-  title: "Minnado — Aprende japonés N5",
-  description:
-    "Plataforma open source para practicar japonés N5 basada en Minna no Nihongo.",
+  metadataBase: new URL(SITE_URL),
+  title: SITE_TITLE,
+  description: SITE_DESCRIPTION,
+  openGraph: {
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
+    url: SITE_URL,
+    siteName: "Minnado",
+    locale: "es_ES",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#c1272d",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
