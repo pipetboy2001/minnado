@@ -670,9 +670,51 @@
     ]
   },
   {
-    "id": "n5-lesson-03",
+    "id": "n5-lesson-17",
     "jlptLevel": "N5",
     "order": 16,
+    "title": "Lección 16 — Consejos (〜た方がいいです)",
+    "description": "Dar consejos con 〜た方がいいです y 〜ない方がいいです, y vocabulario de salud (病院/医者/薬/風邪), basado en Minna no Nihongo Lección 16.",
+    "kind": "lesson",
+    "vocabIds": [
+      "n5-voc-0157",
+      "n5-voc-0158",
+      "n5-voc-0159",
+      "n5-voc-0160",
+      "n5-voc-0161",
+      "n5-voc-0162"
+    ],
+    "kanjiIds": [
+      "n5-kanji-0055",
+      "n5-kanji-0056",
+      "n5-kanji-0057",
+      "n5-kanji-0058"
+    ],
+    "grammarIds": [
+      "n5-gram-0065",
+      "n5-gram-0066",
+      "n5-gram-0067",
+      "n5-gram-0068"
+    ],
+    "exerciseIds": [
+      "n5-ex-0204",
+      "n5-ex-0205",
+      "n5-ex-0206",
+      "n5-ex-0207",
+      "n5-ex-0208",
+      "n5-ex-0209",
+      "n5-ex-0210",
+      "n5-ex-0211",
+      "n5-ex-0212",
+      "n5-ex-0213",
+      "n5-ex-0214",
+      "n5-ex-0215"
+    ]
+  },
+  {
+    "id": "n5-lesson-03",
+    "jlptLevel": "N5",
+    "order": 17,
     "title": "Repaso — Partículas, Adjetivos y Formas Verbales",
     "description": "Módulo de repaso transversal: partícula correcta, adjetivos い/な, y conjugación verbal (forma ます y て) a través de varias lecciones.",
     "kind": "review",

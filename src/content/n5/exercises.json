@@ -3271,5 +3271,198 @@
     "translationEs": "Los fines de semana paseo, limpio, entre otras cosas.",
     "explanationEs": "たり〜たりします enumera varias acciones representativas.",
     "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0204",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-17",
+    "promptEs": "Es mejor que tomes la medicina.",
+    "questionJp": "薬[くすり]を飲[の]んだ{{1}}いいです。",
+    "options": [
+      { "id": "a", "textJp": "方が", "isCorrect": true },
+      { "id": "b", "textJp": "ことが", "isCorrect": false },
+      { "id": "c", "textJp": "ものが", "isCorrect": false },
+      { "id": "d", "textJp": "とこが", "isCorrect": false }
+    ],
+    "explanationEs": "〜た方がいいです da un consejo o recomendación.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0205",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-17",
+    "promptEs": "Es mejor que no trabajes hoy.",
+    "questionJp": "今日[きょう]は働[はたら]かない{{1}}いいです。",
+    "options": [
+      { "id": "a", "textJp": "方が", "isCorrect": true },
+      { "id": "b", "textJp": "ことが", "isCorrect": false },
+      { "id": "c", "textJp": "のが", "isCorrect": false },
+      { "id": "d", "textJp": "とこが", "isCorrect": false }
+    ],
+    "explanationEs": "〜ない方がいいです da un consejo negativo.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0206",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-17",
+    "promptEs": "Te resfriaste.",
+    "sentenceTemplate": "{{1}}をひきました。",
+    "translationEs": "Me resfrié.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["風邪", "かぜ"],
+        "options": ["風邪", "熱", "薬", "病院"]
+      }
+    ],
+    "explanationEs": "風邪をひく es la expresión para 'resfriarse'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0207",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-17",
+    "promptEs": "Es mejor que vayas al hospital.",
+    "sentenceTemplate": "病院[びょういん]へ{{1}}方がいいです。",
+    "translationEs": "Es mejor que vayas al hospital.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["行った", "いった"],
+        "options": ["行った", "行く", "行きます", "行って"]
+      }
+    ],
+    "explanationEs": "〜た方がいいです usa la forma た del verbo.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0208",
+    "type": "word-order",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-17",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["いいです", "薬を", "飲んだ", "方が"],
+    "correctOrder": ["薬を", "飲んだ", "方が", "いいです"],
+    "translationEs": "Es mejor que tomes la medicina.",
+    "explanationEs": "Orden: [Objeto]を + Verbo-た + 方が + いいです。",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0209",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-17",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "病院", "right": "hospital" },
+      { "id": "p2", "left": "医者", "right": "médico" },
+      { "id": "p3", "left": "薬", "right": "medicina" },
+      { "id": "p4", "left": "風邪", "right": "resfriado, gripe" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0210",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-17",
+    "promptEs": "¿Cómo se lee 病院 (hospital)?",
+    "questionJp": "病院",
+    "options": [
+      { "id": "a", "textJp": "びょういん", "isCorrect": true },
+      { "id": "b", "textJp": "びょういいん", "isCorrect": false },
+      { "id": "c", "textJp": "へいいん", "isCorrect": false },
+      { "id": "d", "textJp": "びょいん", "isCorrect": false }
+    ],
+    "explanationEs": "病院 se lee びょういん.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0211",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-17",
+    "promptEs": "Une cada kanji con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "病", "right": "enfermedad" },
+      { "id": "p2", "left": "院", "right": "institución" },
+      { "id": "p3", "left": "医", "right": "medicina, médico" },
+      { "id": "p4", "left": "薬", "right": "medicina" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0212",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-17",
+    "promptEs": "Tienes fiebre.",
+    "questionJp": "風邪[かぜ]をひきました。{{1}}があります。",
+    "options": [
+      { "id": "a", "textJp": "熱", "isCorrect": true },
+      { "id": "b", "textJp": "薬", "isCorrect": false },
+      { "id": "c", "textJp": "医者", "isCorrect": false },
+      { "id": "d", "textJp": "病院", "isCorrect": false }
+    ],
+    "explanationEs": "熱 significa 'fiebre'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0213",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-17",
+    "promptEs": "Es mejor que vayas al hospital temprano.",
+    "sentenceTemplate": "{{1}}病院[びょういん]へ行[い]った方がいいです。",
+    "translationEs": "Es mejor que vayas al hospital temprano.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["早く", "はやく"],
+        "options": ["早く", "もう", "まだ", "とても"]
+      }
+    ],
+    "explanationEs": "早く significa 'temprano, rápido'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0214",
+    "type": "speaking",
+    "jlptLevel": "N5",
+    "skill": "speaking",
+    "lessonId": "n5-lesson-17",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "薬[くすり]を飲[の]んだ方[ほう]がいいです。",
+    "translationEs": "Es mejor que tomes la medicina.",
+    "explanationEs": "〜た方がいいです da un consejo o recomendación.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0215",
+    "type": "listening",
+    "jlptLevel": "N5",
+    "skill": "listening",
+    "lessonId": "n5-lesson-17",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "病院[びょういん]へ行[い]った方[ほう]がいいです。",
+    "targetReading": "びょういんへいったほうがいいです。",
+    "translationEs": "Es mejor que vayas al hospital.",
+    "explanationEs": "〜た方がいいです da un consejo o recomendación.",
+    "difficulty": 2
   }
 ]

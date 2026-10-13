@@ -1013,5 +1013,65 @@
         "es": "Cuando fui a Japón, subí al Monte Fuji."
       }
     ]
+  },
+  {
+    "id": "n5-gram-0065",
+    "jlptLevel": "N5",
+    "category": "verb-forms",
+    "title": "〜た方がいいです (es mejor que hagas)",
+    "pattern": "[Verbo-た]方がいいです。",
+    "explanationEs": "Da un consejo o recomendación, como 'es mejor que...' en español.",
+    "examples": [
+      {
+        "jp": "薬を飲んだ方がいいです。",
+        "reading": "くすりをのんだほうがいいです。",
+        "es": "Es mejor que tomes la medicina."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0066",
+    "jlptLevel": "N5",
+    "category": "verb-forms",
+    "title": "〜ない方がいいです (es mejor que no hagas)",
+    "pattern": "[Verbo-ない]方がいいです。",
+    "explanationEs": "Da un consejo negativo, como 'es mejor que no...' en español.",
+    "examples": [
+      {
+        "jp": "今日は働かない方がいいです。",
+        "reading": "きょうははたらかないほうがいいです。",
+        "es": "Es mejor que no trabajes hoy."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0067",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "風邪をひきました (resfriarse)",
+    "pattern": "風邪をひきました。",
+    "explanationEs": "ひきました es la forma pasada de ひく, usado específicamente en la expresión 風邪をひく (resfriarse).",
+    "examples": [
+      {
+        "jp": "風邪をひきました。熱があります。",
+        "reading": "かぜをひきました。ねつがあります。",
+        "es": "Me resfrié. Tengo fiebre."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0068",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "病院へ行った方がいいです (recomendación médica)",
+    "pattern": "[Lugar]へ行った方がいいです。",
+    "explanationEs": "Combina 〜た方がいいです con un verbo de movimiento para recomendar ir a un lugar.",
+    "examples": [
+      {
+        "jp": "病院へ行った方がいいです。",
+        "reading": "びょういんへいったほうがいいです。",
+        "es": "Es mejor que vayas al hospital."
+      }
+    ]
   }
 ]

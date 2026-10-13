@@ -866,5 +866,65 @@
       { "word": "掃除", "reading": "そうじ", "meaningEs": "limpieza" },
       { "word": "除外", "reading": "じょがい", "meaningEs": "exclusión" }
     ]
+  },
+  {
+    "id": "n5-kanji-0055",
+    "character": "病",
+    "jlptLevel": "N5",
+    "strokeCount": 10,
+    "onyomi": ["ビョウ"],
+    "kunyomi": ["やまい"],
+    "meaningEs": "enfermedad",
+    "radicals": ["疒"],
+    "exampleWords": [
+      { "word": "病院", "reading": "びょういん", "meaningEs": "hospital" },
+      { "word": "病気", "reading": "びょうき", "meaningEs": "enfermedad" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0056",
+    "character": "院",
+    "jlptLevel": "N5",
+    "strokeCount": 10,
+    "onyomi": ["イン"],
+    "kunyomi": [],
+    "meaningEs": "institución",
+    "radicals": ["阝"],
+    "exampleWords": [
+      { "word": "病院", "reading": "びょういん", "meaningEs": "hospital" },
+      {
+        "word": "入院",
+        "reading": "にゅういん",
+        "meaningEs": "hospitalización"
+      }
+    ]
+  },
+  {
+    "id": "n5-kanji-0057",
+    "character": "医",
+    "jlptLevel": "N5",
+    "strokeCount": 7,
+    "onyomi": ["イ"],
+    "kunyomi": [],
+    "meaningEs": "medicina, médico",
+    "radicals": ["匸"],
+    "exampleWords": [
+      { "word": "医者", "reading": "いしゃ", "meaningEs": "médico" },
+      { "word": "医学", "reading": "いがく", "meaningEs": "medicina (ciencia)" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0058",
+    "character": "薬",
+    "jlptLevel": "N5",
+    "strokeCount": 16,
+    "onyomi": ["ヤク"],
+    "kunyomi": ["くすり"],
+    "meaningEs": "medicina",
+    "radicals": ["艸"],
+    "exampleWords": [
+      { "word": "薬局", "reading": "やっきょく", "meaningEs": "farmacia" },
+      { "word": "薬", "reading": "くすり", "meaningEs": "medicina" }
+    ]
   }
 ]

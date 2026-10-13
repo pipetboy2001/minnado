@@ -2026,5 +2026,83 @@
     "exampleSentenceReading": "がいこくじんのともだちがいます。",
     "exampleSentenceEs": "Tengo un amigo extranjero.",
     "tags": ["personas", "minna-no-nihongo-l15"]
+  },
+  {
+    "id": "n5-voc-0157",
+    "jlptLevel": "N5",
+    "word": "病院",
+    "reading": "びょういん",
+    "romaji": "byouin",
+    "meaningEs": "hospital",
+    "partOfSpeech": "noun",
+    "exampleSentenceJp": "病院へ行った方がいいです。",
+    "exampleSentenceReading": "びょういんへいったほうがいいです。",
+    "exampleSentenceEs": "Es mejor que vayas al hospital.",
+    "tags": ["lugares", "minna-no-nihongo-l16"]
+  },
+  {
+    "id": "n5-voc-0158",
+    "jlptLevel": "N5",
+    "word": "医者",
+    "reading": "いしゃ",
+    "romaji": "isha",
+    "meaningEs": "médico",
+    "partOfSpeech": "noun",
+    "exampleSentenceJp": "医者に行った方がいいです。",
+    "exampleSentenceReading": "いしゃにいったほうがいいです。",
+    "exampleSentenceEs": "Es mejor que vayas al médico.",
+    "tags": ["personas", "minna-no-nihongo-l16"]
+  },
+  {
+    "id": "n5-voc-0159",
+    "jlptLevel": "N5",
+    "word": "薬",
+    "reading": "くすり",
+    "romaji": "kusuri",
+    "meaningEs": "medicina",
+    "partOfSpeech": "noun",
+    "exampleSentenceJp": "薬を飲んだ方がいいです。",
+    "exampleSentenceReading": "くすりをのんだほうがいいです。",
+    "exampleSentenceEs": "Es mejor que tomes la medicina.",
+    "tags": ["objetos", "minna-no-nihongo-l16"]
+  },
+  {
+    "id": "n5-voc-0160",
+    "jlptLevel": "N5",
+    "word": "熱",
+    "reading": "ねつ",
+    "romaji": "netsu",
+    "meaningEs": "fiebre",
+    "partOfSpeech": "noun",
+    "exampleSentenceJp": "熱があります。",
+    "exampleSentenceReading": "ねつがあります。",
+    "exampleSentenceEs": "Tengo fiebre.",
+    "tags": ["salud", "minna-no-nihongo-l16"]
+  },
+  {
+    "id": "n5-voc-0161",
+    "jlptLevel": "N5",
+    "word": "風邪",
+    "reading": "かぜ",
+    "romaji": "kaze",
+    "meaningEs": "resfriado, gripe",
+    "partOfSpeech": "noun",
+    "exampleSentenceJp": "風邪をひきました。",
+    "exampleSentenceReading": "かぜをひきました。",
+    "exampleSentenceEs": "Me resfrié.",
+    "tags": ["salud", "minna-no-nihongo-l16"]
+  },
+  {
+    "id": "n5-voc-0162",
+    "jlptLevel": "N5",
+    "word": "早く",
+    "reading": "はやく",
+    "romaji": "hayaku",
+    "meaningEs": "temprano, rápido",
+    "partOfSpeech": "adverb",
+    "exampleSentenceJp": "早く病院へ行った方がいいです。",
+    "exampleSentenceReading": "はやくびょういんへいったほうがいいです。",
+    "exampleSentenceEs": "Es mejor que vayas al hospital temprano.",
+    "tags": ["adverbios", "minna-no-nihongo-l16"]
   }
 ]
