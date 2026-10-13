@@ -7,6 +7,10 @@ import {
   getGrammarN5,
   getLessonsN5,
   getExercisesN5,
+  getVocabN4,
+  getGrammarN4,
+  getLessonsN4,
+  getExercisesN4,
 } from "./loader";
 
 describe("content loaders", () => {
@@ -17,6 +21,10 @@ describe("content loaders", () => {
     expect(() => getGrammarN5()).not.toThrow();
     expect(() => getLessonsN5()).not.toThrow();
     expect(() => getExercisesN5()).not.toThrow();
+    expect(() => getVocabN4()).not.toThrow();
+    expect(() => getGrammarN4()).not.toThrow();
+    expect(() => getLessonsN4()).not.toThrow();
+    expect(() => getExercisesN4()).not.toThrow();
   });
 
   it("gives every id in every content file a unique id", () => {
@@ -27,6 +35,10 @@ describe("content loaders", () => {
       getGrammarN5(),
       getLessonsN5(),
       getExercisesN5(),
+      getVocabN4(),
+      getGrammarN4(),
+      getLessonsN4(),
+      getExercisesN4(),
     ]) {
       const ids = items.map((item) => item.id);
       expect(new Set(ids).size).toBe(ids.length);
@@ -34,14 +46,20 @@ describe("content loaders", () => {
   });
 
   it("only references vocab/kanji/grammar/exercise ids that actually exist", () => {
-    const vocabIds = new Set(getVocabN5().map((v) => v.id));
+    const vocabIds = new Set(
+      [...getVocabN5(), ...getVocabN4()].map((v) => v.id),
+    );
     const kanjiIds = new Set(
       [...getKanjiN5(), ...getKanjiN4()].map((k) => k.id),
     );
-    const grammarIds = new Set(getGrammarN5().map((g) => g.id));
-    const exerciseIds = new Set(getExercisesN5().map((e) => e.id));
+    const grammarIds = new Set(
+      [...getGrammarN5(), ...getGrammarN4()].map((g) => g.id),
+    );
+    const exerciseIds = new Set(
+      [...getExercisesN5(), ...getExercisesN4()].map((e) => e.id),
+    );
 
-    for (const lesson of getLessonsN5()) {
+    for (const lesson of [...getLessonsN5(), ...getLessonsN4()]) {
       for (const id of lesson.vocabIds) {
         expect(vocabIds.has(id), `lesson ${lesson.id} -> vocab ${id}`).toBe(
           true,
@@ -67,8 +85,10 @@ describe("content loaders", () => {
   });
 
   it("every exercise's lessonId (when set) points at a real lesson", () => {
-    const lessonIds = new Set(getLessonsN5().map((l) => l.id));
-    for (const exercise of getExercisesN5()) {
+    const lessonIds = new Set(
+      [...getLessonsN5(), ...getLessonsN4()].map((l) => l.id),
+    );
+    for (const exercise of [...getExercisesN5(), ...getExercisesN4()]) {
       if (exercise.lessonId) {
         expect(
           lessonIds.has(exercise.lessonId),
@@ -79,7 +99,7 @@ describe("content loaders", () => {
   });
 
   it("gives every multiple-choice exercise exactly one correct option", () => {
-    for (const exercise of getExercisesN5()) {
+    for (const exercise of [...getExercisesN5(), ...getExercisesN4()]) {
       if (exercise.type !== "multiple-choice") continue;
       const correctCount = exercise.options.filter((o) => o.isCorrect).length;
       expect(correctCount, `exercise ${exercise.id}`).toBe(1);
@@ -87,7 +107,7 @@ describe("content loaders", () => {
   });
 
   it("gives every fill-in-blank sentenceTemplate a blank entry for every {{n}} slot it declares", () => {
-    for (const exercise of getExercisesN5()) {
+    for (const exercise of [...getExercisesN5(), ...getExercisesN4()]) {
       if (exercise.type !== "fill-in-blank") continue;
       const slotIds = [
         ...exercise.sentenceTemplate.matchAll(/\{\{(\w+)\}\}/g),
@@ -104,16 +124,16 @@ describe("content loaders", () => {
     // must rejoin to exactly the string with "[reading]" runs stripped, for
     // every Japanese string any content file actually ships.
     const strings: string[] = [];
-    for (const w of getVocabN5()) {
+    for (const w of [...getVocabN5(), ...getVocabN4()]) {
       if (w.exampleSentenceJp) strings.push(w.exampleSentenceJp);
     }
     for (const k of [...getKanjiN5(), ...getKanjiN4()]) {
       for (const ex of k.exampleWords) strings.push(ex.word);
     }
-    for (const g of getGrammarN5()) {
+    for (const g of [...getGrammarN5(), ...getGrammarN4()]) {
       for (const ex of g.examples) strings.push(ex.jp);
     }
-    for (const e of getExercisesN5()) {
+    for (const e of [...getExercisesN5(), ...getExercisesN4()]) {
       if ("questionJp" in e) strings.push(e.questionJp);
       if ("sentenceTemplate" in e) strings.push(e.sentenceTemplate);
       if ("targetJp" in e) strings.push(e.targetJp);
@@ -126,5 +146,12 @@ describe("content loaders", () => {
       const strippedBrackets = str.replace(/\[[^\[\]]+\]/g, "");
       expect(rejoined, str).toBe(strippedBrackets);
     }
+  });
+
+  it("gives every N4 vocab/grammar/exercise entry jlptLevel N4", () => {
+    for (const w of getVocabN4()) expect(w.jlptLevel, w.id).toBe("N4");
+    for (const g of getGrammarN4()) expect(g.jlptLevel, g.id).toBe("N4");
+    for (const e of getExercisesN4()) expect(e.jlptLevel, e.id).toBe("N4");
+    for (const l of getLessonsN4()) expect(l.jlptLevel, l.id).toBe("N4");
   });
 });

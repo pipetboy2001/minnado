@@ -20,7 +20,11 @@ import n5Kanji from "./n5/kanji.json";
 import n5Grammar from "./n5/grammar.json";
 import n5Lessons from "./n5/lessons.json";
 import n5Exercises from "./n5/exercises.json";
+import n4Vocab from "./n4/vocabulary.json";
 import n4Kanji from "./n4/kanji.json";
+import n4Grammar from "./n4/grammar.json";
+import n4Lessons from "./n4/lessons.json";
+import n4Exercises from "./n4/exercises.json";
 
 function parseContent<T>(
   schema: ZodSchema<T>,
@@ -66,4 +70,20 @@ export const getLessonsN5 = cache((): Lesson[] =>
 
 export const getExercisesN5 = cache((): Exercise[] =>
   parseContent(exerciseFileSchema, n5Exercises, "n5/exercises.json"),
+);
+
+export const getVocabN4 = cache((): VocabWord[] =>
+  parseContent(vocabFileSchema, n4Vocab, "n4/vocabulary.json"),
+);
+
+export const getGrammarN4 = cache((): GrammarRule[] =>
+  parseContent(grammarFileSchema, n4Grammar, "n4/grammar.json"),
+);
+
+export const getLessonsN4 = cache((): Lesson[] =>
+  parseContent(lessonFileSchema, n4Lessons, "n4/lessons.json"),
+);
+
+export const getExercisesN4 = cache((): Exercise[] =>
+  parseContent(exerciseFileSchema, n4Exercises, "n4/exercises.json"),
 );
