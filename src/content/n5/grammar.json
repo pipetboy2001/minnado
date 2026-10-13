@@ -1133,5 +1133,65 @@
         "es": "No olvides los documentos."
       }
     ]
+  },
+  {
+    "id": "n5-gram-0073",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "〜と思います (creo que...)",
+    "pattern": "[Oración]と思います。",
+    "explanationEs": "Expresa la opinión del hablante, como 'creo que...' en español. Antes de と, los adjetivos-な y sustantivos necesitan だ (ニュースは大切だと思います).",
+    "examples": [
+      {
+        "jp": "この問題は難しいと思います。",
+        "reading": "このもんだいはむずかしいとおもいます。",
+        "es": "Creo que este problema es difícil."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0074",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "〜と言いました (dijo que...)",
+    "pattern": "[Oración]と言いました。",
+    "explanationEs": "Reporta lo que alguien dijo, como 'dijo que...' en español.",
+    "examples": [
+      {
+        "jp": "田中さんは試験が難しいと言いました。",
+        "reading": "たなかさんはしけんがむずかしいといいました。",
+        "es": "El señor Tanaka dijo que el examen es difícil."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0075",
+    "jlptLevel": "N5",
+    "category": "particles",
+    "title": "〜について (acerca de)",
+    "pattern": "[Tema]について",
+    "explanationEs": "について indica el tema del que se habla, como 'acerca de' o 'sobre' en español.",
+    "examples": [
+      {
+        "jp": "試験について話します。",
+        "reading": "しけんについてはなします。",
+        "es": "Hablo acerca del examen."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0076",
+    "jlptLevel": "N5",
+    "category": "adjectives-na",
+    "title": "便利です／大切です (adjetivos-な de opinión)",
+    "pattern": "[Sustantivo]は便利です／大切です。",
+    "explanationEs": "便利 (conveniente) y 大切 (importante) son adjetivos-な muy comunes para dar opiniones.",
+    "examples": [
+      {
+        "jp": "この問題は大切です。",
+        "reading": "このもんだいはたいせつです。",
+        "es": "Este problema es importante."
+      }
+    ]
   }
 ]

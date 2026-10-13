@@ -3,17 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { toast } from "sonner";
-import {
-  ArrowLeftRight,
-  Check,
-  Headphones,
-  ListChecks,
-  Mic,
-  PenLine,
-  Shuffle,
-  X,
-} from "lucide-react";
-import type { LucideIcon } from "lucide-react";
+import { Check, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
@@ -21,26 +11,9 @@ import {
   isSpeechRecognitionSupported,
   isSpeechSynthesisSupported,
 } from "@/lib/speech";
-import type { Exercise, ExerciseType } from "@/types/exercise";
+import type { Exercise } from "@/types/exercise";
 import { gradeExercise, type ExerciseAnswer } from "./grading";
-import { MultipleChoiceQuestion } from "./multiple-choice-question";
-import { FillInBlankQuestion } from "./fill-in-blank-question";
-import { WordOrderQuestion } from "./word-order-question";
-import { MatchingQuestion } from "./matching-question";
-import { SpeakingQuestion } from "./speaking-question";
-import { ListeningQuestion } from "./listening-question";
-
-const EXERCISE_TYPE_META: Record<
-  ExerciseType,
-  { icon: LucideIcon; label: string }
-> = {
-  "multiple-choice": { icon: ListChecks, label: "Opción múltiple" },
-  "fill-in-blank": { icon: PenLine, label: "Completar espacio" },
-  "word-order": { icon: ArrowLeftRight, label: "Ordenar palabras" },
-  matching: { icon: Shuffle, label: "Emparejar" },
-  speaking: { icon: Mic, label: "Pronunciación" },
-  listening: { icon: Headphones, label: "Comprensión auditiva" },
-};
+import { EXERCISE_TYPE_META, ExerciseQuestion } from "./exercise-question";
 
 export function ExercisePlayer({
   exercises: allExercises,
@@ -208,65 +181,13 @@ export function ExercisePlayer({
           <p className="text-base text-muted-foreground">{exercise.promptEs}</p>
         </div>
 
-        {exercise.type === "multiple-choice" && (
-          <MultipleChoiceQuestion
-            key={exercise.id}
-            exercise={exercise}
-            value={answer as never}
-            onChange={setAnswer}
-            revealed={revealed}
-            disabled={revealed}
-          />
-        )}
-        {exercise.type === "fill-in-blank" && (
-          <FillInBlankQuestion
-            key={exercise.id}
-            exercise={exercise}
-            value={answer as never}
-            onChange={setAnswer}
-            revealed={revealed}
-            disabled={revealed}
-          />
-        )}
-        {exercise.type === "word-order" && (
-          <WordOrderQuestion
-            key={exercise.id}
-            exercise={exercise}
-            onChange={setAnswer}
-            revealed={revealed}
-            disabled={revealed}
-          />
-        )}
-        {exercise.type === "matching" && (
-          <MatchingQuestion
-            key={exercise.id}
-            exercise={exercise}
-            value={answer as never}
-            onChange={setAnswer}
-            revealed={revealed}
-            disabled={revealed}
-          />
-        )}
-        {exercise.type === "speaking" && (
-          <SpeakingQuestion
-            key={exercise.id}
-            exercise={exercise}
-            value={answer as never}
-            onChange={setAnswer}
-            revealed={revealed}
-            disabled={revealed}
-          />
-        )}
-        {exercise.type === "listening" && (
-          <ListeningQuestion
-            key={exercise.id}
-            exercise={exercise}
-            value={answer as never}
-            onChange={setAnswer}
-            revealed={revealed}
-            disabled={revealed}
-          />
-        )}
+        <ExerciseQuestion
+          exercise={exercise}
+          value={answer}
+          onChange={setAnswer}
+          revealed={revealed}
+          disabled={revealed}
+        />
 
         {revealed && (
           <div

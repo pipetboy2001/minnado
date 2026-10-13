@@ -1,5 +1,11 @@
 import Link from "next/link";
-import { Languages, Library, LogOut, RotateCcw } from "lucide-react";
+import {
+  GraduationCap,
+  Languages,
+  Library,
+  LogOut,
+  RotateCcw,
+} from "lucide-react";
 import { auth, signOut } from "@/auth";
 import { getLessonsN5 } from "@/content/loader";
 import { getUserLessonProgress } from "@/lib/progress";
@@ -34,6 +40,13 @@ export default async function ActividadesPage() {
           >
             <Library />
             Diccionario
+          </Button>
+          <Button
+            variant="outline"
+            render={<Link href="/actividades/examen" />}
+          >
+            <GraduationCap />
+            Examen
           </Button>
           <AccountMenu />
           <form
