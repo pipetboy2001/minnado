@@ -219,5 +219,65 @@
       { "word": "親切", "reading": "しんせつ", "meaningEs": "amable" },
       { "word": "切る", "reading": "きる", "meaningEs": "cortar" }
     ]
+  },
+  {
+    "id": "n4-kanji-0015",
+    "character": "開",
+    "jlptLevel": "N4",
+    "strokeCount": 12,
+    "onyomi": ["カイ"],
+    "kunyomi": ["ひら-く", "あ-く"],
+    "meaningEs": "abrir",
+    "radicals": ["門"],
+    "exampleWords": [
+      { "word": "開く", "reading": "あく", "meaningEs": "abrirse" },
+      { "word": "開ける", "reading": "あける", "meaningEs": "abrir" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0016",
+    "character": "閉",
+    "jlptLevel": "N4",
+    "strokeCount": 11,
+    "onyomi": ["ヘイ"],
+    "kunyomi": ["し-まる", "と-じる"],
+    "meaningEs": "cerrar",
+    "radicals": ["門"],
+    "exampleWords": [
+      { "word": "閉まる", "reading": "しまる", "meaningEs": "cerrarse" },
+      { "word": "閉める", "reading": "しめる", "meaningEs": "cerrar" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0017",
+    "character": "消",
+    "jlptLevel": "N4",
+    "strokeCount": 10,
+    "onyomi": ["ショウ"],
+    "kunyomi": ["き-える", "け-す"],
+    "meaningEs": "apagar, desaparecer",
+    "radicals": ["氵"],
+    "exampleWords": [
+      { "word": "消える", "reading": "きえる", "meaningEs": "apagarse" },
+      { "word": "消す", "reading": "けす", "meaningEs": "apagar" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0018",
+    "character": "窓",
+    "jlptLevel": "N4",
+    "strokeCount": 11,
+    "onyomi": ["ソウ"],
+    "kunyomi": ["まど"],
+    "meaningEs": "ventana",
+    "radicals": ["穴"],
+    "exampleWords": [
+      { "word": "窓", "reading": "まど", "meaningEs": "ventana" },
+      {
+        "word": "車窓",
+        "reading": "しゃそう",
+        "meaningEs": "ventanilla del tren"
+      }
+    ]
   }
 ]

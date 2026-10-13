@@ -585,5 +585,204 @@
     "translationEs": "El señor Tanaka es amable, y además es inteligente.",
     "explanationEs": "し conecta varias cualidades sobre la misma persona.",
     "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0037",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-29",
+    "promptEs": "Elige la forma correcta (intransitiva).",
+    "questionJp": "ドアが{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "開きました", "isCorrect": true },
+      { "id": "b", "textJp": "開けました", "isCorrect": false },
+      { "id": "c", "textJp": "開けています", "isCorrect": false },
+      { "id": "d", "textJp": "開かせました", "isCorrect": false }
+    ],
+    "explanationEs": "ドアが + 開きました (intransitivo): la puerta se abrió sola.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0038",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-29",
+    "promptEs": "Elige la forma correcta (transitiva).",
+    "questionJp": "すみません、窓[まど]を{{1}}ください。",
+    "options": [
+      { "id": "a", "textJp": "開けて", "isCorrect": true },
+      { "id": "b", "textJp": "開いて", "isCorrect": false },
+      { "id": "c", "textJp": "閉まって", "isCorrect": false },
+      { "id": "d", "textJp": "消えて", "isCorrect": false }
+    ],
+    "explanationEs": "窓を + 開けて (transitivo): pedir que alguien abra la ventana.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0039",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-29",
+    "promptEs": "Elige la forma correcta para describir el estado actual.",
+    "questionJp": "電気[でんき]が{{1}}。部屋[へや]が暗[くら]いです。",
+    "options": [
+      { "id": "a", "textJp": "消えています", "isCorrect": true },
+      { "id": "b", "textJp": "消します", "isCorrect": false },
+      { "id": "c", "textJp": "消えました", "isCorrect": false },
+      { "id": "d", "textJp": "消しています", "isCorrect": false }
+    ],
+    "explanationEs": "消えています describe el estado actual: la luz está apagada.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0040",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-29",
+    "promptEs": "Elige la forma correcta con てしまう.",
+    "questionJp": "財布[さいふ]を{{1}}。どうしよう。",
+    "options": [
+      { "id": "a", "textJp": "忘れてしまいました", "isCorrect": true },
+      { "id": "b", "textJp": "忘れています", "isCorrect": false },
+      { "id": "c", "textJp": "忘れてください", "isCorrect": false },
+      { "id": "d", "textJp": "忘れさせます", "isCorrect": false }
+    ],
+    "explanationEs": "〜てしまいました expresa que algo lamentable pasó: se me olvidó.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0041",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-29",
+    "promptEs": "Completa con el verbo transitivo correcto.",
+    "sentenceTemplate": "子供[こども]がおもちゃを{{1}}。",
+    "translationEs": "El niño rompió el juguete.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["壊しました"],
+        "options": ["壊しました", "壊れました", "壊れています", "壊させました"]
+      }
+    ],
+    "explanationEs": "壊す es transitivo: alguien rompe algo (を壊す).",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0042",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-29",
+    "promptEs": "Completa describiendo el estado de la ventana.",
+    "sentenceTemplate": "窓[まど]が{{1}}。寒[さむ]いですね。",
+    "translationEs": "La ventana está abierta. Qué frío, ¿no?",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["開いています"],
+        "options": ["開いています", "開けています", "開きます", "開けます"]
+      }
+    ],
+    "explanationEs": "開いています: estado resultante con el intransitivo 開く + ている.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0043",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-29",
+    "promptEs": "Completa con てしまう.",
+    "sentenceTemplate": "宿題[しゅくだい]はもう{{1}}。",
+    "translationEs": "Ya terminé toda la tarea.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["終わってしまいました"],
+        "options": [
+          "終わってしまいました",
+          "終わっています",
+          "終わりました",
+          "終わってください"
+        ]
+      }
+    ],
+    "explanationEs": "〜てしまいました aquí da el matiz de 'ya terminé todo', con cierto alivio.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0044",
+    "type": "word-order",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-29",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["財布を", "忘れて", "しまいました"],
+    "correctOrder": ["財布を", "忘れて", "しまいました"],
+    "translationEs": "Se me olvidó la billetera.",
+    "explanationEs": "Vて + しまいました va junto, al final de la oración.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0045",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-29",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "開く", "right": "abrirse" },
+      { "id": "p2", "left": "閉まる", "right": "cerrarse" },
+      { "id": "p3", "left": "消える", "right": "apagarse" },
+      { "id": "p4", "left": "壊す", "right": "romper (algo)" },
+      { "id": "p5", "left": "財布", "right": "billetera" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0046",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "kanji",
+    "lessonId": "n4-lesson-29",
+    "promptEs": "Une cada kanji con su lectura.",
+    "pairs": [
+      { "id": "p1", "left": "開", "right": "かい" },
+      { "id": "p2", "left": "閉", "right": "へい" },
+      { "id": "p3", "left": "消", "right": "しょう" },
+      { "id": "p4", "left": "窓", "right": "まど" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0047",
+    "type": "speaking",
+    "jlptLevel": "N4",
+    "skill": "speaking",
+    "lessonId": "n4-lesson-29",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "財布[さいふ]を忘[わす]れてしまいました。",
+    "translationEs": "Se me olvidó la billetera.",
+    "explanationEs": "Practica la entonación de arrepentimiento en てしまいました.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0048",
+    "type": "listening",
+    "jlptLevel": "N4",
+    "skill": "listening",
+    "lessonId": "n4-lesson-29",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "窓[まど]が開[あ]いています。",
+    "targetReading": "まどがあいています。",
+    "translationEs": "La ventana está abierta.",
+    "explanationEs": "Estado resultante: 開いています, no 'se está abriendo'.",
+    "difficulty": 1
   }
 ]

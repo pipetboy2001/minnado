@@ -187,5 +187,68 @@
       }
     ],
     "relatedGrammarIds": ["n4-gram-0008"]
+  },
+  {
+    "id": "n4-gram-0010",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "自動詞・他動詞 (verbos intransitivos y transitivos)",
+    "pattern": "[Sujeto] が [intransitivo] ｜ [Objeto] を [transitivo]",
+    "explanationEs": "Muchos verbos japoneses vienen en pares: uno intransitivo (自動詞 — algo pasa solo, con が) y otro transitivo (他動詞 — alguien lo hace, con を). Por ejemplo 開く (abrirse) / 開ける (abrir algo). El intransitivo describe el resultado sin mencionar quién lo causó; el transitivo enfatiza la acción de alguien sobre algo.",
+    "structureNotes": "ドアが開きます (la puerta se abre) ｜ ドアを開けます (abro la puerta)",
+    "examples": [
+      {
+        "jp": "ドアが開きました。",
+        "reading": "どあがあきました。",
+        "es": "La puerta se abrió."
+      },
+      {
+        "jp": "ドアを開けました。",
+        "reading": "どあをあけました。",
+        "es": "Abrí la puerta."
+      }
+    ]
+  },
+  {
+    "id": "n4-gram-0011",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "〜ています (estado resultante, con verbos intransitivos)",
+    "pattern": "[Intransitivo]て + います。",
+    "explanationEs": "Con un verbo intransitivo, 〜ています no describe una acción en curso sino el estado que quedó después de que algo pasó. 窓が開いています no significa 'la ventana se está abriendo', sino 'la ventana está abierta (ahora)'.",
+    "examples": [
+      {
+        "jp": "窓が開いています。",
+        "reading": "まどがあいています。",
+        "es": "La ventana está abierta."
+      },
+      {
+        "jp": "電気が消えています。",
+        "reading": "でんきがきえています。",
+        "es": "La luz está apagada."
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0010"]
+  },
+  {
+    "id": "n4-gram-0012",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "〜てしまう (terminar por completo / arrepentimiento)",
+    "pattern": "Vて + しまいます／しまいました。",
+    "explanationEs": "〜てしまう tiene dos usos: (1) indicar que una acción se completó por completo, a veces con cierto alivio; (2) expresar que algo pasó por accidente o que el hablante lo lamenta. En la conversación informal se contrae a 〜ちゃう／〜じゃう.",
+    "structureNotes": "食べてしまいました (me lo terminé de comer todo) ｜ 財布を忘れてしまいました (se me olvidó la billetera, lamentablemente)",
+    "examples": [
+      {
+        "jp": "宿題はもう終わってしまいました。",
+        "reading": "しゅくだいはもうおわってしまいました。",
+        "es": "Ya terminé toda la tarea."
+      },
+      {
+        "jp": "財布を忘れてしまいました。",
+        "reading": "さいふをわすれてしまいました。",
+        "es": "Se me olvidó la billetera (qué mal)."
+      }
+    ]
   }
 ]

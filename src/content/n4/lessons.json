@@ -118,5 +118,45 @@
       "n4-ex-0035",
       "n4-ex-0036"
     ]
+  },
+  {
+    "id": "n4-lesson-29",
+    "jlptLevel": "N4",
+    "order": 29,
+    "title": "Lección 29 — Verbos transitivos e intransitivos (自動詞・他動詞・〜ています・〜てしまう)",
+    "description": "Pares de verbos intransitivos/transitivos (開く/開ける, 閉まる/閉める, 消える/消す), el uso de 〜ています para describir un estado resultante, y 〜てしまう para completar algo o lamentarlo, basado en Minna no Nihongo Lección 29 (Libro 2).",
+    "kind": "lesson",
+    "vocabIds": [
+      "n4-voc-0028",
+      "n4-voc-0029",
+      "n4-voc-0030",
+      "n4-voc-0031",
+      "n4-voc-0032",
+      "n4-voc-0033",
+      "n4-voc-0034",
+      "n4-voc-0035",
+      "n4-voc-0036"
+    ],
+    "kanjiIds": [
+      "n4-kanji-0015",
+      "n4-kanji-0016",
+      "n4-kanji-0017",
+      "n4-kanji-0018"
+    ],
+    "grammarIds": ["n4-gram-0010", "n4-gram-0011", "n4-gram-0012"],
+    "exerciseIds": [
+      "n4-ex-0037",
+      "n4-ex-0038",
+      "n4-ex-0039",
+      "n4-ex-0040",
+      "n4-ex-0041",
+      "n4-ex-0042",
+      "n4-ex-0043",
+      "n4-ex-0044",
+      "n4-ex-0045",
+      "n4-ex-0046",
+      "n4-ex-0047",
+      "n4-ex-0048"
+    ]
   }
 ]
