@@ -478,5 +478,45 @@
       "n4-ex-0143",
       "n4-ex-0144"
     ]
+  },
+  {
+    "id": "n4-lesson-38",
+    "jlptLevel": "N4",
+    "order": 38,
+    "title": "Lección 38 — Nominalizar acciones con の (Vるの・のが好き／得意／苦手・のを／のに)",
+    "description": "Convertir un verbo en sustantivo con の para usarlo como sujeto u objeto, aplicado a gustos y habilidades (のが好き／得意／苦手) y a percepciones (のを／のに), con vocabulario de pasatiempos, basado en Minna no Nihongo Lección 38 (Libro 2).",
+    "kind": "lesson",
+    "vocabIds": [
+      "n4-voc-0109",
+      "n4-voc-0110",
+      "n4-voc-0111",
+      "n4-voc-0112",
+      "n4-voc-0113",
+      "n4-voc-0114",
+      "n4-voc-0115",
+      "n4-voc-0116",
+      "n4-voc-0117"
+    ],
+    "kanjiIds": [
+      "n4-kanji-0051",
+      "n4-kanji-0052",
+      "n4-kanji-0053",
+      "n4-kanji-0054"
+    ],
+    "grammarIds": ["n4-gram-0037", "n4-gram-0038", "n4-gram-0039"],
+    "exerciseIds": [
+      "n4-ex-0145",
+      "n4-ex-0146",
+      "n4-ex-0147",
+      "n4-ex-0148",
+      "n4-ex-0149",
+      "n4-ex-0150",
+      "n4-ex-0151",
+      "n4-ex-0152",
+      "n4-ex-0153",
+      "n4-ex-0154",
+      "n4-ex-0155",
+      "n4-ex-0156"
+    ]
   }
 ]

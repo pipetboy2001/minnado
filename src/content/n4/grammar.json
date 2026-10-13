@@ -762,5 +762,68 @@
         "es": "Las costumbres difieren según el país."
       }
     ]
+  },
+  {
+    "id": "n4-gram-0037",
+    "jlptLevel": "N4",
+    "category": "sentence-structure",
+    "title": "Vるの (nominalizador: convertir una acción en sustantivo)",
+    "pattern": "V (forma diccionario) + の + は／が／を",
+    "explanationEs": "Agregar の después de un verbo en forma diccionario lo convierte en una frase nominal, que puede funcionar como sujeto (は／が) u objeto (を) de otra oración — útil cuando no existe un sustantivo directo para la actividad. の se usa (en vez de こと) sobre todo con verbos de percepción directa (ver/oír) o actividades concretas.",
+    "structureNotes": "写真を撮るのが趣味です (tomar fotos es mi pasatiempo)",
+    "examples": [
+      {
+        "jp": "写真を撮るのが趣味です。",
+        "reading": "しゃしんをとるのがしゅみです。",
+        "es": "Mi pasatiempo es tomar fotos."
+      },
+      {
+        "jp": "歌うのが苦手です。",
+        "reading": "うたうのがにがてです。",
+        "es": "No se me da bien cantar."
+      }
+    ]
+  },
+  {
+    "id": "n4-gram-0038",
+    "jlptLevel": "N4",
+    "category": "sentence-structure",
+    "title": "Vるのが好き／得意／苦手 (gustos y habilidades)",
+    "pattern": "Vる + のが + 好きです／得意です／苦手です。",
+    "explanationEs": "Esta combinación muy común usa el nominalizador の para decir qué actividades te gustan, se te dan bien, o se te dificultan. 得意 (se te da bien) y 苦手 (se te dificulta) son adjetivos-な que describen habilidad, no solo gusto.",
+    "examples": [
+      {
+        "jp": "絵を描くのが得意です。",
+        "reading": "えをかくのがとくいです。",
+        "es": "Se me da bien dibujar."
+      },
+      {
+        "jp": "切手を集めるのが好きです。",
+        "reading": "きってをあつめるのがすきです。",
+        "es": "Me gusta coleccionar estampillas."
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0037"]
+  },
+  {
+    "id": "n4-gram-0039",
+    "jlptLevel": "N4",
+    "category": "sentence-structure",
+    "title": "Vるのを／のに (la acción como objeto o situación)",
+    "pattern": "V (forma diccionario) + の + を／に + [Verbo]。",
+    "explanationEs": "Cuando la acción nominalizada funciona como objeto directo (を) de verbos como 見る, 待つ, 手伝う, o como el 'momento/situación' marcado por に (気づく, 役に立つ), también se usa の, no こと.",
+    "examples": [
+      {
+        "jp": "子供が遊んでいるのを見ました。",
+        "reading": "こどもがあそんでいるのをみました。",
+        "es": "Vi a los niños jugando."
+      },
+      {
+        "jp": "間違っているのに気づきました。",
+        "reading": "まちがっているのにきづきました。",
+        "es": "Me di cuenta de que estaba equivocado."
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0037"]
   }
 ]

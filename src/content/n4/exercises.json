@@ -2355,5 +2355,199 @@
     "translationEs": "Las costumbres difieren según el país.",
     "explanationEs": "によって: según, dependiendo de.",
     "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0145",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-38",
+    "promptEs": "Elige la forma correcta para el sujeto nominalizado.",
+    "questionJp": "写真[しゃしん]を撮[と]る{{1}}趣味[しゅみ]です。",
+    "options": [
+      { "id": "a", "textJp": "のが", "isCorrect": true },
+      { "id": "b", "textJp": "ことを", "isCorrect": false },
+      { "id": "c", "textJp": "のを", "isCorrect": false },
+      { "id": "d", "textJp": "ために", "isCorrect": false }
+    ],
+    "explanationEs": "のが marca la acción nominalizada como sujeto.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0146",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-38",
+    "promptEs": "Elige la palabra correcta.",
+    "questionJp": "絵[え]を描[か]くのが{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "得意です", "isCorrect": true },
+      { "id": "b", "textJp": "集めます", "isCorrect": false },
+      { "id": "c", "textJp": "趣味する", "isCorrect": false },
+      { "id": "d", "textJp": "演奏です", "isCorrect": false }
+    ],
+    "explanationEs": "得意です: se me da bien (una habilidad).",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0147",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-38",
+    "promptEs": "Elige la forma correcta para el objeto nominalizado.",
+    "questionJp": "子供[こども]が遊[あそ]んでいる{{1}}見[み]ました。",
+    "options": [
+      { "id": "a", "textJp": "のを", "isCorrect": true },
+      { "id": "b", "textJp": "のが", "isCorrect": false },
+      { "id": "c", "textJp": "ことが", "isCorrect": false },
+      { "id": "d", "textJp": "ように", "isCorrect": false }
+    ],
+    "explanationEs": "のを marca la acción nominalizada como objeto de 見ました.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0148",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-38",
+    "promptEs": "Elige la palabra correcta.",
+    "questionJp": "歌[うた]うのが{{1}}です。人[ひと]の前[まえ]で歌[うた]いたくないです。",
+    "options": [
+      { "id": "a", "textJp": "苦手", "isCorrect": true },
+      { "id": "b", "textJp": "得意", "isCorrect": false },
+      { "id": "c", "textJp": "趣味", "isCorrect": false },
+      { "id": "d", "textJp": "気づく", "isCorrect": false }
+    ],
+    "explanationEs": "苦手 significa que algo se te dificulta.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0149",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-38",
+    "promptEs": "Completa con el nominalizador の.",
+    "sentenceTemplate": "楽器[がっき]を演奏[えんそう]する{{1}}趣味[しゅみ]です。",
+    "translationEs": "Mi pasatiempo es tocar instrumentos.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["のが"],
+        "options": ["のが", "ことを", "のを", "ために"]
+      }
+    ],
+    "explanationEs": "のが: nominalizador como sujeto.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0150",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-38",
+    "promptEs": "Completa con la palabra correcta.",
+    "sentenceTemplate": "切手[きって]を集[あつ]めるのが{{1}}です。",
+    "translationEs": "Me gusta coleccionar estampillas.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["好き"],
+        "options": ["好き", "得意", "苦手", "趣味"]
+      }
+    ],
+    "explanationEs": "好きです: expresa gusto por una actividad nominalizada.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0151",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-38",
+    "promptEs": "Completa con のに.",
+    "sentenceTemplate": "間違[まちが]っている{{1}}気[き]づきました。",
+    "translationEs": "Me di cuenta de que estaba equivocado.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["のに"],
+        "options": ["のに", "のを", "のが", "ので"]
+      }
+    ],
+    "explanationEs": "のに + 気づく: darse cuenta de una situación.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0152",
+    "type": "word-order",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-38",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["絵を", "描くのが", "得意です"],
+    "correctOrder": ["絵を", "描くのが", "得意です"],
+    "translationEs": "Se me da bien dibujar.",
+    "explanationEs": "La frase nominalizada (描くのが) funciona como sujeto de 得意です.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0153",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-38",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "趣味", "right": "pasatiempo, hobby" },
+      { "id": "p2", "left": "得意", "right": "se le da bien" },
+      { "id": "p3", "left": "苦手", "right": "se le dificulta" },
+      { "id": "p4", "left": "集める", "right": "coleccionar, juntar" },
+      { "id": "p5", "left": "気づく", "right": "darse cuenta" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0154",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "kanji",
+    "lessonId": "n4-lesson-38",
+    "promptEs": "Une cada kanji con su lectura on'yomi.",
+    "pairs": [
+      { "id": "p1", "left": "趣", "right": "しゅ" },
+      { "id": "p2", "left": "味", "right": "み" },
+      { "id": "p3", "left": "集", "right": "しゅう" },
+      { "id": "p4", "left": "楽", "right": "がく" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0155",
+    "type": "speaking",
+    "jlptLevel": "N4",
+    "skill": "speaking",
+    "lessonId": "n4-lesson-38",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "写真[しゃしん]を撮[と]るのが趣味[しゅみ]です。",
+    "translationEs": "Mi pasatiempo es tomar fotos.",
+    "explanationEs": "Practica la fluidez de Vるのが。",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0156",
+    "type": "listening",
+    "jlptLevel": "N4",
+    "skill": "listening",
+    "lessonId": "n4-lesson-38",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "絵[え]を描[か]くのが得意[とくい]です。",
+    "targetReading": "えをかくのがとくいです。",
+    "translationEs": "Se me da bien dibujar.",
+    "explanationEs": "のが + 得意: una habilidad.",
+    "difficulty": 1
   }
 ]

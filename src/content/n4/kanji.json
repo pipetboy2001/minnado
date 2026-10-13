@@ -724,5 +724,67 @@
     "exampleWords": [
       { "word": "違う", "reading": "ちがう", "meaningEs": "ser diferente" }
     ]
+  },
+  {
+    "id": "n4-kanji-0051",
+    "character": "趣",
+    "jlptLevel": "N4",
+    "strokeCount": 15,
+    "onyomi": ["シュ"],
+    "kunyomi": ["おもむき"],
+    "meaningEs": "gusto, propósito (usado en 趣味)",
+    "radicals": ["走"],
+    "exampleWords": [
+      { "word": "趣味", "reading": "しゅみ", "meaningEs": "pasatiempo, hobby" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0052",
+    "character": "味",
+    "jlptLevel": "N4",
+    "strokeCount": 8,
+    "onyomi": ["ミ"],
+    "kunyomi": ["あじ"],
+    "meaningEs": "sabor, gusto",
+    "radicals": ["口"],
+    "exampleWords": [
+      { "word": "趣味", "reading": "しゅみ", "meaningEs": "pasatiempo, hobby" },
+      { "word": "味", "reading": "あじ", "meaningEs": "sabor" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0053",
+    "character": "集",
+    "jlptLevel": "N4",
+    "strokeCount": 12,
+    "onyomi": ["シュウ"],
+    "kunyomi": ["あつ-める", "あつ-まる"],
+    "meaningEs": "reunir, coleccionar",
+    "radicals": ["隹"],
+    "exampleWords": [
+      {
+        "word": "集める",
+        "reading": "あつめる",
+        "meaningEs": "coleccionar, juntar"
+      }
+    ]
+  },
+  {
+    "id": "n4-kanji-0054",
+    "character": "楽",
+    "jlptLevel": "N4",
+    "strokeCount": 13,
+    "onyomi": ["ガク", "ラク"],
+    "kunyomi": ["たの-しい"],
+    "meaningEs": "música; diversión, fácil",
+    "radicals": ["木"],
+    "exampleWords": [
+      {
+        "word": "楽器",
+        "reading": "がっき",
+        "meaningEs": "instrumento musical"
+      },
+      { "word": "楽しい", "reading": "たのしい", "meaningEs": "divertido" }
+    ]
   }
 ]
