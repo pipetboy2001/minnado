@@ -314,5 +314,69 @@
         "es": "No, todavía no está lista."
       }
     ]
+  },
+  {
+    "id": "n4-gram-0016",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "意向形 (forma volitiva: decidir hacer algo)",
+    "pattern": "Godan: -u → -ou ｜ Ichidan: -る → -よう ｜ する→しよう、来る→来よう",
+    "explanationEs": "La forma volitiva expresa la decisión o intención de hacer algo, equivalente a '¡hagamos! / voy a hacer...'. Es la versión informal de 〜ましょう. Los verbos godan cambian la -u final por -ou; los ichidan cambian -る por -よう.",
+    "structureNotes": "行く → 行こう ｜ 食べる → 食べよう ｜ する → しよう",
+    "examples": [
+      {
+        "jp": "今日は早く寝よう。",
+        "reading": "きょうははやくねよう。",
+        "es": "Hoy voy a dormir temprano."
+      },
+      {
+        "jp": "来年、留学しようと思います。",
+        "reading": "らいねん、りゅうがくしようとおもいます。",
+        "es": "Estoy pensando en estudiar en el extranjero el próximo año."
+      }
+    ]
+  },
+  {
+    "id": "n4-gram-0017",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "〜つもりです (tener la intención de)",
+    "pattern": "V (forma diccionario / ない) + つもりです。",
+    "explanationEs": "〜つもりです expresa una intención o decisión personal, más firme que 〜と思います pero sin ser un plan ya concretado como 〜予定です. Se usa con la forma diccionario para la intención afirmativa, y con 〜ないつもりです para la intención negativa.",
+    "structureNotes": "留学するつもりです (tengo la intención de estudiar afuera) ｜ 結婚しないつもりです (no tengo intención de casarme)",
+    "examples": [
+      {
+        "jp": "来年アメリカに留学するつもりです。",
+        "reading": "らいねんあめりかにりゅうがくするつもりです。",
+        "es": "Tengo la intención de estudiar en Estados Unidos el próximo año."
+      },
+      {
+        "jp": "もうお酒は飲まないつもりです。",
+        "reading": "もうおさけはのまないつもりです。",
+        "es": "Tengo la intención de no volver a tomar alcohol."
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0016"]
+  },
+  {
+    "id": "n4-gram-0018",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "〜予定です (está planeado, previsto)",
+    "pattern": "V (forma diccionario) ／ Sustantivo + の + 予定です。",
+    "explanationEs": "〜予定です describe un plan ya organizado o programado, con más certeza que つもりです — suena a algo agendado (como en un calendario), no solo una intención personal.",
+    "examples": [
+      {
+        "jp": "来月、東京に引っ越す予定です。",
+        "reading": "らいげつ、とうきょうにひっこすよていです。",
+        "es": "Tengo planeado mudarme a Tokio el próximo mes."
+      },
+      {
+        "jp": "会議は3時からの予定です。",
+        "reading": "かいぎはさんじからのよていです。",
+        "es": "La reunión está prevista desde las 3."
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0017"]
   }
 ]

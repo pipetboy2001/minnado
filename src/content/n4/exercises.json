@@ -988,5 +988,199 @@
     "translationEs": "Todavía no está lista la preparación.",
     "explanationEs": "まだ + Vていません: todavía no.",
     "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0061",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-31",
+    "promptEs": "Elige la forma volitiva correcta.",
+    "questionJp": "今日[きょう]は早[はや]く{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "寝よう", "isCorrect": true },
+      { "id": "b", "textJp": "寝ます", "isCorrect": false },
+      { "id": "c", "textJp": "寝て", "isCorrect": false },
+      { "id": "d", "textJp": "寝させる", "isCorrect": false }
+    ],
+    "explanationEs": "寝よう es la forma volitiva de 寝る: 'voy a dormir / durmamos'.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0062",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-31",
+    "promptEs": "Elige la forma correcta para una intención personal.",
+    "questionJp": "来年[らいねん]留学[りゅうがく]する{{1}}です。",
+    "options": [
+      { "id": "a", "textJp": "つもり", "isCorrect": true },
+      { "id": "b", "textJp": "こと", "isCorrect": false },
+      { "id": "c", "textJp": "もの", "isCorrect": false },
+      { "id": "d", "textJp": "はず", "isCorrect": false }
+    ],
+    "explanationEs": "つもりです expresa una intención personal.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0063",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-31",
+    "promptEs": "Elige la forma correcta para un plan ya agendado.",
+    "questionJp": "会議[かいぎ]は3時[さんじ]からの{{1}}です。",
+    "options": [
+      { "id": "a", "textJp": "予定", "isCorrect": true },
+      { "id": "b", "textJp": "つもり", "isCorrect": false },
+      { "id": "c", "textJp": "よう", "isCorrect": false },
+      { "id": "d", "textJp": "はず", "isCorrect": false }
+    ],
+    "explanationEs": "予定です describe algo ya planeado o agendado, como en un calendario.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0064",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-31",
+    "promptEs": "Elige la forma correcta.",
+    "questionJp": "将来[しょうらい]、医者[いしゃ]に{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "なりたいです", "isCorrect": true },
+      { "id": "b", "textJp": "なりましょう", "isCorrect": false },
+      { "id": "c", "textJp": "なってください", "isCorrect": false },
+      { "id": "d", "textJp": "なられます", "isCorrect": false }
+    ],
+    "explanationEs": "〜たいです expresa deseo; 将来 significa 'en el futuro'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0065",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-31",
+    "promptEs": "Completa con la forma volitiva.",
+    "sentenceTemplate": "来年[らいねん]、留学[りゅうがく]{{1}}と思[おも]います。",
+    "translationEs": "Estoy pensando en estudiar en el extranjero el próximo año.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["しよう"],
+        "options": ["しよう", "します", "して", "された"]
+      }
+    ],
+    "explanationEs": "しよう es la forma volitiva de する + と思います (estoy pensando en...).",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0066",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-31",
+    "promptEs": "Completa con la intención negativa.",
+    "sentenceTemplate": "もうお酒[さけ]は{{1}}つもりです。",
+    "translationEs": "Tengo la intención de no volver a tomar alcohol.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["飲まない"],
+        "options": ["飲まない", "飲みます", "飲んで", "飲める"]
+      }
+    ],
+    "explanationEs": "Intención negativa: forma ない + つもりです.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0067",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-31",
+    "promptEs": "Completa con 予定.",
+    "sentenceTemplate": "来月[らいげつ]、東京[とうきょう]に引[ひ]っ越[こ]す{{1}}です。",
+    "translationEs": "Tengo planeado mudarme a Tokio el próximo mes.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["予定"],
+        "options": ["予定", "つもり", "よう", "こと"]
+      }
+    ],
+    "explanationEs": "予定です: un plan ya organizado.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0068",
+    "type": "word-order",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-31",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["将来", "医者に", "なりたいです"],
+    "correctOrder": ["将来", "医者に", "なりたいです"],
+    "translationEs": "En el futuro quiero ser médico.",
+    "explanationEs": "将来 (en el futuro) se coloca al inicio como marco temporal.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0069",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-31",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "留学する", "right": "estudiar en el extranjero" },
+      { "id": "p2", "left": "卒業する", "right": "graduarse" },
+      { "id": "p3", "left": "就職する", "right": "conseguir empleo" },
+      { "id": "p4", "left": "結婚する", "right": "casarse" },
+      { "id": "p5", "left": "決める", "right": "decidir" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0070",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "kanji",
+    "lessonId": "n4-lesson-31",
+    "promptEs": "Une cada kanji con su lectura on'yomi.",
+    "pairs": [
+      { "id": "p1", "left": "将", "right": "しょう" },
+      { "id": "p2", "left": "計", "right": "けい" },
+      { "id": "p3", "left": "画", "right": "が" },
+      { "id": "p4", "left": "決", "right": "けつ" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0071",
+    "type": "speaking",
+    "jlptLevel": "N4",
+    "skill": "speaking",
+    "lessonId": "n4-lesson-31",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "来年[らいねん]アメリカに留学[りゅうがく]するつもりです。",
+    "translationEs": "Tengo la intención de estudiar en Estados Unidos el próximo año.",
+    "explanationEs": "Practica la pronunciación fluida de するつもりです。",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0072",
+    "type": "listening",
+    "jlptLevel": "N4",
+    "skill": "listening",
+    "lessonId": "n4-lesson-31",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "まだ決[き]めていません。",
+    "targetReading": "まだきめていません。",
+    "translationEs": "Todavía no he decidido.",
+    "explanationEs": "まだ + Vていません: todavía no.",
+    "difficulty": 1
   }
 ]

@@ -198,5 +198,45 @@
       "n4-ex-0059",
       "n4-ex-0060"
     ]
+  },
+  {
+    "id": "n4-lesson-31",
+    "jlptLevel": "N4",
+    "order": 31,
+    "title": "Lección 31 — Intenciones y planes (意向形・〜つもりです・〜予定です)",
+    "description": "La forma volitiva (意向形), expresar intenciones con 〜つもりです y planes ya agendados con 〜予定です, con vocabulario sobre el futuro, basado en Minna no Nihongo Lección 31 (Libro 2).",
+    "kind": "lesson",
+    "vocabIds": [
+      "n4-voc-0046",
+      "n4-voc-0047",
+      "n4-voc-0048",
+      "n4-voc-0049",
+      "n4-voc-0050",
+      "n4-voc-0051",
+      "n4-voc-0052",
+      "n4-voc-0053",
+      "n4-voc-0054"
+    ],
+    "kanjiIds": [
+      "n4-kanji-0023",
+      "n4-kanji-0024",
+      "n4-kanji-0025",
+      "n4-kanji-0026"
+    ],
+    "grammarIds": ["n4-gram-0016", "n4-gram-0017", "n4-gram-0018"],
+    "exerciseIds": [
+      "n4-ex-0061",
+      "n4-ex-0062",
+      "n4-ex-0063",
+      "n4-ex-0064",
+      "n4-ex-0065",
+      "n4-ex-0066",
+      "n4-ex-0067",
+      "n4-ex-0068",
+      "n4-ex-0069",
+      "n4-ex-0070",
+      "n4-ex-0071",
+      "n4-ex-0072"
+    ]
   }
 ]

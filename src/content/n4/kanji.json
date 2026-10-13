@@ -338,5 +338,59 @@
       { "word": "予約", "reading": "よやく", "meaningEs": "reserva" },
       { "word": "約束", "reading": "やくそく", "meaningEs": "promesa" }
     ]
+  },
+  {
+    "id": "n4-kanji-0023",
+    "character": "将",
+    "jlptLevel": "N4",
+    "strokeCount": 10,
+    "onyomi": ["ショウ"],
+    "kunyomi": [],
+    "meaningEs": "general; futuro (en 将来)",
+    "radicals": ["寸"],
+    "exampleWords": [
+      { "word": "将来", "reading": "しょうらい", "meaningEs": "futuro" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0024",
+    "character": "計",
+    "jlptLevel": "N4",
+    "strokeCount": 9,
+    "onyomi": ["ケイ"],
+    "kunyomi": ["はか-る"],
+    "meaningEs": "medir, plan, contar",
+    "radicals": ["言"],
+    "exampleWords": [
+      { "word": "計画", "reading": "けいかく", "meaningEs": "plan, proyecto" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0025",
+    "character": "画",
+    "jlptLevel": "N4",
+    "strokeCount": 8,
+    "onyomi": ["ガ", "カク"],
+    "kunyomi": [],
+    "meaningEs": "dibujo, plan, trazo",
+    "radicals": ["田"],
+    "exampleWords": [
+      { "word": "計画", "reading": "けいかく", "meaningEs": "plan, proyecto" },
+      { "word": "映画", "reading": "えいが", "meaningEs": "película" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0026",
+    "character": "決",
+    "jlptLevel": "N4",
+    "strokeCount": 7,
+    "onyomi": ["ケツ"],
+    "kunyomi": ["き-める", "き-まる"],
+    "meaningEs": "decidir",
+    "radicals": ["氵"],
+    "exampleWords": [
+      { "word": "決める", "reading": "きめる", "meaningEs": "decidir" },
+      { "word": "決まる", "reading": "きまる", "meaningEs": "quedar decidido" }
+    ]
   }
 ]
