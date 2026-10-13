@@ -53,9 +53,9 @@ export function ListeningQuestion({
         value={text}
         onChange={(e) => onChange({ text: e.target.value })}
         disabled={disabled}
-        placeholder="Escribe en japonés lo que escuchaste..."
+        placeholder="Escribe lo que escuchaste..."
         className={cn(
-          "text-center text-lg font-jp",
+          "h-11 text-center text-base font-jp sm:text-lg",
           revealed &&
             (isMatch ? "border-green-600" : "animate-shake border-destructive"),
         )}

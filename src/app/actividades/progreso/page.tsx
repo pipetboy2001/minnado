@@ -128,14 +128,16 @@ export default async function ProgresoPage() {
           <div className="mb-8 flex flex-col gap-2">
             {recentSessions.map((s) => (
               <Card key={s.id}>
-                <CardContent className="flex items-center justify-between p-3">
-                  <div>
-                    <p className="text-sm font-medium">{s.lessonTitle}</p>
+                <CardContent className="flex items-center justify-between gap-3 p-3">
+                  <div className="min-w-0">
+                    <p className="truncate text-sm font-medium">
+                      {s.lessonTitle}
+                    </p>
                     <p className="text-xs text-muted-foreground">
                       {dateFormatter.format(s.completedAt)}
                     </p>
                   </div>
-                  <div className="text-right">
+                  <div className="shrink-0 text-right">
                     <p className="text-sm font-semibold">
                       {s.score} / {s.totalExercises}
                     </p>

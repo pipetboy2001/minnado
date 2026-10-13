@@ -25,32 +25,35 @@ export default async function ActividadesPage() {
 
   return (
     <div className="mx-auto w-full max-w-3xl flex-1 p-6">
-      <div className="mb-6 flex items-center justify-between">
-        <Link href="/actividades" className="flex items-center gap-2">
+      <div className="mb-6 flex items-center justify-between gap-2">
+        <Link href="/actividades" className="flex shrink-0 items-center gap-2">
           <Languages className="size-6 text-primary" />
           <span className="text-lg font-bold tracking-tight">Minnado</span>
         </Link>
-        <div className="flex items-center gap-2">
+        <div className="flex min-w-0 items-center gap-1 sm:gap-2">
           <Button
             variant="outline"
+            aria-label="Repaso"
             render={<Link href="/actividades/repaso" />}
           >
             <RotateCcw />
-            Repaso
+            <span className="hidden sm:inline">Repaso</span>
           </Button>
           <Button
             variant="outline"
+            aria-label="Diccionario"
             render={<Link href="/actividades/diccionario" />}
           >
             <Library />
-            Diccionario
+            <span className="hidden sm:inline">Diccionario</span>
           </Button>
           <Button
             variant="outline"
+            aria-label="Examen"
             render={<Link href="/actividades/examen" />}
           >
             <GraduationCap />
-            Examen
+            <span className="hidden sm:inline">Examen</span>
           </Button>
           <AccountMenu />
           <form

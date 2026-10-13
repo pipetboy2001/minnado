@@ -58,7 +58,7 @@ export function MatchingQuestion({
               disabled={disabled}
               onChange={(e) => setSelection(pair.id, e.target.value)}
               className={cn(
-                "flex-1 rounded-md border-2 bg-background px-3 py-2 text-base transition-colors",
+                "min-w-0 flex-1 rounded-md border-2 bg-background px-3 py-2 text-base transition-colors",
                 !revealed && selected && "border-primary",
                 revealed &&
                   (isCorrect
