@@ -12,6 +12,7 @@ import { getLessonsN5 } from "@/content/loader";
 import { getUserLessonProgress } from "@/lib/progress";
 import { Button } from "@/components/ui/button";
 import { AccountMenu } from "@/components/account-menu";
+import { MobileNav } from "@/components/mobile-nav";
 import { LessonTabs } from "./lesson-tabs";
 
 export default async function ActividadesPage() {
@@ -23,6 +24,11 @@ export default async function ActividadesPage() {
   const lessons = getLessonsN5();
   const progress = await getUserLessonProgress(userId);
 
+  async function signOutAction() {
+    "use server";
+    await signOut({ redirectTo: "/" });
+  }
+
   return (
     <div className="mx-auto w-full max-w-3xl flex-1 p-6">
       <div className="mb-6 flex items-center justify-between gap-2">
@@ -30,38 +36,30 @@ export default async function ActividadesPage() {
           <Languages className="size-6 text-primary" />
           <span className="text-lg font-bold tracking-tight">Minnado</span>
         </Link>
-        <div className="flex min-w-0 items-center gap-1 sm:gap-2">
+        <div className="hidden items-center gap-2 sm:flex">
           <Button
             variant="outline"
-            aria-label="Repaso"
             render={<Link href="/actividades/repaso" />}
           >
             <RotateCcw />
-            <span className="hidden sm:inline">Repaso</span>
+            Repaso
           </Button>
           <Button
             variant="outline"
-            aria-label="Diccionario"
             render={<Link href="/actividades/diccionario" />}
           >
             <Library />
-            <span className="hidden sm:inline">Diccionario</span>
+            Diccionario
           </Button>
           <Button
             variant="outline"
-            aria-label="Examen"
             render={<Link href="/actividades/examen" />}
           >
             <GraduationCap />
-            <span className="hidden sm:inline">Examen</span>
+            Examen
           </Button>
           <AccountMenu />
-          <form
-            action={async () => {
-              "use server";
-              await signOut({ redirectTo: "/" });
-            }}
-          >
+          <form action={signOutAction}>
             <Button
               variant="outline"
               size="icon"
@@ -72,6 +70,21 @@ export default async function ActividadesPage() {
             </Button>
           </form>
         </div>
+        <MobileNav
+          userName={session.user.name ?? session.user.email ?? ""}
+          logoutForm={
+            <form action={signOutAction}>
+              <Button
+                variant="ghost"
+                type="submit"
+                className="w-full justify-start gap-2.5 px-3"
+              >
+                <LogOut className="size-4" />
+                Cerrar sesión
+              </Button>
+            </form>
+          }
+        />
       </div>
 
       <div className="mb-8">

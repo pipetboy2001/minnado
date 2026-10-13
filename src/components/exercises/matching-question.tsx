@@ -48,8 +48,11 @@ export function MatchingQuestion({
         const selected = selections[pair.id];
         const isCorrect = revealed && selected === pair.right;
         return (
-          <div key={pair.id} className="flex items-center gap-3">
-            <span className="flex w-32 shrink-0 items-center gap-0.5 text-lg">
+          <div
+            key={pair.id}
+            className="flex flex-col gap-1.5 sm:flex-row sm:items-center sm:gap-3"
+          >
+            <span className="flex items-center gap-0.5 text-lg sm:w-32 sm:shrink-0">
               <AutoFurigana text={pair.left} />
               <SpeakButton text={pair.left} size="icon-xs" />
             </span>
@@ -58,7 +61,7 @@ export function MatchingQuestion({
               disabled={disabled}
               onChange={(e) => setSelection(pair.id, e.target.value)}
               className={cn(
-                "min-w-0 flex-1 rounded-md border-2 bg-background px-3 py-2 text-base transition-colors",
+                "w-full min-w-0 rounded-md border-2 bg-background px-3 py-2 text-base transition-colors sm:flex-1",
                 !revealed && selected && "border-primary",
                 revealed &&
                   (isCorrect

@@ -16,11 +16,10 @@ export function AccountMenu() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger
-        aria-label="Mi cuenta"
         className={cn(buttonVariants({ variant: "outline" }), "gap-1")}
       >
         <User />
-        <span className="hidden sm:inline">Mi cuenta</span>
+        Mi cuenta
         <ChevronDown className="size-3.5" />
       </DropdownMenuTrigger>
       <DropdownMenuContent>
