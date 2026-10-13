@@ -1182,5 +1182,199 @@
     "translationEs": "Todavía no he decidido.",
     "explanationEs": "まだ + Vていません: todavía no.",
     "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0073",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-32",
+    "promptEs": "Elige la forma correcta para dar un consejo.",
+    "questionJp": "風邪[かぜ]をひいたので、{{1}}ほうがいいです。",
+    "options": [
+      { "id": "a", "textJp": "休んだ", "isCorrect": true },
+      { "id": "b", "textJp": "休みます", "isCorrect": false },
+      { "id": "c", "textJp": "休んで", "isCorrect": false },
+      { "id": "d", "textJp": "休ませる", "isCorrect": false }
+    ],
+    "explanationEs": "Consejo positivo: forma pasada simple + ほうがいいです。",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0074",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-32",
+    "promptEs": "Elige la forma correcta para una suposición.",
+    "questionJp": "たぶん明日[あした]は雨[あめ]{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "でしょう", "isCorrect": true },
+      { "id": "b", "textJp": "ています", "isCorrect": false },
+      { "id": "c", "textJp": "すぎます", "isCorrect": false },
+      { "id": "d", "textJp": "やすいです", "isCorrect": false }
+    ],
+    "explanationEs": "でしょう expresa una suposición con bastante confianza.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0075",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-32",
+    "promptEs": "Elige la forma correcta para una posibilidad.",
+    "questionJp": "もしかしたら、台風[たいふう]が{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "来るかもしれません", "isCorrect": true },
+      { "id": "b", "textJp": "来ます", "isCorrect": false },
+      { "id": "c", "textJp": "来てください", "isCorrect": false },
+      { "id": "d", "textJp": "来られます", "isCorrect": false }
+    ],
+    "explanationEs": "かもしれません expresa una posibilidad con menos confianza que でしょう.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0076",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-32",
+    "promptEs": "Elige la palabra correcta.",
+    "questionJp": "{{1}}があります。病院[びょういん]へ行[い]きます。",
+    "options": [
+      { "id": "a", "textJp": "熱", "isCorrect": true },
+      { "id": "b", "textJp": "大変", "isCorrect": false },
+      { "id": "c", "textJp": "たぶん", "isCorrect": false },
+      { "id": "d", "textJp": "休み", "isCorrect": false }
+    ],
+    "explanationEs": "熱があります significa 'tengo fiebre'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0077",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-32",
+    "promptEs": "Completa con un consejo negativo.",
+    "sentenceTemplate": "無理[むり]{{1}}ほうがいいです。",
+    "translationEs": "Es mejor que no te esfuerces demasiado.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["しない"],
+        "options": ["しない", "します", "して", "しよう"]
+      }
+    ],
+    "explanationEs": "Consejo negativo: forma ない + ほうがいいです。",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0078",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-32",
+    "promptEs": "Completa con でしょう.",
+    "sentenceTemplate": "病院[びょういん]へ行[い]ったほうがいい{{1}}。",
+    "translationEs": "Probablemente sea mejor ir al hospital.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["でしょう"],
+        "options": ["でしょう", "です", "ですか", "ました"]
+      }
+    ],
+    "explanationEs": "でしょう suaviza la afirmación con un matiz de probabilidad.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0079",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-32",
+    "promptEs": "Completa con かもしれません.",
+    "sentenceTemplate": "彼[かれ]は忙[いそが]しい{{1}}。",
+    "translationEs": "Puede que él esté ocupado.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["かもしれません"],
+        "options": ["かもしれません", "でしょう", "ようです", "はずです"]
+      }
+    ],
+    "explanationEs": "かもしれません expresa posibilidad, con menos certeza que でしょう.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0080",
+    "type": "word-order",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-32",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["薬を", "飲んだ", "ほうがいいです"],
+    "correctOrder": ["薬を", "飲んだ", "ほうがいいです"],
+    "translationEs": "Es mejor que tomes medicina.",
+    "explanationEs": "Consejo: Vた + ほうがいいです va al final.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0081",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-32",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "風邪をひく", "right": "resfriarse" },
+      { "id": "p2", "left": "休む", "right": "descansar, faltar" },
+      { "id": "p3", "left": "大変", "right": "difícil, grave" },
+      { "id": "p4", "left": "たぶん", "right": "probablemente" },
+      { "id": "p5", "left": "台風", "right": "tifón" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0082",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "kanji",
+    "lessonId": "n4-lesson-32",
+    "promptEs": "Une cada kanji con su lectura on'yomi.",
+    "pairs": [
+      { "id": "p1", "left": "風", "right": "ふう" },
+      { "id": "p2", "left": "邪", "right": "じゃ" },
+      { "id": "p3", "left": "熱", "right": "ねつ" },
+      { "id": "p4", "left": "病", "right": "びょう" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0083",
+    "type": "speaking",
+    "jlptLevel": "N4",
+    "skill": "speaking",
+    "lessonId": "n4-lesson-32",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "風邪[かぜ]をひいたので、休[やす]んだほうがいいです。",
+    "translationEs": "Como te resfriaste, es mejor que descanses.",
+    "explanationEs": "Practica el tono amable de un consejo con ほうがいいです。",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0084",
+    "type": "listening",
+    "jlptLevel": "N4",
+    "skill": "listening",
+    "lessonId": "n4-lesson-32",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "もしかしたら、台風[たいふう]が来[く]るかもしれません。",
+    "targetReading": "もしかしたら、たいふうがくるかもしれません。",
+    "translationEs": "Tal vez venga un tifón.",
+    "explanationEs": "もしかしたら refuerza かもしれません, ambos expresan posibilidad.",
+    "difficulty": 2
   }
 ]

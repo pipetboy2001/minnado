@@ -378,5 +378,69 @@
       }
     ],
     "relatedGrammarIds": ["n4-gram-0017"]
+  },
+  {
+    "id": "n4-gram-0019",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "〜ほうがいいです (es mejor que...)",
+    "pattern": "Vた (forma pasada simple) + ほうがいいです。／Vない + ほうがいいです。",
+    "explanationEs": "Para dar un consejo positivo se usa la forma pasada simple del verbo + ほうがいいです (aunque se hable de algo futuro). Para aconsejar que NO se haga algo, se usa la forma ない + ほうがいいです.",
+    "structureNotes": "休んだほうがいいです (es mejor que descanses) ｜ 無理しないほうがいいです (es mejor que no te esfuerces demasiado)",
+    "examples": [
+      {
+        "jp": "風邪をひいたので、休んだほうがいいです。",
+        "reading": "かぜをひいたので、やすんだほうがいいです。",
+        "es": "Como te resfriaste, es mejor que descanses."
+      },
+      {
+        "jp": "薬を飲んだほうがいいですよ。",
+        "reading": "くすりをのんだほうがいいですよ。",
+        "es": "Es mejor que tomes medicina."
+      }
+    ]
+  },
+  {
+    "id": "n4-gram-0020",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "〜でしょう (probablemente / ¿no es así?)",
+    "pattern": "[Oración simple] + でしょう。",
+    "explanationEs": "でしょう tiene dos usos: (1) con entonación descendente, expresa una suposición con bastante confianza ('probablemente...'), a menudo junto con たぶん; (2) con entonación ascendente, pide confirmación al oyente ('¿verdad?'). Es la versión educada de だろう.",
+    "examples": [
+      {
+        "jp": "たぶん明日は雨でしょう。",
+        "reading": "たぶんあしたはあめでしょう。",
+        "es": "Probablemente mañana llueva."
+      },
+      {
+        "jp": "病院へ行ったほうがいいでしょう。",
+        "reading": "びょういんへいったほうがいいでしょう。",
+        "es": "Probablemente sea mejor ir al hospital."
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0019"]
+  },
+  {
+    "id": "n4-gram-0021",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "〜かもしれません (puede que, tal vez)",
+    "pattern": "[Oración simple] + かもしれません。",
+    "explanationEs": "かもしれません expresa una posibilidad con MENOS confianza que でしょう — 'puede que, tal vez'. Se usa después de la forma simple de verbos y adjetivos, y de sustantivos/な-adjetivos directamente (sin だ).",
+    "structureNotes": "Grado de confianza: 〜と思います > 〜でしょう > 〜かもしれません",
+    "examples": [
+      {
+        "jp": "もしかしたら、台風が来るかもしれません。",
+        "reading": "もしかしたら、たいふうがくるかもしれません。",
+        "es": "Tal vez venga un tifón."
+      },
+      {
+        "jp": "彼は忙しいかもしれません。",
+        "reading": "かれはいそがしいかもしれません。",
+        "es": "Puede que él esté ocupado."
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0020"]
   }
 ]

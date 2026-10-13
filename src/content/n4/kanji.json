@@ -392,5 +392,60 @@
       { "word": "決める", "reading": "きめる", "meaningEs": "decidir" },
       { "word": "決まる", "reading": "きまる", "meaningEs": "quedar decidido" }
     ]
+  },
+  {
+    "id": "n4-kanji-0027",
+    "character": "風",
+    "jlptLevel": "N4",
+    "strokeCount": 9,
+    "onyomi": ["フウ"],
+    "kunyomi": ["かぜ"],
+    "meaningEs": "viento",
+    "radicals": ["風"],
+    "exampleWords": [
+      { "word": "風邪", "reading": "かぜ", "meaningEs": "resfriado" },
+      { "word": "台風", "reading": "たいふう", "meaningEs": "tifón" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0028",
+    "character": "邪",
+    "jlptLevel": "N4",
+    "strokeCount": 8,
+    "onyomi": ["ジャ"],
+    "kunyomi": [],
+    "meaningEs": "malo, perjudicial",
+    "radicals": ["阝"],
+    "exampleWords": [
+      { "word": "風邪", "reading": "かぜ", "meaningEs": "resfriado" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0029",
+    "character": "熱",
+    "jlptLevel": "N4",
+    "strokeCount": 15,
+    "onyomi": ["ネツ"],
+    "kunyomi": ["あつ-い"],
+    "meaningEs": "fiebre, calor",
+    "radicals": ["灬"],
+    "exampleWords": [
+      { "word": "熱", "reading": "ねつ", "meaningEs": "fiebre" },
+      { "word": "熱い", "reading": "あつい", "meaningEs": "caliente" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0030",
+    "character": "病",
+    "jlptLevel": "N4",
+    "strokeCount": 10,
+    "onyomi": ["ビョウ"],
+    "kunyomi": ["やまい"],
+    "meaningEs": "enfermedad",
+    "radicals": ["疒"],
+    "exampleWords": [
+      { "word": "病院", "reading": "びょういん", "meaningEs": "hospital" },
+      { "word": "病気", "reading": "びょうき", "meaningEs": "enfermedad" }
+    ]
   }
 ]

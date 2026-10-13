@@ -238,5 +238,45 @@
       "n4-ex-0071",
       "n4-ex-0072"
     ]
+  },
+  {
+    "id": "n4-lesson-32",
+    "jlptLevel": "N4",
+    "order": 32,
+    "title": "Lección 32 — Consejos y probabilidad (〜ほうがいい・〜でしょう・〜かもしれません)",
+    "description": "Dar consejos con 〜ほうがいいです, expresar suposiciones con 〜でしょう, y posibilidad con 〜かもしれません, con vocabulario de salud y clima, basado en Minna no Nihongo Lección 32 (Libro 2).",
+    "kind": "lesson",
+    "vocabIds": [
+      "n4-voc-0055",
+      "n4-voc-0056",
+      "n4-voc-0057",
+      "n4-voc-0058",
+      "n4-voc-0059",
+      "n4-voc-0060",
+      "n4-voc-0061",
+      "n4-voc-0062",
+      "n4-voc-0063"
+    ],
+    "kanjiIds": [
+      "n4-kanji-0027",
+      "n4-kanji-0028",
+      "n4-kanji-0029",
+      "n4-kanji-0030"
+    ],
+    "grammarIds": ["n4-gram-0019", "n4-gram-0020", "n4-gram-0021"],
+    "exerciseIds": [
+      "n4-ex-0073",
+      "n4-ex-0074",
+      "n4-ex-0075",
+      "n4-ex-0076",
+      "n4-ex-0077",
+      "n4-ex-0078",
+      "n4-ex-0079",
+      "n4-ex-0080",
+      "n4-ex-0081",
+      "n4-ex-0082",
+      "n4-ex-0083",
+      "n4-ex-0084"
+    ]
   }
 ]
