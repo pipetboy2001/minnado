@@ -72,7 +72,7 @@ export default async function ActividadesPage() {
       </div>
 
       <div className="mb-8">
-        <h1 className="text-2xl font-bold">Actividades N5</h1>
+        <h1 className="text-2xl font-bold">Actividades</h1>
         <p className="text-sm text-muted-foreground">
           Hola, {session.user.name ?? session.user.email}
         </p>
