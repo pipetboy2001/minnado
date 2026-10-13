@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import { toast } from "sonner";
 import {
   ArrowLeftRight,
   Check,
@@ -82,31 +83,39 @@ export function ExercisePlayer({
 
   useEffect(() => {
     if (!isFinished) return;
-    void fetch("/api/lesson-progress", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ lessonId }),
-    });
-    void fetch("/api/sessions", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        lessonId,
-        score,
-        totalExercises: exercises.length,
-      }),
-    });
+    async function saveCompletion() {
+      const [progressRes, sessionRes] = await Promise.all([
+        fetch("/api/lesson-progress", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ lessonId }),
+        }),
+        fetch("/api/sessions", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            lessonId,
+            score,
+            totalExercises: exercises.length,
+          }),
+        }),
+      ]);
+      if (!progressRes.ok || !sessionRes.ok) {
+        toast.error("No se pudo guardar tu progreso de esta lección.");
+      }
+    }
+    void saveCompletion();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isFinished, lessonId]);
 
-  function handleCheck() {
+  async function handleCheck() {
     if (!answer) return;
     const isCorrect = gradeExercise(exercise, answer);
     setRevealed(true);
     setLastCorrect(isCorrect);
     if (isCorrect) setScore((s) => s + 1);
 
-    void fetch("/api/attempts", {
+    const response = await fetch("/api/attempts", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -115,6 +124,9 @@ export function ExercisePlayer({
         userAnswer: answer,
       }),
     });
+    if (!response.ok) {
+      toast.error("No se pudo guardar este intento.");
+    }
   }
 
   function handleNext() {
@@ -285,7 +297,7 @@ export function ExercisePlayer({
 
         <div className="flex justify-end gap-3">
           {!revealed ? (
-            <Button onClick={handleCheck} disabled={!isAnswered}>
+            <Button onClick={() => void handleCheck()} disabled={!isAnswered}>
               Comprobar
             </Button>
           ) : (
