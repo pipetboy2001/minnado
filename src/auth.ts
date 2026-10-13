@@ -46,9 +46,15 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
     }),
   ],
   callbacks: {
-    jwt({ token, user }) {
+    jwt({ token, user, trigger, session }) {
       if (user) {
         token.id = user.id;
+      }
+      // Lets the client push a name change into the JWT via
+      // useSession().update({ name }), instead of requiring a full
+      // re-login for the new name to show up anywhere session-derived.
+      if (trigger === "update" && session?.name) {
+        token.name = session.name;
       }
       return token;
     },

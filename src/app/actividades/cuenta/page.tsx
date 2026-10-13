@@ -1,15 +1,18 @@
 import Link from "next/link";
 import { redirect } from "next/navigation";
-import { KeyRound, Settings, UserCircle, Volume2 } from "lucide-react";
+import { KeyRound, Palette, Settings, UserCircle, Volume2 } from "lucide-react";
 import { auth } from "@/auth";
 import {
   Card,
+  CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { ThemeSelectControl } from "@/components/theme-select-control";
 import { SpeechSpeedControl } from "@/components/speech-speed-control";
+import { ChangeNameForm } from "./change-name-form";
 import { ChangePasswordForm } from "./change-password-form";
 
 export default async function CuentaPage() {
@@ -38,11 +41,27 @@ export default async function CuentaPage() {
         <CardHeader>
           <CardTitle className="flex items-center gap-2 text-base">
             <UserCircle className="size-5 text-muted-foreground" />
-            {session.user.name ?? "Sin nombre"}
+            Tu cuenta
           </CardTitle>
           <CardDescription>{session.user.email}</CardDescription>
         </CardHeader>
+        <CardContent>
+          <ChangeNameForm currentName={session.user.name ?? ""} />
+        </CardContent>
       </Card>
+
+      <div className="mt-6 flex items-center justify-between">
+        <div>
+          <h2 className="flex items-center gap-2 text-lg font-semibold">
+            <Palette className="size-4 text-muted-foreground" />
+            Tema
+          </h2>
+          <p className="text-sm text-muted-foreground">
+            Claro, oscuro, o según el sistema.
+          </p>
+        </div>
+        <ThemeSelectControl />
+      </div>
 
       <div className="mt-6 flex items-center justify-between">
         <div>
