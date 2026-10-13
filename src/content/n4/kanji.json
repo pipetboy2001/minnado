@@ -564,5 +564,59 @@
     "exampleWords": [
       { "word": "傘", "reading": "かさ", "meaningEs": "paraguas" }
     ]
+  },
+  {
+    "id": "n4-kanji-0039",
+    "character": "値",
+    "jlptLevel": "N4",
+    "strokeCount": 10,
+    "onyomi": ["チ"],
+    "kunyomi": ["ね", "あたい"],
+    "meaningEs": "valor, precio",
+    "radicals": ["亻"],
+    "exampleWords": [
+      { "word": "値段", "reading": "ねだん", "meaningEs": "precio" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0040",
+    "character": "段",
+    "jlptLevel": "N4",
+    "strokeCount": 9,
+    "onyomi": ["ダン"],
+    "kunyomi": [],
+    "meaningEs": "escalón, grado",
+    "radicals": ["殳"],
+    "exampleWords": [
+      { "word": "値段", "reading": "ねだん", "meaningEs": "precio" },
+      { "word": "階段", "reading": "かいだん", "meaningEs": "escalera" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0041",
+    "character": "曲",
+    "jlptLevel": "N4",
+    "strokeCount": 6,
+    "onyomi": ["キョク"],
+    "kunyomi": ["ま-がる", "ま-げる"],
+    "meaningEs": "doblar, curva; melodía",
+    "radicals": ["日"],
+    "exampleWords": [
+      { "word": "曲がる", "reading": "まがる", "meaningEs": "doblar, girar" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0042",
+    "character": "号",
+    "jlptLevel": "N4",
+    "strokeCount": 5,
+    "onyomi": ["ゴウ"],
+    "kunyomi": [],
+    "meaningEs": "número, señal",
+    "radicals": ["口"],
+    "exampleWords": [
+      { "word": "信号", "reading": "しんごう", "meaningEs": "semáforo" },
+      { "word": "番号", "reading": "ばんごう", "meaningEs": "número" }
+    ]
   }
 ]

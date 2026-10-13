@@ -569,5 +569,69 @@
         "es": "Hoy me voy sin hacer horas extra."
       }
     ]
+  },
+  {
+    "id": "n4-gram-0028",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "〜ば (condicional: si...)",
+    "pattern": "Godan: -u → -eba ｜ Ichidan: -る → -れば ｜ い-adj: -い → -ければ ｜ する→すれば、来る→来れば",
+    "explanationEs": "La forma ば expresa una condición general o hipotética: 'si pasa X, pasa Y'. Los verbos godan cambian la -u final por -eba; los ichidan cambian -る por -れば; los adjetivos -い cambian -い por -ければ.",
+    "structureNotes": "押す → 押せば ｜ 安い → 安ければ",
+    "examples": [
+      {
+        "jp": "安ければ買います。",
+        "reading": "やすければかいます。",
+        "es": "Si es barato, lo compro."
+      },
+      {
+        "jp": "このボタンを押せば、ドアが開きます。",
+        "reading": "このぼたんをおせば、どあがあきます。",
+        "es": "Si presionas este botón, la puerta se abre."
+      }
+    ]
+  },
+  {
+    "id": "n4-gram-0029",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "〜なら (condicional sobre un tema ya mencionado)",
+    "pattern": "[Sustantivo／Tema] + なら、[Consejo／Comentario]。",
+    "explanationEs": "なら retoma un tema que el oyente acaba de mencionar y da un consejo o comentario sobre eso en particular — distinto de ば／たら, que son condiciones más generales. Muy común para dar recomendaciones: 'si se trata de X, entonces...'.",
+    "structureNotes": "日本語を勉強するなら、この本がいいです。(si vas a estudiar japonés, este libro es bueno)",
+    "examples": [
+      {
+        "jp": "日本語を勉強するなら、この本がいいですよ。",
+        "reading": "にほんごをべんきょうするなら、このほんがいいですよ。",
+        "es": "Si vas a estudiar japonés, este libro es bueno."
+      },
+      {
+        "jp": "東京へ行くなら、新幹線が便利です。",
+        "reading": "とうきょうへいくなら、しんかんせんがべんりです。",
+        "es": "Si vas a Tokio, el shinkansen es conveniente."
+      }
+    ]
+  },
+  {
+    "id": "n4-gram-0030",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "〜ば〜ほど (cuanto más..., más...)",
+    "pattern": "Vば + Vる + ほど、[Resultado]。",
+    "explanationEs": "Esta estructura repite el mismo verbo en forma ば y luego en forma diccionario + ほど, para expresar que a mayor grado de una acción, mayor es el resultado: 'cuanto más... más...'.",
+    "structureNotes": "練習すればするほど上手になります (cuanto más practicas, mejor te vuelves)",
+    "examples": [
+      {
+        "jp": "練習すればするほど上手になります。",
+        "reading": "れんしゅうすればするほどじょうずになります。",
+        "es": "Cuanto más practicas, mejor te vuelves."
+      },
+      {
+        "jp": "安ければ安いほどいいです。",
+        "reading": "やすければやすいほどいいです。",
+        "es": "Cuanto más barato, mejor."
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0028"]
   }
 ]

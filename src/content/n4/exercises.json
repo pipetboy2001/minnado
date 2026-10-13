@@ -1768,5 +1768,199 @@
     "translationEs": "Salí sin llevar el paraguas.",
     "explanationEs": "Vないで: sin hacer algo.",
     "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0109",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-35",
+    "promptEs": "Elige la forma condicional correcta.",
+    "questionJp": "安[やす]{{1}}買[か]います。",
+    "options": [
+      { "id": "a", "textJp": "ければ", "isCorrect": true },
+      { "id": "b", "textJp": "くて", "isCorrect": false },
+      { "id": "c", "textJp": "くないで", "isCorrect": false },
+      { "id": "d", "textJp": "かったら", "isCorrect": false }
+    ],
+    "explanationEs": "安い → 安ければ: condicional de un adjetivo -い.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0110",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-35",
+    "promptEs": "Elige la forma correcta para recomendar algo sobre un tema mencionado.",
+    "questionJp": "日本語[にほんご]を勉強[べんきょう]する{{1}}、この本[ほん]がいいですよ。",
+    "options": [
+      { "id": "a", "textJp": "なら", "isCorrect": true },
+      { "id": "b", "textJp": "たら", "isCorrect": false },
+      { "id": "c", "textJp": "ので", "isCorrect": false },
+      { "id": "d", "textJp": "のに", "isCorrect": false }
+    ],
+    "explanationEs": "なら retoma el tema mencionado (estudiar japonés) para dar un consejo.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0111",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-35",
+    "promptEs": "Elige la forma correcta para 'cuanto más... más...'.",
+    "questionJp": "練習[れんしゅう]すれば{{1}}上手[じょうず]になります。",
+    "options": [
+      { "id": "a", "textJp": "するほど", "isCorrect": true },
+      { "id": "b", "textJp": "すると", "isCorrect": false },
+      { "id": "c", "textJp": "しても", "isCorrect": false },
+      { "id": "d", "textJp": "したから", "isCorrect": false }
+    ],
+    "explanationEs": "Vば + Vる + ほど: cuanto más practicas, más mejoras.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0112",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-35",
+    "promptEs": "Elige la palabra correcta.",
+    "questionJp": "次[つぎ]の{{1}}を右[みぎ]に曲[ま]がってください。",
+    "options": [
+      { "id": "a", "textJp": "信号", "isCorrect": true },
+      { "id": "b", "textJp": "値段", "isCorrect": false },
+      { "id": "c", "textJp": "割引", "isCorrect": false },
+      { "id": "d", "textJp": "ボタン", "isCorrect": false }
+    ],
+    "explanationEs": "信号 significa semáforo; 曲がる es doblar/girar.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0113",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-35",
+    "promptEs": "Completa con la forma condicional.",
+    "sentenceTemplate": "このボタンを{{1}}、ドアが開[あ]きます。",
+    "translationEs": "Si presionas este botón, la puerta se abre.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["押せば"],
+        "options": ["押せば", "押します", "押して", "押そう"]
+      }
+    ],
+    "explanationEs": "押す → 押せば: condicional godan.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0114",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-35",
+    "promptEs": "Completa con なら.",
+    "sentenceTemplate": "東京[とうきょう]へ行[い]く{{1}}、新幹線[しんかんせん]が便利[べんり]です。",
+    "translationEs": "Si vas a Tokio, el shinkansen es conveniente.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["なら"],
+        "options": ["なら", "ので", "のに", "けど"]
+      }
+    ],
+    "explanationEs": "なら retoma el tema 'ir a Tokio' para recomendar algo.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0115",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-35",
+    "promptEs": "Completa con 〜ば〜ほど.",
+    "sentenceTemplate": "安[やす]ければ{{1}}いいです。",
+    "translationEs": "Cuanto más barato, mejor.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["安いほど"],
+        "options": ["安いほど", "安くて", "安いなら", "安くても"]
+      }
+    ],
+    "explanationEs": "Adjetivo-ければ + Adjetivo-い + ほど: cuanto más barato, mejor.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0116",
+    "type": "word-order",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-35",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["10個", "買えば", "割引があります"],
+    "correctOrder": ["10個", "買えば", "割引があります"],
+    "translationEs": "Si compras 10, hay descuento.",
+    "explanationEs": "La condición (買えば) va antes del resultado.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0117",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-35",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "値段", "right": "precio" },
+      { "id": "p2", "left": "割引", "right": "descuento" },
+      { "id": "p3", "left": "曲がる", "right": "doblar, girar" },
+      { "id": "p4", "left": "信号", "right": "semáforo" },
+      { "id": "p5", "left": "練習する", "right": "practicar" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0118",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "kanji",
+    "lessonId": "n4-lesson-35",
+    "promptEs": "Une cada kanji con su lectura on'yomi.",
+    "pairs": [
+      { "id": "p1", "left": "値", "right": "ち" },
+      { "id": "p2", "left": "段", "right": "だん" },
+      { "id": "p3", "left": "曲", "right": "きょく" },
+      { "id": "p4", "left": "号", "right": "ごう" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0119",
+    "type": "speaking",
+    "jlptLevel": "N4",
+    "skill": "speaking",
+    "lessonId": "n4-lesson-35",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "次[つぎ]の信号[しんごう]を右[みぎ]に曲[ま]がってください。",
+    "translationEs": "Dobla a la derecha en el próximo semáforo.",
+    "explanationEs": "Practica dar indicaciones con claridad.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0120",
+    "type": "listening",
+    "jlptLevel": "N4",
+    "skill": "listening",
+    "lessonId": "n4-lesson-35",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "練習[れんしゅう]すればするほど上手[じょうず]になります。",
+    "targetReading": "れんしゅうすればするほどじょうずになります。",
+    "translationEs": "Cuanto más practicas, mejor te vuelves.",
+    "explanationEs": "〜ば〜ほど: cuanto más... más...",
+    "difficulty": 2
   }
 ]

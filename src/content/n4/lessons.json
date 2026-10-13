@@ -358,5 +358,45 @@
       "n4-ex-0107",
       "n4-ex-0108"
     ]
+  },
+  {
+    "id": "n4-lesson-35",
+    "jlptLevel": "N4",
+    "order": 35,
+    "title": "Lección 35 — Condicionales (〜ば・〜なら・〜ば〜ほど)",
+    "description": "La forma condicional 〜ば, 〜なら para retomar un tema mencionado, y 〜ば〜ほど para 'cuanto más... más...', con vocabulario de compras y direcciones, basado en Minna no Nihongo Lección 35 (Libro 2).",
+    "kind": "lesson",
+    "vocabIds": [
+      "n4-voc-0082",
+      "n4-voc-0083",
+      "n4-voc-0084",
+      "n4-voc-0085",
+      "n4-voc-0086",
+      "n4-voc-0087",
+      "n4-voc-0088",
+      "n4-voc-0089",
+      "n4-voc-0090"
+    ],
+    "kanjiIds": [
+      "n4-kanji-0039",
+      "n4-kanji-0040",
+      "n4-kanji-0041",
+      "n4-kanji-0042"
+    ],
+    "grammarIds": ["n4-gram-0028", "n4-gram-0029", "n4-gram-0030"],
+    "exerciseIds": [
+      "n4-ex-0109",
+      "n4-ex-0110",
+      "n4-ex-0111",
+      "n4-ex-0112",
+      "n4-ex-0113",
+      "n4-ex-0114",
+      "n4-ex-0115",
+      "n4-ex-0116",
+      "n4-ex-0117",
+      "n4-ex-0118",
+      "n4-ex-0119",
+      "n4-ex-0120"
+    ]
   }
 ]
