@@ -9,6 +9,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import {
   buildExam,
+  EXAM_SPEEDS,
   exercisesInLessonRange,
   formatCountdown,
   formatDuration,
@@ -16,6 +17,7 @@ import {
   totalExamSeconds,
   type ExamSection,
   type ExamSectionId,
+  type ExamSpeed,
 } from "@/lib/exam";
 import type { Exercise } from "@/types/exercise";
 import type { Lesson } from "@/types/content";
@@ -43,12 +45,13 @@ export function ExamPlayer({
   const [timed, setTimed] = useState(false);
   const [fromOrder, setFromOrder] = useState(minOrder);
   const [toOrder, setToOrder] = useState(maxOrder);
+  const [speed, setSpeed] = useState<ExamSpeed>(1);
 
   const pool = useMemo(
     () => exercisesInLessonRange(exercises, lessons, fromOrder, toOrder),
     [exercises, lessons, fromOrder, toOrder],
   );
-  const sections = useMemo(() => buildExam(pool), [pool]);
+  const sections = useMemo(() => buildExam(pool, speed), [pool, speed]);
   const [sectionIndex, setSectionIndex] = useState(0);
   const [questionIndex, setQuestionIndex] = useState(0);
   const [answer, setAnswer] = useState<ExerciseAnswer | undefined>(undefined);
@@ -171,7 +174,7 @@ export function ExamPlayer({
                 Elige qué tanto de lo que ya estudiaste quieres practicar.
               </p>
             </div>
-            <div className="grid grid-cols-2 gap-3">
+            <div className="flex flex-col gap-3">
               <label className="flex flex-col gap-1 text-sm">
                 Desde
                 <select
@@ -181,7 +184,7 @@ export function ExamPlayer({
                     setFromOrder(next);
                     if (next > toOrder) setToOrder(next);
                   }}
-                  className="rounded-md border-2 bg-background px-3 py-2 text-base"
+                  className="w-full rounded-md border-2 bg-background px-3 py-2 text-base"
                 >
                   {lessonOptions.map((o) => (
                     <option key={o.id} value={o.order}>
@@ -199,7 +202,7 @@ export function ExamPlayer({
                     setToOrder(next);
                     if (next < fromOrder) setFromOrder(next);
                   }}
-                  className="rounded-md border-2 bg-background px-3 py-2 text-base"
+                  className="w-full rounded-md border-2 bg-background px-3 py-2 text-base"
                 >
                   {lessonOptions.map((o) => (
                     <option key={o.id} value={o.order}>
@@ -208,6 +211,35 @@ export function ExamPlayer({
                   ))}
                 </select>
               </label>
+            </div>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardContent className="flex flex-col gap-4 p-6">
+            <div>
+              <h2 className="text-lg font-semibold">Ritmo del cronómetro</h2>
+              <p className="text-sm text-muted-foreground">
+                Solo afecta al modo cronometrado — ajusta qué tan apretado es el
+                tiempo por sección.
+              </p>
+            </div>
+            <div className="grid grid-cols-3 gap-2">
+              {EXAM_SPEEDS.map((s) => (
+                <button
+                  key={s.value}
+                  type="button"
+                  onClick={() => setSpeed(s.value)}
+                  className={cn(
+                    "rounded-md border-2 px-3 py-2 text-sm font-medium transition-colors",
+                    speed === s.value
+                      ? "border-primary bg-primary/10"
+                      : "border-border hover:bg-muted",
+                  )}
+                >
+                  {s.label}
+                </button>
+              ))}
             </div>
           </CardContent>
         </Card>

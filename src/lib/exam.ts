@@ -51,6 +51,16 @@ export interface ExamSection {
   timeLimitSeconds: number;
 }
 
+/** Scales every section's time budget. 1 = the default pacing below; below
+ * 1 practices under more pressure, above 1 gives more breathing room. */
+export const EXAM_SPEEDS = [
+  { value: 0.5, label: "Rápido" },
+  { value: 1, label: "Normal" },
+  { value: 1.75, label: "Relajado" },
+] as const;
+
+export type ExamSpeed = (typeof EXAM_SPEEDS)[number]["value"];
+
 function shuffle<T>(items: T[]): T[] {
   const result = [...items];
   for (let i = result.length - 1; i > 0; i--) {
@@ -94,8 +104,14 @@ export function exercisesInLessonRange(
   return exercises.filter((e) => idsInRange.has(e.id));
 }
 
-/** Omits any section a content level doesn't have enough exercises for yet. */
-export function buildExam(exercises: Exercise[]): ExamSection[] {
+/** Omits any section a content level doesn't have enough exercises for yet.
+ * `speed` scales the time budget (see EXAM_SPEEDS) — it only matters for
+ * timed mode, but lives here so the section list preview and the actual
+ * countdown always agree on the same numbers. */
+export function buildExam(
+  exercises: Exercise[],
+  speed: ExamSpeed = 1,
+): ExamSection[] {
   return SECTION_DEFS.map((def) => {
     const pool = exercises.filter((e) => def.skills.includes(e.skill));
     const picked = shuffle(pool).slice(0, def.maxQuestions);
@@ -103,7 +119,9 @@ export function buildExam(exercises: Exercise[]): ExamSection[] {
       id: def.id,
       title: def.title,
       exercises: picked,
-      timeLimitSeconds: picked.length * def.secondsPerQuestion,
+      timeLimitSeconds: Math.round(
+        picked.length * def.secondsPerQuestion * speed,
+      ),
     };
   }).filter((section) => section.exercises.length > 0);
 }

@@ -110,6 +110,16 @@ describe("buildExam", () => {
     const sections = buildExam(exercises);
     expect(sections[0].timeLimitSeconds).toBe(5 * 35);
   });
+
+  it("scales the time budget by the speed multiplier", () => {
+    const exercises = Array.from({ length: 4 }, (_, i) =>
+      makeExercise(`g${i}`, "grammar"),
+    );
+    expect(buildExam(exercises, 0.5)[0].timeLimitSeconds).toBe(4 * 35 * 0.5);
+    expect(buildExam(exercises, 1.75)[0].timeLimitSeconds).toBe(
+      Math.round(4 * 35 * 1.75),
+    );
+  });
 });
 
 describe("totalExamSeconds", () => {

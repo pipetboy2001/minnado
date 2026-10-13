@@ -1148,5 +1148,61 @@
       { "word": "顔色", "reading": "かおいろ", "meaningEs": "color de cara" },
       { "word": "洗顔", "reading": "せんがん", "meaningEs": "lavado de cara" }
     ]
+  },
+  {
+    "id": "n5-kanji-0074",
+    "character": "出",
+    "jlptLevel": "N5",
+    "strokeCount": 5,
+    "onyomi": ["シュツ"],
+    "kunyomi": ["で-る", "だ-す"],
+    "meaningEs": "salir",
+    "radicals": ["凵"],
+    "exampleWords": [
+      { "word": "出発", "reading": "しゅっぱつ", "meaningEs": "partida" },
+      { "word": "出口", "reading": "でぐち", "meaningEs": "salida" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0075",
+    "character": "発",
+    "jlptLevel": "N5",
+    "strokeCount": 9,
+    "onyomi": ["ハツ"],
+    "kunyomi": [],
+    "meaningEs": "partir, emitir",
+    "radicals": ["癹"],
+    "exampleWords": [
+      { "word": "出発", "reading": "しゅっぱつ", "meaningEs": "partida" },
+      { "word": "発見", "reading": "はっけん", "meaningEs": "descubrimiento" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0076",
+    "character": "歯",
+    "jlptLevel": "N5",
+    "strokeCount": 12,
+    "onyomi": ["シ"],
+    "kunyomi": ["は"],
+    "meaningEs": "diente",
+    "radicals": ["歯"],
+    "exampleWords": [
+      { "word": "歯医者", "reading": "はいしゃ", "meaningEs": "dentista" },
+      { "word": "歯科", "reading": "しか", "meaningEs": "odontología" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0077",
+    "character": "準",
+    "jlptLevel": "N5",
+    "strokeCount": 13,
+    "onyomi": ["ジュン"],
+    "kunyomi": [],
+    "meaningEs": "preparar, nivel",
+    "radicals": ["水"],
+    "exampleWords": [
+      { "word": "準備", "reading": "じゅんび", "meaningEs": "preparación" },
+      { "word": "標準", "reading": "ひょうじゅん", "meaningEs": "estándar" }
+    ]
   }
 ]
