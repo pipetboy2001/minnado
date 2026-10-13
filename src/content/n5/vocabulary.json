@@ -2780,5 +2780,83 @@
     "exampleSentenceReading": "しゅうまつはどこへもいきませんでした。",
     "exampleSentenceEs": "El fin de semana no fui a ningún lugar.",
     "tags": ["negacion", "minna-no-nihongo-l24"]
+  },
+  {
+    "id": "n5-voc-0215",
+    "jlptLevel": "N5",
+    "word": "曜日",
+    "reading": "ようび",
+    "romaji": "youbi",
+    "meaningEs": "día de la semana",
+    "partOfSpeech": "noun",
+    "exampleSentenceJp": "今日は何曜日ですか。",
+    "exampleSentenceReading": "きょうはなんようびですか。",
+    "exampleSentenceEs": "¿Qué día de la semana es hoy?",
+    "tags": ["tiempo", "minna-no-nihongo-l25"]
+  },
+  {
+    "id": "n5-voc-0216",
+    "jlptLevel": "N5",
+    "word": "月曜日",
+    "reading": "げつようび",
+    "romaji": "getsuyoubi",
+    "meaningEs": "lunes",
+    "partOfSpeech": "noun",
+    "exampleSentenceJp": "月曜日から仕事が始まります。",
+    "exampleSentenceReading": "げつようびからしごとがはじまります。",
+    "exampleSentenceEs": "El trabajo empieza desde el lunes.",
+    "tags": ["tiempo", "minna-no-nihongo-l25"]
+  },
+  {
+    "id": "n5-voc-0217",
+    "jlptLevel": "N5",
+    "word": "金曜日",
+    "reading": "きんようび",
+    "romaji": "kinyoubi",
+    "meaningEs": "viernes",
+    "partOfSpeech": "noun",
+    "exampleSentenceJp": "締め切りは金曜日です。",
+    "exampleSentenceReading": "しめきりはきんようびです。",
+    "exampleSentenceEs": "La fecha límite es el viernes.",
+    "tags": ["tiempo", "minna-no-nihongo-l25"]
+  },
+  {
+    "id": "n5-voc-0218",
+    "jlptLevel": "N5",
+    "word": "レポート",
+    "reading": "レポート",
+    "romaji": "repooto",
+    "meaningEs": "informe, reporte",
+    "partOfSpeech": "noun",
+    "exampleSentenceJp": "レポートを提出します。",
+    "exampleSentenceReading": "レポートをていしゅつします。",
+    "exampleSentenceEs": "Entrego el informe.",
+    "tags": ["escuela", "minna-no-nihongo-l25"]
+  },
+  {
+    "id": "n5-voc-0219",
+    "jlptLevel": "N5",
+    "word": "締め切り",
+    "reading": "しめきり",
+    "romaji": "shimekiri",
+    "meaningEs": "fecha límite, plazo",
+    "partOfSpeech": "noun",
+    "exampleSentenceJp": "締め切りは金曜日です。",
+    "exampleSentenceReading": "しめきりはきんようびです。",
+    "exampleSentenceEs": "La fecha límite es el viernes.",
+    "tags": ["escuela", "minna-no-nihongo-l25"]
+  },
+  {
+    "id": "n5-voc-0220",
+    "jlptLevel": "N5",
+    "word": "提出します",
+    "reading": "ていしゅつします",
+    "romaji": "teishutsu shimasu",
+    "meaningEs": "entregar, presentar (un documento)",
+    "partOfSpeech": "verb-irregular",
+    "exampleSentenceJp": "金曜日までに、レポートを提出してください。",
+    "exampleSentenceReading": "きんようびまでに、レポートをていしゅつしてください。",
+    "exampleSentenceEs": "Entrega el informe para el viernes, por favor.",
+    "tags": ["escuela", "minna-no-nihongo-l25"]
   }
 ]

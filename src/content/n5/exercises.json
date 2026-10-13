@@ -5011,5 +5011,202 @@
     "translationEs": "¿Conoces un platillo llamado sushi?",
     "explanationEs": "という presenta el nombre específico de algo dentro de una categoría general.",
     "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0312",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "particles",
+    "lessonId": "n5-lesson-26",
+    "promptEs": "Entrega el informe para el viernes, por favor.",
+    "questionJp": "金曜日[きんようび]{{1}}、レポートを提出[ていしゅつ]してください。",
+    "options": [
+      { "id": "a", "textJp": "までに", "isCorrect": true },
+      { "id": "b", "textJp": "まで", "isCorrect": false },
+      { "id": "c", "textJp": "から", "isCorrect": false },
+      { "id": "d", "textJp": "に", "isCorrect": false }
+    ],
+    "explanationEs": "までに indica el límite de tiempo para que algo se complete.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0313",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-26",
+    "promptEs": "¿Cómo se lee 月曜日 (lunes)?",
+    "questionJp": "月曜日",
+    "options": [
+      { "id": "a", "textJp": "げつようび", "isCorrect": true },
+      { "id": "b", "textJp": "がつようび", "isCorrect": false },
+      { "id": "c", "textJp": "げつよう", "isCorrect": false },
+      { "id": "d", "textJp": "つきようび", "isCorrect": false }
+    ],
+    "explanationEs": "月曜日 se lee げつようび (lunes).",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0314",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-26",
+    "promptEs": "La fecha límite es el viernes.",
+    "sentenceTemplate": "{{1}}は金曜日[きんようび]です。",
+    "translationEs": "La fecha límite es el viernes.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["締め切り", "しめきり"],
+        "options": ["締め切り", "曜日", "レポート", "提出"]
+      }
+    ],
+    "explanationEs": "締め切り significa 'fecha límite, plazo'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0315",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-26",
+    "promptEs": "Entrego el informe.",
+    "sentenceTemplate": "レポートを{{1}}します。",
+    "translationEs": "Entrego el informe.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["提出", "ていしゅつ"],
+        "options": ["提出", "締め切り", "曜日", "報告"]
+      }
+    ],
+    "explanationEs": "提出します significa 'entregar, presentar (un documento)'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0316",
+    "type": "word-order",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-26",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["提出してください", "レポートを", "金曜日までに"],
+    "correctOrder": ["金曜日までに", "レポートを", "提出してください"],
+    "translationEs": "Entrega el informe para el viernes, por favor.",
+    "explanationEs": "Orden: [Fecha límite]までに + [Objeto]を + Verbo。",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0317",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-26",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "曜日", "right": "día de la semana" },
+      { "id": "p2", "left": "レポート", "right": "informe, reporte" },
+      { "id": "p3", "left": "締め切り", "right": "fecha límite, plazo" },
+      {
+        "id": "p4",
+        "left": "提出します",
+        "right": "entregar, presentar (un documento)"
+      }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0318",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-26",
+    "promptEs": "¿Cómo se lee 締め切り (fecha límite)?",
+    "questionJp": "締め切り",
+    "options": [
+      { "id": "a", "textJp": "しめきり", "isCorrect": true },
+      { "id": "b", "textJp": "ていきり", "isCorrect": false },
+      { "id": "c", "textJp": "しまきり", "isCorrect": false },
+      { "id": "d", "textJp": "ていぎり", "isCorrect": false }
+    ],
+    "explanationEs": "締め切り se lee しめきり (fecha límite).",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0319",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-26",
+    "promptEs": "Une cada kanji con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "曜", "right": "día de la semana" },
+      { "id": "p2", "left": "締", "right": "atar, cerrar firmemente" },
+      { "id": "p3", "left": "提", "right": "presentar, proponer" },
+      { "id": "p4", "left": "末", "right": "fin, final" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0320",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-26",
+    "promptEs": "El fin de semana viajo.",
+    "questionJp": "{{1}}は旅行[りょこう]します。",
+    "options": [
+      { "id": "a", "textJp": "週末", "isCorrect": true },
+      { "id": "b", "textJp": "曜日", "isCorrect": false },
+      { "id": "c", "textJp": "締め切り", "isCorrect": false },
+      { "id": "d", "textJp": "提出", "isCorrect": false }
+    ],
+    "explanationEs": "週末 (しゅうまつ) significa 'fin de semana', usando el kanji 末 (fin).",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0321",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-26",
+    "promptEs": "El trabajo empieza desde el lunes.",
+    "sentenceTemplate": "{{1}}から仕事[しごと]が始[はじ]まります。",
+    "translationEs": "El trabajo empieza desde el lunes.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["月曜日", "げつようび"],
+        "options": ["月曜日", "金曜日", "締め切り", "曜日"]
+      }
+    ],
+    "explanationEs": "月曜日 significa 'lunes'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0322",
+    "type": "speaking",
+    "jlptLevel": "N5",
+    "skill": "speaking",
+    "lessonId": "n5-lesson-26",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "金曜日[きんようび]までに、レポートを提出[ていしゅつ]してください。",
+    "translationEs": "Entrega el informe para el viernes, por favor.",
+    "explanationEs": "までに indica el límite de tiempo para que algo se complete.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0323",
+    "type": "listening",
+    "jlptLevel": "N5",
+    "skill": "listening",
+    "lessonId": "n5-lesson-26",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "締め切[しめき]りは金曜日[きんようび]です。",
+    "targetReading": "しめきりはきんようびです。",
+    "translationEs": "La fecha límite es el viernes.",
+    "explanationEs": "締め切りは〜です indica cuándo es la fecha límite de algo.",
+    "difficulty": 1
   }
 ]

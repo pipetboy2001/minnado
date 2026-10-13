@@ -1554,5 +1554,63 @@
         "es": "El fin de semana no fui a ningún lugar."
       }
     ]
+  },
+  {
+    "id": "n5-gram-0101",
+    "jlptLevel": "N5",
+    "category": "particles",
+    "title": "〜までに (para, antes de una fecha límite)",
+    "pattern": "[Fecha/Hora]までに、[Oración]。",
+    "explanationEs": "までに indica el límite de tiempo para que algo se complete, a diferencia de まで que indica continuidad hasta un punto.",
+    "examples": [
+      {
+        "jp": "金曜日までに、レポートを提出してください。",
+        "reading": "きんようびまでに、レポートをていしゅつしてください。",
+        "es": "Entrega el informe para el viernes, por favor."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0102",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "曜日 (días de la semana)",
+    "pattern": "[Día]曜日",
+    "explanationEs": "Los días de la semana terminan en 曜日. 何曜日 pregunta 'qué día de la semana'.",
+    "examples": [
+      { "jp": "月曜日", "reading": "げつようび", "es": "lunes" },
+      { "jp": "金曜日", "reading": "きんようび", "es": "viernes" },
+      { "jp": "何曜日", "reading": "なんようび", "es": "qué día de la semana" }
+    ]
+  },
+  {
+    "id": "n5-gram-0103",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "締め切りは〜です (fecha límite)",
+    "pattern": "締め切りは[Fecha]です。",
+    "explanationEs": "Estructura básica para indicar cuándo es la fecha límite de algo.",
+    "examples": [
+      {
+        "jp": "締め切りは金曜日です。",
+        "reading": "しめきりはきんようびです。",
+        "es": "La fecha límite es el viernes."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0104",
+    "jlptLevel": "N5",
+    "category": "verb-forms",
+    "title": "〜を提出します (entregar un documento)",
+    "pattern": "[Documento]を提出します。",
+    "explanationEs": "提出します significa 'entregar' o 'presentar' un documento, como una tarea o un informe.",
+    "examples": [
+      {
+        "jp": "レポートを提出します。",
+        "reading": "レポートをていしゅつします。",
+        "es": "Entrego el informe."
+      }
+    ]
   }
 ]

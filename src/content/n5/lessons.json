@@ -1047,9 +1047,51 @@
     ]
   },
   {
-    "id": "n5-lesson-03",
+    "id": "n5-lesson-26",
     "jlptLevel": "N5",
     "order": 25,
+    "title": "Lección 25 — Días de la semana y fechas límite (曜日・〜までに)",
+    "description": "Los días de la semana (曜日) y la partícula 〜までに para expresar una fecha límite, con vocabulario escolar y de entrega de documentos, basado en Minna no Nihongo Lección 25.",
+    "kind": "lesson",
+    "vocabIds": [
+      "n5-voc-0215",
+      "n5-voc-0216",
+      "n5-voc-0217",
+      "n5-voc-0218",
+      "n5-voc-0219",
+      "n5-voc-0220"
+    ],
+    "kanjiIds": [
+      "n5-kanji-0090",
+      "n5-kanji-0091",
+      "n5-kanji-0092",
+      "n5-kanji-0093"
+    ],
+    "grammarIds": [
+      "n5-gram-0101",
+      "n5-gram-0102",
+      "n5-gram-0103",
+      "n5-gram-0104"
+    ],
+    "exerciseIds": [
+      "n5-ex-0312",
+      "n5-ex-0313",
+      "n5-ex-0314",
+      "n5-ex-0315",
+      "n5-ex-0316",
+      "n5-ex-0317",
+      "n5-ex-0318",
+      "n5-ex-0319",
+      "n5-ex-0320",
+      "n5-ex-0321",
+      "n5-ex-0322",
+      "n5-ex-0323"
+    ]
+  },
+  {
+    "id": "n5-lesson-03",
+    "jlptLevel": "N5",
+    "order": 26,
     "title": "Repaso — Partículas, Adjetivos y Formas Verbales",
     "description": "Módulo de repaso transversal: partícula correcta, adjetivos い/な, y conjugación verbal (forma ます y て) a través de varias lecciones.",
     "kind": "review",

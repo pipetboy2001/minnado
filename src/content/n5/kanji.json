@@ -1384,5 +1384,69 @@
       { "word": "飲み物", "reading": "のみもの", "meaningEs": "bebida" },
       { "word": "荷物", "reading": "にもつ", "meaningEs": "equipaje" }
     ]
+  },
+  {
+    "id": "n5-kanji-0090",
+    "character": "曜",
+    "jlptLevel": "N5",
+    "strokeCount": 18,
+    "onyomi": ["ヨウ"],
+    "kunyomi": [],
+    "meaningEs": "día de la semana",
+    "radicals": ["日"],
+    "exampleWords": [
+      { "word": "曜日", "reading": "ようび", "meaningEs": "día de la semana" },
+      { "word": "月曜日", "reading": "げつようび", "meaningEs": "lunes" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0091",
+    "character": "締",
+    "jlptLevel": "N5",
+    "strokeCount": 15,
+    "onyomi": ["テイ"],
+    "kunyomi": ["し-める"],
+    "meaningEs": "atar, cerrar firmemente",
+    "radicals": ["糸"],
+    "exampleWords": [
+      {
+        "word": "締め切り",
+        "reading": "しめきり",
+        "meaningEs": "fecha límite"
+      },
+      { "word": "締める", "reading": "しめる", "meaningEs": "atar, apretar" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0092",
+    "character": "提",
+    "jlptLevel": "N5",
+    "strokeCount": 12,
+    "onyomi": ["テイ"],
+    "kunyomi": [],
+    "meaningEs": "presentar, proponer",
+    "radicals": ["手"],
+    "exampleWords": [
+      {
+        "word": "提出",
+        "reading": "ていしゅつ",
+        "meaningEs": "entrega, presentación"
+      },
+      { "word": "提案", "reading": "ていあん", "meaningEs": "propuesta" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0093",
+    "character": "末",
+    "jlptLevel": "N5",
+    "strokeCount": 5,
+    "onyomi": ["マツ"],
+    "kunyomi": ["すえ"],
+    "meaningEs": "fin, final",
+    "radicals": ["木"],
+    "exampleWords": [
+      { "word": "週末", "reading": "しゅうまつ", "meaningEs": "fin de semana" },
+      { "word": "月末", "reading": "げつまつ", "meaningEs": "fin de mes" }
+    ]
   }
 ]
