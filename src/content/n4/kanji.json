@@ -447,5 +447,60 @@
       { "word": "病院", "reading": "びょういん", "meaningEs": "hospital" },
       { "word": "病気", "reading": "びょうき", "meaningEs": "enfermedad" }
     ]
+  },
+  {
+    "id": "n4-kanji-0031",
+    "character": "止",
+    "jlptLevel": "N4",
+    "strokeCount": 4,
+    "onyomi": ["シ"],
+    "kunyomi": ["と-まる", "と-める"],
+    "meaningEs": "detener, parar",
+    "radicals": ["止"],
+    "exampleWords": [
+      { "word": "止まる", "reading": "とまる", "meaningEs": "detenerse" },
+      { "word": "中止", "reading": "ちゅうし", "meaningEs": "cancelación" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0032",
+    "character": "危",
+    "jlptLevel": "N4",
+    "strokeCount": 6,
+    "onyomi": ["キ"],
+    "kunyomi": ["あぶ-ない"],
+    "meaningEs": "peligroso",
+    "radicals": ["已"],
+    "exampleWords": [
+      { "word": "危ない", "reading": "あぶない", "meaningEs": "peligroso" },
+      { "word": "危険", "reading": "きけん", "meaningEs": "peligro" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0033",
+    "character": "触",
+    "jlptLevel": "N4",
+    "strokeCount": 13,
+    "onyomi": ["ショク"],
+    "kunyomi": ["さわ-る"],
+    "meaningEs": "tocar",
+    "radicals": ["角"],
+    "exampleWords": [
+      { "word": "触る", "reading": "さわる", "meaningEs": "tocar" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0034",
+    "character": "禁",
+    "jlptLevel": "N4",
+    "strokeCount": 13,
+    "onyomi": ["キン"],
+    "kunyomi": [],
+    "meaningEs": "prohibir",
+    "radicals": ["示"],
+    "exampleWords": [
+      { "word": "禁煙", "reading": "きんえん", "meaningEs": "prohibido fumar" },
+      { "word": "禁止", "reading": "きんし", "meaningEs": "prohibición" }
+    ]
   }
 ]

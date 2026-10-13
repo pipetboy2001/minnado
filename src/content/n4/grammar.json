@@ -442,5 +442,69 @@
       }
     ],
     "relatedGrammarIds": ["n4-gram-0020"]
+  },
+  {
+    "id": "n4-gram-0022",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "命令形 (forma imperativa: orden directa)",
+    "pattern": "Godan: -u → -e ｜ Ichidan: -る → -ろ ｜ する→しろ、来る→来い",
+    "explanationEs": "La forma imperativa da una orden directa y fuerte, típica del habla masculina, de carteles o de situaciones de emergencia — no se usa en conversación educada normal. Los verbos godan cambian la -u final por -e; los ichidan cambian -る por -ろ.",
+    "structureNotes": "行く → 行け ｜ 食べる → 食べろ ｜ する → しろ ｜ 来る → 来い",
+    "examples": [
+      {
+        "jp": "止まれ！",
+        "reading": "とまれ！",
+        "es": "¡Detente!"
+      },
+      {
+        "jp": "危ない！逃げろ！",
+        "reading": "あぶない！にげろ！",
+        "es": "¡Peligro! ¡Corre!"
+      }
+    ]
+  },
+  {
+    "id": "n4-gram-0023",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "禁止形 (forma prohibitiva: 〜な)",
+    "pattern": "V (forma diccionario) + な。",
+    "explanationEs": "Agregar な directamente después de la forma diccionario de un verbo da una prohibición fuerte y directa: '¡no hagas...!'. Es igual de fuerte e informal que la forma imperativa, común en carteles y señales.",
+    "structureNotes": "入るな (¡no entres!) ｜ 騒ぐな (¡no hagas ruido!)",
+    "examples": [
+      {
+        "jp": "ここに入るな。",
+        "reading": "ここにはいるな。",
+        "es": "No entres aquí."
+      },
+      {
+        "jp": "教室で騒ぐな。",
+        "reading": "きょうしつでさわぐな。",
+        "es": "No hagas ruido en el salón."
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0022"]
+  },
+  {
+    "id": "n4-gram-0024",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "〜なさい (orden suave: típica de padres o profesores)",
+    "pattern": "Vます (raíz) + なさい。",
+    "explanationEs": "〜なさい da una orden más suave que la forma imperativa — típica de un padre a un hijo, o un profesor a un alumno. Se forma con la raíz ます del verbo + なさい.",
+    "structureNotes": "静かにしなさい (haz silencio) ｜ 早く寝なさい (duérmete temprano)",
+    "examples": [
+      {
+        "jp": "静かにしなさい。",
+        "reading": "しずかにしなさい。",
+        "es": "Haz silencio."
+      },
+      {
+        "jp": "先生の命令を聞きなさい。",
+        "reading": "せんせいのめいれいをききなさい。",
+        "es": "Escucha las órdenes del profesor."
+      }
+    ]
   }
 ]

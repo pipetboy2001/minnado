@@ -278,5 +278,45 @@
       "n4-ex-0083",
       "n4-ex-0084"
     ]
+  },
+  {
+    "id": "n4-lesson-33",
+    "jlptLevel": "N4",
+    "order": 33,
+    "title": "Lección 33 — Órdenes y prohibiciones (命令形・禁止形・〜なさい)",
+    "description": "La forma imperativa (命令形), la forma prohibitiva con 〜な, y 〜なさい para órdenes más suaves, con vocabulario de reglas y señales, basado en Minna no Nihongo Lección 33 (Libro 2).",
+    "kind": "lesson",
+    "vocabIds": [
+      "n4-voc-0064",
+      "n4-voc-0065",
+      "n4-voc-0066",
+      "n4-voc-0067",
+      "n4-voc-0068",
+      "n4-voc-0069",
+      "n4-voc-0070",
+      "n4-voc-0071",
+      "n4-voc-0072"
+    ],
+    "kanjiIds": [
+      "n4-kanji-0031",
+      "n4-kanji-0032",
+      "n4-kanji-0033",
+      "n4-kanji-0034"
+    ],
+    "grammarIds": ["n4-gram-0022", "n4-gram-0023", "n4-gram-0024"],
+    "exerciseIds": [
+      "n4-ex-0085",
+      "n4-ex-0086",
+      "n4-ex-0087",
+      "n4-ex-0088",
+      "n4-ex-0089",
+      "n4-ex-0090",
+      "n4-ex-0091",
+      "n4-ex-0092",
+      "n4-ex-0093",
+      "n4-ex-0094",
+      "n4-ex-0095",
+      "n4-ex-0096"
+    ]
   }
 ]

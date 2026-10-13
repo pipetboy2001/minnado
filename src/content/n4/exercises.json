@@ -1376,5 +1376,199 @@
     "translationEs": "Tal vez venga un tifón.",
     "explanationEs": "もしかしたら refuerza かもしれません, ambos expresan posibilidad.",
     "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0085",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-33",
+    "promptEs": "Elige la forma imperativa correcta.",
+    "questionJp": "危[あぶ]ない！{{1}}！",
+    "options": [
+      { "id": "a", "textJp": "逃げろ", "isCorrect": true },
+      { "id": "b", "textJp": "逃げます", "isCorrect": false },
+      { "id": "c", "textJp": "逃げて", "isCorrect": false },
+      { "id": "d", "textJp": "逃げよう", "isCorrect": false }
+    ],
+    "explanationEs": "逃げろ es la forma imperativa de 逃げる, usada en emergencias.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0086",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-33",
+    "promptEs": "Elige la forma prohibitiva correcta.",
+    "questionJp": "ここに{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "入るな", "isCorrect": true },
+      { "id": "b", "textJp": "入ります", "isCorrect": false },
+      { "id": "c", "textJp": "入って", "isCorrect": false },
+      { "id": "d", "textJp": "入ろう", "isCorrect": false }
+    ],
+    "explanationEs": "入るな: forma diccionario + な da una prohibición fuerte.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0087",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-33",
+    "promptEs": "Elige la forma correcta para una orden suave.",
+    "questionJp": "もう遅[おそ]いですよ。早[はや]く{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "寝なさい", "isCorrect": true },
+      { "id": "b", "textJp": "寝ます", "isCorrect": false },
+      { "id": "c", "textJp": "寝て", "isCorrect": false },
+      { "id": "d", "textJp": "寝ろ", "isCorrect": false }
+    ],
+    "explanationEs": "なさい: orden suave típica de un padre a su hijo.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0088",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-33",
+    "promptEs": "Elige la palabra correcta.",
+    "questionJp": "この部屋[へや]は{{1}}です。たばこを吸[す]わないでください。",
+    "options": [
+      { "id": "a", "textJp": "禁煙", "isCorrect": true },
+      { "id": "b", "textJp": "規則", "isCorrect": false },
+      { "id": "c", "textJp": "命令", "isCorrect": false },
+      { "id": "d", "textJp": "危ない", "isCorrect": false }
+    ],
+    "explanationEs": "禁煙 significa 'prohibido fumar'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0089",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-33",
+    "promptEs": "Completa con la forma imperativa.",
+    "sentenceTemplate": "赤信号[あかしんごう]で{{1}}。",
+    "translationEs": "¡Deténte en el semáforo rojo!",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["止まれ"],
+        "options": ["止まれ", "止まります", "止まって", "止まろう"]
+      }
+    ],
+    "explanationEs": "止まれ es la forma imperativa de 止まる.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0090",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-33",
+    "promptEs": "Completa con la forma prohibitiva.",
+    "sentenceTemplate": "ここに{{1}}。",
+    "translationEs": "No toques aquí.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["触るな"],
+        "options": ["触るな", "触りません", "触って", "触ろう"]
+      }
+    ],
+    "explanationEs": "触るな: no toques (prohibición fuerte).",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0091",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-33",
+    "promptEs": "Completa la orden con なさい.",
+    "sentenceTemplate": "{{1}}しなさい。",
+    "translationEs": "Haz silencio.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["静かに"],
+        "options": ["静かに", "危ない", "規則", "命令"]
+      }
+    ],
+    "explanationEs": "静かにしなさい: haz silencio (orden suave).",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0092",
+    "type": "word-order",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-33",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["学校の", "規則を", "守ってください"],
+    "correctOrder": ["学校の", "規則を", "守ってください"],
+    "translationEs": "Sigue las reglas de la escuela, por favor.",
+    "explanationEs": "規則を守る: seguir/respetar las reglas.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0093",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-33",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "止まる", "right": "detenerse" },
+      { "id": "p2", "left": "危ない", "right": "peligroso" },
+      { "id": "p3", "left": "触る", "right": "tocar" },
+      { "id": "p4", "left": "騒ぐ", "right": "hacer ruido, alborotar" },
+      { "id": "p5", "left": "規則", "right": "regla, norma" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0094",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "kanji",
+    "lessonId": "n4-lesson-33",
+    "promptEs": "Une cada kanji con su lectura on'yomi.",
+    "pairs": [
+      { "id": "p1", "left": "止", "right": "し" },
+      { "id": "p2", "left": "危", "right": "き" },
+      { "id": "p3", "left": "触", "right": "しょく" },
+      { "id": "p4", "left": "禁", "right": "きん" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0095",
+    "type": "speaking",
+    "jlptLevel": "N4",
+    "skill": "speaking",
+    "lessonId": "n4-lesson-33",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "危[あぶ]ない！気[き]をつけて。",
+    "translationEs": "¡Peligro! Ten cuidado.",
+    "explanationEs": "Practica la urgencia en el tono de advertencia.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0096",
+    "type": "listening",
+    "jlptLevel": "N4",
+    "skill": "listening",
+    "lessonId": "n4-lesson-33",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "静[しず]かにしなさい。",
+    "targetReading": "しずかにしなさい。",
+    "translationEs": "Haz silencio.",
+    "explanationEs": "なさい: orden suave, común de padres a hijos.",
+    "difficulty": 1
   }
 ]
