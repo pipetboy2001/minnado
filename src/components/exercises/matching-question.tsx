@@ -31,6 +31,9 @@ export function MatchingQuestion({
 }) {
   const rightOptions = useMemo(
     () => shuffle(exercise.pairs.map((p) => p.right)),
+    // Reshuffle only when the exercise identity changes, not on every
+    // render — exercise.pairs is a new array reference each render.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     [exercise.id],
   );
   const selections = value?.selections ?? {};

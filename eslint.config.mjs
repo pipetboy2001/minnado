@@ -7,6 +7,16 @@ const eslintConfig = defineConfig([
   ...nextVitals,
   ...nextTs,
   eslintConfigPrettier,
+  {
+    rules: {
+      // A leading underscore marks a destructured/parameter binding as
+      // intentionally discarded (see prisma/seed.ts's exerciseData()).
+      "@typescript-eslint/no-unused-vars": [
+        "warn",
+        { argsIgnorePattern: "^_", varsIgnorePattern: "^_" },
+      ],
+    },
+  },
   // Override default ignores of eslint-config-next.
   globalIgnores([
     // Default ignores of eslint-config-next:
@@ -15,6 +25,7 @@ const eslintConfig = defineConfig([
     "build/**",
     "next-env.d.ts",
     "src/generated/**",
+    "coverage/**",
   ]),
 ]);
 
