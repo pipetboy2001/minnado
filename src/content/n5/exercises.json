@@ -4235,5 +4235,198 @@
     "translationEs": "No me siento bien.",
     "explanationEs": "具合が悪いです es una expresión fija para decir que no te sientes bien.",
     "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0264",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-22",
+    "promptEs": "Antes de partir, me preparo.",
+    "questionJp": "出発[しゅっぱつ]する{{1}}、準備[じゅんび]します。",
+    "options": [
+      { "id": "a", "textJp": "前に", "isCorrect": true },
+      { "id": "b", "textJp": "後で", "isCorrect": false },
+      { "id": "c", "textJp": "ながら", "isCorrect": false },
+      { "id": "d", "textJp": "まで", "isCorrect": false }
+    ],
+    "explanationEs": "前に conecta dos acciones indicando que la primera (preparar) ocurre antes de la segunda (partir). El verbo antes de 前に va en forma diccionario.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0265",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-22",
+    "promptEs": "Después de hacer la tarea, veo televisión.",
+    "questionJp": "宿題[しゅくだい]をした{{1}}、テレビを見[み]ます。",
+    "options": [
+      { "id": "a", "textJp": "後で", "isCorrect": true },
+      { "id": "b", "textJp": "前に", "isCorrect": false },
+      { "id": "c", "textJp": "ながら", "isCorrect": false },
+      { "id": "d", "textJp": "とき", "isCorrect": false }
+    ],
+    "explanationEs": "後で conecta dos acciones indicando que la segunda ocurre después de la primera. El verbo antes de 後で va en forma た.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0266",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-22",
+    "promptEs": "Por la mañana me cepillo los dientes.",
+    "sentenceTemplate": "朝[あさ]、{{1}}を磨[みが]きます。",
+    "translationEs": "Por la mañana me cepillo los dientes.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["歯", "は"],
+        "options": ["歯", "宿題", "シャワー", "準備"]
+      }
+    ],
+    "explanationEs": "歯を磨きます es la expresión fija para 'cepillarse los dientes'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0267",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-22",
+    "promptEs": "Antes de comer, me lavo las manos.",
+    "sentenceTemplate": "食[た]べる{{1}}、手[て]を洗[あら]います。",
+    "translationEs": "Antes de comer, me lavo las manos.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["前に"],
+        "options": ["前に", "後で", "ながら", "まま"]
+      }
+    ],
+    "explanationEs": "El verbo antes de 前に siempre va en forma diccionario: 食べる前に.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0268",
+    "type": "word-order",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-22",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["準備します", "出発する", "前に"],
+    "correctOrder": ["出発する", "前に", "準備します"],
+    "translationEs": "Antes de partir, me preparo.",
+    "explanationEs": "Orden: [Verbo-diccionario]前に + [Oración principal]。",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0269",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-22",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "出発します", "right": "partir, salir de viaje" },
+      { "id": "p2", "left": "準備します", "right": "preparar" },
+      { "id": "p3", "left": "宿題", "right": "tarea" },
+      { "id": "p4", "left": "歯", "right": "diente" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0270",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-22",
+    "promptEs": "¿Cómo se lee 出発します (partir)?",
+    "questionJp": "出発します",
+    "options": [
+      { "id": "a", "textJp": "しゅっぱつします", "isCorrect": true },
+      { "id": "b", "textJp": "しゅつはつします", "isCorrect": false },
+      { "id": "c", "textJp": "ではつします", "isCorrect": false },
+      { "id": "d", "textJp": "しゅっぱいします", "isCorrect": false }
+    ],
+    "explanationEs": "出発 se lee しゅっぱつ (partida).",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0271",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-22",
+    "promptEs": "Une cada kanji con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "出", "right": "salir" },
+      { "id": "p2", "left": "発", "right": "partir, emitir" },
+      { "id": "p3", "left": "歯", "right": "diente" },
+      { "id": "p4", "left": "準", "right": "preparar, nivel" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0272",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-22",
+    "promptEs": "Llegué 2 horas antes.",
+    "questionJp": "2時間[にじかん]{{1}}着[つ]きました。",
+    "options": [
+      { "id": "a", "textJp": "前に", "isCorrect": true },
+      { "id": "b", "textJp": "後で", "isCorrect": false },
+      { "id": "c", "textJp": "ながら", "isCorrect": false },
+      { "id": "d", "textJp": "まで", "isCorrect": false }
+    ],
+    "explanationEs": "Se puede agregar una duración específica antes de 前に para indicar cuánto tiempo antes ocurrió algo.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0273",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-22",
+    "promptEs": "Antes de partir, hago preparativos.",
+    "sentenceTemplate": "出発[しゅっぱつ]する前[まえ]に、{{1}}をします。",
+    "translationEs": "Antes de partir, hago preparativos.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["準備", "じゅんび"],
+        "options": ["準備", "宿題", "歯", "シャワー"]
+      }
+    ],
+    "explanationEs": "準備します significa 'preparar, hacer preparativos'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0274",
+    "type": "speaking",
+    "jlptLevel": "N5",
+    "skill": "speaking",
+    "lessonId": "n5-lesson-22",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "宿題[しゅくだい]をした後[あと]で、テレビを見[み]ます。",
+    "translationEs": "Después de hacer la tarea, veo televisión.",
+    "explanationEs": "後で conecta dos acciones indicando que la segunda ocurre después de la primera.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0275",
+    "type": "listening",
+    "jlptLevel": "N5",
+    "skill": "listening",
+    "lessonId": "n5-lesson-22",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "出発[しゅっぱつ]する前[まえ]に、準備[じゅんび]します。",
+    "targetReading": "しゅっぱつするまえに、じゅんびします。",
+    "translationEs": "Antes de partir, me preparo.",
+    "explanationEs": "前に conecta dos acciones indicando que la primera ocurre antes de la segunda.",
+    "difficulty": 2
   }
 ]

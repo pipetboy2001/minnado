@@ -878,9 +878,51 @@
     ]
   },
   {
-    "id": "n5-lesson-03",
+    "id": "n5-lesson-22",
     "jlptLevel": "N5",
     "order": 21,
+    "title": "Lección 21 — Secuencia de acciones (〜前に・〜後で)",
+    "description": "Conectar dos acciones en el tiempo con 〜前に (antes de, con forma diccionario) y 〜後で (después de, con forma た), con vocabulario de rutina y viaje, basado en Minna no Nihongo Lección 21.",
+    "kind": "lesson",
+    "vocabIds": [
+      "n5-voc-0190",
+      "n5-voc-0191",
+      "n5-voc-0192",
+      "n5-voc-0193",
+      "n5-voc-0194",
+      "n5-voc-0195"
+    ],
+    "kanjiIds": [
+      "n5-kanji-0074",
+      "n5-kanji-0075",
+      "n5-kanji-0076",
+      "n5-kanji-0077"
+    ],
+    "grammarIds": [
+      "n5-gram-0085",
+      "n5-gram-0086",
+      "n5-gram-0087",
+      "n5-gram-0088"
+    ],
+    "exerciseIds": [
+      "n5-ex-0264",
+      "n5-ex-0265",
+      "n5-ex-0266",
+      "n5-ex-0267",
+      "n5-ex-0268",
+      "n5-ex-0269",
+      "n5-ex-0270",
+      "n5-ex-0271",
+      "n5-ex-0272",
+      "n5-ex-0273",
+      "n5-ex-0274",
+      "n5-ex-0275"
+    ]
+  },
+  {
+    "id": "n5-lesson-03",
+    "jlptLevel": "N5",
+    "order": 22,
     "title": "Repaso — Partículas, Adjetivos y Formas Verbales",
     "description": "Módulo de repaso transversal: partícula correcta, adjetivos い/な, y conjugación verbal (forma ます y て) a través de varias lecciones.",
     "kind": "review",

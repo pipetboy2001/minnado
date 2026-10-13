@@ -2455,5 +2455,83 @@
     "exampleSentenceReading": "ぐあいがわるいです。",
     "exampleSentenceEs": "No me siento bien.",
     "tags": ["adjetivos", "minna-no-nihongo-l20"]
+  },
+  {
+    "id": "n5-voc-0190",
+    "jlptLevel": "N5",
+    "word": "出発します",
+    "reading": "しゅっぱつします",
+    "romaji": "shuppatsu shimasu",
+    "meaningEs": "partir, salir de viaje",
+    "partOfSpeech": "verb-irregular",
+    "exampleSentenceJp": "出発する前に、準備します。",
+    "exampleSentenceReading": "しゅっぱつするまえに、じゅんびします。",
+    "exampleSentenceEs": "Antes de partir, me preparo.",
+    "tags": ["viaje", "minna-no-nihongo-l21"]
+  },
+  {
+    "id": "n5-voc-0191",
+    "jlptLevel": "N5",
+    "word": "準備します",
+    "reading": "じゅんびします",
+    "romaji": "junbi shimasu",
+    "meaningEs": "preparar",
+    "partOfSpeech": "verb-irregular",
+    "exampleSentenceJp": "出発する前に、準備をします。",
+    "exampleSentenceReading": "しゅっぱつするまえに、じゅんびをします。",
+    "exampleSentenceEs": "Antes de partir, hago preparativos.",
+    "tags": ["viaje", "minna-no-nihongo-l21"]
+  },
+  {
+    "id": "n5-voc-0192",
+    "jlptLevel": "N5",
+    "word": "宿題",
+    "reading": "しゅくだい",
+    "romaji": "shukudai",
+    "meaningEs": "tarea",
+    "partOfSpeech": "noun",
+    "exampleSentenceJp": "宿題をした後で、テレビを見ます。",
+    "exampleSentenceReading": "しゅくだいをしたあとで、テレビをみます。",
+    "exampleSentenceEs": "Después de hacer la tarea, veo televisión.",
+    "tags": ["escuela", "minna-no-nihongo-l21"]
+  },
+  {
+    "id": "n5-voc-0193",
+    "jlptLevel": "N5",
+    "word": "シャワー",
+    "reading": "シャワー",
+    "romaji": "shawaa",
+    "meaningEs": "ducha",
+    "partOfSpeech": "noun",
+    "exampleSentenceJp": "シャワーの前に、歯を磨きます。",
+    "exampleSentenceReading": "シャワーのまえに、はをみがきます。",
+    "exampleSentenceEs": "Antes de la ducha, me cepillo los dientes.",
+    "tags": ["rutina", "minna-no-nihongo-l21"]
+  },
+  {
+    "id": "n5-voc-0194",
+    "jlptLevel": "N5",
+    "word": "歯",
+    "reading": "は",
+    "romaji": "ha",
+    "meaningEs": "diente",
+    "partOfSpeech": "noun",
+    "exampleSentenceJp": "朝、歯を磨きます。",
+    "exampleSentenceReading": "あさ、はをみがきます。",
+    "exampleSentenceEs": "Por la mañana me cepillo los dientes.",
+    "tags": ["cuerpo", "minna-no-nihongo-l21"]
+  },
+  {
+    "id": "n5-voc-0195",
+    "jlptLevel": "N5",
+    "word": "磨きます",
+    "reading": "みがきます",
+    "romaji": "migakimasu",
+    "meaningEs": "cepillar, pulir",
+    "partOfSpeech": "verb-u",
+    "exampleSentenceJp": "朝、歯を磨きます。",
+    "exampleSentenceReading": "あさ、はをみがきます。",
+    "exampleSentenceEs": "Por la mañana me cepillo los dientes.",
+    "tags": ["rutina", "minna-no-nihongo-l21"]
   }
 ]

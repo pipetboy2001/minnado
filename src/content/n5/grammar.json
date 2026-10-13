@@ -1314,5 +1314,65 @@
         "es": "No me siento bien. Es mejor que vayas al hospital."
       }
     ]
+  },
+  {
+    "id": "n5-gram-0085",
+    "jlptLevel": "N5",
+    "category": "verb-forms",
+    "title": "〜前に (antes de)",
+    "pattern": "[Verbo-diccionario]前に、[Oración]。",
+    "explanationEs": "前に conecta dos acciones indicando que la primera ocurre antes de la segunda. El verbo antes de 前に siempre va en forma diccionario, sin importar el tiempo de la oración principal.",
+    "examples": [
+      {
+        "jp": "出発する前に、準備します。",
+        "reading": "しゅっぱつするまえに、じゅんびします。",
+        "es": "Antes de partir, me preparo."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0086",
+    "jlptLevel": "N5",
+    "category": "verb-forms",
+    "title": "〜後で (después de)",
+    "pattern": "[Verbo-た]後で、[Oración]。",
+    "explanationEs": "後で conecta dos acciones indicando que la segunda ocurre después de la primera. El verbo antes de 後で siempre va en forma た.",
+    "examples": [
+      {
+        "jp": "宿題をした後で、テレビを見ます。",
+        "reading": "しゅくだいをしたあとで、テレビをみます。",
+        "es": "Después de hacer la tarea, veo televisión."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0087",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "歯を磨きます (cepillarse los dientes)",
+    "pattern": "歯を磨きます。",
+    "explanationEs": "Expresión fija de rutina diaria: 歯 (dientes) + を + 磨きます (cepillar/pulir).",
+    "examples": [
+      {
+        "jp": "朝、歯を磨きます。",
+        "reading": "あさ、はをみがきます。",
+        "es": "Por la mañana me cepillo los dientes."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0088",
+    "jlptLevel": "N5",
+    "category": "numbers-counters",
+    "title": "〜時間前に／〜時間後で (duración antes/después)",
+    "pattern": "[Número]時間前に／後で",
+    "explanationEs": "Se puede agregar una duración específica antes de 前に o 後で para indicar cuánto tiempo antes o después ocurrió algo.",
+    "examples": [
+      {
+        "jp": "2時間前に着きました。",
+        "reading": "にじかんまえにつきました。",
+        "es": "Llegué 2 horas antes."
+      }
+    ]
   }
 ]
