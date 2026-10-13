@@ -965,5 +965,57 @@
         "meaningEs": "invitar (formalmente)"
       }
     ]
+  },
+  {
+    "id": "n4-kanji-0067",
+    "character": "験",
+    "jlptLevel": "N4",
+    "strokeCount": 18,
+    "onyomi": ["ケン"],
+    "kunyomi": [],
+    "meaningEs": "probar, examinar (usado en 試験)",
+    "radicals": ["馬"],
+    "exampleWords": [
+      { "word": "試験", "reading": "しけん", "meaningEs": "examen" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0068",
+    "character": "貯",
+    "jlptLevel": "N4",
+    "strokeCount": 12,
+    "onyomi": ["チョ"],
+    "kunyomi": [],
+    "meaningEs": "ahorrar, acumular",
+    "radicals": ["貝"],
+    "exampleWords": [
+      { "word": "貯金", "reading": "ちょきん", "meaningEs": "ahorro" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0069",
+    "character": "努",
+    "jlptLevel": "N4",
+    "strokeCount": 7,
+    "onyomi": ["ド"],
+    "kunyomi": ["つと-める"],
+    "meaningEs": "esforzarse",
+    "radicals": ["力"],
+    "exampleWords": [
+      { "word": "努力", "reading": "どりょく", "meaningEs": "esfuerzo" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0070",
+    "character": "役",
+    "jlptLevel": "N4",
+    "strokeCount": 7,
+    "onyomi": ["ヤク"],
+    "kunyomi": [],
+    "meaningEs": "papel, servicio, utilidad",
+    "radicals": ["彳"],
+    "exampleWords": [
+      { "word": "役に立つ", "reading": "やくにたつ", "meaningEs": "ser útil" }
+    ]
   }
 ]

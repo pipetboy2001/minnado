@@ -1010,5 +1010,67 @@
       }
     ],
     "relatedGrammarIds": ["n4-gram-0046", "n4-gram-0047"]
+  },
+  {
+    "id": "n4-gram-0049",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "〜ために (propósito, con verbos de voluntad directa)",
+    "pattern": "V (diccionario) ／ Sustantivo + の + ために、[Acción]。",
+    "explanationEs": "ために expresa un propósito cuando el verbo principal sí se controla con voluntad directa (comparar con ように, lección 36, para verbos no controlados). Se usa con la forma diccionario de un verbo de voluntad, o con un sustantivo + の.",
+    "structureNotes": "合格するために (para aprobar) ｜ 家族のために (por la familia, con sustantivo + の)",
+    "examples": [
+      {
+        "jp": "試験に合格するために、毎日勉強します。",
+        "reading": "しけんにごうかくするために、まいにちべんきょうします。",
+        "es": "Estudio todos los días para aprobar el examen."
+      },
+      {
+        "jp": "マイホームを買うために貯金しています。",
+        "reading": "まいほーむをかうためにちょきんしています。",
+        "es": "Estoy ahorrando para comprar una casa propia."
+      }
+    ]
+  },
+  {
+    "id": "n4-gram-0050",
+    "jlptLevel": "N4",
+    "category": "sentence-structure",
+    "title": "Vるのに (lo que cuesta hacer algo: tiempo, dinero, esfuerzo)",
+    "pattern": "V (diccionario) + のに、[tiempo／dinero／esfuerzo] + かかります。",
+    "explanationEs": "Esta のに (distinta de la のに contrastiva 'aunque') nominaliza la acción para decir cuánto tiempo, dinero o esfuerzo requiere. Es muy común con かかる (tomar, costar).",
+    "examples": [
+      {
+        "jp": "漢字を覚えるのに時間がかかります。",
+        "reading": "かんじをおぼえるのにじかんがかかります。",
+        "es": "Memorizar kanji toma tiempo."
+      },
+      {
+        "jp": "家を建てるのにお金がかかります。",
+        "reading": "いえをたてるのにおかねがかかります。",
+        "es": "Construir una casa cuesta dinero."
+      }
+    ]
+  },
+  {
+    "id": "n4-gram-0051",
+    "jlptLevel": "N4",
+    "category": "numbers-counters",
+    "title": "数量＋も (énfasis en una cantidad grande)",
+    "pattern": "[Número／Cantidad] + も、[Resultado]。",
+    "explanationEs": "Agregar も después de una cantidad (en vez de usar la partícula neutral) da el matiz de 'nada menos que, hasta' — enfatiza que la cantidad es sorprendentemente grande. Contrasta con しか〜ない (lección 27), que enfatiza que es sorprendentemente pequeña.",
+    "structureNotes": "何度も練習しました (practiqué muchísimas veces, nada menos)",
+    "examples": [
+      {
+        "jp": "何度も練習しました。",
+        "reading": "なんどもれんしゅうしました。",
+        "es": "Practiqué muchas veces."
+      },
+      {
+        "jp": "三時間も待ちました。",
+        "reading": "さんじかんもまちました。",
+        "es": "Esperé nada menos que tres horas."
+      }
+    ]
   }
 ]

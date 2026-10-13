@@ -3146,5 +3146,199 @@
     "translationEs": "El profesor me dio un diccionario.",
     "explanationEs": "くださいました: forma honorífica de dar.",
     "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0193",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-42",
+    "promptEs": "Elige la forma correcta para expresar propósito.",
+    "questionJp": "試験[しけん]に合格[ごうかく]する{{1}}、毎日[まいにち]勉強[べんきょう]します。",
+    "options": [
+      { "id": "a", "textJp": "ために", "isCorrect": true },
+      { "id": "b", "textJp": "ように", "isCorrect": false },
+      { "id": "c", "textJp": "ので", "isCorrect": false },
+      { "id": "d", "textJp": "けど", "isCorrect": false }
+    ],
+    "explanationEs": "ために: propósito con un verbo de voluntad directa (合格する).",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0194",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-42",
+    "promptEs": "Elige la forma correcta para el costo de una acción.",
+    "questionJp": "漢字[かんじ]を覚[おぼ]える{{1}}時間[じかん]がかかります。",
+    "options": [
+      { "id": "a", "textJp": "のに", "isCorrect": true },
+      { "id": "b", "textJp": "ために", "isCorrect": false },
+      { "id": "c", "textJp": "ので", "isCorrect": false },
+      { "id": "d", "textJp": "なら", "isCorrect": false }
+    ],
+    "explanationEs": "のに aquí nominaliza la acción para indicar el costo (tiempo).",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0195",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-42",
+    "promptEs": "Elige la partícula correcta.",
+    "questionJp": "三[さん]時間[じかん]{{1}}待[ま]ちました。",
+    "options": [
+      { "id": "a", "textJp": "も", "isCorrect": true },
+      { "id": "b", "textJp": "は", "isCorrect": false },
+      { "id": "c", "textJp": "が", "isCorrect": false },
+      { "id": "d", "textJp": "を", "isCorrect": false }
+    ],
+    "explanationEs": "数量+も enfatiza que la cantidad es grande: 'nada menos que 3 horas'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0196",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-42",
+    "promptEs": "Elige la expresión correcta.",
+    "questionJp": "この辞書[じしょ]は勉強[べんきょう]に{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "役に立ちます", "isCorrect": true },
+      { "id": "b", "textJp": "合格します", "isCorrect": false },
+      { "id": "c", "textJp": "貯金します", "isCorrect": false },
+      { "id": "d", "textJp": "努力します", "isCorrect": false }
+    ],
+    "explanationEs": "役に立つ significa 'ser útil'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0197",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-42",
+    "promptEs": "Completa con ために.",
+    "sentenceTemplate": "マイホームを買[か]う{{1}}貯金[ちょきん]しています。",
+    "translationEs": "Estoy ahorrando para comprar una casa propia.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["ために"],
+        "options": ["ために", "ように", "ので", "けど"]
+      }
+    ],
+    "explanationEs": "ために: propósito con un verbo de voluntad directa (買う).",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0198",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-42",
+    "promptEs": "Completa con la のに del costo.",
+    "sentenceTemplate": "家[いえ]を建[た]てる{{1}}お金[かね]がかかります。",
+    "translationEs": "Construir una casa cuesta dinero.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["のに"],
+        "options": ["のに", "ために", "ので", "なら"]
+      }
+    ],
+    "explanationEs": "のに: nominaliza la acción para indicar el costo (dinero).",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0199",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-42",
+    "promptEs": "Completa con 数量＋も.",
+    "sentenceTemplate": "何度[なんど]{{1}}練習[れんしゅう]しました。",
+    "translationEs": "Practiqué muchas veces.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["も"],
+        "options": ["も", "は", "が", "を"]
+      }
+    ],
+    "explanationEs": "何度も: muchas veces, con énfasis.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0200",
+    "type": "word-order",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-42",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["合格する", "ために", "努力しています"],
+    "correctOrder": ["合格する", "ために", "努力しています"],
+    "translationEs": "Me estoy esforzando para aprobar.",
+    "explanationEs": "V diccionario + ために va antes de la acción principal.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0201",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-42",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "合格する", "right": "aprobar (un examen)" },
+      { "id": "p2", "left": "貯金する", "right": "ahorrar dinero" },
+      { "id": "p3", "left": "努力する", "right": "esforzarse" },
+      { "id": "p4", "left": "役に立つ", "right": "ser útil" },
+      { "id": "p5", "left": "試験", "right": "examen" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0202",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "kanji",
+    "lessonId": "n4-lesson-42",
+    "promptEs": "Une cada kanji con su lectura on'yomi.",
+    "pairs": [
+      { "id": "p1", "left": "験", "right": "けん" },
+      { "id": "p2", "left": "貯", "right": "ちょ" },
+      { "id": "p3", "left": "努", "right": "ど" },
+      { "id": "p4", "left": "役", "right": "やく" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0203",
+    "type": "speaking",
+    "jlptLevel": "N4",
+    "skill": "speaking",
+    "lessonId": "n4-lesson-42",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "試験[しけん]に合格[ごうかく]するために、毎日[まいにち]勉強[べんきょう]します。",
+    "translationEs": "Estudio todos los días para aprobar el examen.",
+    "explanationEs": "Practica la fluidez de するために。",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0204",
+    "type": "listening",
+    "jlptLevel": "N4",
+    "skill": "listening",
+    "lessonId": "n4-lesson-42",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "何度[なんど]も練習[れんしゅう]しました。",
+    "targetReading": "なんどもれんしゅうしました。",
+    "translationEs": "Practiqué muchas veces.",
+    "explanationEs": "数量+も: énfasis en una cantidad grande.",
+    "difficulty": 1
   }
 ]

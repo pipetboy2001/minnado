@@ -638,5 +638,45 @@
       "n4-ex-0191",
       "n4-ex-0192"
     ]
+  },
+  {
+    "id": "n4-lesson-42",
+    "jlptLevel": "N4",
+    "order": 42,
+    "title": "Lección 42 — Propósito, costo y énfasis (〜ために・Vるのに・数量＋も)",
+    "description": "Expresar propósito con 〜ために (verbos de voluntad directa), el costo de tiempo/dinero/esfuerzo con Vるのに, y enfatizar una cantidad grande con 数量＋も, con vocabulario de metas y dinero, basado en Minna no Nihongo Lección 42 (Libro 2).",
+    "kind": "lesson",
+    "vocabIds": [
+      "n4-voc-0145",
+      "n4-voc-0146",
+      "n4-voc-0147",
+      "n4-voc-0148",
+      "n4-voc-0149",
+      "n4-voc-0150",
+      "n4-voc-0151",
+      "n4-voc-0152",
+      "n4-voc-0153"
+    ],
+    "kanjiIds": [
+      "n4-kanji-0067",
+      "n4-kanji-0068",
+      "n4-kanji-0069",
+      "n4-kanji-0070"
+    ],
+    "grammarIds": ["n4-gram-0049", "n4-gram-0050", "n4-gram-0051"],
+    "exerciseIds": [
+      "n4-ex-0193",
+      "n4-ex-0194",
+      "n4-ex-0195",
+      "n4-ex-0196",
+      "n4-ex-0197",
+      "n4-ex-0198",
+      "n4-ex-0199",
+      "n4-ex-0200",
+      "n4-ex-0201",
+      "n4-ex-0202",
+      "n4-ex-0203",
+      "n4-ex-0204"
+    ]
   }
 ]
