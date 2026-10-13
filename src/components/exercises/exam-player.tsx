@@ -9,24 +9,46 @@ import { Card, CardContent } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import {
   buildExam,
+  exercisesInLessonRange,
   formatCountdown,
   formatDuration,
+  getLessonRangeOptions,
   totalExamSeconds,
   type ExamSection,
   type ExamSectionId,
 } from "@/lib/exam";
 import type { Exercise } from "@/types/exercise";
+import type { Lesson } from "@/types/content";
 import { gradeExercise, type ExerciseAnswer } from "./grading";
 import { EXERCISE_TYPE_META, ExerciseQuestion } from "./exercise-question";
 
 type Phase = "setup" | "playing" | "finished";
 type SectionScores = Record<ExamSectionId, { correct: number; total: number }>;
 
-export function ExamPlayer({ exercises }: { exercises: Exercise[] }) {
-  const sections = useMemo(() => buildExam(exercises), [exercises]);
+export function ExamPlayer({
+  exercises,
+  lessons,
+}: {
+  exercises: Exercise[];
+  lessons: Lesson[];
+}) {
+  const lessonOptions = useMemo(
+    () => getLessonRangeOptions(lessons),
+    [lessons],
+  );
+  const minOrder = lessonOptions[0]?.order ?? 1;
+  const maxOrder = lessonOptions[lessonOptions.length - 1]?.order ?? 1;
 
   const [phase, setPhase] = useState<Phase>("setup");
   const [timed, setTimed] = useState(false);
+  const [fromOrder, setFromOrder] = useState(minOrder);
+  const [toOrder, setToOrder] = useState(maxOrder);
+
+  const pool = useMemo(
+    () => exercisesInLessonRange(exercises, lessons, fromOrder, toOrder),
+    [exercises, lessons, fromOrder, toOrder],
+  );
+  const sections = useMemo(() => buildExam(pool), [pool]);
   const [sectionIndex, setSectionIndex] = useState(0);
   const [questionIndex, setQuestionIndex] = useState(0);
   const [answer, setAnswer] = useState<ExerciseAnswer | undefined>(undefined);
@@ -126,10 +148,10 @@ export function ExamPlayer({ exercises }: { exercises: Exercise[] }) {
     }
   }
 
-  if (sections.length === 0) {
+  if (lessonOptions.length === 0) {
     return (
       <p className="text-muted-foreground">
-        Todavía no hay suficiente contenido para armar un simulacro.
+        Todavía no hay lecciones con ejercicios para armar un simulacro.
       </p>
     );
   }
@@ -144,10 +166,60 @@ export function ExamPlayer({ exercises }: { exercises: Exercise[] }) {
         <Card>
           <CardContent className="flex flex-col gap-4 p-6">
             <div>
+              <h2 className="text-lg font-semibold">Rango de lecciones</h2>
+              <p className="text-sm text-muted-foreground">
+                Elige qué tanto de lo que ya estudiaste quieres practicar.
+              </p>
+            </div>
+            <div className="grid grid-cols-2 gap-3">
+              <label className="flex flex-col gap-1 text-sm">
+                Desde
+                <select
+                  value={fromOrder}
+                  onChange={(e) => {
+                    const next = Number(e.target.value);
+                    setFromOrder(next);
+                    if (next > toOrder) setToOrder(next);
+                  }}
+                  className="rounded-md border-2 bg-background px-3 py-2 text-base"
+                >
+                  {lessonOptions.map((o) => (
+                    <option key={o.id} value={o.order}>
+                      Lección {o.order} — {o.title}
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <label className="flex flex-col gap-1 text-sm">
+                Hasta
+                <select
+                  value={toOrder}
+                  onChange={(e) => {
+                    const next = Number(e.target.value);
+                    setToOrder(next);
+                    if (next < fromOrder) setFromOrder(next);
+                  }}
+                  className="rounded-md border-2 bg-background px-3 py-2 text-base"
+                >
+                  {lessonOptions.map((o) => (
+                    <option key={o.id} value={o.order}>
+                      Lección {o.order} — {o.title}
+                    </option>
+                  ))}
+                </select>
+              </label>
+            </div>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardContent className="flex flex-col gap-4 p-6">
+            <div>
               <h2 className="text-lg font-semibold">Secciones del simulacro</h2>
               <p className="text-sm text-muted-foreground">
-                {totalQuestions} preguntas en total, tomadas al azar de todo lo
-                que has estudiado en N5.
+                {sections.length === 0
+                  ? "Este rango todavía no tiene ejercicios suficientes."
+                  : `${totalQuestions} preguntas en total, tomadas al azar de las lecciones elegidas.`}
               </p>
             </div>
             <ul className="flex flex-col gap-2">
@@ -172,6 +244,7 @@ export function ExamPlayer({ exercises }: { exercises: Exercise[] }) {
             variant="outline"
             size="lg"
             className="h-auto flex-col gap-1 py-4"
+            disabled={sections.length === 0}
             onClick={() => start(false)}
           >
             <BookOpen />
@@ -183,6 +256,7 @@ export function ExamPlayer({ exercises }: { exercises: Exercise[] }) {
           <Button
             size="lg"
             className="h-auto flex-col gap-1 py-4"
+            disabled={sections.length === 0}
             onClick={() => start(true)}
           >
             <Clock />

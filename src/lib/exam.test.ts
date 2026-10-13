@@ -1,11 +1,33 @@
 import { describe, expect, it } from "vitest";
 import {
   buildExam,
+  exercisesInLessonRange,
   formatCountdown,
   formatDuration,
+  getLessonRangeOptions,
   totalExamSeconds,
 } from "./exam";
 import type { Exercise } from "@/types/exercise";
+import type { Lesson } from "@/types/content";
+
+function makeLesson(
+  id: string,
+  order: number,
+  exerciseIds: string[],
+  kind: Lesson["kind"] = "lesson",
+): Lesson {
+  return {
+    id,
+    jlptLevel: "N5",
+    order,
+    title: `Lección ${order}`,
+    kind,
+    vocabIds: [],
+    kanjiIds: [],
+    grammarIds: [],
+    exerciseIds,
+  };
+}
 
 function makeExercise(
   id: string,
@@ -117,5 +139,48 @@ describe("formatCountdown", () => {
     expect(formatCountdown(65)).toBe("1:05");
     expect(formatCountdown(600)).toBe("10:00");
     expect(formatCountdown(5)).toBe("0:05");
+  });
+});
+
+describe("getLessonRangeOptions", () => {
+  it("returns only 'lesson' kind lessons, sorted by order", () => {
+    const lessons = [
+      makeLesson("l3", 3, []),
+      makeLesson("l1", 1, []),
+      makeLesson("review", 2, [], "review"),
+    ];
+    expect(getLessonRangeOptions(lessons).map((o) => o.id)).toEqual([
+      "l1",
+      "l3",
+    ]);
+  });
+});
+
+describe("exercisesInLessonRange", () => {
+  const lessons = [
+    makeLesson("l1", 1, ["e1", "e2"]),
+    makeLesson("l2", 2, ["e3"]),
+    makeLesson("l3", 3, ["e4"]),
+  ];
+  const exercises = [
+    makeExercise("e1", "vocabulary"),
+    makeExercise("e2", "vocabulary"),
+    makeExercise("e3", "grammar"),
+    makeExercise("e4", "grammar"),
+  ];
+
+  it("only includes exercises from lessons inside the order range", () => {
+    const result = exercisesInLessonRange(exercises, lessons, 1, 2);
+    expect(result.map((e) => e.id).sort()).toEqual(["e1", "e2", "e3"]);
+  });
+
+  it("includes every lesson's exercises when the range covers all of them", () => {
+    const result = exercisesInLessonRange(exercises, lessons, 1, 3);
+    expect(result).toHaveLength(4);
+  });
+
+  it("returns nothing for a range with no lessons in it", () => {
+    const result = exercisesInLessonRange(exercises, lessons, 10, 20);
+    expect(result).toEqual([]);
   });
 });

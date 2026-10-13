@@ -7,6 +7,7 @@
  * untimed exam mode — untimed just skips the countdown, same sections.
  */
 import type { Exercise } from "@/types/exercise";
+import type { Lesson } from "@/types/content";
 import type { ExerciseSkill } from "@/types/jlpt";
 
 export type ExamSectionId = "vocab-kanji" | "grammar" | "listening";
@@ -57,6 +58,40 @@ function shuffle<T>(items: T[]): T[] {
     [result[i], result[j]] = [result[j], result[i]];
   }
   return result;
+}
+
+export interface LessonRangeOption {
+  id: string;
+  order: number;
+  title: string;
+}
+
+/** Sequential (non-review) lessons, in order, for the "from lesson / to
+ * lesson" range picker — review modules draw on multiple lessons at once
+ * and don't fit a linear range. */
+export function getLessonRangeOptions(lessons: Lesson[]): LessonRangeOption[] {
+  return lessons
+    .filter((l) => l.kind === "lesson")
+    .slice()
+    .sort((a, b) => a.order - b.order)
+    .map((l) => ({ id: l.id, order: l.order, title: l.title }));
+}
+
+/** Narrows the exercise pool to only the lessons whose `order` falls within
+ * [fromOrder, toOrder] — so "simulacro de lecciones 1 a 5" only draws on
+ * what the learner has actually studied so far, not the whole level. */
+export function exercisesInLessonRange(
+  exercises: Exercise[],
+  lessons: Lesson[],
+  fromOrder: number,
+  toOrder: number,
+): Exercise[] {
+  const idsInRange = new Set(
+    lessons
+      .filter((l) => l.order >= fromOrder && l.order <= toOrder)
+      .flatMap((l) => l.exerciseIds),
+  );
+  return exercises.filter((e) => idsInRange.has(e.id));
 }
 
 /** Omits any section a content level doesn't have enough exercises for yet. */

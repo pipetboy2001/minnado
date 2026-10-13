@@ -1,10 +1,11 @@
 import Link from "next/link";
 import { GraduationCap } from "lucide-react";
-import { getExercisesN5 } from "@/content/loader";
+import { getExercisesN5, getLessonsN5 } from "@/content/loader";
 import { ExamPlayer } from "@/components/exercises/exam-player";
 
 export default function ExamenPage() {
   const exercises = getExercisesN5();
+  const lessons = getLessonsN5();
 
   return (
     <div className="mx-auto w-full max-w-2xl flex-1 p-6">
@@ -23,7 +24,7 @@ export default function ExamenPage() {
         comprensión auditiva — elige si quieres practicarlo sin tiempo o
         cronometrado como el examen real.
       </p>
-      <ExamPlayer exercises={exercises} />
+      <ExamPlayer exercises={exercises} lessons={lessons} />
     </div>
   );
 }
