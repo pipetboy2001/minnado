@@ -1328,5 +1328,61 @@
       { "word": "連絡", "reading": "れんらく", "meaningEs": "contacto, aviso" },
       { "word": "絡む", "reading": "からむ", "meaningEs": "enredarse" }
     ]
+  },
+  {
+    "id": "n5-kanji-0086",
+    "character": "料",
+    "jlptLevel": "N5",
+    "strokeCount": 10,
+    "onyomi": ["リョウ"],
+    "kunyomi": [],
+    "meaningEs": "material, tarifa",
+    "radicals": ["米"],
+    "exampleWords": [
+      { "word": "料理", "reading": "りょうり", "meaningEs": "comida, cocina" },
+      { "word": "料金", "reading": "りょうきん", "meaningEs": "tarifa" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0087",
+    "character": "理",
+    "jlptLevel": "N5",
+    "strokeCount": 11,
+    "onyomi": ["リ"],
+    "kunyomi": [],
+    "meaningEs": "razón, lógica",
+    "radicals": ["玉"],
+    "exampleWords": [
+      { "word": "料理", "reading": "りょうり", "meaningEs": "comida, cocina" },
+      { "word": "理由", "reading": "りゆう", "meaningEs": "razón, motivo" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0088",
+    "character": "飲",
+    "jlptLevel": "N5",
+    "strokeCount": 12,
+    "onyomi": ["イン"],
+    "kunyomi": ["の-む"],
+    "meaningEs": "beber",
+    "radicals": ["食"],
+    "exampleWords": [
+      { "word": "飲み物", "reading": "のみもの", "meaningEs": "bebida" },
+      { "word": "飲む", "reading": "のむ", "meaningEs": "beber" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0089",
+    "character": "物",
+    "jlptLevel": "N5",
+    "strokeCount": 8,
+    "onyomi": ["ブツ", "モツ"],
+    "kunyomi": ["もの"],
+    "meaningEs": "cosa, objeto",
+    "radicals": ["牛"],
+    "exampleWords": [
+      { "word": "飲み物", "reading": "のみもの", "meaningEs": "bebida" },
+      { "word": "荷物", "reading": "にもつ", "meaningEs": "equipaje" }
+    ]
   }
 ]

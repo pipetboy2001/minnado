@@ -1004,9 +1004,52 @@
     ]
   },
   {
-    "id": "n5-lesson-03",
+    "id": "n5-lesson-25",
     "jlptLevel": "N5",
     "order": 24,
+    "title": "Lección 24 — Nombrar y negar todo (〜という・疑問詞+も)",
+    "description": "Presentar el nombre de algo con 〜という, y expresar negación total con 誰も／何も／どこへも + verbo negativo, con vocabulario de comida, basado en Minna no Nihongo Lección 24.",
+    "kind": "lesson",
+    "vocabIds": [
+      "n5-voc-0208",
+      "n5-voc-0209",
+      "n5-voc-0210",
+      "n5-voc-0211",
+      "n5-voc-0212",
+      "n5-voc-0213",
+      "n5-voc-0214"
+    ],
+    "kanjiIds": [
+      "n5-kanji-0086",
+      "n5-kanji-0087",
+      "n5-kanji-0088",
+      "n5-kanji-0089"
+    ],
+    "grammarIds": [
+      "n5-gram-0097",
+      "n5-gram-0098",
+      "n5-gram-0099",
+      "n5-gram-0100"
+    ],
+    "exerciseIds": [
+      "n5-ex-0300",
+      "n5-ex-0301",
+      "n5-ex-0302",
+      "n5-ex-0303",
+      "n5-ex-0304",
+      "n5-ex-0305",
+      "n5-ex-0306",
+      "n5-ex-0307",
+      "n5-ex-0308",
+      "n5-ex-0309",
+      "n5-ex-0310",
+      "n5-ex-0311"
+    ]
+  },
+  {
+    "id": "n5-lesson-03",
+    "jlptLevel": "N5",
+    "order": 25,
     "title": "Repaso — Partículas, Adjetivos y Formas Verbales",
     "description": "Módulo de repaso transversal: partícula correcta, adjetivos い/な, y conjugación verbal (forma ます y て) a través de varias lecciones.",
     "kind": "review",

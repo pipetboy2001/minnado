@@ -1494,5 +1494,65 @@
         "es": "Si tienes problemas, contáctame por favor."
       }
     ]
+  },
+  {
+    "id": "n5-gram-0097",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "〜という (llamado, se llama)",
+    "pattern": "[Nombre]という[Categoría]",
+    "explanationEs": "という presenta el nombre específico de algo dentro de una categoría más general, como 'llamado...' en español.",
+    "examples": [
+      {
+        "jp": "寿司という料理を知っていますか。",
+        "reading": "すしというりょうりをしっていますか。",
+        "es": "¿Conoces un platillo llamado sushi?"
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0098",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "誰も〜ません (nadie)",
+    "pattern": "誰も[Verbo en forma negativa]。",
+    "explanationEs": "誰も combinado con un verbo en forma negativa expresa 'nadie', una negación total sobre personas.",
+    "examples": [
+      {
+        "jp": "誰も来ませんでした。",
+        "reading": "だれもきませんでした。",
+        "es": "Nadie vino."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0099",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "何も〜ません (nada)",
+    "pattern": "何も[Verbo en forma negativa]。",
+    "explanationEs": "何も combinado con un verbo en forma negativa expresa 'nada', una negación total sobre cosas.",
+    "examples": [
+      {
+        "jp": "何も食べませんでした。",
+        "reading": "なにもたべませんでした。",
+        "es": "No comí nada."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0100",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "どこへも〜ません (a ningún lugar)",
+    "pattern": "どこへも[Verbo en forma negativa]。",
+    "explanationEs": "どこへも combinado con un verbo en forma negativa expresa 'a ningún lugar', una negación total sobre destinos.",
+    "examples": [
+      {
+        "jp": "週末はどこへも行きませんでした。",
+        "reading": "しゅうまつはどこへもいきませんでした。",
+        "es": "El fin de semana no fui a ningún lugar."
+      }
+    ]
   }
 ]

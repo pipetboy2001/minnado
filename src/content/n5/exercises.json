@@ -4818,5 +4818,198 @@
     "translationEs": "Si tuviera dinero, viajaría.",
     "explanationEs": "あったら es la forma たら de あります.",
     "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0300",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-25",
+    "promptEs": "¿Conoces un platillo llamado sushi?",
+    "questionJp": "寿司[すし]{{1}}料理[りょうり]を知[し]っていますか。",
+    "options": [
+      { "id": "a", "textJp": "という", "isCorrect": true },
+      { "id": "b", "textJp": "を", "isCorrect": false },
+      { "id": "c", "textJp": "に", "isCorrect": false },
+      { "id": "d", "textJp": "で", "isCorrect": false }
+    ],
+    "explanationEs": "という presenta el nombre específico de algo dentro de una categoría más general.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0301",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-25",
+    "promptEs": "Nadie vino.",
+    "questionJp": "{{1}}来[き]ませんでした。",
+    "options": [
+      { "id": "a", "textJp": "誰も", "isCorrect": true },
+      { "id": "b", "textJp": "何も", "isCorrect": false },
+      { "id": "c", "textJp": "どこへも", "isCorrect": false },
+      { "id": "d", "textJp": "みんな", "isCorrect": false }
+    ],
+    "explanationEs": "誰も combinado con un verbo en forma negativa expresa 'nadie'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0302",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-25",
+    "promptEs": "No comí nada.",
+    "sentenceTemplate": "{{1}}食[た]べませんでした。",
+    "translationEs": "No comí nada.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["何も", "なにも"],
+        "options": ["何も", "誰も", "どこへも", "全部"]
+      }
+    ],
+    "explanationEs": "何も combinado con un verbo en forma negativa expresa 'nada'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0303",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-25",
+    "promptEs": "El fin de semana no fui a ningún lugar.",
+    "sentenceTemplate": "週末[しゅうまつ]は{{1}}行[い]きませんでした。",
+    "translationEs": "El fin de semana no fui a ningún lugar.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["どこへも"],
+        "options": ["どこへも", "誰も", "何も", "全部"]
+      }
+    ],
+    "explanationEs": "どこへも combinado con un verbo en forma negativa expresa 'a ningún lugar'.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0304",
+    "type": "word-order",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-25",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["知っていますか", "という", "料理を", "寿司"],
+    "correctOrder": ["寿司", "という", "料理を", "知っていますか"],
+    "translationEs": "¿Conoces un platillo llamado sushi?",
+    "explanationEs": "という va después del nombre específico y antes de la categoría general.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0305",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-25",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "料理", "right": "comida, platillo, cocina" },
+      { "id": "p2", "left": "飲み物", "right": "bebida" },
+      { "id": "p3", "left": "全部", "right": "todo, en total" },
+      { "id": "p4", "left": "誰も", "right": "nadie (con negativo)" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0306",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-25",
+    "promptEs": "¿Cómo se lee 飲み物 (bebida)?",
+    "questionJp": "飲み物",
+    "options": [
+      { "id": "a", "textJp": "のみもの", "isCorrect": true },
+      { "id": "b", "textJp": "いんみもの", "isCorrect": false },
+      { "id": "c", "textJp": "のみぶつ", "isCorrect": false },
+      { "id": "d", "textJp": "いんもの", "isCorrect": false }
+    ],
+    "explanationEs": "飲み物 se lee のみもの (bebida).",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0307",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-25",
+    "promptEs": "Une cada kanji con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "料", "right": "material, tarifa" },
+      { "id": "p2", "left": "理", "right": "razón, lógica" },
+      { "id": "p3", "left": "飲", "right": "beber" },
+      { "id": "p4", "left": "物", "right": "cosa, objeto" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0308",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-25",
+    "promptEs": "Hice toda la tarea.",
+    "questionJp": "宿題[しゅくだい]を{{1}}しました。",
+    "options": [
+      { "id": "a", "textJp": "全部", "isCorrect": true },
+      { "id": "b", "textJp": "誰も", "isCorrect": false },
+      { "id": "c", "textJp": "何も", "isCorrect": false },
+      { "id": "d", "textJp": "どこへも", "isCorrect": false }
+    ],
+    "explanationEs": "全部 significa 'todo, en total'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0309",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-25",
+    "promptEs": "No hay nada en el refrigerador.",
+    "sentenceTemplate": "冷蔵庫[れいぞうこ]に{{1}}ありません。",
+    "translationEs": "No hay nada en el refrigerador.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["何も", "なにも"],
+        "options": ["何も", "誰も", "どこへも", "全部"]
+      }
+    ],
+    "explanationEs": "何も combinado con ありません expresa 'no hay nada'.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0310",
+    "type": "speaking",
+    "jlptLevel": "N5",
+    "skill": "speaking",
+    "lessonId": "n5-lesson-25",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "誰[だれ]も来[き]ませんでした。",
+    "translationEs": "Nadie vino.",
+    "explanationEs": "誰も combinado con un verbo en forma negativa expresa 'nadie'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0311",
+    "type": "listening",
+    "jlptLevel": "N5",
+    "skill": "listening",
+    "lessonId": "n5-lesson-25",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "寿司[すし]という料理[りょうり]を知[し]っていますか。",
+    "targetReading": "すしというりょうりをしっていますか。",
+    "translationEs": "¿Conoces un platillo llamado sushi?",
+    "explanationEs": "という presenta el nombre específico de algo dentro de una categoría general.",
+    "difficulty": 2
   }
 ]
