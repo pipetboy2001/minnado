@@ -784,5 +784,209 @@
     "translationEs": "La ventana está abierta.",
     "explanationEs": "Estado resultante: 開いています, no 'se está abriendo'.",
     "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0049",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-30",
+    "promptEs": "Elige la forma correcta para algo dejado preparado.",
+    "questionJp": "レストランが{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "予約してあります", "isCorrect": true },
+      { "id": "b", "textJp": "予約します", "isCorrect": false },
+      { "id": "c", "textJp": "予約しています", "isCorrect": false },
+      { "id": "d", "textJp": "予約しておきます", "isCorrect": false }
+    ],
+    "explanationEs": "予約してあります: el restaurante quedó reservado, resultado de una preparación.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0050",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-30",
+    "promptEs": "Elige la forma correcta para una acción hecha de antemano.",
+    "questionJp": "パーティーの前[まえ]に、飲[の]み物[もの]を{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "買っておきます", "isCorrect": true },
+      { "id": "b", "textJp": "買ってあります", "isCorrect": false },
+      { "id": "c", "textJp": "買っています", "isCorrect": false },
+      { "id": "d", "textJp": "買われます", "isCorrect": false }
+    ],
+    "explanationEs": "ておきます: comprar de antemano, pensando en la fiesta.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0051",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-30",
+    "promptEs": "Elige la respuesta correcta.",
+    "questionJp": "もう準備[じゅんび]ができましたか。— いいえ、{{1}}です。",
+    "options": [
+      { "id": "a", "textJp": "まだ", "isCorrect": true },
+      { "id": "b", "textJp": "もう", "isCorrect": false },
+      { "id": "c", "textJp": "いつも", "isCorrect": false },
+      { "id": "d", "textJp": "ぜんぜん", "isCorrect": false }
+    ],
+    "explanationEs": "まだです responde que todavía no.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0052",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-30",
+    "promptEs": "Elige la palabra correcta.",
+    "questionJp": "友達[ともだち]をパーティーに{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "招待しました", "isCorrect": true },
+      { "id": "b", "textJp": "予約しました", "isCorrect": false },
+      { "id": "c", "textJp": "準備しました", "isCorrect": false },
+      { "id": "d", "textJp": "片付けました", "isCorrect": false }
+    ],
+    "explanationEs": "招待する significa invitar (a alguien a algo).",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0053",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-30",
+    "promptEs": "Completa con てあります.",
+    "sentenceTemplate": "飲[の]み物[もの]が{{1}}。",
+    "translationEs": "Las bebidas ya están compradas.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["買ってあります"],
+        "options": [
+          "買ってあります",
+          "買っておきます",
+          "買っています",
+          "買われます"
+        ]
+      }
+    ],
+    "explanationEs": "買ってあります: resultado de una compra hecha a propósito.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0054",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-30",
+    "promptEs": "Completa con ておきます.",
+    "sentenceTemplate": "資料[しりょう]を{{1}}。",
+    "translationEs": "Dejo los documentos preparados de antemano.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["用意しておきます"],
+        "options": [
+          "用意しておきます",
+          "用意してあります",
+          "用意しています",
+          "用意されます"
+        ]
+      }
+    ],
+    "explanationEs": "用意しておきます: preparar algo pensando en el futuro.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0055",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-30",
+    "promptEs": "Completa con まだ.",
+    "sentenceTemplate": "すみません、宿題[しゅくだい]は{{1}}終[お]わっていません。",
+    "translationEs": "Perdón, todavía no terminé la tarea.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["まだ"],
+        "options": ["まだ", "もう", "いつも", "ぜんぜん"]
+      }
+    ],
+    "explanationEs": "まだ + Vていません: todavía no he hecho algo.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0056",
+    "type": "word-order",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-30",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["部屋を", "片付けて", "おきます"],
+    "correctOrder": ["部屋を", "片付けて", "おきます"],
+    "translationEs": "Dejo el cuarto ordenado de antemano.",
+    "explanationEs": "を + Vて + おきます: preparar algo con anticipación.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0057",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-30",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "準備する", "right": "preparar" },
+      { "id": "p2", "left": "招待する", "right": "invitar" },
+      { "id": "p3", "left": "片付ける", "right": "ordenar, guardar" },
+      { "id": "p4", "left": "予約する", "right": "reservar" },
+      { "id": "p5", "left": "飲み物", "right": "bebida" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0058",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "kanji",
+    "lessonId": "n4-lesson-30",
+    "promptEs": "Une cada kanji con su lectura on'yomi.",
+    "pairs": [
+      { "id": "p1", "left": "準", "right": "じゅん" },
+      { "id": "p2", "left": "備", "right": "び" },
+      { "id": "p3", "left": "予", "right": "よ" },
+      { "id": "p4", "left": "約", "right": "やく" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0059",
+    "type": "speaking",
+    "jlptLevel": "N4",
+    "skill": "speaking",
+    "lessonId": "n4-lesson-30",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "レストランが予約[よやく]してあります。",
+    "translationEs": "El restaurante ya está reservado.",
+    "explanationEs": "Practica la diferencia de てあります frente a una acción simple.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0060",
+    "type": "listening",
+    "jlptLevel": "N4",
+    "skill": "listening",
+    "lessonId": "n4-lesson-30",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "まだ準備[じゅんび]ができていません。",
+    "targetReading": "まだじゅんびができていません。",
+    "translationEs": "Todavía no está lista la preparación.",
+    "explanationEs": "まだ + Vていません: todavía no.",
+    "difficulty": 1
   }
 ]

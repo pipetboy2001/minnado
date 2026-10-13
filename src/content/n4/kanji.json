@@ -279,5 +279,64 @@
         "meaningEs": "ventanilla del tren"
       }
     ]
+  },
+  {
+    "id": "n4-kanji-0019",
+    "character": "準",
+    "jlptLevel": "N4",
+    "strokeCount": 13,
+    "onyomi": ["ジュン"],
+    "kunyomi": [],
+    "meaningEs": "nivel, estándar; preparar",
+    "radicals": ["氵"],
+    "exampleWords": [
+      { "word": "準備", "reading": "じゅんび", "meaningEs": "preparación" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0020",
+    "character": "備",
+    "jlptLevel": "N4",
+    "strokeCount": 12,
+    "onyomi": ["ビ"],
+    "kunyomi": ["そな-える"],
+    "meaningEs": "preparar, proveer",
+    "radicals": ["亻"],
+    "exampleWords": [
+      { "word": "準備", "reading": "じゅんび", "meaningEs": "preparación" },
+      {
+        "word": "備える",
+        "reading": "そなえる",
+        "meaningEs": "proveer, prepararse"
+      }
+    ]
+  },
+  {
+    "id": "n4-kanji-0021",
+    "character": "予",
+    "jlptLevel": "N4",
+    "strokeCount": 4,
+    "onyomi": ["ヨ"],
+    "kunyomi": [],
+    "meaningEs": "de antemano, anticipar",
+    "radicals": ["亅"],
+    "exampleWords": [
+      { "word": "予約", "reading": "よやく", "meaningEs": "reserva" },
+      { "word": "予定", "reading": "よてい", "meaningEs": "plan, previsión" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0022",
+    "character": "約",
+    "jlptLevel": "N4",
+    "strokeCount": 9,
+    "onyomi": ["ヤク"],
+    "kunyomi": [],
+    "meaningEs": "promesa, aproximadamente",
+    "radicals": ["糸"],
+    "exampleWords": [
+      { "word": "予約", "reading": "よやく", "meaningEs": "reserva" },
+      { "word": "約束", "reading": "やくそく", "meaningEs": "promesa" }
+    ]
   }
 ]

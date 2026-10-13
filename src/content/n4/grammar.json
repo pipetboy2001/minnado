@@ -250,5 +250,69 @@
         "es": "Se me olvidó la billetera (qué mal)."
       }
     ]
+  },
+  {
+    "id": "n4-gram-0013",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "〜てあります (algo quedó preparado/hecho a propósito)",
+    "pattern": "[Objeto] が [Vて transitivo] あります。",
+    "explanationEs": "Vてあります describe el resultado de una acción que alguien hizo a propósito, dejando las cosas listas. Se usa con verbos TRANSITIVOS y el objeto se marca con が, no を. Se diferencia de Vている (lección 29) en que てある siempre implica una intención o preparación detrás.",
+    "structureNotes": "窓が開けてあります (la ventana quedó abierta, alguien la dejó así) frente a 窓が開いています (la ventana está abierta, estado)",
+    "examples": [
+      {
+        "jp": "レストランが予約してあります。",
+        "reading": "れすとらんがよやくしてあります。",
+        "es": "El restaurante ya está reservado."
+      },
+      {
+        "jp": "飲み物が買ってあります。",
+        "reading": "のみものがかってあります。",
+        "es": "Las bebidas ya están compradas."
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0011"]
+  },
+  {
+    "id": "n4-gram-0014",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "〜ておきます (hacer algo de antemano, para después)",
+    "pattern": "[Objeto] を [Vて] おきます。",
+    "explanationEs": "Vておきます expresa que algo se hace con anticipación, pensando en una necesidad futura — a diferencia de てあります (que describe el resultado), ておきます enfoca la acción de prepararse. Usa を para el objeto, porque la acción todavía la hace el hablante.",
+    "structureNotes": "飲み物を買っておきます (compro bebidas de antemano, para la fiesta)",
+    "examples": [
+      {
+        "jp": "パーティーの前に部屋を片付けておきます。",
+        "reading": "ぱーてぃーのまえにへやをかたづけておきます。",
+        "es": "Antes de la fiesta, dejo el cuarto ordenado."
+      },
+      {
+        "jp": "資料を用意しておきます。",
+        "reading": "しりょうをよういしておきます。",
+        "es": "Preparo los documentos de antemano."
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0013"]
+  },
+  {
+    "id": "n4-gram-0015",
+    "jlptLevel": "N4",
+    "category": "questions",
+    "title": "もう〜ましたか／まだ〜ていません (ya.../todavía no...)",
+    "pattern": "もう [Vました] か。 → はい、もう〜ました。／いいえ、まだです／まだ〜ていません。",
+    "explanationEs": "もう pregunta si algo ya se completó. Si ya pasó, se responde con もう + Vました. Si todavía no, se responde まだです (más corto) o まだ + Vていません (forma más completa, 'todavía no he hecho').",
+    "examples": [
+      {
+        "jp": "もう準備ができましたか。",
+        "reading": "もうじゅんびができましたか。",
+        "es": "¿Ya está lista la preparación?"
+      },
+      {
+        "jp": "いいえ、まだ準備ができていません。",
+        "reading": "いいえ、まだじゅんびができていません。",
+        "es": "No, todavía no está lista."
+      }
+    ]
   }
 ]

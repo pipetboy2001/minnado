@@ -158,5 +158,45 @@
       "n4-ex-0047",
       "n4-ex-0048"
     ]
+  },
+  {
+    "id": "n4-lesson-30",
+    "jlptLevel": "N4",
+    "order": 30,
+    "title": "Lección 30 — Dejar las cosas listas (〜てあります・〜ておきます・まだ〜ていません)",
+    "description": "El estado preparado a propósito con 〜てあります, hacer algo de antemano con 〜ておきます, y もう／まだ para preguntar y responder si algo ya se hizo, con vocabulario de fiestas y preparativos, basado en Minna no Nihongo Lección 30 (Libro 2).",
+    "kind": "lesson",
+    "vocabIds": [
+      "n4-voc-0037",
+      "n4-voc-0038",
+      "n4-voc-0039",
+      "n4-voc-0040",
+      "n4-voc-0041",
+      "n4-voc-0042",
+      "n4-voc-0043",
+      "n4-voc-0044",
+      "n4-voc-0045"
+    ],
+    "kanjiIds": [
+      "n4-kanji-0019",
+      "n4-kanji-0020",
+      "n4-kanji-0021",
+      "n4-kanji-0022"
+    ],
+    "grammarIds": ["n4-gram-0013", "n4-gram-0014", "n4-gram-0015"],
+    "exerciseIds": [
+      "n4-ex-0049",
+      "n4-ex-0050",
+      "n4-ex-0051",
+      "n4-ex-0052",
+      "n4-ex-0053",
+      "n4-ex-0054",
+      "n4-ex-0055",
+      "n4-ex-0056",
+      "n4-ex-0057",
+      "n4-ex-0058",
+      "n4-ex-0059",
+      "n4-ex-0060"
+    ]
   }
 ]
