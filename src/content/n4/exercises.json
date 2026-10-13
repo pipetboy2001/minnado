@@ -3539,5 +3539,199 @@
     "translationEs": "Vuelvo enseguida.",
     "explanationEs": "てきます: ir y volver.",
     "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0217",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-44",
+    "promptEs": "Elige la forma correcta para 'demasiado'.",
+    "questionJp": "このスープは{{1}}です。",
+    "options": [
+      { "id": "a", "textJp": "塩辛すぎ", "isCorrect": true },
+      { "id": "b", "textJp": "塩辛い", "isCorrect": false },
+      { "id": "c", "textJp": "塩辛くて", "isCorrect": false },
+      { "id": "d", "textJp": "塩辛かったら", "isCorrect": false }
+    ],
+    "explanationEs": "塩辛すぎ: demasiado salado, quitando い y agregando すぎ.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0218",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-44",
+    "promptEs": "Elige la forma correcta para 'fácil de usar'.",
+    "questionJp": "この道具[どうぐ]は{{1}}です。",
+    "options": [
+      { "id": "a", "textJp": "使いやすい", "isCorrect": true },
+      { "id": "b", "textJp": "使いにくい", "isCorrect": false },
+      { "id": "c", "textJp": "使いすぎ", "isCorrect": false },
+      { "id": "d", "textJp": "使って", "isCorrect": false }
+    ],
+    "explanationEs": "使いやすい: fácil de usar, raíz ます + やすい.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0219",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-44",
+    "promptEs": "Elige la forma correcta para 'difícil de pronunciar'.",
+    "questionJp": "この言葉[ことば]は{{1}}です。",
+    "options": [
+      { "id": "a", "textJp": "発音しにくい", "isCorrect": true },
+      { "id": "b", "textJp": "発音しやすい", "isCorrect": false },
+      { "id": "c", "textJp": "発音しすぎ", "isCorrect": false },
+      { "id": "d", "textJp": "発音して", "isCorrect": false }
+    ],
+    "explanationEs": "発音しにくい: difícil de pronunciar, raíz ます + にくい.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0220",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-44",
+    "promptEs": "Elige la palabra correcta.",
+    "questionJp": "{{1}}道[みち]は危[あぶ]ないです。",
+    "options": [
+      { "id": "a", "textJp": "滑りやすい", "isCorrect": true },
+      { "id": "b", "textJp": "使いやすい", "isCorrect": false },
+      { "id": "c", "textJp": "読みやすい", "isCorrect": false },
+      { "id": "d", "textJp": "発音しやすい", "isCorrect": false }
+    ],
+    "explanationEs": "滑りやすい: fácil de resbalar (resbaloso).",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0221",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-44",
+    "promptEs": "Completa con すぎます.",
+    "sentenceTemplate": "このケーキは{{1}}です。",
+    "translationEs": "Este pastel está demasiado dulce.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["甘すぎ"],
+        "options": ["甘すぎ", "甘い", "甘くて", "甘かったら"]
+      }
+    ],
+    "explanationEs": "甘い→甘すぎ: adjetivo sin い + すぎ.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0222",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-44",
+    "promptEs": "Completa con やすい.",
+    "sentenceTemplate": "先生[せんせい]の字[じ]は{{1}}です。",
+    "translationEs": "La letra del profesor es fácil de leer.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["読みやすい"],
+        "options": ["読みやすい", "読みにくい", "読みすぎ", "読んで"]
+      }
+    ],
+    "explanationEs": "読む→読みやすい: raíz ます + やすい.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0223",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-44",
+    "promptEs": "Completa con にくい.",
+    "sentenceTemplate": "これは{{1}}です。",
+    "translationEs": "Esto es difícil de memorizar.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["覚えにくい"],
+        "options": ["覚えにくい", "覚えやすい", "覚えすぎ", "覚えて"]
+      }
+    ],
+    "explanationEs": "覚える→覚えにくい: raíz ます + にくい.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0224",
+    "type": "word-order",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-44",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["この道具は", "使い", "やすいです"],
+    "correctOrder": ["この道具は", "使い", "やすいです"],
+    "translationEs": "Esta herramienta es fácil de usar.",
+    "explanationEs": "使う→使いやすいです: raíz ます + やすい.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0225",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-44",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "塩辛い", "right": "salado" },
+      { "id": "p2", "left": "甘い", "right": "dulce" },
+      { "id": "p3", "left": "道具", "right": "herramienta" },
+      { "id": "p4", "left": "滑る", "right": "resbalar" },
+      { "id": "p5", "left": "間違える", "right": "equivocarse" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0226",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "kanji",
+    "lessonId": "n4-lesson-44",
+    "promptEs": "Une cada kanji con su lectura on'yomi.",
+    "pairs": [
+      { "id": "p1", "left": "塩", "right": "えん" },
+      { "id": "p2", "left": "甘", "right": "かん" },
+      { "id": "p3", "left": "字", "right": "じ" },
+      { "id": "p4", "left": "滑", "right": "かつ" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0227",
+    "type": "speaking",
+    "jlptLevel": "N4",
+    "skill": "speaking",
+    "lessonId": "n4-lesson-44",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "このスープは塩辛[しおから]すぎます。",
+    "translationEs": "Esta sopa está demasiado salada.",
+    "explanationEs": "Practica la fluidez de すぎます。",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0228",
+    "type": "listening",
+    "jlptLevel": "N4",
+    "skill": "listening",
+    "lessonId": "n4-lesson-44",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "この道具[どうぐ]は使[つか]いやすいです。",
+    "targetReading": "このどうぐはつかいやすいです。",
+    "translationEs": "Esta herramienta es fácil de usar.",
+    "explanationEs": "やすい: fácil de hacer algo.",
+    "difficulty": 1
   }
 ]

@@ -718,5 +718,45 @@
       "n4-ex-0215",
       "n4-ex-0216"
     ]
+  },
+  {
+    "id": "n4-lesson-44",
+    "jlptLevel": "N4",
+    "order": 44,
+    "title": "Lección 44 — Demasiado, fácil y difícil (〜すぎます・〜やすい・〜にくい)",
+    "description": "Expresar exceso con 〜すぎます, y lo fácil o difícil que es hacer algo con 〜やすい y 〜にくい, con vocabulario de comida y objetos cotidianos, basado en Minna no Nihongo Lección 44 (Libro 2).",
+    "kind": "lesson",
+    "vocabIds": [
+      "n4-voc-0163",
+      "n4-voc-0164",
+      "n4-voc-0165",
+      "n4-voc-0166",
+      "n4-voc-0167",
+      "n4-voc-0168",
+      "n4-voc-0169",
+      "n4-voc-0170",
+      "n4-voc-0171"
+    ],
+    "kanjiIds": [
+      "n4-kanji-0075",
+      "n4-kanji-0076",
+      "n4-kanji-0077",
+      "n4-kanji-0078"
+    ],
+    "grammarIds": ["n4-gram-0055", "n4-gram-0056", "n4-gram-0057"],
+    "exerciseIds": [
+      "n4-ex-0217",
+      "n4-ex-0218",
+      "n4-ex-0219",
+      "n4-ex-0220",
+      "n4-ex-0221",
+      "n4-ex-0222",
+      "n4-ex-0223",
+      "n4-ex-0224",
+      "n4-ex-0225",
+      "n4-ex-0226",
+      "n4-ex-0227",
+      "n4-ex-0228"
+    ]
   }
 ]

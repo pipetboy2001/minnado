@@ -1130,5 +1130,70 @@
         "es": "El cielo se ha ido nublando."
       }
     ]
+  },
+  {
+    "id": "n4-gram-0055",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "〜すぎます (demasiado)",
+    "pattern": "Vます (raíz) ／ Adjetivo (sin い／な) + すぎます。",
+    "explanationEs": "すぎます se agrega a la raíz de un verbo o a un adjetivo (sin su terminación) para decir que algo pasa 'demasiado'. Casi siempre tiene un matiz negativo, de exceso no deseado.",
+    "structureNotes": "食べる→食べすぎます ｜ 甘い→甘すぎます ｜ 静か(な)→静かすぎます",
+    "examples": [
+      {
+        "jp": "このスープは塩辛すぎます。",
+        "reading": "このすーぷはしおからすぎます。",
+        "es": "Esta sopa está demasiado salada."
+      },
+      {
+        "jp": "このケーキは甘すぎます。",
+        "reading": "このけーきはあますぎます。",
+        "es": "Este pastel está demasiado dulce."
+      }
+    ]
+  },
+  {
+    "id": "n4-gram-0056",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "〜やすい (fácil de...)",
+    "pattern": "Vます (raíz) + やすいです。",
+    "explanationEs": "やすい se agrega a la raíz ます de un verbo para decir que es fácil de hacer. Se conjuga como un adjetivo-い normal (やすかった, やすくない, etc.).",
+    "structureNotes": "読む→読みやすい ｜ 使う→使いやすい",
+    "examples": [
+      {
+        "jp": "先生の字は読みやすいです。",
+        "reading": "せんせいのじはよみやすいです。",
+        "es": "La letra del profesor es fácil de leer."
+      },
+      {
+        "jp": "この道具は使いやすいです。",
+        "reading": "このどうぐはつかいやすいです。",
+        "es": "Esta herramienta es fácil de usar."
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0055"]
+  },
+  {
+    "id": "n4-gram-0057",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "〜にくい (difícil de...)",
+    "pattern": "Vます (raíz) + にくいです。",
+    "explanationEs": "にくい es el opuesto de やすい: se agrega a la raíz ます de un verbo para decir que es difícil de hacer. También se conjuga como un adjetivo-い.",
+    "structureNotes": "発音する→発音しにくい ｜ 覚える→覚えにくい",
+    "examples": [
+      {
+        "jp": "この言葉は発音しにくいです。",
+        "reading": "このことばははつおんしにくいです。",
+        "es": "Esta palabra es difícil de pronunciar."
+      },
+      {
+        "jp": "これは覚えにくいです。",
+        "reading": "これはおぼえにくいです。",
+        "es": "Esto es difícil de memorizar."
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0056"]
   }
 ]

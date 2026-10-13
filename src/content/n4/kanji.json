@@ -1069,5 +1069,55 @@
     "exampleWords": [
       { "word": "増える", "reading": "ふえる", "meaningEs": "aumentar" }
     ]
+  },
+  {
+    "id": "n4-kanji-0075",
+    "character": "塩",
+    "jlptLevel": "N4",
+    "strokeCount": 13,
+    "onyomi": ["エン"],
+    "kunyomi": ["しお"],
+    "meaningEs": "sal",
+    "radicals": ["土"],
+    "exampleWords": [{ "word": "塩", "reading": "しお", "meaningEs": "sal" }]
+  },
+  {
+    "id": "n4-kanji-0076",
+    "character": "甘",
+    "jlptLevel": "N4",
+    "strokeCount": 5,
+    "onyomi": ["カン"],
+    "kunyomi": ["あま-い"],
+    "meaningEs": "dulce",
+    "radicals": ["甘"],
+    "exampleWords": [
+      { "word": "甘い", "reading": "あまい", "meaningEs": "dulce" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0077",
+    "character": "字",
+    "jlptLevel": "N4",
+    "strokeCount": 6,
+    "onyomi": ["ジ"],
+    "kunyomi": [],
+    "meaningEs": "letra, carácter",
+    "radicals": ["子"],
+    "exampleWords": [
+      { "word": "字", "reading": "じ", "meaningEs": "letra, caligrafía" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0078",
+    "character": "滑",
+    "jlptLevel": "N4",
+    "strokeCount": 13,
+    "onyomi": ["カツ"],
+    "kunyomi": ["すべ-る"],
+    "meaningEs": "resbalar, deslizar",
+    "radicals": ["氵"],
+    "exampleWords": [
+      { "word": "滑る", "reading": "すべる", "meaningEs": "resbalar" }
+    ]
   }
 ]
