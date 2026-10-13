@@ -9,8 +9,22 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      DATABASE_URL: "postgresql://user:password@localhost:5432/db"
+      DATABASE_URL: "postgresql://postgres:postgres@localhost:5432/minnado_ci"
       AUTH_SECRET: "ci-placeholder-secret"
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: minnado_ci
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd="pg_isready -U postgres"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=5
     steps:
       - uses: actions/checkout@v4
 
@@ -19,17 +33,49 @@ jobs:
           node-version: 20
           cache: npm
 
+      - name: Cache Next.js build
+        uses: actions/cache@v4
+        with:
+          path: ${{ github.workspace }}/.next/cache
+          key: ${{ runner.os }}-nextjs-${{ hashFiles('package-lock.json') }}-${{ hashFiles('**/*.[jt]s', '**/*.[jt]sx') }}
+          restore-keys: |
+            ${{ runner.os }}-nextjs-${{ hashFiles('package-lock.json') }}-
+
       - name: Install dependencies
         run: npm ci
+
+      - name: Generate Prisma client
+        run: npx prisma generate
+
+      - name: Validate Prisma schema
+        run: npx prisma validate
+
+      - name: Apply migrations
+        run: npx prisma migrate deploy
+
+      - name: Check for schema/migration drift
+        run: npx prisma migrate diff --from-config-datasource --to-schema=prisma/schema.prisma --exit-code
 
       - name: Lint
         run: npm run lint
 
+      - name: Format check
+        run: npm run format:check
+
       - name: Type check
         run: npm run typecheck
 
-      - name: Test
-        run: npm test
+      - name: Test (with coverage)
+        run: npm run test:coverage
+
+      - name: Upload coverage report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-report
+          path: coverage/
+          retention-days: 14
+          if-no-files-found: ignore
 
       - name: Build
         run: npm run build
