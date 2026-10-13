@@ -962,9 +962,51 @@
     ]
   },
   {
-    "id": "n5-lesson-03",
+    "id": "n5-lesson-24",
     "jlptLevel": "N5",
     "order": 23,
+    "title": "Lección 23 — Condicional (〜たら)",
+    "description": "Formar condiciones con 〜たら (verbos, adjetivos-い y sustantivos+あったら), con vocabulario de favores y ayuda mutua, basado en Minna no Nihongo Lección 23.",
+    "kind": "lesson",
+    "vocabIds": [
+      "n5-voc-0202",
+      "n5-voc-0203",
+      "n5-voc-0204",
+      "n5-voc-0205",
+      "n5-voc-0206",
+      "n5-voc-0207"
+    ],
+    "kanjiIds": [
+      "n5-kanji-0082",
+      "n5-kanji-0083",
+      "n5-kanji-0084",
+      "n5-kanji-0085"
+    ],
+    "grammarIds": [
+      "n5-gram-0093",
+      "n5-gram-0094",
+      "n5-gram-0095",
+      "n5-gram-0096"
+    ],
+    "exerciseIds": [
+      "n5-ex-0288",
+      "n5-ex-0289",
+      "n5-ex-0290",
+      "n5-ex-0291",
+      "n5-ex-0292",
+      "n5-ex-0293",
+      "n5-ex-0294",
+      "n5-ex-0295",
+      "n5-ex-0296",
+      "n5-ex-0297",
+      "n5-ex-0298",
+      "n5-ex-0299"
+    ]
+  },
+  {
+    "id": "n5-lesson-03",
+    "jlptLevel": "N5",
+    "order": 24,
     "title": "Repaso — Partículas, Adjetivos y Formas Verbales",
     "description": "Módulo de repaso transversal: partícula correcta, adjetivos い/な, y conjugación verbal (forma ます y て) a través de varias lecciones.",
     "kind": "review",

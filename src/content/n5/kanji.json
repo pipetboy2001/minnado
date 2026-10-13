@@ -1264,5 +1264,69 @@
       { "word": "送る", "reading": "おくる", "meaningEs": "enviar, acompañar" },
       { "word": "放送", "reading": "ほうそう", "meaningEs": "transmisión" }
     ]
+  },
+  {
+    "id": "n5-kanji-0082",
+    "character": "金",
+    "jlptLevel": "N5",
+    "strokeCount": 8,
+    "onyomi": ["キン", "コン"],
+    "kunyomi": ["かね"],
+    "meaningEs": "dinero, oro",
+    "radicals": ["金"],
+    "exampleWords": [
+      { "word": "お金", "reading": "おかね", "meaningEs": "dinero" },
+      { "word": "金曜日", "reading": "きんようび", "meaningEs": "viernes" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0083",
+    "character": "暇",
+    "jlptLevel": "N5",
+    "strokeCount": 13,
+    "onyomi": ["カ"],
+    "kunyomi": ["ひま"],
+    "meaningEs": "tiempo libre",
+    "radicals": ["日"],
+    "exampleWords": [
+      {
+        "word": "暇",
+        "reading": "ひま",
+        "meaningEs": "tiempo libre, desocupado"
+      },
+      { "word": "余暇", "reading": "よか", "meaningEs": "ocio" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0084",
+    "character": "連",
+    "jlptLevel": "N5",
+    "strokeCount": 10,
+    "onyomi": ["レン"],
+    "kunyomi": ["つら-なる"],
+    "meaningEs": "conectar, serie",
+    "radicals": ["辶"],
+    "exampleWords": [
+      { "word": "連絡", "reading": "れんらく", "meaningEs": "contacto, aviso" },
+      {
+        "word": "連休",
+        "reading": "れんきゅう",
+        "meaningEs": "días festivos consecutivos"
+      }
+    ]
+  },
+  {
+    "id": "n5-kanji-0085",
+    "character": "絡",
+    "jlptLevel": "N5",
+    "strokeCount": 12,
+    "onyomi": ["ラク"],
+    "kunyomi": ["から-む"],
+    "meaningEs": "enredar, contactar",
+    "radicals": ["糸"],
+    "exampleWords": [
+      { "word": "連絡", "reading": "れんらく", "meaningEs": "contacto, aviso" },
+      { "word": "絡む", "reading": "からむ", "meaningEs": "enredarse" }
+    ]
   }
 ]

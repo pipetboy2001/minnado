@@ -4625,5 +4625,198 @@
     "translationEs": "Voy al parque a pasear.",
     "explanationEs": "に marca el propósito de un verbo de movimiento.",
     "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0288",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-24",
+    "promptEs": "Si llueve, no voy.",
+    "questionJp": "雨[あめ]が降[ふ]っ{{1}}、行[い]きません。",
+    "options": [
+      { "id": "a", "textJp": "たら", "isCorrect": true },
+      { "id": "b", "textJp": "ながら", "isCorrect": false },
+      { "id": "c", "textJp": "前に", "isCorrect": false },
+      { "id": "d", "textJp": "後で", "isCorrect": false }
+    ],
+    "explanationEs": "たら se agrega a la forma た del verbo para formar una condición.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0289",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-24",
+    "promptEs": "Cuando volví a casa, no había nadie.",
+    "questionJp": "家[いえ]に帰[かえ]っ{{1}}、誰[だれ]もいませんでした。",
+    "options": [
+      { "id": "a", "textJp": "たら", "isCorrect": true },
+      { "id": "b", "textJp": "ように", "isCorrect": false },
+      { "id": "c", "textJp": "すぎ", "isCorrect": false },
+      { "id": "d", "textJp": "ので", "isCorrect": false }
+    ],
+    "explanationEs": "たら también describe algo que se descubre justo después de completar una acción.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0290",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-24",
+    "promptEs": "Si tuviera dinero, viajaría.",
+    "sentenceTemplate": "{{1}}があったら、旅行[りょこう]します。",
+    "translationEs": "Si tuviera dinero, viajaría.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["お金", "おかね"],
+        "options": ["お金", "暇", "都合", "連絡"]
+      }
+    ],
+    "explanationEs": "お金があったら usa あったら, la forma たら de あります.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0291",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-24",
+    "promptEs": "Si tienes problemas, contáctame por favor.",
+    "sentenceTemplate": "困[こま]ったら、{{1}}してください。",
+    "translationEs": "Si tienes problemas, contáctame por favor.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["連絡", "れんらく"],
+        "options": ["連絡", "手伝い", "準備", "散歩"]
+      }
+    ],
+    "explanationEs": "連絡してください significa 'contáctame, por favor'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0292",
+    "type": "word-order",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-24",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["行きません", "雨が", "降ったら"],
+    "correctOrder": ["雨が", "降ったら", "行きません"],
+    "translationEs": "Si llueve, no voy.",
+    "explanationEs": "Orden: [Condición]たら + [Oración principal]。",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0293",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-24",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "お金", "right": "dinero" },
+      { "id": "p2", "left": "暇", "right": "tiempo libre, desocupado" },
+      { "id": "p3", "left": "都合", "right": "conveniencia, circunstancia" },
+      { "id": "p4", "left": "連絡します", "right": "contactar, avisar" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0294",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-24",
+    "promptEs": "¿Cómo se lee 連絡します (contactar)?",
+    "questionJp": "連絡します",
+    "options": [
+      { "id": "a", "textJp": "れんらくします", "isCorrect": true },
+      { "id": "b", "textJp": "れんらくでします", "isCorrect": false },
+      { "id": "c", "textJp": "つらぎします", "isCorrect": false },
+      { "id": "d", "textJp": "れんごします", "isCorrect": false }
+    ],
+    "explanationEs": "連絡 se lee れんらく (contacto, aviso).",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0295",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-24",
+    "promptEs": "Une cada kanji con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "金", "right": "dinero, oro" },
+      { "id": "p2", "left": "暇", "right": "tiempo libre" },
+      { "id": "p3", "left": "連", "right": "conectar, serie" },
+      { "id": "p4", "left": "絡", "right": "enredar, contactar" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0296",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-24",
+    "promptEs": "Ayudo a la persona que tiene problemas.",
+    "questionJp": "困[こま]っている人[ひと]を{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "手伝います", "isCorrect": true },
+      { "id": "b", "textJp": "連絡します", "isCorrect": false },
+      { "id": "c", "textJp": "困ります", "isCorrect": false },
+      { "id": "d", "textJp": "送ります", "isCorrect": false }
+    ],
+    "explanationEs": "手伝います significa 'ayudar'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0297",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-24",
+    "promptEs": "Si tienes tiempo libre, veamos una película.",
+    "sentenceTemplate": "{{1}}だったら、映画[えいが]を見[み]ましょう。",
+    "translationEs": "Si tienes tiempo libre, veamos una película.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["暇", "ひま"],
+        "options": ["暇", "都合", "お金", "連絡"]
+      }
+    ],
+    "explanationEs": "Los adjetivos-な y sustantivos usan だったら para la condición.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0298",
+    "type": "speaking",
+    "jlptLevel": "N5",
+    "skill": "speaking",
+    "lessonId": "n5-lesson-24",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "困[こま]ったら、連絡[れんらく]してください。",
+    "translationEs": "Si tienes problemas, contáctame por favor.",
+    "explanationEs": "困る en forma たら + 連絡してください.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0299",
+    "type": "listening",
+    "jlptLevel": "N5",
+    "skill": "listening",
+    "lessonId": "n5-lesson-24",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "お金[かね]があったら、旅行[りょこう]します。",
+    "targetReading": "おかねがあったら、りょこうします。",
+    "translationEs": "Si tuviera dinero, viajaría.",
+    "explanationEs": "あったら es la forma たら de あります.",
+    "difficulty": 2
   }
 ]

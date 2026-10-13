@@ -1434,5 +1434,65 @@
         "es": "Acompaño a mi amigo hasta la estación."
       }
     ]
+  },
+  {
+    "id": "n5-gram-0093",
+    "jlptLevel": "N5",
+    "category": "verb-forms",
+    "title": "〜たら (condicional: si...)",
+    "pattern": "[Verbo-た]ら、[Oración]。",
+    "explanationEs": "たら se agrega a la forma た del verbo para formar una condición, como 'si...' en español.",
+    "examples": [
+      {
+        "jp": "雨が降ったら、行きません。",
+        "reading": "あめがふったら、いきません。",
+        "es": "Si llueve, no voy."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0094",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "〜たら (descubrimiento al hacer una acción)",
+    "pattern": "[Verbo-た]ら、[Resultado]。",
+    "explanationEs": "たら también se usa para describir algo que se descubre o sucede justo después de completar una acción, como 'cuando hice X, pasó Y'.",
+    "examples": [
+      {
+        "jp": "家に帰ったら、誰もいませんでした。",
+        "reading": "いえにかえったら、だれもいませんでした。",
+        "es": "Cuando volví a casa, no había nadie."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0095",
+    "jlptLevel": "N5",
+    "category": "adjectives-i",
+    "title": "〜かったら (condicional con adjetivo-い o sustantivo+ある)",
+    "pattern": "[Adjetivo-い (sin い)]かったら、[Oración]。／[Sustantivo]があったら、[Oración]。",
+    "explanationEs": "Para formar una condición con un adjetivo-い se usa かったら; con un sustantivo que existe o no, se usa あったら (forma たら de あります).",
+    "examples": [
+      {
+        "jp": "お金があったら、旅行します。",
+        "reading": "おかねがあったら、りょこうします。",
+        "es": "Si tuviera dinero, viajaría."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0096",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "困ったら、連絡してください (pedir ayuda condicional)",
+    "pattern": "困ったら、連絡してください。",
+    "explanationEs": "Expresión común para ofrecer ayuda: 困る (tener problemas) en forma たら + 連絡してください (contáctame, por favor).",
+    "examples": [
+      {
+        "jp": "困ったら、連絡してください。",
+        "reading": "こまったら、れんらくしてください。",
+        "es": "Si tienes problemas, contáctame por favor."
+      }
+    ]
   }
 ]

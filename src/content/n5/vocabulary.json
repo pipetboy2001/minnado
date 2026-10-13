@@ -2611,5 +2611,83 @@
     "exampleSentenceReading": "ともだちをえきまでおくります。",
     "exampleSentenceEs": "Acompaño a mi amigo hasta la estación.",
     "tags": ["acciones", "minna-no-nihongo-l22"]
+  },
+  {
+    "id": "n5-voc-0202",
+    "jlptLevel": "N5",
+    "word": "お金",
+    "reading": "おかね",
+    "romaji": "okane",
+    "meaningEs": "dinero",
+    "partOfSpeech": "noun",
+    "exampleSentenceJp": "お金があったら、旅行します。",
+    "exampleSentenceReading": "おかねがあったら、りょこうします。",
+    "exampleSentenceEs": "Si tuviera dinero, viajaría.",
+    "tags": ["vida-cotidiana", "minna-no-nihongo-l23"]
+  },
+  {
+    "id": "n5-voc-0203",
+    "jlptLevel": "N5",
+    "word": "暇",
+    "reading": "ひま",
+    "romaji": "hima",
+    "meaningEs": "tiempo libre, desocupado",
+    "partOfSpeech": "na-adjective",
+    "exampleSentenceJp": "暇だったら、映画を見ましょう。",
+    "exampleSentenceReading": "ひまだったら、えいがをみましょう。",
+    "exampleSentenceEs": "Si tienes tiempo libre, veamos una película.",
+    "tags": ["adjetivos", "minna-no-nihongo-l23"]
+  },
+  {
+    "id": "n5-voc-0204",
+    "jlptLevel": "N5",
+    "word": "都合",
+    "reading": "つごう",
+    "romaji": "tsugou",
+    "meaningEs": "conveniencia, circunstancia",
+    "partOfSpeech": "noun",
+    "exampleSentenceJp": "都合がよかったら、来てください。",
+    "exampleSentenceReading": "つごうがよかったら、きてください。",
+    "exampleSentenceEs": "Si te conviene, ven por favor.",
+    "tags": ["vida-cotidiana", "minna-no-nihongo-l23"]
+  },
+  {
+    "id": "n5-voc-0205",
+    "jlptLevel": "N5",
+    "word": "連絡します",
+    "reading": "れんらくします",
+    "romaji": "renraku shimasu",
+    "meaningEs": "contactar, avisar",
+    "partOfSpeech": "verb-irregular",
+    "exampleSentenceJp": "困ったら、連絡してください。",
+    "exampleSentenceReading": "こまったら、れんらくしてください。",
+    "exampleSentenceEs": "Si tienes problemas, contáctame por favor.",
+    "tags": ["comunicacion", "minna-no-nihongo-l23"]
+  },
+  {
+    "id": "n5-voc-0206",
+    "jlptLevel": "N5",
+    "word": "困ります",
+    "reading": "こまります",
+    "romaji": "komarimasu",
+    "meaningEs": "tener problemas, estar en aprietos",
+    "partOfSpeech": "verb-u",
+    "exampleSentenceJp": "困ったら、連絡してください。",
+    "exampleSentenceReading": "こまったら、れんらくしてください。",
+    "exampleSentenceEs": "Si tienes problemas, contáctame por favor.",
+    "tags": ["acciones", "minna-no-nihongo-l23"]
+  },
+  {
+    "id": "n5-voc-0207",
+    "jlptLevel": "N5",
+    "word": "手伝います",
+    "reading": "てつだいます",
+    "romaji": "tetsudaimasu",
+    "meaningEs": "ayudar",
+    "partOfSpeech": "verb-u",
+    "exampleSentenceJp": "困っている人を手伝います。",
+    "exampleSentenceReading": "こまっているひとをてつだいます。",
+    "exampleSentenceEs": "Ayudo a la persona que tiene problemas.",
+    "tags": ["acciones", "minna-no-nihongo-l23"]
   }
 ]
