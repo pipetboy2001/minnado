@@ -2156,5 +2156,204 @@
     "translationEs": "Llegué a poder hablar japonés.",
     "explanationEs": "ようになりました: cambio gradual en una capacidad.",
     "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0133",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-37",
+    "promptEs": "Elige la forma correcta en voz pasiva.",
+    "questionJp": "先生[せんせい]に{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "叱られました", "isCorrect": true },
+      { "id": "b", "textJp": "叱りました", "isCorrect": false },
+      { "id": "c", "textJp": "叱らせました", "isCorrect": false },
+      { "id": "d", "textJp": "叱って", "isCorrect": false }
+    ],
+    "explanationEs": "叱られました: voz pasiva, 'me regañó el profesor'.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0134",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-37",
+    "promptEs": "Elige la forma correcta (pasiva de inconveniencia).",
+    "questionJp": "電車[でんしゃ]で足[あし]を{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "踏まれました", "isCorrect": true },
+      { "id": "b", "textJp": "踏みました", "isCorrect": false },
+      { "id": "c", "textJp": "踏ませました", "isCorrect": false },
+      { "id": "d", "textJp": "踏んで", "isCorrect": false }
+    ],
+    "explanationEs": "踏まれました: pasiva de inconveniencia, 'me pisaron el pie'.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0135",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-37",
+    "promptEs": "Elige la partícula correcta.",
+    "questionJp": "国[くに]{{1}}習慣[しゅうかん]が違[ちが]います。",
+    "options": [
+      { "id": "a", "textJp": "によって", "isCorrect": true },
+      { "id": "b", "textJp": "にとって", "isCorrect": false },
+      { "id": "c", "textJp": "について", "isCorrect": false },
+      { "id": "d", "textJp": "に対して", "isCorrect": false }
+    ],
+    "explanationEs": "によって aquí significa 'según, dependiendo de'.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0136",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-37",
+    "promptEs": "Elige la forma correcta.",
+    "questionJp": "財布[さいふ]を{{1}}。警察[けいさつ]に電話[でんわ]しました。",
+    "options": [
+      { "id": "a", "textJp": "盗まれました", "isCorrect": true },
+      { "id": "b", "textJp": "盗みました", "isCorrect": false },
+      { "id": "c", "textJp": "盗んで", "isCorrect": false },
+      { "id": "d", "textJp": "盗ませました", "isCorrect": false }
+    ],
+    "explanationEs": "盗まれました: me robaron (voz pasiva).",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0137",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-37",
+    "promptEs": "Completa con la voz pasiva.",
+    "sentenceTemplate": "新[あたら]しい星[ほし]が{{1}}。",
+    "translationEs": "Se descubrió una nueva estrella.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["発見されました"],
+        "options": [
+          "発見されました",
+          "発見しました",
+          "発見させました",
+          "発見して"
+        ]
+      }
+    ],
+    "explanationEs": "発見されました: voz pasiva de 発見する.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0138",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-37",
+    "promptEs": "Completa con la pasiva de inconveniencia.",
+    "sentenceTemplate": "赤[あか]ちゃんに{{1}}、眠[ねむ]れませんでした。",
+    "translationEs": "No pude dormir porque el bebé lloró.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["泣かれて"],
+        "options": ["泣かれて", "泣いて", "泣かせて", "泣きて"]
+      }
+    ],
+    "explanationEs": "泣かれて: pasiva de inconveniencia con un verbo intransitivo.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0139",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-37",
+    "promptEs": "Completa con によって.",
+    "sentenceTemplate": "このビルは有名[ゆうめい]な建築家[けんちくか]{{1}}建[た]てられました。",
+    "translationEs": "Este edificio fue construido por un arquitecto famoso.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["によって"],
+        "options": ["によって", "について", "にとって", "に対して"]
+      }
+    ],
+    "explanationEs": "によって marca el agente en una pasiva formal (obras creadas).",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0140",
+    "type": "word-order",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-37",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["先生に", "褒められて", "うれしかったです"],
+    "correctOrder": ["先生に", "褒められて", "うれしかったです"],
+    "translationEs": "Me alegré de que el profesor me elogiara.",
+    "explanationEs": "褒められて: forma て de la pasiva, conectando con el sentimiento resultante.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0141",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-37",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "叱る", "right": "regañar" },
+      { "id": "p2", "left": "褒める", "right": "elogiar" },
+      { "id": "p3", "left": "盗む", "right": "robar" },
+      { "id": "p4", "left": "違う", "right": "ser diferente, diferir" },
+      { "id": "p5", "left": "場合", "right": "caso, situación" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0142",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "kanji",
+    "lessonId": "n4-lesson-37",
+    "promptEs": "Une cada kanji con su lectura on'yomi.",
+    "pairs": [
+      { "id": "p1", "left": "泣", "right": "きゅう" },
+      { "id": "p2", "left": "叱", "right": "しつ" },
+      { "id": "p3", "left": "盗", "right": "とう" },
+      { "id": "p4", "left": "違", "right": "い" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0143",
+    "type": "speaking",
+    "jlptLevel": "N4",
+    "skill": "speaking",
+    "lessonId": "n4-lesson-37",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "電車[でんしゃ]で足[あし]を踏[ふ]まれました。",
+    "translationEs": "Me pisaron el pie en el tren.",
+    "explanationEs": "Practica la pasiva de inconveniencia.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0144",
+    "type": "listening",
+    "jlptLevel": "N4",
+    "skill": "listening",
+    "lessonId": "n4-lesson-37",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "国[くに]によって習慣[しゅうかん]が違[ちが]います。",
+    "targetReading": "くによってしゅうかんがちがいます。",
+    "translationEs": "Las costumbres difieren según el país.",
+    "explanationEs": "によって: según, dependiendo de.",
+    "difficulty": 2
   }
 ]

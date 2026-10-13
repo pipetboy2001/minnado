@@ -698,5 +698,69 @@
       }
     ],
     "relatedGrammarIds": ["n4-gram-0031", "n4-gram-0032"]
+  },
+  {
+    "id": "n4-gram-0034",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "受身形 (voz pasiva)",
+    "pattern": "Godan: -u → -areru ｜ Ichidan: -る → -られる ｜ する→される、来る→来られる",
+    "explanationEs": "La voz pasiva pone el foco en quien recibe la acción, no en quien la hace. El agente (quien hace la acción) se marca con に. Los verbos godan cambian la -u final por -areru; los ichidan cambian -る por -られる — igual que la forma potencial, hay que distinguir por contexto.",
+    "structureNotes": "叱る → 叱られる ｜ 褒める → 褒められる",
+    "examples": [
+      {
+        "jp": "先生に叱られました。",
+        "reading": "せんせいにしかられました。",
+        "es": "Me regañó el profesor."
+      },
+      {
+        "jp": "先生に褒められました。",
+        "reading": "せんせいにほめられました。",
+        "es": "El profesor me elogió."
+      }
+    ]
+  },
+  {
+    "id": "n4-gram-0035",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "迷惑の受身 (pasiva de inconveniencia)",
+    "pattern": "[Persona] に [Vられる] (también con verbos intransitivos)。",
+    "explanationEs": "A diferencia de muchos idiomas, el japonés puede usar la voz pasiva incluso con verbos intransitivos para expresar que algo que otra persona hizo te afectó o molestó negativamente, aunque no te haya tocado directamente. Es la 'pasiva de perjuicio'.",
+    "structureNotes": "赤ちゃんに泣かれて、眠れませんでした (el bebé lloró y eso me afectó: no pude dormir)",
+    "examples": [
+      {
+        "jp": "電車で足を踏まれました。",
+        "reading": "でんしゃであしをふまれました。",
+        "es": "Me pisaron el pie en el tren."
+      },
+      {
+        "jp": "赤ちゃんに泣かれて、眠れませんでした。",
+        "reading": "あかちゃんになかれて、ねむれませんでした。",
+        "es": "No pude dormir porque el bebé lloró."
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0034"]
+  },
+  {
+    "id": "n4-gram-0036",
+    "jlptLevel": "N4",
+    "category": "particles",
+    "title": "〜によって (según, por medio de; agente de una acción formal)",
+    "pattern": "[Sustantivo] + によって、[Resultado]。",
+    "explanationEs": "によって tiene dos usos principales: (1) marca el agente en oraciones pasivas formales, especialmente sobre obras creadas (libros, edificios, descubrimientos); (2) significa 'según, dependiendo de', mostrando que algo varía según el caso.",
+    "structureNotes": "このビルは有名な建築家によって建てられました (fue construido por un arquitecto) ｜ 国によって習慣が違います (según el país)",
+    "examples": [
+      {
+        "jp": "このビルは有名な建築家によって建てられました。",
+        "reading": "このびるはゆうめいなけんちくかによってたてられました。",
+        "es": "Este edificio fue construido por un arquitecto famoso."
+      },
+      {
+        "jp": "国によって習慣が違います。",
+        "reading": "くによってしゅうかんがちがいます。",
+        "es": "Las costumbres difieren según el país."
+      }
+    ]
   }
 ]

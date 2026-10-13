@@ -438,5 +438,45 @@
       "n4-ex-0131",
       "n4-ex-0132"
     ]
+  },
+  {
+    "id": "n4-lesson-37",
+    "jlptLevel": "N4",
+    "order": 37,
+    "title": "Lección 37 — Voz pasiva (受身形・迷惑の受身・〜によって)",
+    "description": "La voz pasiva (受身形), la pasiva de inconveniencia (迷惑の受身) y 〜によって para marcar un agente formal o 'según', con vocabulario de situaciones cotidianas, basado en Minna no Nihongo Lección 37 (Libro 2).",
+    "kind": "lesson",
+    "vocabIds": [
+      "n4-voc-0100",
+      "n4-voc-0101",
+      "n4-voc-0102",
+      "n4-voc-0103",
+      "n4-voc-0104",
+      "n4-voc-0105",
+      "n4-voc-0106",
+      "n4-voc-0107",
+      "n4-voc-0108"
+    ],
+    "kanjiIds": [
+      "n4-kanji-0047",
+      "n4-kanji-0048",
+      "n4-kanji-0049",
+      "n4-kanji-0050"
+    ],
+    "grammarIds": ["n4-gram-0034", "n4-gram-0035", "n4-gram-0036"],
+    "exerciseIds": [
+      "n4-ex-0133",
+      "n4-ex-0134",
+      "n4-ex-0135",
+      "n4-ex-0136",
+      "n4-ex-0137",
+      "n4-ex-0138",
+      "n4-ex-0139",
+      "n4-ex-0140",
+      "n4-ex-0141",
+      "n4-ex-0142",
+      "n4-ex-0143",
+      "n4-ex-0144"
+    ]
   }
 ]

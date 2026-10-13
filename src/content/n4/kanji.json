@@ -672,5 +672,57 @@
     "exampleWords": [
       { "word": "走る", "reading": "はしる", "meaningEs": "correr" }
     ]
+  },
+  {
+    "id": "n4-kanji-0047",
+    "character": "泣",
+    "jlptLevel": "N4",
+    "strokeCount": 8,
+    "onyomi": ["キュウ"],
+    "kunyomi": ["な-く"],
+    "meaningEs": "llorar",
+    "radicals": ["氵"],
+    "exampleWords": [
+      { "word": "泣く", "reading": "なく", "meaningEs": "llorar" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0048",
+    "character": "叱",
+    "jlptLevel": "N4",
+    "strokeCount": 5,
+    "onyomi": ["シツ"],
+    "kunyomi": ["しか-る"],
+    "meaningEs": "regañar",
+    "radicals": ["口"],
+    "exampleWords": [
+      { "word": "叱る", "reading": "しかる", "meaningEs": "regañar" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0049",
+    "character": "盗",
+    "jlptLevel": "N4",
+    "strokeCount": 11,
+    "onyomi": ["トウ"],
+    "kunyomi": ["ぬす-む"],
+    "meaningEs": "robar",
+    "radicals": ["皿"],
+    "exampleWords": [
+      { "word": "盗む", "reading": "ぬすむ", "meaningEs": "robar" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0050",
+    "character": "違",
+    "jlptLevel": "N4",
+    "strokeCount": 13,
+    "onyomi": ["イ"],
+    "kunyomi": ["ちが-う"],
+    "meaningEs": "diferir, equivocarse",
+    "radicals": ["辶"],
+    "exampleWords": [
+      { "word": "違う", "reading": "ちがう", "meaningEs": "ser diferente" }
+    ]
   }
 ]
