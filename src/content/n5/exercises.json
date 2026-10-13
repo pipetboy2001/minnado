@@ -2499,5 +2499,198 @@
     "translationEs": "Vienen dos amigos.",
     "explanationEs": "二人 (ふたり) es una lectura irregular del contador de personas.",
     "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0156",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-13",
+    "promptEs": "Yo puedo nadar. Elige la palabra que convierte el verbo en sustantivo.",
+    "questionJp": "私[わたし]は泳[およ]ぐ{{1}}できます。",
+    "options": [
+      { "id": "a", "textJp": "こと", "isCorrect": true },
+      { "id": "b", "textJp": "もの", "isCorrect": false },
+      { "id": "c", "textJp": "とき", "isCorrect": false },
+      { "id": "d", "textJp": "の", "isCorrect": false }
+    ],
+    "explanationEs": "こと convierte el verbo en forma diccionario en un sustantivo.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0157",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-13",
+    "promptEs": "El señor Tanaka puede cantar.",
+    "questionJp": "田中[たなか]さんは歌[うた]う{{1}}ができます。",
+    "options": [
+      { "id": "a", "textJp": "こと", "isCorrect": true },
+      { "id": "b", "textJp": "もの", "isCorrect": false },
+      { "id": "c", "textJp": "ところ", "isCorrect": false },
+      { "id": "d", "textJp": "とき", "isCorrect": false }
+    ],
+    "explanationEs": "〜ことができます expresa la capacidad de hacer algo.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0158",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-13",
+    "promptEs": "Estudias durante dos horas.",
+    "sentenceTemplate": "二[に]{{1}}、勉強[べんきょう]します。",
+    "translationEs": "Estudio durante dos horas.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["時間", "じかん"],
+        "options": ["時間", "時", "分", "人"]
+      }
+    ],
+    "explanationEs": "時間 indica duración en horas, a diferencia de 時 que indica la hora del reloj.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0159",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-13",
+    "promptEs": "Tu afición es el piano.",
+    "sentenceTemplate": "趣味[しゅみ]は{{1}}です。",
+    "translationEs": "Mi afición es el piano.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["ピアノ"],
+        "options": ["ピアノ", "勉強", "旅行", "宿題"]
+      }
+    ],
+    "explanationEs": "趣味は〜です dice cuál es la afición de alguien.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0160",
+    "type": "word-order",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-13",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["できます", "ことが", "私は", "泳ぐ"],
+    "correctOrder": ["私は", "泳ぐ", "ことが", "できます"],
+    "translationEs": "Yo puedo nadar.",
+    "explanationEs": "Orden: 私は + Verbo-diccionario + ことが + できます。",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0161",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-13",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "泳ぎます", "right": "nadar" },
+      { "id": "p2", "left": "歌います", "right": "cantar" },
+      { "id": "p3", "left": "運転", "right": "conducir" },
+      { "id": "p4", "left": "できます", "right": "poder, ser capaz de" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0162",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-13",
+    "promptEs": "¿Cómo se lee 歌います (cantar)?",
+    "questionJp": "歌います",
+    "options": [
+      { "id": "a", "textJp": "うたいます", "isCorrect": true },
+      { "id": "b", "textJp": "かいます", "isCorrect": false },
+      { "id": "c", "textJp": "ききます", "isCorrect": false },
+      { "id": "d", "textJp": "およぎます", "isCorrect": false }
+    ],
+    "explanationEs": "歌う se lee うたう; en forma ます es うたいます.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0163",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-13",
+    "promptEs": "Une cada kanji con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "泳", "right": "nadar" },
+      { "id": "p2", "left": "歌", "right": "canción, cantar" },
+      { "id": "p3", "left": "転", "right": "rodar, girar" },
+      { "id": "p4", "left": "間", "right": "intervalo, entre, durante" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0164",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-13",
+    "promptEs": "No entiendes japonés PARA NADA. Elige el adverbio correcto.",
+    "questionJp": "日本語[にほんご]が{{1}}分[わ]かりません。",
+    "options": [
+      { "id": "a", "textJp": "全然", "isCorrect": true },
+      { "id": "b", "textJp": "とても", "isCorrect": false },
+      { "id": "c", "textJp": "あまり", "isCorrect": false },
+      { "id": "d", "textJp": "もう", "isCorrect": false }
+    ],
+    "explanationEs": "全然 intensifica una negación, como 'para nada'.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0165",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-13",
+    "promptEs": "Tocas el piano hábilmente.",
+    "sentenceTemplate": "ピアノが{{1}}です。",
+    "translationEs": "Toca el piano hábilmente.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["上手", "じょうず"],
+        "options": ["上手", "下手", "全然", "とても"]
+      }
+    ],
+    "explanationEs": "上手 significa 'hábil, diestro'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0166",
+    "type": "speaking",
+    "jlptLevel": "N5",
+    "skill": "speaking",
+    "lessonId": "n5-lesson-13",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "私[わたし]は泳[およ]ぐことができます。",
+    "translationEs": "Yo puedo nadar.",
+    "explanationEs": "〜ことができます expresa la capacidad de hacer algo.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0167",
+    "type": "listening",
+    "jlptLevel": "N5",
+    "skill": "listening",
+    "lessonId": "n5-lesson-13",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "趣味[しゅみ]はピアノです。",
+    "targetReading": "しゅみはピアノです。",
+    "translationEs": "Mi afición es el piano.",
+    "explanationEs": "趣味は〜です dice cuál es la afición de alguien.",
+    "difficulty": 1
   }
 ]

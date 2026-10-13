@@ -630,5 +630,61 @@
       { "word": "部屋", "reading": "へや", "meaningEs": "habitación" },
       { "word": "一部", "reading": "いちぶ", "meaningEs": "una parte" }
     ]
+  },
+  {
+    "id": "n5-kanji-0039",
+    "character": "泳",
+    "jlptLevel": "N5",
+    "strokeCount": 8,
+    "onyomi": ["エイ"],
+    "kunyomi": ["およ-ぐ"],
+    "meaningEs": "nadar",
+    "radicals": ["水"],
+    "exampleWords": [
+      { "word": "水泳", "reading": "すいえい", "meaningEs": "natación" },
+      { "word": "泳ぐ", "reading": "およぐ", "meaningEs": "nadar" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0040",
+    "character": "歌",
+    "jlptLevel": "N5",
+    "strokeCount": 14,
+    "onyomi": ["カ"],
+    "kunyomi": ["うた", "うた-う"],
+    "meaningEs": "canción, cantar",
+    "radicals": ["欠"],
+    "exampleWords": [
+      { "word": "歌手", "reading": "かしゅ", "meaningEs": "cantante" },
+      { "word": "歌う", "reading": "うたう", "meaningEs": "cantar" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0041",
+    "character": "転",
+    "jlptLevel": "N5",
+    "strokeCount": 11,
+    "onyomi": ["テン"],
+    "kunyomi": ["ころ-がる"],
+    "meaningEs": "rodar, girar",
+    "radicals": ["車"],
+    "exampleWords": [
+      { "word": "運転", "reading": "うんてん", "meaningEs": "conducir" },
+      { "word": "自転車", "reading": "じてんしゃ", "meaningEs": "bicicleta" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0042",
+    "character": "間",
+    "jlptLevel": "N5",
+    "strokeCount": 12,
+    "onyomi": ["カン"],
+    "kunyomi": ["あいだ"],
+    "meaningEs": "intervalo, entre, durante",
+    "radicals": ["門"],
+    "exampleWords": [
+      { "word": "時間", "reading": "じかん", "meaningEs": "tiempo, hora" },
+      { "word": "人間", "reading": "にんげん", "meaningEs": "ser humano" }
+    ]
   }
 ]

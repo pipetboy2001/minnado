@@ -768,5 +768,65 @@
         "es": "Compro aproximadamente cinco manzanas."
       }
     ]
+  },
+  {
+    "id": "n5-gram-0049",
+    "jlptLevel": "N5",
+    "category": "verb-forms",
+    "title": "〜ことができます (poder hacer algo)",
+    "pattern": "[Verbo-diccionario]ことができます。",
+    "explanationEs": "こと convierte el verbo en forma diccionario en un sustantivo, y ができます indica la capacidad de hacerlo.",
+    "examples": [
+      {
+        "jp": "私は泳ぐことができます。",
+        "reading": "わたしはおよぐことができます。",
+        "es": "Yo puedo nadar."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0050",
+    "jlptLevel": "N5",
+    "category": "numbers-counters",
+    "title": "〜時間 (duración)",
+    "pattern": "[Número]時間",
+    "explanationEs": "時間 después de un número indica duración en horas, a diferencia de 時 que indica la hora del reloj.",
+    "examples": [
+      {
+        "jp": "二時間、勉強します。",
+        "reading": "にじかん、べんきょうします。",
+        "es": "Estudio durante dos horas."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0051",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "趣味は〜です (hablar de aficiones)",
+    "pattern": "趣味は[Sustantivo]です。",
+    "explanationEs": "Estructura básica para decir cuál es la afición de alguien.",
+    "examples": [
+      {
+        "jp": "趣味はピアノです。",
+        "reading": "しゅみはピアノです。",
+        "es": "Mi afición es el piano."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0052",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "全然〜ません (para nada, negativo enfático)",
+    "pattern": "全然[Verbo en forma negativa]。",
+    "explanationEs": "全然 intensifica una negación, como 'para nada' en español. Siempre se usa con la forma negativa.",
+    "examples": [
+      {
+        "jp": "全然できません。",
+        "reading": "ぜんぜんできません。",
+        "es": "No puedo hacerlo para nada."
+      }
+    ]
   }
 ]

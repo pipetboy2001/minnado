@@ -493,9 +493,54 @@
     ]
   },
   {
-    "id": "n5-lesson-03",
+    "id": "n5-lesson-13",
     "jlptLevel": "N5",
     "order": 12,
+    "title": "Lección 12 — Habilidades y aficiones (〜ことができます)",
+    "description": "Expresar capacidad con 〜ことができます, duración con 〜時間, hablar de aficiones con 趣味は〜です, y negación enfática con 全然, basado en Minna no Nihongo Lección 12.",
+    "kind": "lesson",
+    "vocabIds": [
+      "n5-voc-0124",
+      "n5-voc-0125",
+      "n5-voc-0126",
+      "n5-voc-0127",
+      "n5-voc-0128",
+      "n5-voc-0129",
+      "n5-voc-0130",
+      "n5-voc-0131",
+      "n5-voc-0132"
+    ],
+    "kanjiIds": [
+      "n5-kanji-0039",
+      "n5-kanji-0040",
+      "n5-kanji-0041",
+      "n5-kanji-0042"
+    ],
+    "grammarIds": [
+      "n5-gram-0049",
+      "n5-gram-0050",
+      "n5-gram-0051",
+      "n5-gram-0052"
+    ],
+    "exerciseIds": [
+      "n5-ex-0156",
+      "n5-ex-0157",
+      "n5-ex-0158",
+      "n5-ex-0159",
+      "n5-ex-0160",
+      "n5-ex-0161",
+      "n5-ex-0162",
+      "n5-ex-0163",
+      "n5-ex-0164",
+      "n5-ex-0165",
+      "n5-ex-0166",
+      "n5-ex-0167"
+    ]
+  },
+  {
+    "id": "n5-lesson-03",
+    "jlptLevel": "N5",
+    "order": 13,
     "title": "Repaso — Partículas, Adjetivos y Formas Verbales",
     "description": "Módulo de repaso transversal: partícula correcta, adjetivos い/な, y conjugación verbal (forma ます y て) a través de varias lecciones.",
     "kind": "review",
