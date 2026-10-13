@@ -34,9 +34,9 @@ export default async function CuentaPage() {
         <CardHeader>
           <CardTitle className="flex items-center gap-2 text-base">
             <UserCircle className="size-5 text-muted-foreground" />
-            {session?.user?.name ?? "Sin nombre"}
+            {session!.user.name ?? "Sin nombre"}
           </CardTitle>
-          <CardDescription>{session?.user?.email}</CardDescription>
+          <CardDescription>{session!.user.email}</CardDescription>
         </CardHeader>
       </Card>
 
