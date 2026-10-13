@@ -1962,5 +1962,199 @@
     "translationEs": "Cuanto más practicas, mejor te vuelves.",
     "explanationEs": "〜ば〜ほど: cuanto más... más...",
     "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0121",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-36",
+    "promptEs": "Elige la forma correcta para expresar propósito.",
+    "questionJp": "電車[でんしゃ]に間[ま]に合[あ]う{{1}}、早[はや]く家[いえ]を出[で]ます。",
+    "options": [
+      { "id": "a", "textJp": "ように", "isCorrect": true },
+      { "id": "b", "textJp": "ために", "isCorrect": false },
+      { "id": "c", "textJp": "なら", "isCorrect": false },
+      { "id": "d", "textJp": "けど", "isCorrect": false }
+    ],
+    "explanationEs": "ように: propósito con un verbo que no se controla directamente (間に合う).",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0122",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-36",
+    "promptEs": "Elige la forma correcta para un cambio gradual.",
+    "questionJp": "日本語[にほんご]が{{1}}なりました。",
+    "options": [
+      { "id": "a", "textJp": "話せるように", "isCorrect": true },
+      { "id": "b", "textJp": "話すように", "isCorrect": false },
+      { "id": "c", "textJp": "話しように", "isCorrect": false },
+      { "id": "d", "textJp": "話せように", "isCorrect": false }
+    ],
+    "explanationEs": "ようになりました: llegué a poder hablar (cambio gradual de capacidad).",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0123",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-36",
+    "promptEs": "Elige la forma correcta para un hábito que se procura mantener.",
+    "questionJp": "毎朝[まいあさ]走[はし]る{{1}}しています。",
+    "options": [
+      { "id": "a", "textJp": "ように", "isCorrect": true },
+      { "id": "b", "textJp": "ために", "isCorrect": false },
+      { "id": "c", "textJp": "なら", "isCorrect": false },
+      { "id": "d", "textJp": "のに", "isCorrect": false }
+    ],
+    "explanationEs": "ようにしています: procuro correr todas las mañanas, como hábito activo.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0124",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-36",
+    "promptEs": "Elige la palabra correcta.",
+    "questionJp": "{{1}}をかけて、朝[あさ]早[はや]く起[お]きます。",
+    "options": [
+      { "id": "a", "textJp": "目覚まし時計", "isCorrect": true },
+      { "id": "b", "textJp": "間に合う", "isCorrect": false },
+      { "id": "c", "textJp": "遅刻する", "isCorrect": false },
+      { "id": "d", "textJp": "ジョギング", "isCorrect": false }
+    ],
+    "explanationEs": "目覚まし時計 significa despertador.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0125",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-36",
+    "promptEs": "Completa con ように.",
+    "sentenceTemplate": "忘[わす]れない{{1}}、メモします。",
+    "translationEs": "Tomo nota para no olvidar.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["ように"],
+        "options": ["ように", "ために", "のに", "なら"]
+      }
+    ],
+    "explanationEs": "忘れないように: para no olvidar (verbo negativo + ように).",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0126",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-36",
+    "promptEs": "Completa con 〜ようになります.",
+    "sentenceTemplate": "最近[さいきん]、早[はや]く起[お]きる{{1}}なりました。",
+    "translationEs": "Últimamente me he acostumbrado a levantarme temprano.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["ように"],
+        "options": ["ように", "ために", "から", "けど"]
+      }
+    ],
+    "explanationEs": "〜ようになりました: cambio gradual de costumbre.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0127",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-36",
+    "promptEs": "Completa con 〜ようにします.",
+    "sentenceTemplate": "遅刻[ちこく]しない{{1}}気[き]をつけます。",
+    "translationEs": "Tengo cuidado de no llegar tarde.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["ように"],
+        "options": ["ように", "ために", "のに", "なら"]
+      }
+    ],
+    "explanationEs": "しないように気をつける: tener cuidado de no hacer algo.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0128",
+    "type": "word-order",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-36",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["毎朝", "走る", "ようにしています"],
+    "correctOrder": ["毎朝", "走る", "ようにしています"],
+    "translationEs": "Procuro correr todas las mañanas.",
+    "explanationEs": "ようにしています va al final, tras el verbo en forma diccionario.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0129",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-36",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "忘れる", "right": "olvidar" },
+      { "id": "p2", "left": "間に合う", "right": "llegar a tiempo" },
+      { "id": "p3", "left": "遅刻する", "right": "llegar tarde" },
+      { "id": "p4", "left": "太る", "right": "engordar" },
+      { "id": "p5", "left": "やせる", "right": "adelgazar" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0130",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "kanji",
+    "lessonId": "n4-lesson-36",
+    "promptEs": "Une cada kanji con su lectura on'yomi.",
+    "pairs": [
+      { "id": "p1", "left": "忘", "right": "ぼう" },
+      { "id": "p2", "left": "遅", "right": "ち" },
+      { "id": "p3", "left": "刻", "right": "こく" },
+      { "id": "p4", "left": "走", "right": "そう" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0131",
+    "type": "speaking",
+    "jlptLevel": "N4",
+    "skill": "speaking",
+    "lessonId": "n4-lesson-36",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "毎朝[まいあさ]走[はし]るようにしています。",
+    "translationEs": "Procuro correr todas las mañanas.",
+    "explanationEs": "Practica la fluidez de ようにしています。",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0132",
+    "type": "listening",
+    "jlptLevel": "N4",
+    "skill": "listening",
+    "lessonId": "n4-lesson-36",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "日本語[にほんご]が話[はな]せるようになりました。",
+    "targetReading": "にほんごがはなせるようになりました。",
+    "translationEs": "Llegué a poder hablar japonés.",
+    "explanationEs": "ようになりました: cambio gradual en una capacidad.",
+    "difficulty": 2
   }
 ]

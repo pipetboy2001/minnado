@@ -398,5 +398,45 @@
       "n4-ex-0119",
       "n4-ex-0120"
     ]
+  },
+  {
+    "id": "n4-lesson-36",
+    "jlptLevel": "N4",
+    "order": 36,
+    "title": "Lección 36 — Propósito y cambio de hábito (Vように・〜ようになります・〜ようにします)",
+    "description": "Expresar propósito con Vように, un cambio gradual de capacidad con 〜ようになります, y el esfuerzo por mantener un hábito con 〜ようにします, con vocabulario de rutinas, basado en Minna no Nihongo Lección 36 (Libro 2).",
+    "kind": "lesson",
+    "vocabIds": [
+      "n4-voc-0091",
+      "n4-voc-0092",
+      "n4-voc-0093",
+      "n4-voc-0094",
+      "n4-voc-0095",
+      "n4-voc-0096",
+      "n4-voc-0097",
+      "n4-voc-0098",
+      "n4-voc-0099"
+    ],
+    "kanjiIds": [
+      "n4-kanji-0043",
+      "n4-kanji-0044",
+      "n4-kanji-0045",
+      "n4-kanji-0046"
+    ],
+    "grammarIds": ["n4-gram-0031", "n4-gram-0032", "n4-gram-0033"],
+    "exerciseIds": [
+      "n4-ex-0121",
+      "n4-ex-0122",
+      "n4-ex-0123",
+      "n4-ex-0124",
+      "n4-ex-0125",
+      "n4-ex-0126",
+      "n4-ex-0127",
+      "n4-ex-0128",
+      "n4-ex-0129",
+      "n4-ex-0130",
+      "n4-ex-0131",
+      "n4-ex-0132"
+    ]
   }
 ]

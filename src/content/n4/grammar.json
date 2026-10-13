@@ -633,5 +633,70 @@
       }
     ],
     "relatedGrammarIds": ["n4-gram-0028"]
+  },
+  {
+    "id": "n4-gram-0031",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "Vように (para que, de modo que)",
+    "pattern": "V (diccionario／ない／potencial) + ように、[Acción]。",
+    "explanationEs": "ように expresa un propósito cuando el verbo principal no es algo que se controla directamente con voluntad (como poder hacer algo, o que algo no pase) — a diferencia de ために, que se usa con verbos de voluntad directa. Es muy común con verbos potenciales y negativos.",
+    "structureNotes": "間に合うように (para llegar a tiempo) ｜ 忘れないように (para no olvidar)",
+    "examples": [
+      {
+        "jp": "電車に間に合うように、早く家を出ます。",
+        "reading": "でんしゃにまにあうように、はやくいえをでます。",
+        "es": "Salgo temprano de casa para llegar a tiempo al tren."
+      },
+      {
+        "jp": "忘れないように、メモします。",
+        "reading": "わすれないように、めもします。",
+        "es": "Tomo nota para no olvidar."
+      }
+    ]
+  },
+  {
+    "id": "n4-gram-0032",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "〜ようになります (llegar a poder, cambio gradual)",
+    "pattern": "V potencial／diccionario + ようになります。",
+    "explanationEs": "ようになります describe un cambio gradual en una capacidad o costumbre — algo que antes no pasaba y ahora sí, normalmente con un verbo potencial. Es distinto de simplemente usar できます, porque enfatiza el proceso de cambio.",
+    "structureNotes": "泳げるようになりました (llegué a poder nadar / ahora puedo nadar)",
+    "examples": [
+      {
+        "jp": "日本語が話せるようになりました。",
+        "reading": "にほんごがはなせるようになりました。",
+        "es": "Llegué a poder hablar japonés."
+      },
+      {
+        "jp": "最近、早く起きるようになりました。",
+        "reading": "さいきん、はやくおきるようになりました。",
+        "es": "Últimamente me he acostumbrado a levantarme temprano."
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0031"]
+  },
+  {
+    "id": "n4-gram-0033",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "〜ようにします (procurar hacer algo, por hábito)",
+    "pattern": "V (diccionario／ない) + ようにします。",
+    "explanationEs": "ようにします expresa el esfuerzo consciente de convertir algo en un hábito o de evitarlo — 'procuro hacer / trato de no hacer'. A diferencia de ようになります (que describe un cambio que ya pasó), ようにします es la decisión o el esfuerzo activo.",
+    "structureNotes": "毎朝走るようにしています (procuro correr todas las mañanas, como hábito en curso)",
+    "examples": [
+      {
+        "jp": "毎朝走るようにしています。",
+        "reading": "まいあさはしるようにしています。",
+        "es": "Procuro correr todas las mañanas."
+      },
+      {
+        "jp": "遅刻しないように気をつけます。",
+        "reading": "ちこくしないようにきをつけます。",
+        "es": "Tengo cuidado de no llegar tarde."
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0031", "n4-gram-0032"]
   }
 ]

@@ -618,5 +618,59 @@
       { "word": "信号", "reading": "しんごう", "meaningEs": "semáforo" },
       { "word": "番号", "reading": "ばんごう", "meaningEs": "número" }
     ]
+  },
+  {
+    "id": "n4-kanji-0043",
+    "character": "忘",
+    "jlptLevel": "N4",
+    "strokeCount": 7,
+    "onyomi": ["ボウ"],
+    "kunyomi": ["わす-れる"],
+    "meaningEs": "olvidar",
+    "radicals": ["心"],
+    "exampleWords": [
+      { "word": "忘れる", "reading": "わすれる", "meaningEs": "olvidar" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0044",
+    "character": "遅",
+    "jlptLevel": "N4",
+    "strokeCount": 12,
+    "onyomi": ["チ"],
+    "kunyomi": ["おそ-い", "おく-れる"],
+    "meaningEs": "tarde, lento",
+    "radicals": ["辶"],
+    "exampleWords": [
+      { "word": "遅刻", "reading": "ちこく", "meaningEs": "llegada tarde" },
+      { "word": "遅い", "reading": "おそい", "meaningEs": "lento, tarde" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0045",
+    "character": "刻",
+    "jlptLevel": "N4",
+    "strokeCount": 8,
+    "onyomi": ["コク"],
+    "kunyomi": ["きざ-む"],
+    "meaningEs": "grabar, momento",
+    "radicals": ["刂"],
+    "exampleWords": [
+      { "word": "遅刻", "reading": "ちこく", "meaningEs": "llegada tarde" },
+      { "word": "時刻", "reading": "じこく", "meaningEs": "hora, momento" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0046",
+    "character": "走",
+    "jlptLevel": "N4",
+    "strokeCount": 7,
+    "onyomi": ["ソウ"],
+    "kunyomi": ["はし-る"],
+    "meaningEs": "correr",
+    "radicals": ["走"],
+    "exampleWords": [
+      { "word": "走る", "reading": "はしる", "meaningEs": "correr" }
+    ]
   }
 ]
