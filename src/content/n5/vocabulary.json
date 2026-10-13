@@ -2104,5 +2104,83 @@
     "exampleSentenceReading": "はやくびょういんへいったほうがいいです。",
     "exampleSentenceEs": "Es mejor que vayas al hospital temprano.",
     "tags": ["adverbios", "minna-no-nihongo-l16"]
+  },
+  {
+    "id": "n5-voc-0163",
+    "jlptLevel": "N5",
+    "word": "パスポート",
+    "reading": "パスポート",
+    "romaji": "pasupooto",
+    "meaningEs": "pasaporte",
+    "partOfSpeech": "noun",
+    "exampleSentenceJp": "パスポートを持って行かなければなりません。",
+    "exampleSentenceReading": "パスポートをもっていかなければなりません。",
+    "exampleSentenceEs": "Hay que llevar el pasaporte.",
+    "tags": ["objetos", "minna-no-nihongo-l17"]
+  },
+  {
+    "id": "n5-voc-0164",
+    "jlptLevel": "N5",
+    "word": "ビザ",
+    "reading": "ビザ",
+    "romaji": "biza",
+    "meaningEs": "visa",
+    "partOfSpeech": "noun",
+    "exampleSentenceJp": "ビザは取らなくてもいいです。",
+    "exampleSentenceReading": "ビザはとらなくてもいいです。",
+    "exampleSentenceEs": "No es necesario sacar la visa.",
+    "tags": ["objetos", "minna-no-nihongo-l17"]
+  },
+  {
+    "id": "n5-voc-0165",
+    "jlptLevel": "N5",
+    "word": "書類",
+    "reading": "しょるい",
+    "romaji": "shorui",
+    "meaningEs": "documentos",
+    "partOfSpeech": "noun",
+    "exampleSentenceJp": "書類を忘れないでください。",
+    "exampleSentenceReading": "しょるいをわすれないでください。",
+    "exampleSentenceEs": "No olvides los documentos.",
+    "tags": ["objetos", "minna-no-nihongo-l17"]
+  },
+  {
+    "id": "n5-voc-0166",
+    "jlptLevel": "N5",
+    "word": "忘れます",
+    "reading": "わすれます",
+    "romaji": "wasuremasu",
+    "meaningEs": "olvidar",
+    "partOfSpeech": "verb-ru",
+    "exampleSentenceJp": "書類を忘れないでください。",
+    "exampleSentenceReading": "しょるいをわすれないでください。",
+    "exampleSentenceEs": "No olvides los documentos.",
+    "tags": ["verbos", "minna-no-nihongo-l17"]
+  },
+  {
+    "id": "n5-voc-0167",
+    "jlptLevel": "N5",
+    "word": "急ぎます",
+    "reading": "いそぎます",
+    "romaji": "isogimasu",
+    "meaningEs": "apurarse",
+    "partOfSpeech": "verb-u",
+    "exampleSentenceJp": "空港で急ぎます。",
+    "exampleSentenceReading": "くうこうでいそぎます。",
+    "exampleSentenceEs": "Te apuras en el aeropuerto.",
+    "tags": ["verbos", "minna-no-nihongo-l17"]
+  },
+  {
+    "id": "n5-voc-0168",
+    "jlptLevel": "N5",
+    "word": "空港",
+    "reading": "くうこう",
+    "romaji": "kuukou",
+    "meaningEs": "aeropuerto",
+    "partOfSpeech": "noun",
+    "exampleSentenceJp": "空港で急ぎます。",
+    "exampleSentenceReading": "くうこうでいそぎます。",
+    "exampleSentenceEs": "Te apuras en el aeropuerto.",
+    "tags": ["lugares", "minna-no-nihongo-l17"]
   }
 ]

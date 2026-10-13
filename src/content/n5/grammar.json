@@ -1073,5 +1073,65 @@
         "es": "Es mejor que vayas al hospital."
       }
     ]
+  },
+  {
+    "id": "n5-gram-0069",
+    "jlptLevel": "N5",
+    "category": "verb-forms",
+    "title": "〜なければなりません (obligación)",
+    "pattern": "[Verbo-ない raíz]ければなりません。",
+    "explanationEs": "Indica una obligación: 'hay que hacer...' o 'debo hacer...' en español. Se forma a partir de la negación del verbo.",
+    "examples": [
+      {
+        "jp": "パスポートを持って行かなければなりません。",
+        "reading": "パスポートをもっていかなければなりません。",
+        "es": "Hay que llevar el pasaporte."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0070",
+    "jlptLevel": "N5",
+    "category": "verb-forms",
+    "title": "〜なくてもいいです (no es necesario)",
+    "pattern": "[Verbo-ない raíz]くてもいいです。",
+    "explanationEs": "Indica que una acción no es necesaria, como 'no es necesario que...' en español.",
+    "examples": [
+      {
+        "jp": "ビザは取らなくてもいいです。",
+        "reading": "ビザはとらなくてもいいです。",
+        "es": "No es necesario sacar la visa."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0071",
+    "jlptLevel": "N5",
+    "category": "verb-forms",
+    "title": "急いでください (apúrate, por favor)",
+    "pattern": "急いでください。",
+    "explanationEs": "Pide a alguien que se apure, usando la forma て + ください.",
+    "examples": [
+      {
+        "jp": "急いでください。飛行機の時間です。",
+        "reading": "いそいでください。ひこうきのじかんです。",
+        "es": "Apúrate, por favor. Es hora del avión."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0072",
+    "jlptLevel": "N5",
+    "category": "verb-forms",
+    "title": "〜を忘れないでください (no olvides algo)",
+    "pattern": "[Cosa]を忘れないでください。",
+    "explanationEs": "〜ないでください pide a alguien que NO haga algo, como 'no hagas...' en español.",
+    "examples": [
+      {
+        "jp": "書類を忘れないでください。",
+        "reading": "しょるいをわすれないでください。",
+        "es": "No olvides los documentos."
+      }
+    ]
   }
 ]

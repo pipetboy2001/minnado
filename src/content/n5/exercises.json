@@ -3464,5 +3464,197 @@
     "translationEs": "Es mejor que vayas al hospital.",
     "explanationEs": "〜た方がいいです da un consejo o recomendación.",
     "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0216",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-18",
+    "promptEs": "Hay que llevar el pasaporte.",
+    "questionJp": "パスポートを持[も]って行[い]{{1}}なりません。",
+    "options": [
+      { "id": "a", "textJp": "かなければ", "isCorrect": true },
+      { "id": "b", "textJp": "けば", "isCorrect": false },
+      { "id": "c", "textJp": "けども", "isCorrect": false },
+      { "id": "d", "textJp": "きます", "isCorrect": false }
+    ],
+    "explanationEs": "〜なければなりません indica una obligación.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0217",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-18",
+    "promptEs": "No es necesario sacar la visa.",
+    "questionJp": "ビザは取[と]らな{{1}}いいです。",
+    "options": [
+      { "id": "a", "textJp": "くても", "isCorrect": true },
+      { "id": "b", "textJp": "ければ", "isCorrect": false },
+      { "id": "c", "textJp": "いで", "isCorrect": false },
+      { "id": "d", "textJp": "ければなり", "isCorrect": false }
+    ],
+    "explanationEs": "〜なくてもいいです indica que algo no es necesario.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0218",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-18",
+    "promptEs": "Apúrate, por favor.",
+    "sentenceTemplate": "{{1}}ください。",
+    "translationEs": "Apúrate, por favor.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["急いで", "いそいで"],
+        "options": ["急いで", "忘れないで", "持って", "取って"]
+      }
+    ],
+    "explanationEs": "急いでください pide a alguien que se apure.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0219",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-18",
+    "promptEs": "No olvides los documentos.",
+    "sentenceTemplate": "書類[しょるい]を{{1}}ください。",
+    "translationEs": "No olvides los documentos.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["忘れないで", "わすれないで"],
+        "options": ["忘れないで", "急いで", "持って", "取って"]
+      }
+    ],
+    "explanationEs": "〜ないでください pide a alguien que NO haga algo.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0220",
+    "type": "word-order",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-18",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["なりません", "持って", "パスポートを", "行かなければ"],
+    "correctOrder": ["パスポートを", "持って", "行かなければ", "なりません"],
+    "translationEs": "Hay que llevar el pasaporte.",
+    "explanationEs": "Orden: [Objeto]を + 持って + Verbo-なければ + なりません。",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0221",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-18",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "パスポート", "right": "pasaporte" },
+      { "id": "p2", "left": "ビザ", "right": "visa" },
+      { "id": "p3", "left": "書類", "right": "documentos" },
+      { "id": "p4", "left": "空港", "right": "aeropuerto" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0222",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-18",
+    "promptEs": "¿Cómo se lee 空港 (aeropuerto)?",
+    "questionJp": "空港",
+    "options": [
+      { "id": "a", "textJp": "くうこう", "isCorrect": true },
+      { "id": "b", "textJp": "からこう", "isCorrect": false },
+      { "id": "c", "textJp": "そらこう", "isCorrect": false },
+      { "id": "d", "textJp": "くうみなと", "isCorrect": false }
+    ],
+    "explanationEs": "空港 se lee くうこう.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0223",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-18",
+    "promptEs": "Une cada kanji con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "空", "right": "cielo, vacío" },
+      { "id": "p2", "left": "港", "right": "puerto" },
+      { "id": "p3", "left": "類", "right": "tipo, clase" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0224",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-18",
+    "promptEs": "Olvidaste los documentos.",
+    "questionJp": "書類[しょるい]を{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "忘れました", "isCorrect": true },
+      { "id": "b", "textJp": "急ぎました", "isCorrect": false },
+      { "id": "c", "textJp": "取りました", "isCorrect": false },
+      { "id": "d", "textJp": "泊まりました", "isCorrect": false }
+    ],
+    "explanationEs": "忘れます significa 'olvidar'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0225",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-18",
+    "promptEs": "Te apuras en el aeropuerto.",
+    "sentenceTemplate": "{{1}}で急[いそ]ぎます。",
+    "translationEs": "Te apuras en el aeropuerto.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["空港", "くうこう"],
+        "options": ["空港", "病院", "銀行", "学校"]
+      }
+    ],
+    "explanationEs": "空港 significa 'aeropuerto'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0226",
+    "type": "speaking",
+    "jlptLevel": "N5",
+    "skill": "speaking",
+    "lessonId": "n5-lesson-18",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "パスポートを持[も]って行[い]かなければなりません。",
+    "translationEs": "Hay que llevar el pasaporte.",
+    "explanationEs": "〜なければなりません indica una obligación.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0227",
+    "type": "listening",
+    "jlptLevel": "N5",
+    "skill": "listening",
+    "lessonId": "n5-lesson-18",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "書類[しょるい]を忘[わす]れないでください。",
+    "targetReading": "しょるいをわすれないでください。",
+    "translationEs": "No olvides los documentos.",
+    "explanationEs": "〜ないでください pide a alguien que NO haga algo.",
+    "difficulty": 2
   }
 ]

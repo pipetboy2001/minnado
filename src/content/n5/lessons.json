@@ -712,9 +712,46 @@
     ]
   },
   {
-    "id": "n5-lesson-03",
+    "id": "n5-lesson-18",
     "jlptLevel": "N5",
     "order": 17,
+    "title": "Lección 17 — Obligación (〜なければなりません)",
+    "description": "Expresar obligación con 〜なければなりません y falta de necesidad con 〜なくてもいいです, con vocabulario de viaje (パスポート/ビザ/空港), basado en Minna no Nihongo Lección 17.",
+    "kind": "lesson",
+    "vocabIds": [
+      "n5-voc-0163",
+      "n5-voc-0164",
+      "n5-voc-0165",
+      "n5-voc-0166",
+      "n5-voc-0167",
+      "n5-voc-0168"
+    ],
+    "kanjiIds": ["n5-kanji-0059", "n5-kanji-0060", "n5-kanji-0061"],
+    "grammarIds": [
+      "n5-gram-0069",
+      "n5-gram-0070",
+      "n5-gram-0071",
+      "n5-gram-0072"
+    ],
+    "exerciseIds": [
+      "n5-ex-0216",
+      "n5-ex-0217",
+      "n5-ex-0218",
+      "n5-ex-0219",
+      "n5-ex-0220",
+      "n5-ex-0221",
+      "n5-ex-0222",
+      "n5-ex-0223",
+      "n5-ex-0224",
+      "n5-ex-0225",
+      "n5-ex-0226",
+      "n5-ex-0227"
+    ]
+  },
+  {
+    "id": "n5-lesson-03",
+    "jlptLevel": "N5",
+    "order": 18,
     "title": "Repaso — Partículas, Adjetivos y Formas Verbales",
     "description": "Módulo de repaso transversal: partícula correcta, adjetivos い/な, y conjugación verbal (forma ます y て) a través de varias lecciones.",
     "kind": "review",

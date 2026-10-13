@@ -926,5 +926,51 @@
       { "word": "薬局", "reading": "やっきょく", "meaningEs": "farmacia" },
       { "word": "薬", "reading": "くすり", "meaningEs": "medicina" }
     ]
+  },
+  {
+    "id": "n5-kanji-0059",
+    "character": "空",
+    "jlptLevel": "N5",
+    "strokeCount": 8,
+    "onyomi": ["クウ"],
+    "kunyomi": ["あ-く", "から"],
+    "meaningEs": "cielo, vacío",
+    "radicals": ["穴"],
+    "exampleWords": [
+      { "word": "空港", "reading": "くうこう", "meaningEs": "aeropuerto" },
+      { "word": "空気", "reading": "くうき", "meaningEs": "aire" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0060",
+    "character": "港",
+    "jlptLevel": "N5",
+    "strokeCount": 12,
+    "onyomi": ["コウ"],
+    "kunyomi": ["みなと"],
+    "meaningEs": "puerto",
+    "radicals": ["水"],
+    "exampleWords": [
+      { "word": "空港", "reading": "くうこう", "meaningEs": "aeropuerto" },
+      {
+        "word": "港町",
+        "reading": "みなとまち",
+        "meaningEs": "ciudad portuaria"
+      }
+    ]
+  },
+  {
+    "id": "n5-kanji-0061",
+    "character": "類",
+    "jlptLevel": "N5",
+    "strokeCount": 18,
+    "onyomi": ["ルイ"],
+    "kunyomi": ["たぐ-い"],
+    "meaningEs": "tipo, clase",
+    "radicals": ["頁"],
+    "exampleWords": [
+      { "word": "書類", "reading": "しょるい", "meaningEs": "documentos" },
+      { "word": "種類", "reading": "しゅるい", "meaningEs": "tipo, variedad" }
+    ]
   }
 ]
