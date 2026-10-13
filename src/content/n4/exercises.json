@@ -3927,5 +3927,199 @@
     "translationEs": "A pesar de que me esforcé, no pude aprobar.",
     "explanationEs": "のに: contraste con decepción.",
     "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0241",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-46",
+    "promptEs": "Elige la forma correcta para 'justo a punto de'.",
+    "questionJp": "電車[でんしゃ]はちょうど出発[しゅっぱつ]する{{1}}です。",
+    "options": [
+      { "id": "a", "textJp": "ところ", "isCorrect": true },
+      { "id": "b", "textJp": "ばかり", "isCorrect": false },
+      { "id": "c", "textJp": "はず", "isCorrect": false },
+      { "id": "d", "textJp": "そう", "isCorrect": false }
+    ],
+    "explanationEs": "ところです: justo a punto de salir.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0242",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-46",
+    "promptEs": "Elige la forma correcta para 'acabar de'.",
+    "questionJp": "今[いま]、空港[くうこう]に到着[とうちゃく]した{{1}}です。",
+    "options": [
+      { "id": "a", "textJp": "ばかり", "isCorrect": true },
+      { "id": "b", "textJp": "ところ", "isCorrect": false },
+      { "id": "c", "textJp": "はず", "isCorrect": false },
+      { "id": "d", "textJp": "まま", "isCorrect": false }
+    ],
+    "explanationEs": "ばかりです: acabo de llegar.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0243",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-46",
+    "promptEs": "Elige la forma correcta para una expectativa segura.",
+    "questionJp": "終電[しゅうでん]に間[ま]に合[あ]う{{1}}です。",
+    "options": [
+      { "id": "a", "textJp": "はず", "isCorrect": true },
+      { "id": "b", "textJp": "ところ", "isCorrect": false },
+      { "id": "c", "textJp": "ばかり", "isCorrect": false },
+      { "id": "d", "textJp": "つもり", "isCorrect": false }
+    ],
+    "explanationEs": "はずです: expectativa fuerte basada en lógica.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0244",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-46",
+    "promptEs": "Elige la palabra correcta.",
+    "questionJp": "{{1}}、忙[いそが]しいはずです。",
+    "options": [
+      { "id": "a", "textJp": "最近", "isCorrect": true },
+      { "id": "b", "textJp": "ちょうど", "isCorrect": false },
+      { "id": "c", "textJp": "確かに", "isCorrect": false },
+      { "id": "d", "textJp": "会議", "isCorrect": false }
+    ],
+    "explanationEs": "最近 significa 'recientemente'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0245",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-46",
+    "promptEs": "Completa con ところ.",
+    "sentenceTemplate": "今[いま]から会議[かいぎ]が始[はじ]まる{{1}}です。",
+    "translationEs": "La reunión está a punto de empezar ahora.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["ところ"],
+        "options": ["ところ", "ばかり", "はず", "そう"]
+      }
+    ],
+    "explanationEs": "ところです: justo a punto de comenzar.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0246",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-46",
+    "promptEs": "Completa con ばかり.",
+    "sentenceTemplate": "会議[かいぎ]はもう終[お]わった{{1}}です。",
+    "translationEs": "La reunión acaba de terminar.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["ばかり"],
+        "options": ["ばかり", "ところ", "はず", "まま"]
+      }
+    ],
+    "explanationEs": "ばかりです: acaba de pasar.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0247",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-46",
+    "promptEs": "Completa con はず.",
+    "sentenceTemplate": "確[たし]かに、会議[かいぎ]はもう始[はじ]まっている{{1}}です。",
+    "translationEs": "Ciertamente, la reunión ya debería haber comenzado.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["はず"],
+        "options": ["はず", "ところ", "ばかり", "つもり"]
+      }
+    ],
+    "explanationEs": "はずです: conclusión razonada, con bastante certeza.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0248",
+    "type": "word-order",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-46",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["終電に", "間に合う", "はずです"],
+    "correctOrder": ["終電に", "間に合う", "はずです"],
+    "translationEs": "Debería llegar a tiempo para el último tren.",
+    "explanationEs": "V diccionario + はずです: expectativa basada en lógica.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0249",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-46",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "出発する", "right": "partir, salir" },
+      { "id": "p2", "left": "到着する", "right": "llegar" },
+      { "id": "p3", "left": "会議", "right": "reunión" },
+      { "id": "p4", "left": "始まる", "right": "comenzar" },
+      { "id": "p5", "left": "終わる", "right": "terminar" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0250",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "kanji",
+    "lessonId": "n4-lesson-46",
+    "promptEs": "Une cada kanji con su lectura on'yomi.",
+    "pairs": [
+      { "id": "p1", "left": "到", "right": "とう" },
+      { "id": "p2", "left": "着", "right": "ちゃく" },
+      { "id": "p3", "left": "最", "right": "さい" },
+      { "id": "p4", "left": "近", "right": "きん" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0251",
+    "type": "speaking",
+    "jlptLevel": "N4",
+    "skill": "speaking",
+    "lessonId": "n4-lesson-46",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "電車[でんしゃ]はちょうど出発[しゅっぱつ]するところです。",
+    "translationEs": "El tren está a punto de partir.",
+    "explanationEs": "Practica la fluidez de するところです。",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0252",
+    "type": "listening",
+    "jlptLevel": "N4",
+    "skill": "listening",
+    "lessonId": "n4-lesson-46",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "今[いま]、空港[くうこう]に到着[とうちゃく]したばかりです。",
+    "targetReading": "いま、くうこうにとうちゃくしたばかりです。",
+    "translationEs": "Acabo de llegar al aeropuerto.",
+    "explanationEs": "ばかりです: acabar de hacer algo.",
+    "difficulty": 2
   }
 ]

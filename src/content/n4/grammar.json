@@ -1258,5 +1258,64 @@
       }
     ],
     "relatedGrammarIds": ["n4-gram-0059"]
+  },
+  {
+    "id": "n4-gram-0061",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "Vるところ (justo a punto de hacer algo)",
+    "pattern": "V (diccionario) + ところです。",
+    "explanationEs": "Vるところです describe que la acción está a punto de comenzar, en el momento exacto antes de empezar — más preciso en el tiempo que てきます o そう. Literalmente, 'estoy en el punto de...'.",
+    "structureNotes": "出発するところです (está a punto de salir, justo ahora)",
+    "examples": [
+      {
+        "jp": "電車はちょうど出発するところです。",
+        "reading": "でんしゃはちょうどしゅっぱつするところです。",
+        "es": "El tren está a punto de partir."
+      }
+    ]
+  },
+  {
+    "id": "n4-gram-0062",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "Vたばかり (acabar de hacer algo)",
+    "pattern": "Vた (forma pasada simple) + ばかりです。",
+    "explanationEs": "Vたばかりです describe que la acción acaba de terminar — el momento justo después, en vez de antes (como ところ). Da la sensación de 'recién, apenas'.",
+    "structureNotes": "到着したばかりです (acabo de llegar)",
+    "examples": [
+      {
+        "jp": "今、空港に到着したばかりです。",
+        "reading": "いま、くうこうにとうちゃくしたばかりです。",
+        "es": "Acabo de llegar al aeropuerto."
+      },
+      {
+        "jp": "会議はもう終わったばかりです。",
+        "reading": "かいぎはもうおわったばかりです。",
+        "es": "La reunión acaba de terminar."
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0061"]
+  },
+  {
+    "id": "n4-gram-0063",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "〜はずです (debería ser, se espera que...)",
+    "pattern": "[Oración simple] + はずです。",
+    "explanationEs": "はずです expresa una expectativa fuerte basada en información o lógica objetiva — no es una opinión personal, sino una conclusión razonada: 'debería ser así, según lo que sé'. Más seguro que でしょう o かもしれません.",
+    "structureNotes": "Grado de confianza: 〜はずです (basado en información concreta) > 〜でしょう > 〜かもしれません",
+    "examples": [
+      {
+        "jp": "確かに、会議はもう始まっているはずです。",
+        "reading": "たしかに、かいぎはもうはじまっているはずです。",
+        "es": "Ciertamente, la reunión ya debería haber comenzado."
+      },
+      {
+        "jp": "終電に間に合うはずです。",
+        "reading": "しゅうでんにまにあうはずです。",
+        "es": "Debería llegar a tiempo para el último tren."
+      }
+    ]
   }
 ]

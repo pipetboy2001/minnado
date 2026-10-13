@@ -798,5 +798,45 @@
       "n4-ex-0239",
       "n4-ex-0240"
     ]
+  },
+  {
+    "id": "n4-lesson-46",
+    "jlptLevel": "N4",
+    "order": 46,
+    "title": "Lección 46 — A punto de, recién hecho y expectativa (Vるところ・Vたばかり・〜はずです)",
+    "description": "El momento justo antes de una acción con Vるところ, justo después con Vたばかり, y una expectativa segura con 〜はずです, con vocabulario de transporte y trabajo, basado en Minna no Nihongo Lección 46 (Libro 2).",
+    "kind": "lesson",
+    "vocabIds": [
+      "n4-voc-0181",
+      "n4-voc-0182",
+      "n4-voc-0183",
+      "n4-voc-0184",
+      "n4-voc-0185",
+      "n4-voc-0186",
+      "n4-voc-0187",
+      "n4-voc-0188",
+      "n4-voc-0189"
+    ],
+    "kanjiIds": [
+      "n4-kanji-0083",
+      "n4-kanji-0084",
+      "n4-kanji-0085",
+      "n4-kanji-0086"
+    ],
+    "grammarIds": ["n4-gram-0061", "n4-gram-0062", "n4-gram-0063"],
+    "exerciseIds": [
+      "n4-ex-0241",
+      "n4-ex-0242",
+      "n4-ex-0243",
+      "n4-ex-0244",
+      "n4-ex-0245",
+      "n4-ex-0246",
+      "n4-ex-0247",
+      "n4-ex-0248",
+      "n4-ex-0249",
+      "n4-ex-0250",
+      "n4-ex-0251",
+      "n4-ex-0252"
+    ]
   }
 ]

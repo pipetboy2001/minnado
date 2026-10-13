@@ -1171,5 +1171,58 @@
     "exampleWords": [
       { "word": "残念", "reading": "ざんねん", "meaningEs": "lástima, pena" }
     ]
+  },
+  {
+    "id": "n4-kanji-0083",
+    "character": "到",
+    "jlptLevel": "N4",
+    "strokeCount": 8,
+    "onyomi": ["トウ"],
+    "kunyomi": [],
+    "meaningEs": "llegar",
+    "radicals": ["刂"],
+    "exampleWords": [
+      { "word": "到着", "reading": "とうちゃく", "meaningEs": "llegada" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0084",
+    "character": "着",
+    "jlptLevel": "N4",
+    "strokeCount": 12,
+    "onyomi": ["チャク"],
+    "kunyomi": ["き-る", "つ-く"],
+    "meaningEs": "llegar; ponerse (ropa)",
+    "radicals": ["目"],
+    "exampleWords": [
+      { "word": "到着", "reading": "とうちゃく", "meaningEs": "llegada" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0085",
+    "character": "最",
+    "jlptLevel": "N4",
+    "strokeCount": 12,
+    "onyomi": ["サイ"],
+    "kunyomi": ["もっと-も"],
+    "meaningEs": "el más, lo máximo",
+    "radicals": ["日"],
+    "exampleWords": [
+      { "word": "最近", "reading": "さいきん", "meaningEs": "recientemente" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0086",
+    "character": "近",
+    "jlptLevel": "N4",
+    "strokeCount": 7,
+    "onyomi": ["キン"],
+    "kunyomi": ["ちか-い"],
+    "meaningEs": "cerca",
+    "radicals": ["辶"],
+    "exampleWords": [
+      { "word": "最近", "reading": "さいきん", "meaningEs": "recientemente" },
+      { "word": "近い", "reading": "ちかい", "meaningEs": "cercano" }
+    ]
   }
 ]
