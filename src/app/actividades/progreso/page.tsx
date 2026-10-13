@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { redirect } from "next/navigation";
 import {
   BookOpen,
   CheckCircle2,
@@ -33,7 +34,10 @@ const dateFormatter = new Intl.DateTimeFormat("es", {
 
 export default async function ProgresoPage() {
   const session = await auth();
-  const userId = session!.user.id;
+  if (!session?.user) {
+    redirect("/login");
+  }
+  const userId = session.user.id;
 
   const [stats, lessons, sessionStats, recentSessions] = await Promise.all([
     getUserOverallStats(userId),

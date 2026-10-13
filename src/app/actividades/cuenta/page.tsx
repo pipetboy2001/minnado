@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { redirect } from "next/navigation";
 import { KeyRound, Settings, UserCircle, Volume2 } from "lucide-react";
 import { auth } from "@/auth";
 import {
@@ -13,6 +14,9 @@ import { ChangePasswordForm } from "./change-password-form";
 
 export default async function CuentaPage() {
   const session = await auth();
+  if (!session?.user) {
+    redirect("/login");
+  }
 
   return (
     <div className="mx-auto w-full max-w-sm flex-1 p-6">
@@ -34,9 +38,9 @@ export default async function CuentaPage() {
         <CardHeader>
           <CardTitle className="flex items-center gap-2 text-base">
             <UserCircle className="size-5 text-muted-foreground" />
-            {session!.user.name ?? "Sin nombre"}
+            {session.user.name ?? "Sin nombre"}
           </CardTitle>
-          <CardDescription>{session!.user.email}</CardDescription>
+          <CardDescription>{session.user.email}</CardDescription>
         </CardHeader>
       </Card>
 

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { redirect } from "next/navigation";
 import {
   GraduationCap,
   Languages,
@@ -15,7 +16,10 @@ import { LessonTabs } from "./lesson-tabs";
 
 export default async function ActividadesPage() {
   const session = await auth();
-  const userId = session!.user.id;
+  if (!session?.user) {
+    redirect("/login");
+  }
+  const userId = session.user.id;
   const lessons = getLessonsN5();
   const progress = await getUserLessonProgress(userId);
 
@@ -70,7 +74,7 @@ export default async function ActividadesPage() {
       <div className="mb-8">
         <h1 className="text-2xl font-bold">Actividades N5</h1>
         <p className="text-sm text-muted-foreground">
-          Hola, {session?.user?.name ?? session?.user?.email}
+          Hola, {session.user.name ?? session.user.email}
         </p>
       </div>
 
