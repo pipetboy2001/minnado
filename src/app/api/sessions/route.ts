@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { z } from "zod";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
+import { withErrorHandling } from "@/lib/api-route";
 
 const sessionSchema = z.object({
   lessonId: z.string(),
@@ -9,7 +10,7 @@ const sessionSchema = z.object({
   totalExercises: z.number().int().positive(),
 });
 
-export async function POST(request: Request) {
+export const POST = withErrorHandling(async function POST(request: Request) {
   const session = await auth();
   if (!session?.user?.id) {
     return NextResponse.json({ error: "No autenticado" }, { status: 401 });
@@ -29,4 +30,4 @@ export async function POST(request: Request) {
   });
 
   return NextResponse.json({ session: practiceSession }, { status: 201 });
-}
+}, "sessions");

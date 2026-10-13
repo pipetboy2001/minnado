@@ -4,13 +4,14 @@ import { prisma } from "@/lib/prisma";
 import { sendPasswordResetEmail } from "@/lib/mailer";
 import { generateResetToken, hashResetToken } from "@/lib/password-reset-token";
 import { checkRateLimit } from "@/lib/rate-limit";
+import { withErrorHandling } from "@/lib/api-route";
 
 const requestSchema = z.object({ email: z.string().email() });
 
 const RESET_TOKEN_TTL_MS = 60 * 60 * 1000;
 const RESET_RATE_LIMIT = { limit: 3, windowMs: 15 * 60 * 1000 };
 
-export async function POST(request: Request) {
+export const POST = withErrorHandling(async function POST(request: Request) {
   const body = await request.json();
   const parsed = requestSchema.safeParse(body);
   if (!parsed.success) {
@@ -45,4 +46,4 @@ export async function POST(request: Request) {
   }
 
   return NextResponse.json({ ok: true });
-}
+}, "password-reset/request");

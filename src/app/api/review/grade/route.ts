@@ -3,6 +3,7 @@ import { z } from "zod";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
 import { scheduleNextReview } from "@/lib/srs";
+import { withErrorHandling } from "@/lib/api-route";
 
 const gradeSchema = z.object({
   type: z.enum(["vocab", "kanji"]),
@@ -10,7 +11,7 @@ const gradeSchema = z.object({
   grade: z.enum(["again", "good", "easy"]),
 });
 
-export async function POST(request: Request) {
+export const POST = withErrorHandling(async function POST(request: Request) {
   const session = await auth();
   if (!session?.user?.id) {
     return NextResponse.json({ error: "No autenticado" }, { status: 401 });
@@ -60,4 +61,4 @@ export async function POST(request: Request) {
   }
 
   return NextResponse.json({ ok: true });
-}
+}, "review/grade");

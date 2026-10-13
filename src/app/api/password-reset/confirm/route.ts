@@ -3,6 +3,7 @@ import bcrypt from "bcryptjs";
 import { z } from "zod";
 import { prisma } from "@/lib/prisma";
 import { hashResetToken } from "@/lib/password-reset-token";
+import { withErrorHandling } from "@/lib/api-route";
 
 const confirmSchema = z.object({
   email: z.string().email(),
@@ -12,7 +13,7 @@ const confirmSchema = z.object({
     .min(8, "La contraseña debe tener al menos 8 caracteres"),
 });
 
-export async function POST(request: Request) {
+export const POST = withErrorHandling(async function POST(request: Request) {
   const body = await request.json();
   const parsed = confirmSchema.safeParse(body);
   if (!parsed.success) {
@@ -44,4 +45,4 @@ export async function POST(request: Request) {
   await prisma.verificationToken.deleteMany({ where: { identifier: email } });
 
   return NextResponse.json({ ok: true });
-}
+}, "password-reset/confirm");

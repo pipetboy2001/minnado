@@ -3,6 +3,7 @@ import bcrypt from "bcryptjs";
 import { z } from "zod";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
+import { withErrorHandling } from "@/lib/api-route";
 
 const changePasswordSchema = z.object({
   currentPassword: z.string().min(1),
@@ -11,7 +12,7 @@ const changePasswordSchema = z.object({
     .min(8, "La contraseña debe tener al menos 8 caracteres"),
 });
 
-export async function POST(request: Request) {
+export const POST = withErrorHandling(async function POST(request: Request) {
   const session = await auth();
   if (!session?.user?.id) {
     return NextResponse.json({ error: "No autenticado" }, { status: 401 });
@@ -55,4 +56,4 @@ export async function POST(request: Request) {
   });
 
   return NextResponse.json({ ok: true });
-}
+}, "account/password");

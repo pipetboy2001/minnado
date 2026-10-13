@@ -3,6 +3,7 @@ import bcrypt from "bcryptjs";
 import { z } from "zod";
 import { prisma } from "@/lib/prisma";
 import { checkRateLimit, getClientIp } from "@/lib/rate-limit";
+import { withErrorHandling } from "@/lib/api-route";
 
 const registerSchema = z.object({
   name: z.string().min(1, "El nombre es obligatorio"),
@@ -12,7 +13,7 @@ const registerSchema = z.object({
 
 const REGISTER_RATE_LIMIT = { limit: 5, windowMs: 15 * 60 * 1000 };
 
-export async function POST(request: Request) {
+export const POST = withErrorHandling(async function POST(request: Request) {
   const ip = getClientIp(request);
   const allowed = await checkRateLimit(`register:${ip}`, REGISTER_RATE_LIMIT);
   if (!allowed) {
@@ -50,4 +51,4 @@ export async function POST(request: Request) {
   });
 
   return NextResponse.json({ user }, { status: 201 });
-}
+}, "register");
