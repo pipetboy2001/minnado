@@ -1017,5 +1017,57 @@
     "exampleWords": [
       { "word": "役に立つ", "reading": "やくにたつ", "meaningEs": "ser útil" }
     ]
+  },
+  {
+    "id": "n4-kanji-0071",
+    "character": "重",
+    "jlptLevel": "N4",
+    "strokeCount": 9,
+    "onyomi": ["ジュウ", "チョウ"],
+    "kunyomi": ["おも-い"],
+    "meaningEs": "pesado; importante",
+    "radicals": ["里"],
+    "exampleWords": [
+      { "word": "重い", "reading": "おもい", "meaningEs": "pesado" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0072",
+    "character": "落",
+    "jlptLevel": "N4",
+    "strokeCount": 12,
+    "onyomi": ["ラク"],
+    "kunyomi": ["お-ちる", "お-とす"],
+    "meaningEs": "caer",
+    "radicals": ["艹"],
+    "exampleWords": [
+      { "word": "落ちる", "reading": "おちる", "meaningEs": "caerse" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0073",
+    "character": "曇",
+    "jlptLevel": "N4",
+    "strokeCount": 16,
+    "onyomi": ["ドン"],
+    "kunyomi": ["くも-る"],
+    "meaningEs": "nublado",
+    "radicals": ["日"],
+    "exampleWords": [
+      { "word": "曇る", "reading": "くもる", "meaningEs": "nublarse" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0074",
+    "character": "増",
+    "jlptLevel": "N4",
+    "strokeCount": 14,
+    "onyomi": ["ゾウ"],
+    "kunyomi": ["ふ-える", "ふ-やす"],
+    "meaningEs": "aumentar",
+    "radicals": ["土"],
+    "exampleWords": [
+      { "word": "増える", "reading": "ふえる", "meaningEs": "aumentar" }
+    ]
   }
 ]

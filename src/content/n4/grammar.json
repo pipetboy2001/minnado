@@ -1072,5 +1072,63 @@
         "es": "Esperé nada menos que tres horas."
       }
     ]
+  },
+  {
+    "id": "n4-gram-0052",
+    "jlptLevel": "N4",
+    "category": "sentence-structure",
+    "title": "そうです (様態: parece que, se ve que)",
+    "pattern": "Adjetivo-い (sin い) + そうです ｜ Adjetivo-な (raíz) + そうです ｜ Vます (raíz) + そうです",
+    "explanationEs": "Esta そうです (様態, 'apariencia') describe una impresión visual o algo inminente, no lo que alguien dijo (esa es otra そうです, lección 47). Con adjetivos, quita la terminación: 重い→重そう, 元気→元気そう. Con verbos, usa la raíz ます y describe algo que está a punto de pasar: 落ちる→落ちそう.",
+    "structureNotes": "いい → よさそう (excepción) ｜ ない → なさそう (excepción)",
+    "examples": [
+      {
+        "jp": "この荷物は重そうです。",
+        "reading": "このにもつはおもそうです。",
+        "es": "Este paquete se ve pesado."
+      },
+      {
+        "jp": "本が落ちそうです。",
+        "reading": "ほんがおちそうです。",
+        "es": "El libro parece que se va a caer."
+      }
+    ]
+  },
+  {
+    "id": "n4-gram-0053",
+    "jlptLevel": "N4",
+    "category": "sentence-structure",
+    "title": "今にも〜そうです (está a punto de...)",
+    "pattern": "今にも + [Vます raíz] + そうです。",
+    "explanationEs": "今にも refuerza そうです (様態) para decir que algo está a punto de pasar en cualquier momento — más inmediato que そうです sola.",
+    "examples": [
+      {
+        "jp": "今にも雨が降りそうです。",
+        "reading": "いまにもあめがふりそうです。",
+        "es": "Está a punto de llover."
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0052"]
+  },
+  {
+    "id": "n4-gram-0054",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "〜てきます (ir y volver haciendo algo / cambio que se acerca)",
+    "pattern": "Vて + きます。",
+    "explanationEs": "〜てきます tiene dos usos: (1) con verbos de acción puntual, expresa 'ir a hacer algo y volver' (資料を印刷してきます = voy a imprimir y vuelvo); (2) con verbos de cambio gradual, expresa que el cambio se acerca hacia el presente (曇ってきました = se ha ido nublando, 増えてきました = ha ido aumentando).",
+    "structureNotes": "買い物に行ってきます (voy de compras, ya vuelvo) ｜ 空が曇ってきました (el cielo se fue nublando)",
+    "examples": [
+      {
+        "jp": "ちょっと買い物に行ってきます。",
+        "reading": "ちょっとかいものにいってきます。",
+        "es": "Voy un momento de compras (y vuelvo)."
+      },
+      {
+        "jp": "空が曇ってきました。",
+        "reading": "そらがくもってきました。",
+        "es": "El cielo se ha ido nublando."
+      }
+    ]
   }
 ]

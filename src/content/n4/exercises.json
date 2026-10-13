@@ -3340,5 +3340,204 @@
     "translationEs": "Practiqué muchas veces.",
     "explanationEs": "数量+も: énfasis en una cantidad grande.",
     "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0205",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-43",
+    "promptEs": "Elige la forma correcta (apariencia, adjetivo).",
+    "questionJp": "この荷物[にもつ]は{{1}}です。",
+    "options": [
+      { "id": "a", "textJp": "重そう", "isCorrect": true },
+      { "id": "b", "textJp": "重い", "isCorrect": false },
+      { "id": "c", "textJp": "重くて", "isCorrect": false },
+      { "id": "d", "textJp": "重かったら", "isCorrect": false }
+    ],
+    "explanationEs": "重い → 重そう: quitar い y agregar そう (apariencia).",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0206",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-43",
+    "promptEs": "Elige la forma correcta (apariencia, verbo).",
+    "questionJp": "本[ほん]が{{1}}です。",
+    "options": [
+      { "id": "a", "textJp": "落ちそう", "isCorrect": true },
+      { "id": "b", "textJp": "落ちる", "isCorrect": false },
+      { "id": "c", "textJp": "落ちて", "isCorrect": false },
+      { "id": "d", "textJp": "落ちながら", "isCorrect": false }
+    ],
+    "explanationEs": "落ちそう: parece que está a punto de caerse.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0207",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-43",
+    "promptEs": "Elige la forma correcta (ir y volver).",
+    "questionJp": "ちょっと買[か]い物[もの]に{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "行ってきます", "isCorrect": true },
+      { "id": "b", "textJp": "行っています", "isCorrect": false },
+      { "id": "c", "textJp": "行っておきます", "isCorrect": false },
+      { "id": "d", "textJp": "行ってしまいます", "isCorrect": false }
+    ],
+    "explanationEs": "行ってきます: voy y vuelvo.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0208",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-43",
+    "promptEs": "Elige la palabra correcta.",
+    "questionJp": "子供[こども]は{{1}}です。もう寝[ね]る時間[じかん]ですね。",
+    "options": [
+      { "id": "a", "textJp": "眠そう", "isCorrect": true },
+      { "id": "b", "textJp": "重そう", "isCorrect": false },
+      { "id": "c", "textJp": "増えそう", "isCorrect": false },
+      { "id": "d", "textJp": "曇りそう", "isCorrect": false }
+    ],
+    "explanationEs": "眠い → 眠そう: se ve con sueño.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0209",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-43",
+    "promptEs": "Completa con そうです.",
+    "sentenceTemplate": "今[いま]にも雨[あめ]が{{1}}です。",
+    "translationEs": "Está a punto de llover.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["降りそう"],
+        "options": ["降りそう", "降る", "降って", "降りながら"]
+      }
+    ],
+    "explanationEs": "降る → 降りそう: raíz ます + そう, algo a punto de pasar.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0210",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-43",
+    "promptEs": "Completa con てきました (cambio que se acerca).",
+    "sentenceTemplate": "空[そら]が{{1}}。",
+    "translationEs": "El cielo se ha ido nublando.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["曇ってきました"],
+        "options": [
+          "曇ってきました",
+          "曇っています",
+          "曇っておきました",
+          "曇ってしまいました"
+        ]
+      }
+    ],
+    "explanationEs": "曇ってきました: el cambio (nublarse) avanza hacia el presente.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0211",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-43",
+    "promptEs": "Completa con てきます (ir y volver).",
+    "sentenceTemplate": "資料[しりょう]を印刷[いんさつ]して{{1}}。",
+    "translationEs": "Voy a imprimir los documentos (y vuelvo).",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["きます"],
+        "options": ["きます", "います", "あります", "おきます"]
+      }
+    ],
+    "explanationEs": "してきます: ir a hacer algo y volver.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0212",
+    "type": "word-order",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-43",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["日本語を勉強する人が", "増えて", "きました"],
+    "correctOrder": ["日本語を勉強する人が", "増えて", "きました"],
+    "translationEs": "Ha ido aumentando la gente que estudia japonés.",
+    "explanationEs": "Vてきました: el cambio gradual se acerca hacia el presente.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0213",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-43",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "重い", "right": "pesado" },
+      { "id": "p2", "left": "眠い", "right": "con sueño" },
+      { "id": "p3", "left": "曇る", "right": "nublarse" },
+      { "id": "p4", "left": "落ちる", "right": "caerse" },
+      { "id": "p5", "left": "戻る", "right": "volver, regresar" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0214",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "kanji",
+    "lessonId": "n4-lesson-43",
+    "promptEs": "Une cada kanji con su lectura on'yomi.",
+    "pairs": [
+      { "id": "p1", "left": "重", "right": "じゅう" },
+      { "id": "p2", "left": "落", "right": "らく" },
+      { "id": "p3", "left": "曇", "right": "どん" },
+      { "id": "p4", "left": "増", "right": "ぞう" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0215",
+    "type": "speaking",
+    "jlptLevel": "N4",
+    "skill": "speaking",
+    "lessonId": "n4-lesson-43",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "今[いま]にも雨[あめ]が降[ふ]りそうです。",
+    "translationEs": "Está a punto de llover.",
+    "explanationEs": "Practica la fluidez de 降りそうです。",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0216",
+    "type": "listening",
+    "jlptLevel": "N4",
+    "skill": "listening",
+    "lessonId": "n4-lesson-43",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "すぐ戻[もど]ってきます。",
+    "targetReading": "すぐもどってきます。",
+    "translationEs": "Vuelvo enseguida.",
+    "explanationEs": "てきます: ir y volver.",
+    "difficulty": 1
   }
 ]

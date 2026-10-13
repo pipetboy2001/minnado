@@ -678,5 +678,45 @@
       "n4-ex-0203",
       "n4-ex-0204"
     ]
+  },
+  {
+    "id": "n4-lesson-43",
+    "jlptLevel": "N4",
+    "order": 43,
+    "title": "Lección 43 — Apariencia y cambios (そうです・今にも〜そうです・〜てきます)",
+    "description": "La apariencia con そうです (様態), reforzarla con 今にも, y 〜てきます para ir y volver haciendo algo o para un cambio gradual que se acerca, con vocabulario de clima y rutina, basado en Minna no Nihongo Lección 43 (Libro 2).",
+    "kind": "lesson",
+    "vocabIds": [
+      "n4-voc-0154",
+      "n4-voc-0155",
+      "n4-voc-0156",
+      "n4-voc-0157",
+      "n4-voc-0158",
+      "n4-voc-0159",
+      "n4-voc-0160",
+      "n4-voc-0161",
+      "n4-voc-0162"
+    ],
+    "kanjiIds": [
+      "n4-kanji-0071",
+      "n4-kanji-0072",
+      "n4-kanji-0073",
+      "n4-kanji-0074"
+    ],
+    "grammarIds": ["n4-gram-0052", "n4-gram-0053", "n4-gram-0054"],
+    "exerciseIds": [
+      "n4-ex-0205",
+      "n4-ex-0206",
+      "n4-ex-0207",
+      "n4-ex-0208",
+      "n4-ex-0209",
+      "n4-ex-0210",
+      "n4-ex-0211",
+      "n4-ex-0212",
+      "n4-ex-0213",
+      "n4-ex-0214",
+      "n4-ex-0215",
+      "n4-ex-0216"
+    ]
   }
 ]
