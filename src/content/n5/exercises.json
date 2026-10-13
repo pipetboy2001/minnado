@@ -4428,5 +4428,202 @@
     "translationEs": "Antes de partir, me preparo.",
     "explanationEs": "前に conecta dos acciones indicando que la primera ocurre antes de la segunda.",
     "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0276",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-23",
+    "promptEs": "Estudio mientras escucho música.",
+    "questionJp": "音楽[おんがく]を聞[き]き{{1}}、勉強[べんきょう]します。",
+    "options": [
+      { "id": "a", "textJp": "ながら", "isCorrect": true },
+      { "id": "b", "textJp": "ましょう", "isCorrect": false },
+      { "id": "c", "textJp": "ながらに", "isCorrect": false },
+      { "id": "d", "textJp": "すぎ", "isCorrect": false }
+    ],
+    "explanationEs": "ながら conecta dos acciones simultáneas; el verbo principal va al final.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0277",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "particles",
+    "lessonId": "n5-lesson-23",
+    "promptEs": "Voy al parque a pasear.",
+    "questionJp": "公園[こうえん]へ散歩[さんぽ]{{1}}行[い]きます。",
+    "options": [
+      { "id": "a", "textJp": "に", "isCorrect": true },
+      { "id": "b", "textJp": "を", "isCorrect": false },
+      { "id": "c", "textJp": "で", "isCorrect": false },
+      { "id": "d", "textJp": "へ", "isCorrect": false }
+    ],
+    "explanationEs": "に marca el propósito de un verbo de movimiento: 散歩に行きます (ir a pasear).",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0278",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-23",
+    "promptEs": "Voy a la estación a recibir a un amigo.",
+    "sentenceTemplate": "駅[えき]へ友達[ともだち]を{{1}}に行[い]きます。",
+    "translationEs": "Voy a la estación a recibir a un amigo.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["迎え", "むかえ"],
+        "options": ["迎え", "送り", "散歩", "買い物"]
+      }
+    ],
+    "explanationEs": "迎えに行きます significa 'ir a recibir/buscar a alguien'.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0279",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-23",
+    "promptEs": "Acompaño a mi amigo hasta la estación.",
+    "sentenceTemplate": "友達[ともだち]を駅[えき]まで{{1}}。",
+    "translationEs": "Acompaño a mi amigo hasta la estación.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["送ります", "おくります"],
+        "options": ["送ります", "迎えます", "散歩します", "泳ぎます"]
+      }
+    ],
+    "explanationEs": "送ります aquí significa 'acompañar' a una persona hasta un lugar.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0280",
+    "type": "word-order",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-23",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["勉強します", "音楽を", "聞きながら"],
+    "correctOrder": ["音楽を", "聞きながら", "勉強します"],
+    "translationEs": "Estudio mientras escucho música.",
+    "explanationEs": "El verbo principal (勉強します) va al final; ながら marca la acción secundaria.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0281",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-23",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "散歩します", "right": "pasear" },
+      { "id": "p2", "left": "買い物", "right": "compras" },
+      { "id": "p3", "left": "泳ぎます", "right": "nadar" },
+      { "id": "p4", "left": "公園", "right": "parque" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0282",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-23",
+    "promptEs": "¿Cómo se lee 散歩します (pasear)?",
+    "questionJp": "散歩します",
+    "options": [
+      { "id": "a", "textJp": "さんぽします", "isCorrect": true },
+      { "id": "b", "textJp": "さんほします", "isCorrect": false },
+      { "id": "c", "textJp": "ちりぽします", "isCorrect": false },
+      { "id": "d", "textJp": "さんぽでします", "isCorrect": false }
+    ],
+    "explanationEs": "散歩 se lee さんぽ (paseo).",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0283",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-23",
+    "promptEs": "Une cada kanji con su significado.",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "散",
+        "right": "dispersar, pasear (en compuestos)"
+      },
+      { "id": "p2", "left": "歩", "right": "caminar" },
+      { "id": "p3", "left": "迎", "right": "recibir, acoger" },
+      { "id": "p4", "left": "送", "right": "enviar" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0284",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-23",
+    "promptEs": "Voy al centro comercial a hacer compras.",
+    "questionJp": "デパートへ{{1}}に行[い]きます。",
+    "options": [
+      { "id": "a", "textJp": "買い物", "isCorrect": true },
+      { "id": "b", "textJp": "散歩", "isCorrect": false },
+      { "id": "c", "textJp": "迎え", "isCorrect": false },
+      { "id": "d", "textJp": "送り", "isCorrect": false }
+    ],
+    "explanationEs": "買い物に行きます significa 'ir a hacer compras'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0285",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-23",
+    "promptEs": "Como mientras veo televisión.",
+    "sentenceTemplate": "テレビを見[み]{{1}}、ご飯[はん]を食[た]べます。",
+    "translationEs": "Como mientras veo televisión.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["ながら"],
+        "options": ["ながら", "ように", "すぎ", "こと"]
+      }
+    ],
+    "explanationEs": "ながら conecta dos acciones simultáneas.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0286",
+    "type": "speaking",
+    "jlptLevel": "N5",
+    "skill": "speaking",
+    "lessonId": "n5-lesson-23",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "駅[えき]へ友達[ともだち]を迎[むか]えに行[い]きます。",
+    "translationEs": "Voy a la estación a recibir a un amigo.",
+    "explanationEs": "迎えに行きます combina を迎えます con に行きます.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0287",
+    "type": "listening",
+    "jlptLevel": "N5",
+    "skill": "listening",
+    "lessonId": "n5-lesson-23",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "公園[こうえん]へ散歩[さんぽ]に行[い]きます。",
+    "targetReading": "こうえんへさんぽにいきます。",
+    "translationEs": "Voy al parque a pasear.",
+    "explanationEs": "に marca el propósito de un verbo de movimiento.",
+    "difficulty": 2
   }
 ]

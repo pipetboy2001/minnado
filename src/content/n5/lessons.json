@@ -920,9 +920,51 @@
     ]
   },
   {
-    "id": "n5-lesson-03",
+    "id": "n5-lesson-23",
     "jlptLevel": "N5",
     "order": 22,
+    "title": "Lección 22 — Acciones simultáneas y propósito (〜ながら・〜に行きます)",
+    "description": "Conectar dos acciones simultáneas con 〜ながら, y expresar el propósito de un movimiento con 〜に行きます／来ます, con vocabulario de ocio y acompañamiento, basado en Minna no Nihongo Lección 22.",
+    "kind": "lesson",
+    "vocabIds": [
+      "n5-voc-0196",
+      "n5-voc-0197",
+      "n5-voc-0198",
+      "n5-voc-0199",
+      "n5-voc-0200",
+      "n5-voc-0201"
+    ],
+    "kanjiIds": [
+      "n5-kanji-0078",
+      "n5-kanji-0079",
+      "n5-kanji-0080",
+      "n5-kanji-0081"
+    ],
+    "grammarIds": [
+      "n5-gram-0089",
+      "n5-gram-0090",
+      "n5-gram-0091",
+      "n5-gram-0092"
+    ],
+    "exerciseIds": [
+      "n5-ex-0276",
+      "n5-ex-0277",
+      "n5-ex-0278",
+      "n5-ex-0279",
+      "n5-ex-0280",
+      "n5-ex-0281",
+      "n5-ex-0282",
+      "n5-ex-0283",
+      "n5-ex-0284",
+      "n5-ex-0285",
+      "n5-ex-0286",
+      "n5-ex-0287"
+    ]
+  },
+  {
+    "id": "n5-lesson-03",
+    "jlptLevel": "N5",
+    "order": 23,
     "title": "Repaso — Partículas, Adjetivos y Formas Verbales",
     "description": "Módulo de repaso transversal: partícula correcta, adjetivos い/な, y conjugación verbal (forma ます y て) a través de varias lecciones.",
     "kind": "review",

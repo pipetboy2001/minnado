@@ -1204,5 +1204,65 @@
       { "word": "準備", "reading": "じゅんび", "meaningEs": "preparación" },
       { "word": "標準", "reading": "ひょうじゅん", "meaningEs": "estándar" }
     ]
+  },
+  {
+    "id": "n5-kanji-0078",
+    "character": "散",
+    "jlptLevel": "N5",
+    "strokeCount": 12,
+    "onyomi": ["サン"],
+    "kunyomi": ["ち-る"],
+    "meaningEs": "dispersar, pasear (en compuestos)",
+    "radicals": ["攴"],
+    "exampleWords": [
+      { "word": "散歩", "reading": "さんぽ", "meaningEs": "paseo" },
+      {
+        "word": "散る",
+        "reading": "ちる",
+        "meaningEs": "dispersarse, caer (flores)"
+      }
+    ]
+  },
+  {
+    "id": "n5-kanji-0079",
+    "character": "歩",
+    "jlptLevel": "N5",
+    "strokeCount": 8,
+    "onyomi": ["ホ"],
+    "kunyomi": ["あゆ-む", "ある-く"],
+    "meaningEs": "caminar",
+    "radicals": ["止"],
+    "exampleWords": [
+      { "word": "散歩", "reading": "さんぽ", "meaningEs": "paseo" },
+      { "word": "歩く", "reading": "あるく", "meaningEs": "caminar" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0080",
+    "character": "迎",
+    "jlptLevel": "N5",
+    "strokeCount": 7,
+    "onyomi": ["ゲイ"],
+    "kunyomi": ["むか-える"],
+    "meaningEs": "recibir, acoger",
+    "radicals": ["辶"],
+    "exampleWords": [
+      { "word": "迎える", "reading": "むかえる", "meaningEs": "ir a recibir" },
+      { "word": "歓迎", "reading": "かんげい", "meaningEs": "bienvenida" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0081",
+    "character": "送",
+    "jlptLevel": "N5",
+    "strokeCount": 9,
+    "onyomi": ["ソウ"],
+    "kunyomi": ["おく-る"],
+    "meaningEs": "enviar",
+    "radicals": ["辶"],
+    "exampleWords": [
+      { "word": "送る", "reading": "おくる", "meaningEs": "enviar, acompañar" },
+      { "word": "放送", "reading": "ほうそう", "meaningEs": "transmisión" }
+    ]
   }
 ]

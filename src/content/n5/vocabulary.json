@@ -2533,5 +2533,83 @@
     "exampleSentenceReading": "あさ、はをみがきます。",
     "exampleSentenceEs": "Por la mañana me cepillo los dientes.",
     "tags": ["rutina", "minna-no-nihongo-l21"]
+  },
+  {
+    "id": "n5-voc-0196",
+    "jlptLevel": "N5",
+    "word": "散歩します",
+    "reading": "さんぽします",
+    "romaji": "sanpo shimasu",
+    "meaningEs": "pasear",
+    "partOfSpeech": "verb-irregular",
+    "exampleSentenceJp": "公園へ散歩に行きます。",
+    "exampleSentenceReading": "こうえんへさんぽにいきます。",
+    "exampleSentenceEs": "Voy al parque a pasear.",
+    "tags": ["ocio", "minna-no-nihongo-l22"]
+  },
+  {
+    "id": "n5-voc-0197",
+    "jlptLevel": "N5",
+    "word": "買い物",
+    "reading": "かいもの",
+    "romaji": "kaimono",
+    "meaningEs": "compras",
+    "partOfSpeech": "noun",
+    "exampleSentenceJp": "デパートへ買い物に行きます。",
+    "exampleSentenceReading": "デパートへかいものにいきます。",
+    "exampleSentenceEs": "Voy al centro comercial a hacer compras.",
+    "tags": ["ocio", "minna-no-nihongo-l22"]
+  },
+  {
+    "id": "n5-voc-0198",
+    "jlptLevel": "N5",
+    "word": "泳ぎます",
+    "reading": "およぎます",
+    "romaji": "oyogimasu",
+    "meaningEs": "nadar",
+    "partOfSpeech": "verb-u",
+    "exampleSentenceJp": "プールで泳ぎます。",
+    "exampleSentenceReading": "プールでおよぎます。",
+    "exampleSentenceEs": "Nado en la piscina.",
+    "tags": ["ocio", "minna-no-nihongo-l22"]
+  },
+  {
+    "id": "n5-voc-0199",
+    "jlptLevel": "N5",
+    "word": "公園",
+    "reading": "こうえん",
+    "romaji": "kouen",
+    "meaningEs": "parque",
+    "partOfSpeech": "noun",
+    "exampleSentenceJp": "公園へ散歩に行きます。",
+    "exampleSentenceReading": "こうえんへさんぽにいきます。",
+    "exampleSentenceEs": "Voy al parque a pasear.",
+    "tags": ["lugares", "minna-no-nihongo-l22"]
+  },
+  {
+    "id": "n5-voc-0200",
+    "jlptLevel": "N5",
+    "word": "迎えます",
+    "reading": "むかえます",
+    "romaji": "mukaemasu",
+    "meaningEs": "ir a recibir, ir a buscar (a alguien)",
+    "partOfSpeech": "verb-ru",
+    "exampleSentenceJp": "駅へ友達を迎えに行きます。",
+    "exampleSentenceReading": "えきへともだちをむかえにいきます。",
+    "exampleSentenceEs": "Voy a la estación a recibir a un amigo.",
+    "tags": ["acciones", "minna-no-nihongo-l22"]
+  },
+  {
+    "id": "n5-voc-0201",
+    "jlptLevel": "N5",
+    "word": "送ります",
+    "reading": "おくります",
+    "romaji": "okurimasu",
+    "meaningEs": "enviar, acompañar (llevar a alguien)",
+    "partOfSpeech": "verb-u",
+    "exampleSentenceJp": "友達を駅まで送ります。",
+    "exampleSentenceReading": "ともだちをえきまでおくります。",
+    "exampleSentenceEs": "Acompaño a mi amigo hasta la estación.",
+    "tags": ["acciones", "minna-no-nihongo-l22"]
   }
 ]

@@ -1374,5 +1374,65 @@
         "es": "Llegué 2 horas antes."
       }
     ]
+  },
+  {
+    "id": "n5-gram-0089",
+    "jlptLevel": "N5",
+    "category": "verb-forms",
+    "title": "〜ながら (mientras, dos acciones simultáneas)",
+    "pattern": "[Raíz de Verbo-ます]ながら、[Oración]。",
+    "explanationEs": "ながら conecta dos acciones que ocurren al mismo tiempo. El verbo principal (la acción más importante) va al final de la oración.",
+    "examples": [
+      {
+        "jp": "音楽を聞きながら、勉強します。",
+        "reading": "おんがくをききながら、べんきょうします。",
+        "es": "Estudio mientras escucho música."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0090",
+    "jlptLevel": "N5",
+    "category": "verb-forms",
+    "title": "〜に行きます／来ます (ir/venir a hacer algo)",
+    "pattern": "[Raíz de Verbo-ます／Sustantivo]に行きます／来ます。",
+    "explanationEs": "Indica el propósito de un movimiento: se agrega に después de la raíz de un verbo-ます o un sustantivo de acción, seguido de 行きます (ir) o 来ます (venir).",
+    "examples": [
+      {
+        "jp": "公園へ散歩に行きます。",
+        "reading": "こうえんへさんぽにいきます。",
+        "es": "Voy al parque a pasear."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0091",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "迎えに行きます (ir a recibir a alguien)",
+    "pattern": "[Persona]を迎えに行きます。",
+    "explanationEs": "Combina を迎えます con に行きます para expresar que se va a buscar o recibir a alguien en algún lugar.",
+    "examples": [
+      {
+        "jp": "駅へ友達を迎えに行きます。",
+        "reading": "えきへともだちをむかえにいきます。",
+        "es": "Voy a la estación a recibir a un amigo."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0092",
+    "jlptLevel": "N5",
+    "category": "verb-forms",
+    "title": "〜を〜まで送ります (acompañar/llevar a alguien)",
+    "pattern": "[Persona]を[Lugar]まで送ります。",
+    "explanationEs": "送ります aquí significa 'acompañar' o 'llevar' a una persona hasta un lugar, no solo 'enviar' objetos.",
+    "examples": [
+      {
+        "jp": "友達を駅まで送ります。",
+        "reading": "ともだちをえきまでおくります。",
+        "es": "Acompaño a mi amigo hasta la estación."
+      }
+    ]
   }
 ]
