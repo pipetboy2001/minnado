@@ -1,4 +1,5 @@
 import { ImageResponse } from "next/og";
+import { BrandMark } from "@/components/brand-mark";
 
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
@@ -21,14 +22,7 @@ export default function OpengraphImage() {
         fontFamily: "sans-serif",
       }}
     >
-      <div
-        style={{
-          width: 120,
-          height: 120,
-          borderRadius: "50%",
-          background: "#c1272d",
-        }}
-      />
+      <BrandMark size={140} />
       <div
         style={{
           fontSize: 92,
