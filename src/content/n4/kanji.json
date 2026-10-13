@@ -25,5 +25,132 @@
     "exampleWords": [
       { "word": "働く", "reading": "はたらく", "meaningEs": "trabajar" }
     ]
+  },
+  {
+    "id": "n4-kanji-0003",
+    "character": "急",
+    "jlptLevel": "N4",
+    "strokeCount": 9,
+    "onyomi": ["キュウ"],
+    "kunyomi": ["いそ-ぐ"],
+    "meaningEs": "urgente, apresurarse",
+    "radicals": ["心"],
+    "exampleWords": [
+      { "word": "急に", "reading": "きゅうに", "meaningEs": "de repente" },
+      { "word": "急ぐ", "reading": "いそぐ", "meaningEs": "apresurarse" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0004",
+    "character": "故",
+    "jlptLevel": "N4",
+    "strokeCount": 9,
+    "onyomi": ["コ"],
+    "kunyomi": ["ゆえ"],
+    "meaningEs": "razón, motivo",
+    "radicals": ["攵"],
+    "exampleWords": [
+      { "word": "事故", "reading": "じこ", "meaningEs": "accidente" },
+      { "word": "故障", "reading": "こしょう", "meaningEs": "avería" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0005",
+    "character": "障",
+    "jlptLevel": "N4",
+    "strokeCount": 14,
+    "onyomi": ["ショウ"],
+    "kunyomi": ["さわ-る"],
+    "meaningEs": "obstáculo, estorbo",
+    "radicals": ["阝"],
+    "exampleWords": [
+      { "word": "故障", "reading": "こしょう", "meaningEs": "avería" },
+      {
+        "word": "障子",
+        "reading": "しょうじ",
+        "meaningEs": "puerta corrediza de papel"
+      }
+    ]
+  },
+  {
+    "id": "n4-kanji-0006",
+    "character": "願",
+    "jlptLevel": "N4",
+    "strokeCount": 19,
+    "onyomi": ["ガン"],
+    "kunyomi": ["ねが-う"],
+    "meaningEs": "desear, pedir (un favor)",
+    "radicals": ["頁"],
+    "exampleWords": [
+      {
+        "word": "お願いします",
+        "reading": "おねがいします",
+        "meaningEs": "por favor, se lo pido"
+      },
+      { "word": "願う", "reading": "ねがう", "meaningEs": "desear, rogar" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0007",
+    "character": "泳",
+    "jlptLevel": "N4",
+    "strokeCount": 8,
+    "onyomi": ["エイ"],
+    "kunyomi": ["およ-ぐ"],
+    "meaningEs": "nadar",
+    "radicals": ["氵"],
+    "exampleWords": [
+      { "word": "泳ぐ", "reading": "およぐ", "meaningEs": "nadar" },
+      { "word": "水泳", "reading": "すいえい", "meaningEs": "natación" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0008",
+    "character": "免",
+    "jlptLevel": "N4",
+    "strokeCount": 8,
+    "onyomi": ["メン"],
+    "kunyomi": ["まぬか-れる"],
+    "meaningEs": "eximir, licencia",
+    "radicals": ["儿"],
+    "exampleWords": [
+      {
+        "word": "免許",
+        "reading": "めんきょ",
+        "meaningEs": "licencia, permiso"
+      }
+    ]
+  },
+  {
+    "id": "n4-kanji-0009",
+    "character": "許",
+    "jlptLevel": "N4",
+    "strokeCount": 11,
+    "onyomi": ["キョ"],
+    "kunyomi": ["ゆる-す"],
+    "meaningEs": "permitir",
+    "radicals": ["言"],
+    "exampleWords": [
+      {
+        "word": "免許",
+        "reading": "めんきょ",
+        "meaningEs": "licencia, permiso"
+      },
+      { "word": "許す", "reading": "ゆるす", "meaningEs": "permitir, perdonar" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0010",
+    "character": "全",
+    "jlptLevel": "N4",
+    "strokeCount": 6,
+    "onyomi": ["ゼン"],
+    "kunyomi": ["まった-く"],
+    "meaningEs": "todo, entero",
+    "radicals": ["人"],
+    "exampleWords": [
+      { "word": "全然", "reading": "ぜんぜん", "meaningEs": "en absoluto" },
+      { "word": "全部", "reading": "ぜんぶ", "meaningEs": "todo, en total" }
+    ]
   }
 ]

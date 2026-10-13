@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "id": "n4-lesson-26",
+    "jlptLevel": "N4",
+    "order": 26,
+    "title": "Lección 26 — Explicar una situación y pedir un favor (〜んです・〜ていただけませんか)",
+    "description": "La explicación 〜んです, la conexión 〜んですが y el pedido cortés 〜ていただけませんか, con vocabulario de reparaciones y favores, basado en Minna no Nihongo Lección 26 (Libro 2).",
+    "kind": "lesson",
+    "vocabIds": [
+      "n4-voc-0001",
+      "n4-voc-0002",
+      "n4-voc-0003",
+      "n4-voc-0004",
+      "n4-voc-0005",
+      "n4-voc-0006",
+      "n4-voc-0007",
+      "n4-voc-0008",
+      "n4-voc-0009"
+    ],
+    "kanjiIds": [
+      "n4-kanji-0003",
+      "n4-kanji-0004",
+      "n4-kanji-0005",
+      "n4-kanji-0006"
+    ],
+    "grammarIds": ["n4-gram-0001", "n4-gram-0002", "n4-gram-0003"],
+    "exerciseIds": [
+      "n4-ex-0001",
+      "n4-ex-0002",
+      "n4-ex-0003",
+      "n4-ex-0004",
+      "n4-ex-0005",
+      "n4-ex-0006",
+      "n4-ex-0007",
+      "n4-ex-0008",
+      "n4-ex-0009",
+      "n4-ex-0010",
+      "n4-ex-0011",
+      "n4-ex-0012"
+    ]
+  },
+  {
+    "id": "n4-lesson-27",
+    "jlptLevel": "N4",
+    "order": 27,
+    "title": "Lección 27 — Lo que puedo hacer (可能動詞・見えます・しか〜ない)",
+    "description": "La forma potencial de los verbos (可能動詞), los verbos de percepción 見えます/聞こえます y la partícula しか〜ない, con vocabulario de habilidades y transporte, basado en Minna no Nihongo Lección 27 (Libro 2).",
+    "kind": "lesson",
+    "vocabIds": [
+      "n4-voc-0010",
+      "n4-voc-0011",
+      "n4-voc-0012",
+      "n4-voc-0013",
+      "n4-voc-0014",
+      "n4-voc-0015",
+      "n4-voc-0016",
+      "n4-voc-0017",
+      "n4-voc-0018"
+    ],
+    "kanjiIds": [
+      "n4-kanji-0007",
+      "n4-kanji-0008",
+      "n4-kanji-0009",
+      "n4-kanji-0010"
+    ],
+    "grammarIds": ["n4-gram-0004", "n4-gram-0005", "n4-gram-0006"],
+    "exerciseIds": [
+      "n4-ex-0013",
+      "n4-ex-0014",
+      "n4-ex-0015",
+      "n4-ex-0016",
+      "n4-ex-0017",
+      "n4-ex-0018",
+      "n4-ex-0019",
+      "n4-ex-0020",
+      "n4-ex-0021",
+      "n4-ex-0022",
+      "n4-ex-0023",
+      "n4-ex-0024"
+    ]
+  }
+]

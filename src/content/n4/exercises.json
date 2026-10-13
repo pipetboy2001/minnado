@@ -1,1 +1,395 @@
-[]
+[
+  {
+    "id": "n4-ex-0001",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-26",
+    "promptEs": "Elige la forma correcta para explicar la situación.",
+    "questionJp": "頭[あたま]が痛[いた]い{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "んです", "isCorrect": true },
+      { "id": "b", "textJp": "そうです", "isCorrect": false },
+      { "id": "c", "textJp": "らしいです", "isCorrect": false },
+      { "id": "d", "textJp": "ばかりです", "isCorrect": false }
+    ],
+    "explanationEs": "〜んです se usa para explicar una situación: 'Es que me duele la cabeza.'",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0002",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-26",
+    "promptEs": "Elige la palabra correcta.",
+    "questionJp": "パソコンが{{1}}ました。",
+    "options": [
+      { "id": "a", "textJp": "壊れ", "isCorrect": true },
+      { "id": "b", "textJp": "直し", "isCorrect": false },
+      { "id": "c", "textJp": "届け", "isCorrect": false },
+      { "id": "d", "textJp": "願い", "isCorrect": false }
+    ],
+    "explanationEs": "壊れる (romperse) es intransitivo, se usa cuando algo se descompone solo; 直す es transitivo (arreglar algo).",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0003",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-26",
+    "promptEs": "Elige la forma más cortés para pedir el favor.",
+    "questionJp": "すみません、ペンを貸[か]して{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "いただけませんか", "isCorrect": true },
+      { "id": "b", "textJp": "あげました", "isCorrect": false },
+      { "id": "c", "textJp": "もらいます", "isCorrect": false },
+      { "id": "d", "textJp": "くれました", "isCorrect": false }
+    ],
+    "explanationEs": "〜ていただけませんか es la forma cortés de pedir un favor: '¿podría prestarme un bolígrafo?'",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0004",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-26",
+    "promptEs": "Elige la palabra correcta.",
+    "questionJp": "この辺[へん]は交通[こうつう]が{{1}}です。",
+    "options": [
+      { "id": "a", "textJp": "不便", "isCorrect": true },
+      { "id": "b", "textJp": "急", "isCorrect": false },
+      { "id": "c", "textJp": "調子", "isCorrect": false },
+      { "id": "d", "textJp": "故障", "isCorrect": false }
+    ],
+    "explanationEs": "不便 (adjetivo-な) significa 'poco práctico, incómodo'; aquí describe el transporte de la zona.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0005",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-26",
+    "promptEs": "Completa la oración pidiendo un favor cortésmente.",
+    "sentenceTemplate": "時計[とけい]が壊[こわ]れたんですが、直[なお]して{{1}}。",
+    "translationEs": "Es que se rompió mi reloj, ¿podría arreglarlo?",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["いただけませんか", "いただけますか"],
+        "options": [
+          "いただけませんか",
+          "もらいました",
+          "あげます",
+          "くれました"
+        ]
+      }
+    ],
+    "explanationEs": "いただけませんか es la pregunta cortés para pedir que alguien haga algo por ti.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0006",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-26",
+    "promptEs": "Completa la pregunta sobre qué le pasa a alguien.",
+    "sentenceTemplate": "元気[げんき]がないですね。どうした{{1}}か。",
+    "translationEs": "No te ves con ánimo. ¿Qué te pasa?",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["んです"],
+        "options": ["んです", "ます", "そう", "らしい"]
+      }
+    ],
+    "explanationEs": "どうしたんですか pregunta la razón de algo visible; la respuesta también suele llevar んです.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0007",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-26",
+    "promptEs": "Completa la oración con el adjetivo correcto.",
+    "sentenceTemplate": "交通[こうつう]が{{1}}です。",
+    "translationEs": "El transporte es poco práctico.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["不便"],
+        "options": ["不便", "急", "調子", "届け"]
+      }
+    ],
+    "explanationEs": "不便 es un adjetivo -な: 不便です (es poco práctico).",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0008",
+    "type": "word-order",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-26",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["パソコンが", "故障した", "んです"],
+    "correctOrder": ["パソコンが", "故障した", "んです"],
+    "translationEs": "Es que la computadora se averió.",
+    "explanationEs": "La explicación con んです va al final de la oración, después del verbo en forma simple pasada.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0009",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-26",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "壊れる", "right": "romperse, descomponerse" },
+      { "id": "p2", "left": "直す", "right": "arreglar, reparar" },
+      { "id": "p3", "left": "故障する", "right": "averiarse (una máquina)" },
+      { "id": "p4", "left": "不便", "right": "poco práctico, incómodo" },
+      { "id": "p5", "left": "届ける", "right": "entregar" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0010",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "kanji",
+    "lessonId": "n4-lesson-26",
+    "promptEs": "Une cada kanji con su lectura on'yomi.",
+    "pairs": [
+      { "id": "p1", "left": "急", "right": "きゅう" },
+      { "id": "p2", "left": "故", "right": "こ" },
+      { "id": "p3", "left": "障", "right": "しょう" },
+      { "id": "p4", "left": "願", "right": "がん" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0011",
+    "type": "speaking",
+    "jlptLevel": "N4",
+    "skill": "speaking",
+    "lessonId": "n4-lesson-26",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "時計[とけい]が壊[こわ]れたんですが、直[なお]していただけませんか。",
+    "translationEs": "Es que se rompió mi reloj, ¿podría arreglarlo?",
+    "explanationEs": "Practica la entonación suave de んですが antes de hacer el pedido.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0012",
+    "type": "listening",
+    "jlptLevel": "N4",
+    "skill": "listening",
+    "lessonId": "n4-lesson-26",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "急[きゅう]に雨[あめ]が降[ふ]りました。",
+    "targetReading": "きゅうにあめがふりました。",
+    "translationEs": "De repente llovió.",
+    "explanationEs": "急に (de repente) + 降りました, pasado de 降る (llover, caer).",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0013",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-27",
+    "promptEs": "Elige la forma potencial correcta.",
+    "questionJp": "私[わたし]は漢字[かんじ]が{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "読めます", "isCorrect": true },
+      { "id": "b", "textJp": "読みます", "isCorrect": false },
+      { "id": "c", "textJp": "読んでいます", "isCorrect": false },
+      { "id": "d", "textJp": "読ませます", "isCorrect": false }
+    ],
+    "explanationEs": "読めます es la forma potencial de 読みます (poder leer).",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0014",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-27",
+    "promptEs": "Elige la forma correcta para describir algo visible.",
+    "questionJp": "ここから山[やま]が{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "見えます", "isCorrect": true },
+      { "id": "b", "textJp": "見ます", "isCorrect": false },
+      { "id": "c", "textJp": "見られます", "isCorrect": false },
+      { "id": "d", "textJp": "見せます", "isCorrect": false }
+    ],
+    "explanationEs": "見えます describe algo visible de forma natural, sin esfuerzo intencional.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0015",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-27",
+    "promptEs": "Elige la partícula correcta.",
+    "questionJp": "お金[かね]が少[すこ]し{{1}}ありません。",
+    "options": [
+      { "id": "a", "textJp": "しか", "isCorrect": true },
+      { "id": "b", "textJp": "だけ", "isCorrect": false },
+      { "id": "c", "textJp": "ばかり", "isCorrect": false },
+      { "id": "d", "textJp": "ぐらい", "isCorrect": false }
+    ],
+    "explanationEs": "しか + negativo expresa 'solo, nada más que', con matiz de insuficiencia.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0016",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-27",
+    "promptEs": "Elige la palabra correcta.",
+    "questionJp": "この問題[もんだい]は{{1}}です。",
+    "options": [
+      { "id": "a", "textJp": "簡単", "isCorrect": true },
+      { "id": "b", "textJp": "免許", "isCorrect": false },
+      { "id": "c", "textJp": "自転車", "isCorrect": false },
+      { "id": "d", "textJp": "全然", "isCorrect": false }
+    ],
+    "explanationEs": "簡単 (adjetivo-な) significa fácil, sencillo.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0017",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-27",
+    "promptEs": "Completa con la forma potencial del verbo.",
+    "sentenceTemplate": "田中[たなか]さんは歌[うた]が上手[じょうず]に{{1}}。",
+    "translationEs": "El señor Tanaka puede cantar bien.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["歌えます"],
+        "options": ["歌えます", "歌います", "歌わせます", "歌われます"]
+      }
+    ],
+    "explanationEs": "歌えます es la forma potencial de 歌います (poder cantar).",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0018",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-27",
+    "promptEs": "Completa la oración con しか.",
+    "sentenceTemplate": "教室[きょうしつ]には学生[がくせい]が二人[ふたり]{{1}}いません。",
+    "translationEs": "En el salón solo hay dos estudiantes.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["しか"],
+        "options": ["しか", "だけ", "も", "ばかり"]
+      }
+    ],
+    "explanationEs": "しか + negativo (いません) da el matiz de 'solo, nada más que dos'.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0019",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-27",
+    "promptEs": "Completa la oración con el adverbio correcto.",
+    "sentenceTemplate": "すみません、時間[じかん]が{{1}}ありません。",
+    "translationEs": "Perdón, no tengo nada de tiempo.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["全然"],
+        "options": ["全然", "やっと", "簡単", "免許"]
+      }
+    ],
+    "explanationEs": "全然 + forma negativa expresa 'en absoluto, para nada'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0020",
+    "type": "word-order",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-27",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["日本語が", "話せます", "少し"],
+    "correctOrder": ["日本語が", "少し", "話せます"],
+    "translationEs": "Puedo hablar un poco de japonés.",
+    "explanationEs": "El objeto de un verbo potencial se marca con が, no を.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0021",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-27",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "泳ぐ", "right": "nadar" },
+      { "id": "p2", "left": "運転する", "right": "conducir" },
+      { "id": "p3", "left": "見える", "right": "poder verse, ser visible" },
+      { "id": "p4", "left": "聞こえる", "right": "poder oírse, ser audible" },
+      { "id": "p5", "left": "簡単", "right": "fácil, sencillo" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0022",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "kanji",
+    "lessonId": "n4-lesson-27",
+    "promptEs": "Une cada kanji con su lectura on'yomi.",
+    "pairs": [
+      { "id": "p1", "left": "泳", "right": "えい" },
+      { "id": "p2", "left": "免", "right": "めん" },
+      { "id": "p3", "left": "許", "right": "きょ" },
+      { "id": "p4", "left": "全", "right": "ぜん" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0023",
+    "type": "speaking",
+    "jlptLevel": "N4",
+    "skill": "speaking",
+    "lessonId": "n4-lesson-27",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "ここから富士山[ふじさん]が見[み]えます。",
+    "translationEs": "Desde aquí se ve el monte Fuji.",
+    "explanationEs": "Practica 見えます sin pronunciarlo como una acción intencional (見ます).",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0024",
+    "type": "listening",
+    "jlptLevel": "N4",
+    "skill": "listening",
+    "lessonId": "n4-lesson-27",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "財布[さいふ]に千円[せんえん]しかありません。",
+    "targetReading": "さいふにせんえんしかありません。",
+    "translationEs": "En la billetera solo tengo mil yenes.",
+    "explanationEs": "しか + negativo: 'solo tengo, nada más que'.",
+    "difficulty": 2
+  }
+]

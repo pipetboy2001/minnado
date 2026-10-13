@@ -1,1 +1,129 @@
-[]
+[
+  {
+    "id": "n4-gram-0001",
+    "jlptLevel": "N4",
+    "category": "sentence-structure",
+    "title": "〜んです (explicación de una situación)",
+    "pattern": "[Oración en forma simple] + んです。",
+    "explanationEs": "んです (contracción de のです) se usa para dar una explicación, pedir una razón, o mostrar que lo que se dice está conectado con una situación visible o ya mencionada. No es solo informar un hecho — agrega el matiz de 'es que...'.",
+    "structureNotes": "Verbo / Adjetivo-い (forma simple) + んです ｜ Sustantivo / Adjetivo-な + なんです",
+    "examples": [
+      {
+        "jp": "頭が痛いんです。",
+        "reading": "あたまがいたいんです。",
+        "es": "Es que me duele la cabeza."
+      },
+      {
+        "jp": "明日は休みなんです。",
+        "reading": "あしたはやすみなんです。",
+        "es": "Es que mañana es día libre."
+      }
+    ]
+  },
+  {
+    "id": "n4-gram-0002",
+    "jlptLevel": "N4",
+    "category": "questions",
+    "title": "どうしたんですか (preguntar qué pasó, con んです)",
+    "pattern": "どうしたんですか。",
+    "explanationEs": "Para preguntar la razón de algo que se nota a simple vista (alguien con mala cara, un ruido extraño, etc.) se usa どうしたんですか, no どうですか. La respuesta también suele llevar んです, para mantener la coherencia de la explicación.",
+    "examples": [
+      {
+        "jp": "元気がないですね。どうしたんですか。",
+        "reading": "げんきがないですね。どうしたんですか。",
+        "es": "No te ves con ánimo. ¿Qué te pasa?"
+      },
+      {
+        "jp": "財布をなくしたんです。",
+        "reading": "さいふをなくしたんです。",
+        "es": "Es que perdí mi billetera."
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0001"]
+  },
+  {
+    "id": "n4-gram-0003",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "〜んですが、〜ていただけませんか (pedir un favor explicando la situación)",
+    "pattern": "[Situación] んですが、[Verbo-て] いただけませんか。",
+    "explanationEs": "んですが conecta una explicación de la situación con el pedido que viene después — la が aquí no es un 'pero' fuerte, solo suaviza la petición. ていただけませんか es una forma muy cortés de pedir un favor: literalmente '¿no podría recibir el favor de que...?', más formal que 〜てくれませんか o 〜てください.",
+    "structureNotes": "Vて + いただけませんか (más cortés que 〜てくれませんか)",
+    "examples": [
+      {
+        "jp": "時計が壊れたんですが、直していただけませんか。",
+        "reading": "とけいがこわれたんですが、なおしていただけませんか。",
+        "es": "Es que se rompió mi reloj, ¿podría arreglarlo, por favor?"
+      },
+      {
+        "jp": "ちょっとお願いがあるんですが、手伝っていただけませんか。",
+        "reading": "ちょっとおねがいがあるんですが、てつだっていただけませんか。",
+        "es": "Tengo un favor que pedirle, ¿podría ayudarme?"
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0001"]
+  },
+  {
+    "id": "n4-gram-0004",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "可能動詞 (forma potencial: poder hacer algo)",
+    "pattern": "Godan: -u → -eru ｜ Ichidan: -る → -られる ｜ する→できる、来る→来られる",
+    "explanationEs": "La forma potencial expresa la capacidad de hacer algo. Los verbos godan cambian la terminación -u por -eru (泳ぐ→泳げる); los verbos ichidan cambian -る por -られる (食べる→食べられる); する se vuelve できる y 来る se vuelve 来られる. El objeto de la acción suele marcarse con が en vez de を.",
+    "structureNotes": "泳ぐ → 泳げる ｜ 食べる → 食べられる ｜ する → できる",
+    "examples": [
+      {
+        "jp": "日本語が話せます。",
+        "reading": "にほんごがはなせます。",
+        "es": "Puedo hablar japonés."
+      },
+      {
+        "jp": "漢字が読めません。",
+        "reading": "かんじがよめません。",
+        "es": "No puedo leer kanji."
+      }
+    ]
+  },
+  {
+    "id": "n4-gram-0005",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "見えます・聞こえます (algo se ve / se oye, sin intención)",
+    "pattern": "[Cosa] が 見えます／聞こえます。",
+    "explanationEs": "見えます y 聞こえます describen que algo es visible o audible de forma natural, sin que el hablante haga un esfuerzo — a diferencia de 見る/聞く, que son acciones intencionales.",
+    "examples": [
+      {
+        "jp": "ここから富士山が見えます。",
+        "reading": "ここからふじさんがみえます。",
+        "es": "Desde aquí se ve el monte Fuji."
+      },
+      {
+        "jp": "隣の部屋から音楽が聞こえます。",
+        "reading": "となりのへやからおんがくがきこえます。",
+        "es": "Se oye música desde la habitación de al lado."
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0004"]
+  },
+  {
+    "id": "n4-gram-0006",
+    "jlptLevel": "N4",
+    "category": "particles",
+    "title": "しか〜ない (solamente, nada más que)",
+    "pattern": "[Sustantivo] しか [Verbo negativo]。",
+    "explanationEs": "しか siempre se usa con la forma negativa del verbo al final, pero el significado es afirmativo en español: '〜しかない' equivale a 'solo hay 〜 / no hay más que 〜'. Da el matiz de que la cantidad es menor de lo esperado, a diferencia de だけ, que es neutral.",
+    "structureNotes": "500円しかありません。(Solo tengo 500 yenes — menos de lo que quisiera)",
+    "examples": [
+      {
+        "jp": "漢字が少ししか書けません。",
+        "reading": "かんじがすこししかかけません。",
+        "es": "Solo puedo escribir un poco de kanji."
+      },
+      {
+        "jp": "財布に千円しかありません。",
+        "reading": "さいふにせんえんしかありません。",
+        "es": "En la billetera solo tengo mil yenes."
+      }
+    ]
+  }
+]
