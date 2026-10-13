@@ -1092,5 +1092,61 @@
         "meaningEs": "país/región nevada"
       }
     ]
+  },
+  {
+    "id": "n5-kanji-0070",
+    "character": "疲",
+    "jlptLevel": "N5",
+    "strokeCount": 10,
+    "onyomi": ["ヒ"],
+    "kunyomi": ["つか-れる"],
+    "meaningEs": "cansarse",
+    "radicals": ["疒"],
+    "exampleWords": [
+      { "word": "疲れる", "reading": "つかれる", "meaningEs": "cansarse" },
+      { "word": "疲労", "reading": "ひろう", "meaningEs": "fatiga" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0071",
+    "character": "眠",
+    "jlptLevel": "N5",
+    "strokeCount": 10,
+    "onyomi": ["ミン"],
+    "kunyomi": ["ねむ-い"],
+    "meaningEs": "dormir, sueño",
+    "radicals": ["目"],
+    "exampleWords": [
+      { "word": "眠い", "reading": "ねむい", "meaningEs": "tener sueño" },
+      { "word": "睡眠", "reading": "すいみん", "meaningEs": "sueño (descanso)" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0072",
+    "character": "忙",
+    "jlptLevel": "N5",
+    "strokeCount": 6,
+    "onyomi": ["ボウ"],
+    "kunyomi": ["いそが-しい"],
+    "meaningEs": "ocupado",
+    "radicals": ["心"],
+    "exampleWords": [
+      { "word": "忙しい", "reading": "いそがしい", "meaningEs": "ocupado" },
+      { "word": "多忙", "reading": "たぼう", "meaningEs": "muy ocupado" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0073",
+    "character": "顔",
+    "jlptLevel": "N5",
+    "strokeCount": 18,
+    "onyomi": ["ガン"],
+    "kunyomi": ["かお"],
+    "meaningEs": "cara",
+    "radicals": ["頁"],
+    "exampleWords": [
+      { "word": "顔色", "reading": "かおいろ", "meaningEs": "color de cara" },
+      { "word": "洗顔", "reading": "せんがん", "meaningEs": "lavado de cara" }
+    ]
   }
 ]

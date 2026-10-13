@@ -4042,5 +4042,198 @@
     "translationEs": "Podría venir un tifón.",
     "explanationEs": "かもしれません expresa menor certeza que でしょう.",
     "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0252",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-21",
+    "promptEs": "Parece que el señor Tanaka está cansado (inferencia).",
+    "questionJp": "田中[たなか]さんは疲[つか]れている{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "ようです", "isCorrect": true },
+      { "id": "b", "textJp": "すぎます", "isCorrect": false },
+      { "id": "c", "textJp": "ください", "isCorrect": false },
+      { "id": "d", "textJp": "ましょう", "isCorrect": false }
+    ],
+    "explanationEs": "ようです expresa una inferencia del hablante basada en lo que observa.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0253",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-21",
+    "promptEs": "Estás demasiado ocupado.",
+    "questionJp": "忙[いそが]し{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "すぎます", "isCorrect": true },
+      { "id": "b", "textJp": "そうです", "isCorrect": false },
+      { "id": "c", "textJp": "ようです", "isCorrect": false },
+      { "id": "d", "textJp": "かもしれません", "isCorrect": false }
+    ],
+    "explanationEs": "すぎます indica que algo excede un límite razonable: 忙しすぎます.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0254",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-21",
+    "promptEs": "Parece que tienes sueño (apariencia inmediata).",
+    "sentenceTemplate": "眠[ねむ]{{1}}です。",
+    "translationEs": "Se te ve con sueño.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["そう"],
+        "options": ["そう", "よう", "すぎ", "かも"]
+      }
+    ],
+    "explanationEs": "そうです describe una impresión inmediata basada en lo que se ve.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0255",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-21",
+    "promptEs": "No te sientes bien.",
+    "sentenceTemplate": "具合[ぐあい]が{{1}}です。",
+    "translationEs": "No me siento bien.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["悪い", "わるい"],
+        "options": ["悪い", "忙しい", "眠い", "疲れ"]
+      }
+    ],
+    "explanationEs": "具合が悪いです es una expresión fija para decir que uno no se siente bien.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0256",
+    "type": "word-order",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-21",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["ようです", "疲れている", "田中さんは"],
+    "correctOrder": ["田中さんは", "疲れている", "ようです"],
+    "translationEs": "Parece que el señor Tanaka está cansado.",
+    "explanationEs": "ようです va al final de la oración, después de la cláusula sobre la que se infiere.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0257",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-21",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "疲れます", "right": "cansarse" },
+      { "id": "p2", "left": "眠い", "right": "tener sueño" },
+      { "id": "p3", "left": "忙しい", "right": "ocupado" },
+      { "id": "p4", "left": "具合", "right": "condición (de salud)" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0258",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-21",
+    "promptEs": "¿Cómo se lee 疲れます (cansarse)?",
+    "questionJp": "疲れます",
+    "options": [
+      { "id": "a", "textJp": "つかれます", "isCorrect": true },
+      { "id": "b", "textJp": "ひかれます", "isCorrect": false },
+      { "id": "c", "textJp": "つかります", "isCorrect": false },
+      { "id": "d", "textJp": "ひされます", "isCorrect": false }
+    ],
+    "explanationEs": "疲れる se lee つかれる; en forma ます es つかれます.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0259",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-21",
+    "promptEs": "Une cada kanji con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "疲", "right": "cansarse" },
+      { "id": "p2", "left": "眠", "right": "dormir, sueño" },
+      { "id": "p3", "left": "忙", "right": "ocupado" },
+      { "id": "p4", "left": "顔", "right": "cara" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0260",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-21",
+    "promptEs": "Tu cara se ve mal (color de cara).",
+    "questionJp": "{{1}}色[いろ]が悪[わる]いです。",
+    "options": [
+      { "id": "a", "textJp": "顔", "isCorrect": true },
+      { "id": "b", "textJp": "具合", "isCorrect": false },
+      { "id": "c", "textJp": "忙しい", "isCorrect": false },
+      { "id": "d", "textJp": "眠い", "isCorrect": false }
+    ],
+    "explanationEs": "顔色 (かおいろ) significa 'color de cara'.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0261",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-21",
+    "promptEs": "Estás demasiado ocupado hoy.",
+    "sentenceTemplate": "今日[きょう]は{{1}}すぎます。",
+    "translationEs": "Estás demasiado ocupado hoy.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["忙し", "いそがし"],
+        "options": ["忙し", "眠", "疲れ", "悪"]
+      }
+    ],
+    "explanationEs": "Se quita la い final de 忙しい antes de agregar すぎます.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0262",
+    "type": "speaking",
+    "jlptLevel": "N5",
+    "skill": "speaking",
+    "lessonId": "n5-lesson-21",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "田中[たなか]さんは疲[つか]れているようです。",
+    "translationEs": "Parece que el señor Tanaka está cansado.",
+    "explanationEs": "ようです expresa una inferencia basada en lo que se observa.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0263",
+    "type": "listening",
+    "jlptLevel": "N5",
+    "skill": "listening",
+    "lessonId": "n5-lesson-21",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "具合[ぐあい]が悪[わる]いです。",
+    "targetReading": "ぐあいがわるいです。",
+    "translationEs": "No me siento bien.",
+    "explanationEs": "具合が悪いです es una expresión fija para decir que no te sientes bien.",
+    "difficulty": 1
   }
 ]

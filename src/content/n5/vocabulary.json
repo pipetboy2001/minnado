@@ -2377,5 +2377,83 @@
     "exampleSentenceReading": "てんきよほうをききます。",
     "exampleSentenceEs": "Escucho el pronóstico del tiempo.",
     "tags": ["clima", "minna-no-nihongo-l19"]
+  },
+  {
+    "id": "n5-voc-0184",
+    "jlptLevel": "N5",
+    "word": "疲れます",
+    "reading": "つかれます",
+    "romaji": "tsukaremasu",
+    "meaningEs": "cansarse",
+    "partOfSpeech": "verb-ru",
+    "exampleSentenceJp": "田中さんは疲れているようです。",
+    "exampleSentenceReading": "たなかさんはつかれているようです。",
+    "exampleSentenceEs": "Parece que el señor Tanaka está cansado.",
+    "tags": ["salud", "minna-no-nihongo-l20"]
+  },
+  {
+    "id": "n5-voc-0185",
+    "jlptLevel": "N5",
+    "word": "眠い",
+    "reading": "ねむい",
+    "romaji": "nemui",
+    "meaningEs": "tener sueño",
+    "partOfSpeech": "i-adjective",
+    "exampleSentenceJp": "眠そうです。",
+    "exampleSentenceReading": "ねむそうです。",
+    "exampleSentenceEs": "Parece que tienes sueño.",
+    "tags": ["adjetivos", "minna-no-nihongo-l20"]
+  },
+  {
+    "id": "n5-voc-0186",
+    "jlptLevel": "N5",
+    "word": "忙しい",
+    "reading": "いそがしい",
+    "romaji": "isogashii",
+    "meaningEs": "ocupado",
+    "partOfSpeech": "i-adjective",
+    "exampleSentenceJp": "忙しすぎます。",
+    "exampleSentenceReading": "いそがしすぎます。",
+    "exampleSentenceEs": "Estoy demasiado ocupado.",
+    "tags": ["adjetivos", "minna-no-nihongo-l20"]
+  },
+  {
+    "id": "n5-voc-0187",
+    "jlptLevel": "N5",
+    "word": "顔",
+    "reading": "かお",
+    "romaji": "kao",
+    "meaningEs": "cara",
+    "partOfSpeech": "noun",
+    "exampleSentenceJp": "顔色が悪いです。",
+    "exampleSentenceReading": "かおいろがわるいです。",
+    "exampleSentenceEs": "Tu cara se ve mal.",
+    "tags": ["cuerpo", "minna-no-nihongo-l20"]
+  },
+  {
+    "id": "n5-voc-0188",
+    "jlptLevel": "N5",
+    "word": "具合",
+    "reading": "ぐあい",
+    "romaji": "guai",
+    "meaningEs": "condición (de salud)",
+    "partOfSpeech": "noun",
+    "exampleSentenceJp": "具合が悪いです。",
+    "exampleSentenceReading": "ぐあいがわるいです。",
+    "exampleSentenceEs": "No me siento bien.",
+    "tags": ["salud", "minna-no-nihongo-l20"]
+  },
+  {
+    "id": "n5-voc-0189",
+    "jlptLevel": "N5",
+    "word": "悪い",
+    "reading": "わるい",
+    "romaji": "warui",
+    "meaningEs": "malo",
+    "partOfSpeech": "i-adjective",
+    "exampleSentenceJp": "具合が悪いです。",
+    "exampleSentenceReading": "ぐあいがわるいです。",
+    "exampleSentenceEs": "No me siento bien.",
+    "tags": ["adjetivos", "minna-no-nihongo-l20"]
   }
 ]

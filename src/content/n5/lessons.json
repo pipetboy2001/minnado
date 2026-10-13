@@ -836,9 +836,51 @@
     ]
   },
   {
-    "id": "n5-lesson-03",
+    "id": "n5-lesson-21",
     "jlptLevel": "N5",
     "order": 20,
+    "title": "Lección 20 — Apariencia e inferencia (〜ようです・〜すぎます)",
+    "description": "Expresar inferencia con 〜ようです, exceso con 〜すぎます, e impresión inmediata con 〜そうです, con vocabulario de salud y cansancio, basado en Minna no Nihongo Lección 20.",
+    "kind": "lesson",
+    "vocabIds": [
+      "n5-voc-0184",
+      "n5-voc-0185",
+      "n5-voc-0186",
+      "n5-voc-0187",
+      "n5-voc-0188",
+      "n5-voc-0189"
+    ],
+    "kanjiIds": [
+      "n5-kanji-0070",
+      "n5-kanji-0071",
+      "n5-kanji-0072",
+      "n5-kanji-0073"
+    ],
+    "grammarIds": [
+      "n5-gram-0081",
+      "n5-gram-0082",
+      "n5-gram-0083",
+      "n5-gram-0084"
+    ],
+    "exerciseIds": [
+      "n5-ex-0252",
+      "n5-ex-0253",
+      "n5-ex-0254",
+      "n5-ex-0255",
+      "n5-ex-0256",
+      "n5-ex-0257",
+      "n5-ex-0258",
+      "n5-ex-0259",
+      "n5-ex-0260",
+      "n5-ex-0261",
+      "n5-ex-0262",
+      "n5-ex-0263"
+    ]
+  },
+  {
+    "id": "n5-lesson-03",
+    "jlptLevel": "N5",
+    "order": 21,
     "title": "Repaso — Partículas, Adjetivos y Formas Verbales",
     "description": "Módulo de repaso transversal: partícula correcta, adjetivos い/な, y conjugación verbal (forma ます y て) a través de varias lecciones.",
     "kind": "review",

@@ -1253,5 +1253,66 @@
         "es": "Podría venir un tifón."
       }
     ]
+  },
+  {
+    "id": "n5-gram-0081",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "〜ようです (parece que..., inferencia)",
+    "pattern": "[Oración]ようです。",
+    "explanationEs": "ようです expresa una inferencia del hablante basada en lo que observa o sabe, como 'parece que...' en español.",
+    "examples": [
+      {
+        "jp": "田中さんは疲れているようです。",
+        "reading": "たなかさんはつかれているようです。",
+        "es": "Parece que el señor Tanaka está cansado."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0082",
+    "jlptLevel": "N5",
+    "category": "verb-forms",
+    "title": "〜すぎます (demasiado)",
+    "pattern": "[Raíz de Verbo/Adjetivo]すぎます。",
+    "explanationEs": "すぎます indica que algo excede un límite razonable, como 'demasiado' en español. Con adjetivos-い se quita la い final antes de agregar すぎます.",
+    "structureNotes": "忙しい→忙しすぎます。食べる→食べすぎます。",
+    "examples": [
+      {
+        "jp": "忙しすぎます。",
+        "reading": "いそがしすぎます。",
+        "es": "Estoy demasiado ocupado."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0083",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "〜そうです (apariencia inmediata)",
+    "pattern": "[Raíz de Adjetivo]そうです。",
+    "explanationEs": "そうです describe una impresión inmediata basada en lo que se ve en el momento, a diferencia de ようです que suele ser una inferencia más razonada a partir de varios indicios.",
+    "examples": [
+      {
+        "jp": "眠そうです。",
+        "reading": "ねむそうです。",
+        "es": "Se te ve con sueño."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0084",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "具合が悪いです (no sentirse bien)",
+    "pattern": "具合が悪いです。",
+    "explanationEs": "Expresión fija para decir que uno no se siente bien de salud, usando 具合 (condición) y 悪い (malo).",
+    "examples": [
+      {
+        "jp": "具合が悪いです。病院へ行った方がいいです。",
+        "reading": "ぐあいがわるいです。びょういんへいったほうがいいです。",
+        "es": "No me siento bien. Es mejor que vayas al hospital."
+      }
+    ]
   }
 ]
