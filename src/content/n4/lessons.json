@@ -878,5 +878,45 @@
       "n4-ex-0263",
       "n4-ex-0264"
     ]
+  },
+  {
+    "id": "n4-lesson-48",
+    "jlptLevel": "N4",
+    "order": 48,
+    "title": "Lección 48 — La forma causativa (使役形・〜させてください・〜させていただけませんか)",
+    "description": "La forma causativa (使役形) para hacer o dejar que alguien haga algo, pedir permiso con 〜させてください, y el pedido más cortés 〜させていただけませんか, con vocabulario de trabajo y decisiones, basado en Minna no Nihongo Lección 48 (Libro 2).",
+    "kind": "lesson",
+    "vocabIds": [
+      "n4-voc-0199",
+      "n4-voc-0200",
+      "n4-voc-0201",
+      "n4-voc-0202",
+      "n4-voc-0203",
+      "n4-voc-0204",
+      "n4-voc-0205",
+      "n4-voc-0206",
+      "n4-voc-0207"
+    ],
+    "kanjiIds": [
+      "n4-kanji-0091",
+      "n4-kanji-0092",
+      "n4-kanji-0093",
+      "n4-kanji-0094"
+    ],
+    "grammarIds": ["n4-gram-0067", "n4-gram-0068", "n4-gram-0069"],
+    "exerciseIds": [
+      "n4-ex-0265",
+      "n4-ex-0266",
+      "n4-ex-0267",
+      "n4-ex-0268",
+      "n4-ex-0269",
+      "n4-ex-0270",
+      "n4-ex-0271",
+      "n4-ex-0272",
+      "n4-ex-0273",
+      "n4-ex-0274",
+      "n4-ex-0275",
+      "n4-ex-0276"
+    ]
   }
 ]

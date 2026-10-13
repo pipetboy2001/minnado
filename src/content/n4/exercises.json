@@ -4315,5 +4315,204 @@
     "translationEs": "Parece que esta leche se echó a perder.",
     "explanationEs": "ようです: inferencia basada en evidencia.",
     "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0265",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-48",
+    "promptEs": "Elige la forma causativa correcta.",
+    "questionJp": "子供[こども]に{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "手伝わせます", "isCorrect": true },
+      { "id": "b", "textJp": "手伝います", "isCorrect": false },
+      { "id": "c", "textJp": "手伝われます", "isCorrect": false },
+      { "id": "d", "textJp": "手伝えます", "isCorrect": false }
+    ],
+    "explanationEs": "手伝わせます: forma causativa, hago que ayude.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0266",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-48",
+    "promptEs": "Elige la forma correcta para pedir permiso de hacer algo.",
+    "questionJp": "少[すこ]し{{1}}ください。",
+    "options": [
+      { "id": "a", "textJp": "考えさせて", "isCorrect": true },
+      { "id": "b", "textJp": "考えて", "isCorrect": false },
+      { "id": "c", "textJp": "考えられて", "isCorrect": false },
+      { "id": "d", "textJp": "考えさせられて", "isCorrect": false }
+    ],
+    "explanationEs": "考えさせてください: déjeme pensarlo.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0267",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-48",
+    "promptEs": "Elige el pedido de permiso más cortés.",
+    "questionJp": "早[はや]く退社[たいしゃ]{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "させていただけませんか", "isCorrect": true },
+      { "id": "b", "textJp": "してください", "isCorrect": false },
+      { "id": "c", "textJp": "してもいいです", "isCorrect": false },
+      { "id": "d", "textJp": "してはいけません", "isCorrect": false }
+    ],
+    "explanationEs": "させていただけませんか: pedido muy cortés de permiso.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0268",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-48",
+    "promptEs": "Elige la palabra correcta.",
+    "questionJp": "学生[がくせい]に{{1}}させます。",
+    "options": [
+      { "id": "a", "textJp": "発表", "isCorrect": true },
+      { "id": "b", "textJp": "自由", "isCorrect": false },
+      { "id": "c", "textJp": "意見", "isCorrect": false },
+      { "id": "d", "textJp": "自分", "isCorrect": false }
+    ],
+    "explanationEs": "発表させます: hacer que presenten.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0269",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-48",
+    "promptEs": "Completa con la forma causativa.",
+    "sentenceTemplate": "自分[じぶん]で{{1}}。",
+    "translationEs": "Dejo que elija por sí mismo.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["選ばせます"],
+        "options": ["選ばせます", "選びます", "選ばれます", "選べます"]
+      }
+    ],
+    "explanationEs": "選ばせます: forma causativa, dejar que elija.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0270",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-48",
+    "promptEs": "Completa con させてください.",
+    "sentenceTemplate": "少[すこ]し{{1}}ください。",
+    "translationEs": "Déjeme pensarlo un poco, por favor.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["考えさせて"],
+        "options": ["考えさせて", "考えて", "考えられて", "考えさせられて"]
+      }
+    ],
+    "explanationEs": "考えさせてください: déjeme pensarlo.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0271",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-48",
+    "promptEs": "Completa con させていただけませんか.",
+    "sentenceTemplate": "外出[がいしゅつ]{{1}}。",
+    "translationEs": "¿Me permitiría salir?",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["させていただけませんか"],
+        "options": [
+          "させていただけませんか",
+          "してください",
+          "してもいいです",
+          "してはいけません"
+        ]
+      }
+    ],
+    "explanationEs": "させていただけませんか: pedido muy cortés de permiso.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0272",
+    "type": "word-order",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-48",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["学生に", "自由に", "意見を言わせます"],
+    "correctOrder": ["学生に", "自由に", "意見を言わせます"],
+    "translationEs": "Dejo que los estudiantes digan su opinión libremente.",
+    "explanationEs": "La forma causativa va al final del verbo principal.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0273",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-48",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "手伝う", "right": "ayudar" },
+      { "id": "p2", "left": "自由", "right": "libertad, libre" },
+      { "id": "p3", "left": "意見", "right": "opinión" },
+      { "id": "p4", "left": "考える", "right": "pensar, considerar" },
+      { "id": "p5", "left": "自分", "right": "uno mismo" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0274",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "kanji",
+    "lessonId": "n4-lesson-48",
+    "promptEs": "Une cada kanji con su lectura on'yomi.",
+    "pairs": [
+      { "id": "p1", "left": "由", "right": "ゆう" },
+      { "id": "p2", "left": "意", "right": "い" },
+      { "id": "p3", "left": "見", "right": "けん" },
+      { "id": "p4", "left": "考", "right": "こう" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0275",
+    "type": "speaking",
+    "jlptLevel": "N4",
+    "skill": "speaking",
+    "lessonId": "n4-lesson-48",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "少[すこ]し考[かんが]えさせてください。",
+    "translationEs": "Déjeme pensarlo un poco, por favor.",
+    "explanationEs": "Practica la fluidez de させてください。",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0276",
+    "type": "listening",
+    "jlptLevel": "N4",
+    "skill": "listening",
+    "lessonId": "n4-lesson-48",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "早[はや]く退社[たいしゃ]させていただけませんか。",
+    "targetReading": "はやくたいしゃさせていただけませんか。",
+    "translationEs": "¿Me permitiría salir temprano del trabajo?",
+    "explanationEs": "させていただけませんか: pedido muy cortés.",
+    "difficulty": 2
   }
 ]

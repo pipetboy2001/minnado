@@ -1272,5 +1272,57 @@
     "meaningEs": "sonido",
     "radicals": ["音"],
     "exampleWords": [{ "word": "音", "reading": "おと", "meaningEs": "sonido" }]
+  },
+  {
+    "id": "n4-kanji-0091",
+    "character": "由",
+    "jlptLevel": "N4",
+    "strokeCount": 5,
+    "onyomi": ["ユ", "ユウ"],
+    "kunyomi": [],
+    "meaningEs": "razón, motivo; libertad (usado en 自由)",
+    "radicals": ["田"],
+    "exampleWords": [
+      { "word": "自由", "reading": "じゆう", "meaningEs": "libertad, libre" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0092",
+    "character": "意",
+    "jlptLevel": "N4",
+    "strokeCount": 13,
+    "onyomi": ["イ"],
+    "kunyomi": [],
+    "meaningEs": "intención, significado",
+    "radicals": ["心"],
+    "exampleWords": [
+      { "word": "意見", "reading": "いけん", "meaningEs": "opinión" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0093",
+    "character": "見",
+    "jlptLevel": "N4",
+    "strokeCount": 7,
+    "onyomi": ["ケン"],
+    "kunyomi": ["み-る", "み-える"],
+    "meaningEs": "ver, opinión",
+    "radicals": ["見"],
+    "exampleWords": [
+      { "word": "意見", "reading": "いけん", "meaningEs": "opinión" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0094",
+    "character": "考",
+    "jlptLevel": "N4",
+    "strokeCount": 6,
+    "onyomi": ["コウ"],
+    "kunyomi": ["かんが-える"],
+    "meaningEs": "pensar, considerar",
+    "radicals": ["耂"],
+    "exampleWords": [
+      { "word": "考える", "reading": "かんがえる", "meaningEs": "pensar" }
+    ]
   }
 ]

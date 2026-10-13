@@ -1369,5 +1369,64 @@
         "es": "Se oye un ruido extraño desde la habitación de al lado."
       }
     ]
+  },
+  {
+    "id": "n4-gram-0067",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "使役形 (forma causativa: hacer/dejar que alguien haga algo)",
+    "pattern": "Godan: -u → -aseru ｜ Ichidan: -る → -させる ｜ する→させる、来る→来させる",
+    "explanationEs": "La forma causativa expresa que alguien hace u obliga, o deja/permite, a otra persona hacer algo. El sujeto que causa la acción se marca con が／は; la persona que la realiza se marca con に (si tiene cierta libertad de elegir) o を (si es forzada, típicamente con verbos intransitivos). Los verbos godan cambian -u por -aseru; los ichidan cambian -る por -させる.",
+    "structureNotes": "手伝う → 手伝わせる ｜ 選ぶ → 選ばせる ｜ する → させる",
+    "examples": [
+      {
+        "jp": "子供に手伝わせます。",
+        "reading": "こどもにてつだわせます。",
+        "es": "Hago que el niño ayude."
+      },
+      {
+        "jp": "学生に自由に意見を言わせます。",
+        "reading": "がくせいにじゆうにいけんをいわせます。",
+        "es": "Dejo que los estudiantes digan su opinión libremente."
+      }
+    ]
+  },
+  {
+    "id": "n4-gram-0068",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "〜させてください (déjeme hacer algo, por favor)",
+    "pattern": "Vさせて + ください。",
+    "explanationEs": "Combina la forma causativa con 〜てください para pedir permiso de hacer algo uno mismo — 'déjeme hacer X, por favor'. El hablante pide ser la persona que recibe el permiso de actuar, no que otra persona actúe.",
+    "structureNotes": "考えさせてください (déjeme pensarlo)",
+    "examples": [
+      {
+        "jp": "少し考えさせてください。",
+        "reading": "すこしかんがえさせてください。",
+        "es": "Déjeme pensarlo un poco, por favor."
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0067"]
+  },
+  {
+    "id": "n4-gram-0069",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "〜させていただけませんか (¿me permitiría...?)",
+    "pattern": "Vさせて + いただけませんか。",
+    "explanationEs": "Combina la forma causativa con いただけませんか (lección 26) para hacer el pedido de permiso más cortés posible: literalmente 'no podría recibir el favor de que me deje hacer X'. Mucho más formal que させてください, común en contextos de trabajo.",
+    "examples": [
+      {
+        "jp": "外出させていただけませんか。",
+        "reading": "がいしゅつさせていただけませんか。",
+        "es": "¿Me permitiría salir?"
+      },
+      {
+        "jp": "早く退社させていただけませんか。",
+        "reading": "はやくたいしゃさせていただけませんか。",
+        "es": "¿Me permitiría salir temprano del trabajo?"
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0067", "n4-gram-0068"]
   }
 ]
