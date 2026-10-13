@@ -2692,5 +2692,198 @@
     "translationEs": "Mi afición es el piano.",
     "explanationEs": "趣味は〜です dice cuál es la afición de alguien.",
     "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0168",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-14",
+    "promptEs": "Pides permiso para tomar una foto.",
+    "questionJp": "写真[しゃしん]を撮[と]って{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "もいいですか", "isCorrect": true },
+      { "id": "b", "textJp": "はいけません", "isCorrect": false },
+      { "id": "c", "textJp": "みます", "isCorrect": false },
+      { "id": "d", "textJp": "おきます", "isCorrect": false }
+    ],
+    "explanationEs": "〜てもいいですか pide permiso para hacer algo.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0169",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-14",
+    "promptEs": "Está prohibido fumar aquí.",
+    "questionJp": "ここでタバコを吸[す]って{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "はいけません", "isCorrect": true },
+      { "id": "b", "textJp": "もいいです", "isCorrect": false },
+      { "id": "c", "textJp": "みます", "isCorrect": false },
+      { "id": "d", "textJp": "おきます", "isCorrect": false }
+    ],
+    "explanationEs": "〜てはいけません indica que algo está prohibido.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0170",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-14",
+    "promptEs": "Pides permiso para abrir la ventana.",
+    "sentenceTemplate": "窓[まど]を{{1}}もいいですか。",
+    "translationEs": "¿Puedo abrir la ventana?",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["開けて", "あけて"],
+        "options": ["開けて", "閉めて", "撮って", "使って"]
+      }
+    ],
+    "explanationEs": "開けます significa 'abrir'.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0171",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-14",
+    "promptEs": "Espera un momento, por favor.",
+    "sentenceTemplate": "{{1}}待[ま]ってください。",
+    "translationEs": "Espera un momento, por favor.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["ちょっと"],
+        "options": ["ちょっと", "もう", "まだ", "とても"]
+      }
+    ],
+    "explanationEs": "ちょっと suaviza la petición.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0172",
+    "type": "word-order",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-14",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["撮っても", "いいですか", "写真を"],
+    "correctOrder": ["写真を", "撮っても", "いいですか"],
+    "translationEs": "¿Puedo tomar una foto?",
+    "explanationEs": "Orden: [Objeto]を + Verbo-ても + いいですか。",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0173",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-14",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "写真", "right": "foto" },
+      { "id": "p2", "left": "窓", "right": "ventana" },
+      { "id": "p3", "left": "電話", "right": "teléfono" },
+      { "id": "p4", "left": "使います", "right": "usar" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0174",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-14",
+    "promptEs": "¿Cómo se lee 写真 (foto)?",
+    "questionJp": "写真",
+    "options": [
+      { "id": "a", "textJp": "しゃしん", "isCorrect": true },
+      { "id": "b", "textJp": "しゃちん", "isCorrect": false },
+      { "id": "c", "textJp": "さしん", "isCorrect": false },
+      { "id": "d", "textJp": "しゃじん", "isCorrect": false }
+    ],
+    "explanationEs": "写真 se lee しゃしん.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0175",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-14",
+    "promptEs": "Une cada kanji con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "写", "right": "copiar, fotografiar" },
+      { "id": "p2", "left": "真", "right": "verdad, real" },
+      { "id": "p3", "left": "窓", "right": "ventana" },
+      { "id": "p4", "left": "電", "right": "electricidad" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0176",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-14",
+    "promptEs": "Está prohibido abrir la ventana.",
+    "questionJp": "窓[まど]を開[あ]けて{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "はいけません", "isCorrect": true },
+      { "id": "b", "textJp": "もいいです", "isCorrect": false },
+      { "id": "c", "textJp": "みます", "isCorrect": false },
+      { "id": "d", "textJp": "おきます", "isCorrect": false }
+    ],
+    "explanationEs": "〜てはいけません indica que algo está prohibido.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0177",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-14",
+    "promptEs": "Usas el teléfono.",
+    "sentenceTemplate": "電話[でんわ]を{{1}}。",
+    "translationEs": "Uso el teléfono.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["使います", "つかいます"],
+        "options": ["使います", "撮ります", "開けます", "閉めます"]
+      }
+    ],
+    "explanationEs": "使います significa 'usar'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0178",
+    "type": "speaking",
+    "jlptLevel": "N5",
+    "skill": "speaking",
+    "lessonId": "n5-lesson-14",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "写真[しゃしん]を撮[と]ってもいいですか。",
+    "translationEs": "¿Puedo tomar una foto?",
+    "explanationEs": "〜てもいいですか pide permiso para hacer algo.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0179",
+    "type": "listening",
+    "jlptLevel": "N5",
+    "skill": "listening",
+    "lessonId": "n5-lesson-14",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "ここでタバコを吸[す]ってはいけません。",
+    "targetReading": "ここでたばこをすってはいけません。",
+    "translationEs": "No se puede fumar aquí.",
+    "explanationEs": "〜てはいけません indica que algo está prohibido.",
+    "difficulty": 2
   }
 ]

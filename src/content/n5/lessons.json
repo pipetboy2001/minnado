@@ -538,9 +538,54 @@
     ]
   },
   {
-    "id": "n5-lesson-03",
+    "id": "n5-lesson-14",
     "jlptLevel": "N5",
     "order": 13,
+    "title": "Lección 13 — Permiso y prohibición (〜てもいいですか)",
+    "description": "Pedir permiso con 〜てもいいですか y prohibir con 〜てはいけません, basado en Minna no Nihongo Lección 13.",
+    "kind": "lesson",
+    "vocabIds": [
+      "n5-voc-0133",
+      "n5-voc-0134",
+      "n5-voc-0135",
+      "n5-voc-0136",
+      "n5-voc-0137",
+      "n5-voc-0138",
+      "n5-voc-0139",
+      "n5-voc-0140",
+      "n5-voc-0141"
+    ],
+    "kanjiIds": [
+      "n5-kanji-0043",
+      "n5-kanji-0044",
+      "n5-kanji-0045",
+      "n5-kanji-0046"
+    ],
+    "grammarIds": [
+      "n5-gram-0053",
+      "n5-gram-0054",
+      "n5-gram-0055",
+      "n5-gram-0056"
+    ],
+    "exerciseIds": [
+      "n5-ex-0168",
+      "n5-ex-0169",
+      "n5-ex-0170",
+      "n5-ex-0171",
+      "n5-ex-0172",
+      "n5-ex-0173",
+      "n5-ex-0174",
+      "n5-ex-0175",
+      "n5-ex-0176",
+      "n5-ex-0177",
+      "n5-ex-0178",
+      "n5-ex-0179"
+    ]
+  },
+  {
+    "id": "n5-lesson-03",
+    "jlptLevel": "N5",
+    "order": 14,
     "title": "Repaso — Partículas, Adjetivos y Formas Verbales",
     "description": "Módulo de repaso transversal: partícula correcta, adjetivos い/な, y conjugación verbal (forma ます y て) a través de varias lecciones.",
     "kind": "review",

@@ -828,5 +828,65 @@
         "es": "No puedo hacerlo para nada."
       }
     ]
+  },
+  {
+    "id": "n5-gram-0053",
+    "jlptLevel": "N5",
+    "category": "verb-forms",
+    "title": "〜てもいいですか (pedir permiso)",
+    "pattern": "[Verbo-て]もいいですか。",
+    "explanationEs": "Esta estructura usa la forma て del verbo para pedir permiso, como '¿puedo...?' en español.",
+    "examples": [
+      {
+        "jp": "写真を撮ってもいいですか。",
+        "reading": "しゃしんをとってもいいですか。",
+        "es": "¿Puedo tomar una foto?"
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0054",
+    "jlptLevel": "N5",
+    "category": "verb-forms",
+    "title": "〜てはいけません (prohibición)",
+    "pattern": "[Verbo-て]はいけません。",
+    "explanationEs": "Indica que algo está prohibido, como 'no se puede...' en español.",
+    "examples": [
+      {
+        "jp": "ここでタバコを吸ってはいけません。",
+        "reading": "ここでたばこをすってはいけません。",
+        "es": "No se puede fumar aquí."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0055",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "ちょっと + [Verbo] (petición suave)",
+    "pattern": "ちょっと[Verbo]。",
+    "explanationEs": "ちょっと suaviza una petición o indica una pequeña cantidad o un momento breve.",
+    "examples": [
+      {
+        "jp": "ちょっと待ってください。",
+        "reading": "ちょっとまってください。",
+        "es": "Espera un momento, por favor."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0056",
+    "jlptLevel": "N5",
+    "category": "particles",
+    "title": "窓を開けます／閉めます (acciones con objetos)",
+    "pattern": "[Objeto]を開けます／閉めます。",
+    "explanationEs": "を marca el objeto directo de 開けます (abrir) y 閉めます (cerrar).",
+    "examples": [
+      {
+        "jp": "窓を開けてもいいですか。",
+        "reading": "まどをあけてもいいですか。",
+        "es": "¿Puedo abrir la ventana?"
+      }
+    ]
   }
 ]

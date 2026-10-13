@@ -686,5 +686,69 @@
       { "word": "時間", "reading": "じかん", "meaningEs": "tiempo, hora" },
       { "word": "人間", "reading": "にんげん", "meaningEs": "ser humano" }
     ]
+  },
+  {
+    "id": "n5-kanji-0043",
+    "character": "写",
+    "jlptLevel": "N5",
+    "strokeCount": 5,
+    "onyomi": ["シャ"],
+    "kunyomi": ["うつ-す"],
+    "meaningEs": "copiar, fotografiar",
+    "radicals": ["冖"],
+    "exampleWords": [
+      { "word": "写真", "reading": "しゃしん", "meaningEs": "foto" },
+      {
+        "word": "写す",
+        "reading": "うつす",
+        "meaningEs": "copiar, fotografiar"
+      }
+    ]
+  },
+  {
+    "id": "n5-kanji-0044",
+    "character": "真",
+    "jlptLevel": "N5",
+    "strokeCount": 10,
+    "onyomi": ["シン"],
+    "kunyomi": ["ま"],
+    "meaningEs": "verdad, real",
+    "radicals": ["目"],
+    "exampleWords": [
+      { "word": "写真", "reading": "しゃしん", "meaningEs": "foto" },
+      { "word": "真っ赤", "reading": "まっか", "meaningEs": "rojo intenso" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0045",
+    "character": "窓",
+    "jlptLevel": "N5",
+    "strokeCount": 11,
+    "onyomi": ["ソウ"],
+    "kunyomi": ["まど"],
+    "meaningEs": "ventana",
+    "radicals": ["穴"],
+    "exampleWords": [
+      { "word": "窓口", "reading": "まどぐち", "meaningEs": "ventanilla" },
+      {
+        "word": "車窓",
+        "reading": "しゃそう",
+        "meaningEs": "ventana del vehículo"
+      }
+    ]
+  },
+  {
+    "id": "n5-kanji-0046",
+    "character": "電",
+    "jlptLevel": "N5",
+    "strokeCount": 13,
+    "onyomi": ["デン"],
+    "kunyomi": [],
+    "meaningEs": "electricidad",
+    "radicals": ["雨"],
+    "exampleWords": [
+      { "word": "電話", "reading": "でんわ", "meaningEs": "teléfono" },
+      { "word": "電車", "reading": "でんしゃ", "meaningEs": "tren" }
+    ]
   }
 ]
