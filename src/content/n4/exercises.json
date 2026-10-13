@@ -2743,5 +2743,199 @@
     "translationEs": "Como hubo un accidente, el tren se retrasó.",
     "explanationEs": "ので: razón objetiva.",
     "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0169",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-40",
+    "promptEs": "Elige la forma correcta para una pregunta incrustada.",
+    "questionJp": "どちらを{{1}}迷[まよ]っています。",
+    "options": [
+      { "id": "a", "textJp": "選ぶか", "isCorrect": true },
+      { "id": "b", "textJp": "選ぶこと", "isCorrect": false },
+      { "id": "c", "textJp": "選んでから", "isCorrect": false },
+      { "id": "d", "textJp": "選ぶので", "isCorrect": false }
+    ],
+    "explanationEs": "疑問詞+か: 'cuál elegir', pregunta incrustada.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0170",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-40",
+    "promptEs": "Elige la forma correcta para 'si... o no'.",
+    "questionJp": "サイズが{{1}}、わかりません。",
+    "options": [
+      { "id": "a", "textJp": "合うかどうか", "isCorrect": true },
+      { "id": "b", "textJp": "合うなら", "isCorrect": false },
+      { "id": "c", "textJp": "合っても", "isCorrect": false },
+      { "id": "d", "textJp": "合うので", "isCorrect": false }
+    ],
+    "explanationEs": "かどうか: 'si... o no', para preguntas de sí/no incrustadas.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0171",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-40",
+    "promptEs": "Elige la forma correcta para probar a hacer algo.",
+    "questionJp": "このシャツを試着[しちゃく]して{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "みます", "isCorrect": true },
+      { "id": "b", "textJp": "います", "isCorrect": false },
+      { "id": "c", "textJp": "あります", "isCorrect": false },
+      { "id": "d", "textJp": "おきます", "isCorrect": false }
+    ],
+    "explanationEs": "〜てみます: probar a hacer algo.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0172",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-40",
+    "promptEs": "Elige la palabra correcta.",
+    "questionJp": "このスープを{{1}}みました。",
+    "options": [
+      { "id": "a", "textJp": "味見して", "isCorrect": true },
+      { "id": "b", "textJp": "試着して", "isCorrect": false },
+      { "id": "c", "textJp": "確認して", "isCorrect": false },
+      { "id": "d", "textJp": "選んで", "isCorrect": false }
+    ],
+    "explanationEs": "味見する: probar comida.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0173",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-40",
+    "promptEs": "Completa con 疑問詞＋か.",
+    "sentenceTemplate": "何[なに]を食[た]べる{{1}}決[き]めていません。",
+    "translationEs": "No he decidido qué comer.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["か"],
+        "options": ["か", "かどうか", "のに", "ので"]
+      }
+    ],
+    "explanationEs": "疑問詞 (何) + か: pregunta incrustada.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0174",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-40",
+    "promptEs": "Completa con かどうか.",
+    "sentenceTemplate": "予約[よやく]が取[と]れた{{1}}確認[かくにん]します。",
+    "translationEs": "Voy a confirmar si se pudo hacer la reserva o no.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["かどうか"],
+        "options": ["かどうか", "だろうか", "ことか", "ので"]
+      }
+    ],
+    "explanationEs": "かどうか: sin palabra interrogativa, para sí/no.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0175",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-40",
+    "promptEs": "Completa con 〜てみます.",
+    "sentenceTemplate": "新[あたら]しいことに挑戦[ちょうせん]して{{1}}です。",
+    "translationEs": "Quiero intentar algo nuevo.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["みたい"],
+        "options": ["みたい", "います", "あります", "おきたい"]
+      }
+    ],
+    "explanationEs": "〜てみたいです: querer probar a hacer algo.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0176",
+    "type": "word-order",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-40",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["旅行の", "日程が", "まだ決まっていません"],
+    "correctOrder": ["旅行の", "日程が", "まだ決まっていません"],
+    "translationEs": "La fecha del viaje todavía no está decidida.",
+    "explanationEs": "決まる es intransitivo: la fecha 'queda decidida' por sí misma.",
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0177",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-40",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "試着する", "right": "probarse (ropa)" },
+      { "id": "p2", "left": "味見する", "right": "probar (comida)" },
+      { "id": "p3", "left": "挑戦する", "right": "intentar, retar" },
+      { "id": "p4", "left": "迷う", "right": "dudar, perderse" },
+      { "id": "p5", "left": "選ぶ", "right": "elegir" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0178",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "kanji",
+    "lessonId": "n4-lesson-40",
+    "promptEs": "Une cada kanji con su lectura on'yomi.",
+    "pairs": [
+      { "id": "p1", "left": "試", "right": "し" },
+      { "id": "p2", "left": "確", "right": "かく" },
+      { "id": "p3", "left": "認", "right": "にん" },
+      { "id": "p4", "left": "選", "right": "せん" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0179",
+    "type": "speaking",
+    "jlptLevel": "N4",
+    "skill": "speaking",
+    "lessonId": "n4-lesson-40",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "どちらを選[えら]ぶか迷[まよ]っています。",
+    "translationEs": "Estoy dudando cuál elegir.",
+    "explanationEs": "Practica la fluidez de la pregunta incrustada.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0180",
+    "type": "listening",
+    "jlptLevel": "N4",
+    "skill": "listening",
+    "lessonId": "n4-lesson-40",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "このシャツを試着[しちゃく]してみます。",
+    "targetReading": "このしゃつをしちゃくしてみます。",
+    "translationEs": "Voy a probarme esta camisa.",
+    "explanationEs": "〜てみます: probar a hacer algo.",
+    "difficulty": 1
   }
 ]

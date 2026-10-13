@@ -848,5 +848,58 @@
         "meaningEs": "coincidir, quedar bien"
       }
     ]
+  },
+  {
+    "id": "n4-kanji-0059",
+    "character": "試",
+    "jlptLevel": "N4",
+    "strokeCount": 13,
+    "onyomi": ["シ"],
+    "kunyomi": ["こころ-みる", "ため-す"],
+    "meaningEs": "probar, intentar",
+    "radicals": ["言"],
+    "exampleWords": [
+      { "word": "試着", "reading": "しちゃく", "meaningEs": "probarse ropa" },
+      { "word": "試す", "reading": "ためす", "meaningEs": "probar, intentar" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0060",
+    "character": "確",
+    "jlptLevel": "N4",
+    "strokeCount": 15,
+    "onyomi": ["カク"],
+    "kunyomi": ["たし-かめる"],
+    "meaningEs": "confirmar, seguro",
+    "radicals": ["石"],
+    "exampleWords": [
+      { "word": "確認", "reading": "かくにん", "meaningEs": "confirmación" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0061",
+    "character": "認",
+    "jlptLevel": "N4",
+    "strokeCount": 14,
+    "onyomi": ["ニン"],
+    "kunyomi": ["みと-める"],
+    "meaningEs": "reconocer, admitir",
+    "radicals": ["言"],
+    "exampleWords": [
+      { "word": "確認", "reading": "かくにん", "meaningEs": "confirmación" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0062",
+    "character": "選",
+    "jlptLevel": "N4",
+    "strokeCount": 15,
+    "onyomi": ["セン"],
+    "kunyomi": ["えら-ぶ"],
+    "meaningEs": "elegir, seleccionar",
+    "radicals": ["辶"],
+    "exampleWords": [
+      { "word": "選ぶ", "reading": "えらぶ", "meaningEs": "elegir" }
+    ]
   }
 ]

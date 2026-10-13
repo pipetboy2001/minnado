@@ -558,5 +558,45 @@
       "n4-ex-0167",
       "n4-ex-0168"
     ]
+  },
+  {
+    "id": "n4-lesson-40",
+    "jlptLevel": "N4",
+    "order": 40,
+    "title": "Lección 40 — Preguntas incrustadas y probar algo (疑問詞＋か・〜かどうか・〜てみます)",
+    "description": "Preguntas incrustadas con palabra interrogativa + か, 〜かどうか para preguntas de sí/no, y 〜てみます para probar a hacer algo, con vocabulario de compras y decisiones, basado en Minna no Nihongo Lección 40 (Libro 2).",
+    "kind": "lesson",
+    "vocabIds": [
+      "n4-voc-0127",
+      "n4-voc-0128",
+      "n4-voc-0129",
+      "n4-voc-0130",
+      "n4-voc-0131",
+      "n4-voc-0132",
+      "n4-voc-0133",
+      "n4-voc-0134",
+      "n4-voc-0135"
+    ],
+    "kanjiIds": [
+      "n4-kanji-0059",
+      "n4-kanji-0060",
+      "n4-kanji-0061",
+      "n4-kanji-0062"
+    ],
+    "grammarIds": ["n4-gram-0043", "n4-gram-0044", "n4-gram-0045"],
+    "exerciseIds": [
+      "n4-ex-0169",
+      "n4-ex-0170",
+      "n4-ex-0171",
+      "n4-ex-0172",
+      "n4-ex-0173",
+      "n4-ex-0174",
+      "n4-ex-0175",
+      "n4-ex-0176",
+      "n4-ex-0177",
+      "n4-ex-0178",
+      "n4-ex-0179",
+      "n4-ex-0180"
+    ]
   }
 ]

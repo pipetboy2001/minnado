@@ -888,5 +888,69 @@
         "es": "Descansemos a mitad de camino."
       }
     ]
+  },
+  {
+    "id": "n4-gram-0043",
+    "jlptLevel": "N4",
+    "category": "questions",
+    "title": "疑問詞＋か (pregunta incrustada: no sé qué/dónde/quién...)",
+    "pattern": "[Palabra interrogativa] + [Oración simple] + か、[Verbo principal]。",
+    "explanationEs": "Para expresar 'no sé qué/dónde/quién...' dentro de una oración más grande, se pone la palabra interrogativa (何, どこ, だれ, etc.) seguida de una oración en forma simple terminada en か. Esta pregunta incrustada funciona como objeto del verbo principal (わかりません, 知りません, etc.).",
+    "structureNotes": "どちらを選ぶか迷っています (estoy dudando cuál elegir)",
+    "examples": [
+      {
+        "jp": "どちらを選ぶか迷っています。",
+        "reading": "どちらをえらぶかまよっています。",
+        "es": "Estoy dudando cuál elegir."
+      },
+      {
+        "jp": "何を食べるか決めていません。",
+        "reading": "なにをたべるかきめていません。",
+        "es": "No he decidido qué comer."
+      }
+    ]
+  },
+  {
+    "id": "n4-gram-0044",
+    "jlptLevel": "N4",
+    "category": "questions",
+    "title": "〜かどうか (si... o no)",
+    "pattern": "[Oración simple, sin palabra interrogativa] + かどうか、[Verbo principal]。",
+    "explanationEs": "Cuando la pregunta incrustada es de tipo sí/no (sin palabra interrogativa), se usa かどうか ('si... o no') en vez de solo か. Es el equivalente de 'no sé si...'.",
+    "structureNotes": "サイズが合うかどうか、わかりません (no sé si la talla me queda bien o no)",
+    "examples": [
+      {
+        "jp": "サイズが合うかどうか、わかりません。",
+        "reading": "さいずがあうかどうか、わかりません。",
+        "es": "No sé si la talla me queda bien o no."
+      },
+      {
+        "jp": "予約が取れたかどうか確認します。",
+        "reading": "よやくがとれたかどうかかくにんします。",
+        "es": "Voy a confirmar si se pudo hacer la reserva o no."
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0043"]
+  },
+  {
+    "id": "n4-gram-0045",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "〜てみます (probar a hacer algo)",
+    "pattern": "Vて + みます。",
+    "explanationEs": "〜てみます expresa la idea de 'probar a hacer algo (y ver qué pasa)' — no es lo mismo que 見ます (mirar); aquí 見る funciona como auxiliar y pierde su significado literal. Muy común al probarse ropa, probar comida, o intentar algo nuevo por primera vez.",
+    "structureNotes": "試着してみます (me lo pruebo, a ver)",
+    "examples": [
+      {
+        "jp": "このシャツを試着してみます。",
+        "reading": "このしゃつをしちゃくしてみます。",
+        "es": "Voy a probarme esta camisa."
+      },
+      {
+        "jp": "新しいことに挑戦してみたいです。",
+        "reading": "あたらしいことにちょうせんしてみたいです。",
+        "es": "Quiero intentar algo nuevo."
+      }
+    ]
   }
 ]
