@@ -4717,5 +4717,199 @@
     "translationEs": "Por favor, coma/sírvase.",
     "explanationEs": "召し上がる: forma honorífica especial de comer/beber.",
     "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0289",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-50",
+    "promptEs": "Elige la forma humilde correcta para presentarse.",
+    "questionJp": "田中と{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "申します", "isCorrect": true },
+      { "id": "b", "textJp": "おっしゃいます", "isCorrect": false },
+      { "id": "c", "textJp": "言われます", "isCorrect": false },
+      { "id": "d", "textJp": "いらっしゃいます", "isCorrect": false }
+    ],
+    "explanationEs": "申す: forma humilde de 言う, usada para presentarse.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0290",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-50",
+    "promptEs": "Elige la forma humilde correcta de ir.",
+    "questionJp": "明日、御社[おんしゃ]へ{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "参ります", "isCorrect": true },
+      { "id": "b", "textJp": "いらっしゃいます", "isCorrect": false },
+      { "id": "c", "textJp": "行かれます", "isCorrect": false },
+      { "id": "d", "textJp": "来ます", "isCorrect": false }
+    ],
+    "explanationEs": "参る: forma humilde de 行く/来る, usada para el propio grupo.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0291",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-50",
+    "promptEs": "Elige la palabra correcta para 'nuestra empresa' (humilde).",
+    "questionJp": "{{1}}の製品[せいひん]をご紹介[しょうかい]します。",
+    "options": [
+      { "id": "a", "textJp": "弊社", "isCorrect": true },
+      { "id": "b", "textJp": "御社", "isCorrect": false },
+      { "id": "c", "textJp": "会社", "isCorrect": false },
+      { "id": "d", "textJp": "貴社", "isCorrect": false }
+    ],
+    "explanationEs": "弊社: forma humilde de referirse a la propia empresa.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0292",
+    "type": "multiple-choice",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-50",
+    "promptEs": "Elige la forma humilde correcta de ver.",
+    "questionJp": "資料[しりょう]を{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "拝見しました", "isCorrect": true },
+      { "id": "b", "textJp": "ご覧になりました", "isCorrect": false },
+      { "id": "c", "textJp": "見られました", "isCorrect": false },
+      { "id": "d", "textJp": "見せました", "isCorrect": false }
+    ],
+    "explanationEs": "拝見する: forma humilde de 見る.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0293",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-50",
+    "promptEs": "Completa con la forma humilde de estar.",
+    "sentenceTemplate": "午後は会社に{{1}}。",
+    "translationEs": "Por la tarde estaré en la empresa.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["おります"],
+        "options": ["おります", "います", "いらっしゃいます", "ございます"]
+      }
+    ],
+    "explanationEs": "おる: forma humilde de いる.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0294",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-50",
+    "promptEs": "Completa con la forma formal de servicio al cliente.",
+    "sentenceTemplate": "受付[うけつけ]はこちら{{1}}。",
+    "translationEs": "La recepción está aquí.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["でございます"],
+        "options": ["でございます", "です", "でいらっしゃいます", "でおります"]
+      }
+    ],
+    "explanationEs": "でございます: forma teineigo, más formal que です, usada en atención al cliente.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0295",
+    "type": "fill-in-blank",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-50",
+    "promptEs": "Completa con la forma humilde de hacer.",
+    "sentenceTemplate": "承知{{1}}。すぐにお調べいたします。",
+    "translationEs": "Entendido. Lo investigaré de inmediato.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["いたしました"],
+        "options": ["いたしました", "しました", "なさいました", "されました"]
+      }
+    ],
+    "explanationEs": "いたす: forma humilde de する.",
+    "difficulty": 2
+  },
+  {
+    "id": "n4-ex-0296",
+    "type": "word-order",
+    "jlptLevel": "N4",
+    "skill": "grammar",
+    "lessonId": "n4-lesson-50",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["弊社の", "田中が", "御社に", "伺います"],
+    "correctOrder": ["弊社の", "田中が", "御社に", "伺います"],
+    "translationEs": "Nuestro Tanaka visitará su empresa.",
+    "explanationEs": "弊社 (humilde, propio grupo) y 御社 (honorífico, el otro grupo) muestran el contraste uchi-soto.",
+    "difficulty": 3
+  },
+  {
+    "id": "n4-ex-0297",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "vocabulary",
+    "lessonId": "n4-lesson-50",
+    "promptEs": "Une cada palabra con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "申す", "right": "decir (humilde)" },
+      { "id": "p2", "left": "参る", "right": "ir/venir (humilde)" },
+      { "id": "p3", "left": "伺う", "right": "visitar/preguntar (humilde)" },
+      { "id": "p4", "left": "弊社", "right": "nuestra empresa (humilde)" },
+      { "id": "p5", "left": "御社", "right": "su empresa (honorífico)" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0298",
+    "type": "matching",
+    "jlptLevel": "N4",
+    "skill": "kanji",
+    "lessonId": "n4-lesson-50",
+    "promptEs": "Une cada kanji con su lectura on'yomi.",
+    "pairs": [
+      { "id": "p1", "left": "申", "right": "シン" },
+      { "id": "p2", "left": "伺", "right": "シ" },
+      { "id": "p3", "left": "弊", "right": "ヘイ" },
+      { "id": "p4", "left": "拝", "right": "ハイ" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n4-ex-0299",
+    "type": "speaking",
+    "jlptLevel": "N4",
+    "skill": "speaking",
+    "lessonId": "n4-lesson-50",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "弊社[へいしゃ]の田中[たなか]が御社[おんしゃ]に伺[うかが]います。",
+    "translationEs": "Nuestro Tanaka visitará su empresa.",
+    "explanationEs": "Practica la fluidez del contraste uchi-soto: 弊社 y 伺う (humilde) frente a 御社 (honorífico).",
+    "difficulty": 3
+  },
+  {
+    "id": "n4-ex-0300",
+    "type": "listening",
+    "jlptLevel": "N4",
+    "skill": "listening",
+    "lessonId": "n4-lesson-50",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "承知[しょうち]いたしました。",
+    "targetReading": "しょうちいたしました。",
+    "translationEs": "Entendido.",
+    "explanationEs": "承知いたしました: respuesta humilde y formal usada en atención al cliente.",
+    "difficulty": 2
   }
 ]

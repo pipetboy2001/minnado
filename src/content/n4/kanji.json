@@ -1380,5 +1380,65 @@
         "meaningEs": "saber (honorífico)"
       }
     ]
+  },
+  {
+    "id": "n4-kanji-0099",
+    "character": "申",
+    "jlptLevel": "N4",
+    "strokeCount": 5,
+    "onyomi": ["シン"],
+    "kunyomi": ["もう-す"],
+    "meaningEs": "decir (humilde); declarar",
+    "radicals": ["田"],
+    "exampleWords": [
+      { "word": "申す", "reading": "もうす", "meaningEs": "decir (humilde)" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0100",
+    "character": "伺",
+    "jlptLevel": "N4",
+    "strokeCount": 7,
+    "onyomi": ["シ"],
+    "kunyomi": ["うかが-う"],
+    "meaningEs": "visitar / preguntar (humilde)",
+    "radicals": ["人"],
+    "exampleWords": [
+      {
+        "word": "伺う",
+        "reading": "うかがう",
+        "meaningEs": "visitar (humilde)"
+      }
+    ]
+  },
+  {
+    "id": "n4-kanji-0101",
+    "character": "弊",
+    "jlptLevel": "N4",
+    "strokeCount": 15,
+    "onyomi": ["ヘイ"],
+    "kunyomi": [],
+    "meaningEs": "nuestro (humilde); malo",
+    "radicals": ["廾"],
+    "exampleWords": [
+      { "word": "弊社", "reading": "へいしゃ", "meaningEs": "nuestra empresa" }
+    ]
+  },
+  {
+    "id": "n4-kanji-0102",
+    "character": "拝",
+    "jlptLevel": "N4",
+    "strokeCount": 8,
+    "onyomi": ["ハイ"],
+    "kunyomi": ["おが-む"],
+    "meaningEs": "ver humildemente; adorar",
+    "radicals": ["手"],
+    "exampleWords": [
+      {
+        "word": "拝見する",
+        "reading": "はいけんする",
+        "meaningEs": "ver (humilde)"
+      }
+    ]
   }
 ]

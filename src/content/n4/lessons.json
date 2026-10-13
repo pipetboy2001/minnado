@@ -958,5 +958,45 @@
       "n4-ex-0287",
       "n4-ex-0288"
     ]
+  },
+  {
+    "id": "n4-lesson-50",
+    "jlptLevel": "N4",
+    "order": 50,
+    "title": "Lección 50: Lenguaje humilde y uchi-soto",
+    "description": "Verbos humildes especiales (申す、参る、いたす、伺う、拝見する、おる), el estilo でございます y el concepto de uchi-soto: usar kenjougo para el propio grupo y sonkeigo para el ajeno.",
+    "kind": "lesson",
+    "vocabIds": [
+      "n4-voc-0217",
+      "n4-voc-0218",
+      "n4-voc-0219",
+      "n4-voc-0220",
+      "n4-voc-0221",
+      "n4-voc-0222",
+      "n4-voc-0223",
+      "n4-voc-0224",
+      "n4-voc-0225"
+    ],
+    "kanjiIds": [
+      "n4-kanji-0099",
+      "n4-kanji-0100",
+      "n4-kanji-0101",
+      "n4-kanji-0102"
+    ],
+    "grammarIds": ["n4-gram-0073", "n4-gram-0074", "n4-gram-0075"],
+    "exerciseIds": [
+      "n4-ex-0289",
+      "n4-ex-0290",
+      "n4-ex-0291",
+      "n4-ex-0292",
+      "n4-ex-0293",
+      "n4-ex-0294",
+      "n4-ex-0295",
+      "n4-ex-0296",
+      "n4-ex-0297",
+      "n4-ex-0298",
+      "n4-ex-0299",
+      "n4-ex-0300"
+    ]
   }
 ]

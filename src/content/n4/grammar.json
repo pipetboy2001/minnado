@@ -1487,5 +1487,70 @@
       }
     ],
     "relatedGrammarIds": ["n4-gram-0070"]
+  },
+  {
+    "id": "n4-gram-0073",
+    "jlptLevel": "N4",
+    "category": "verb-forms",
+    "title": "謙譲語 (kenjougo): verbos humildes especiales",
+    "pattern": "申す／参る／いたす／いただく／伺う／拝見する／おる／存じる",
+    "explanationEs": "El kenjougo rebaja las propias acciones (o las del grupo propio) para mostrar respeto hacia el oyente. Se usa al hablar de uno mismo con clientes, superiores o personas de fuera del grupo: 申す (decir), 参る (ir/venir), いたす (hacer), いただく (recibir/comer/beber), 伺う (preguntar/visitar/oír), 拝見する (ver), おる (estar), 存じる (saber/pensar).",
+    "structureNotes": "Contraste: 行きます → 参ります ｜ します → いたします ｜ 見ます → 拝見します ｜ います → おります",
+    "examples": [
+      {
+        "jp": "田中と申します。明日御社へ参ります。",
+        "reading": "たなかともうします。あしたおんしゃへまいります。",
+        "es": "Me llamo Tanaka. Mañana iré a su empresa."
+      },
+      {
+        "jp": "資料を拝見しました。",
+        "reading": "しりょうをはいけんしました。",
+        "es": "He visto el documento."
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0070"]
+  },
+  {
+    "id": "n4-gram-0074",
+    "jlptLevel": "N4",
+    "category": "sentence-structure",
+    "title": "丁寧語 (teineigo): ～でございます／～ます",
+    "pattern": "Nでございます ｜ ございます (polite de あります)",
+    "explanationEs": "El teineigo es el nivel de cortesía general (です・ます) que ya se conoce, pero en contextos muy formales de servicio al cliente se usa でございます en lugar de です, y ございます en lugar de あります. A diferencia del kenjougo y el sonkeigo, el teineigo no rebaja ni eleva a nadie en particular: solo suena más formal y cuidado.",
+    "structureNotes": "こちらは会議室でございます (aquí es la sala de reuniones) ｜ お手洗いは二階にございます (el baño está en el segundo piso)",
+    "examples": [
+      {
+        "jp": "受付はこちらでございます。",
+        "reading": "うけつけはこちらでございます。",
+        "es": "La recepción está aquí."
+      },
+      {
+        "jp": "少々お待ちくださいませ。",
+        "reading": "しょうしょうおまちくださいませ。",
+        "es": "Espere un momento, por favor."
+      }
+    ]
+  },
+  {
+    "id": "n4-gram-0075",
+    "jlptLevel": "N4",
+    "category": "sentence-structure",
+    "title": "内と外 (uchi-soto): elegir keigo según el grupo",
+    "pattern": "謙譲語 para 内 (mi grupo) ／ 尊敬語 para 外 (el otro grupo)",
+    "explanationEs": "En japonés de negocios, el mismo verbo cambia de forma según de quién se habla: las acciones del propio grupo (内, uchi: yo, mi empresa, mi familia) se expresan en kenjougo, humildes; las acciones de la otra persona o su grupo (外, soto: el cliente, su empresa) se expresan en sonkeigo, honoríficas. Por eso 弊社 (nuestra empresa, humilde) se usa para el propio grupo, y 御社 (su empresa, honorífico) para el ajeno.",
+    "structureNotes": "弊社の田中が伺います (nuestro Tanaka irá — humilde, porque es de mi grupo) ｜ 御社の山田様がいらっしゃいます (el señor Yamada de su empresa vendrá — honorífico, porque es de fuera)",
+    "examples": [
+      {
+        "jp": "弊社の田中が御社に伺います。",
+        "reading": "へいしゃのたなかがおんしゃにうかがいます。",
+        "es": "Nuestro Tanaka visitará su empresa."
+      },
+      {
+        "jp": "承知いたしました。すぐにお調べいたします。",
+        "reading": "しょうちいたしました。すぐにおしらべいたします。",
+        "es": "Entendido. Lo investigaré de inmediato."
+      }
+    ],
+    "relatedGrammarIds": ["n4-gram-0073", "n4-gram-0070"]
   }
 ]
