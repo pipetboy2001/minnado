@@ -23,6 +23,7 @@ import type { Lesson } from "@/types/content";
 import type { LessonProgressSummary } from "@/lib/progress";
 
 type Tab = "lesson" | "review";
+type Level = "N5" | "N4";
 
 export function LessonTabs({
   lessons,
@@ -31,6 +32,7 @@ export function LessonTabs({
   lessons: Lesson[];
   progress: LessonProgressSummary[];
 }) {
+  const [level, setLevel] = useState<Level>("N5");
   const [tab, setTab] = useState<Tab>("lesson");
 
   const progressByLesson = useMemo(
@@ -38,12 +40,32 @@ export function LessonTabs({
     [progress],
   );
 
-  const realLessons = lessons.filter((l) => l.kind === "lesson");
-  const reviewLessons = lessons.filter((l) => l.kind === "review");
+  const lessonsForLevel = lessons.filter((l) => l.jlptLevel === level);
+  const realLessons = lessonsForLevel.filter((l) => l.kind === "lesson");
+  const reviewLessons = lessonsForLevel.filter((l) => l.kind === "review");
   const visible = tab === "lesson" ? realLessons : reviewLessons;
 
   return (
     <div className="flex flex-col gap-4">
+      <div className="flex gap-1 self-start rounded-lg border border-border bg-muted p-1">
+        <Button
+          type="button"
+          size="sm"
+          variant={level === "N5" ? "default" : "ghost"}
+          onClick={() => setLevel("N5")}
+        >
+          N5
+        </Button>
+        <Button
+          type="button"
+          size="sm"
+          variant={level === "N4" ? "default" : "ghost"}
+          onClick={() => setLevel("N4")}
+        >
+          N4
+        </Button>
+      </div>
+
       <div className="flex gap-2">
         <Button
           type="button"

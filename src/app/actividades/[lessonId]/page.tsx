@@ -7,6 +7,11 @@ import {
   getKanjiN5,
   getGrammarN5,
   getExercisesN5,
+  getLessonsN4,
+  getVocabN4,
+  getKanjiN4,
+  getGrammarN4,
+  getExercisesN4,
 } from "@/content/loader";
 import {
   Card,
@@ -27,18 +32,25 @@ export default async function LessonPage({
   params: Promise<{ lessonId: string }>;
 }) {
   const { lessonId } = await params;
-  const lesson = getLessonsN5().find((l) => l.id === lessonId);
+  const lesson = [...getLessonsN5(), ...getLessonsN4()].find(
+    (l) => l.id === lessonId,
+  );
 
   if (!lesson) {
     notFound();
   }
 
-  const vocab = getVocabN5().filter((v) => lesson.vocabIds.includes(v.id));
-  const kanji = getKanjiN5().filter((k) => lesson.kanjiIds.includes(k.id));
-  const grammar = getGrammarN5().filter((g) =>
+  const isN4 = lesson.jlptLevel === "N4";
+  const vocab = (isN4 ? getVocabN4() : getVocabN5()).filter((v) =>
+    lesson.vocabIds.includes(v.id),
+  );
+  const kanji = (isN4 ? getKanjiN4() : getKanjiN5()).filter((k) =>
+    lesson.kanjiIds.includes(k.id),
+  );
+  const grammar = (isN4 ? getGrammarN4() : getGrammarN5()).filter((g) =>
     lesson.grammarIds.includes(g.id),
   );
-  const exercises = getExercisesN5().filter((e) =>
+  const exercises = (isN4 ? getExercisesN4() : getExercisesN5()).filter((e) =>
     lesson.exerciseIds.includes(e.id),
   );
 

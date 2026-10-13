@@ -1,5 +1,5 @@
 import { prisma } from "@/lib/prisma";
-import { getLessonsN5 } from "@/content/loader";
+import type { Lesson } from "@/types/content";
 
 export interface OverallStats {
   totalAttempts: number;
@@ -52,6 +52,7 @@ export async function getUserOverallStats(
 
 export async function getUserLessonProgress(
   userId: string,
+  lessons: Lesson[],
 ): Promise<LessonProgressSummary[]> {
   const [attempts, progressRows] = await Promise.all([
     prisma.userExerciseAttempt.findMany({
@@ -71,7 +72,7 @@ export async function getUserLessonProgress(
 
   const progressByLesson = new Map(progressRows.map((p) => [p.lessonId, p]));
 
-  return getLessonsN5().map((lesson) => {
+  return lessons.map((lesson) => {
     const masteredExercises = lesson.exerciseIds.filter(
       (id) => latestByExercise.get(id) === true,
     ).length;

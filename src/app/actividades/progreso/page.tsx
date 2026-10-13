@@ -10,6 +10,7 @@ import {
   Trophy,
 } from "lucide-react";
 import { auth } from "@/auth";
+import { getLessonsN5, getLessonsN4 } from "@/content/loader";
 import {
   getUserOverallStats,
   getUserLessonProgress,
@@ -39,9 +40,10 @@ export default async function ProgresoPage() {
   }
   const userId = session.user.id;
 
+  const allLessons = [...getLessonsN5(), ...getLessonsN4()];
   const [stats, lessons, sessionStats, recentSessions] = await Promise.all([
     getUserOverallStats(userId),
-    getUserLessonProgress(userId),
+    getUserLessonProgress(userId, allLessons),
     getUserSessionStats(userId),
     getRecentSessions(userId),
   ]);
