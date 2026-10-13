@@ -1028,5 +1028,69 @@
       { "word": "便利", "reading": "べんり", "meaningEs": "conveniente, útil" },
       { "word": "郵便", "reading": "ゆうびん", "meaningEs": "correo postal" }
     ]
+  },
+  {
+    "id": "n5-kanji-0066",
+    "character": "天",
+    "jlptLevel": "N5",
+    "strokeCount": 4,
+    "onyomi": ["テン"],
+    "kunyomi": [],
+    "meaningEs": "cielo",
+    "radicals": ["大"],
+    "exampleWords": [
+      { "word": "天気", "reading": "てんき", "meaningEs": "clima" },
+      { "word": "天才", "reading": "てんさい", "meaningEs": "genio" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0067",
+    "character": "気",
+    "jlptLevel": "N5",
+    "strokeCount": 6,
+    "onyomi": ["キ"],
+    "kunyomi": [],
+    "meaningEs": "espíritu, aire",
+    "radicals": ["气"],
+    "exampleWords": [
+      {
+        "word": "元気",
+        "reading": "げんき",
+        "meaningEs": "con energía, de buena salud"
+      },
+      { "word": "気持ち", "reading": "きもち", "meaningEs": "sentimiento" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0068",
+    "character": "雨",
+    "jlptLevel": "N5",
+    "strokeCount": 8,
+    "onyomi": ["ウ"],
+    "kunyomi": ["あめ"],
+    "meaningEs": "lluvia",
+    "radicals": ["雨"],
+    "exampleWords": [
+      { "word": "大雨", "reading": "おおあめ", "meaningEs": "lluvia fuerte" },
+      { "word": "雨季", "reading": "うき", "meaningEs": "temporada de lluvias" }
+    ]
+  },
+  {
+    "id": "n5-kanji-0069",
+    "character": "雪",
+    "jlptLevel": "N5",
+    "strokeCount": 11,
+    "onyomi": ["セツ"],
+    "kunyomi": ["ゆき"],
+    "meaningEs": "nieve",
+    "radicals": ["雨"],
+    "exampleWords": [
+      { "word": "大雪", "reading": "おおゆき", "meaningEs": "nevada fuerte" },
+      {
+        "word": "雪国",
+        "reading": "ゆきぐに",
+        "meaningEs": "país/región nevada"
+      }
+    ]
   }
 ]

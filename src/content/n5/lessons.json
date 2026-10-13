@@ -793,9 +793,52 @@
     ]
   },
   {
-    "id": "n5-lesson-03",
+    "id": "n5-lesson-20",
     "jlptLevel": "N5",
     "order": 19,
+    "title": "Lección 19 — Probabilidad (〜でしょう・かもしれません)",
+    "description": "Hacer predicciones con 〜でしょう (probable) y 〜かもしれません (posible, menos cierto), con vocabulario del clima (雨/雪/曇り/晴れ/台風), basado en Minna no Nihongo Lección 19.",
+    "kind": "lesson",
+    "vocabIds": [
+      "n5-voc-0177",
+      "n5-voc-0178",
+      "n5-voc-0179",
+      "n5-voc-0180",
+      "n5-voc-0181",
+      "n5-voc-0182",
+      "n5-voc-0183"
+    ],
+    "kanjiIds": [
+      "n5-kanji-0066",
+      "n5-kanji-0067",
+      "n5-kanji-0068",
+      "n5-kanji-0069"
+    ],
+    "grammarIds": [
+      "n5-gram-0077",
+      "n5-gram-0078",
+      "n5-gram-0079",
+      "n5-gram-0080"
+    ],
+    "exerciseIds": [
+      "n5-ex-0240",
+      "n5-ex-0241",
+      "n5-ex-0242",
+      "n5-ex-0243",
+      "n5-ex-0244",
+      "n5-ex-0245",
+      "n5-ex-0246",
+      "n5-ex-0247",
+      "n5-ex-0248",
+      "n5-ex-0249",
+      "n5-ex-0250",
+      "n5-ex-0251"
+    ]
+  },
+  {
+    "id": "n5-lesson-03",
+    "jlptLevel": "N5",
+    "order": 20,
     "title": "Repaso — Partículas, Adjetivos y Formas Verbales",
     "description": "Módulo de repaso transversal: partícula correcta, adjetivos い/な, y conjugación verbal (forma ます y て) a través de varias lecciones.",
     "kind": "review",

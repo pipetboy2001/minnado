@@ -3849,5 +3849,198 @@
     "translationEs": "El señor Tanaka dijo que el examen es difícil.",
     "explanationEs": "〜と言いました reporta lo que alguien dijo.",
     "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0240",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-20",
+    "promptEs": "Mañana probablemente llueva.",
+    "questionJp": "明日[あした]は雨[あめ]{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "でしょう", "isCorrect": true },
+      { "id": "b", "textJp": "かもしれない", "isCorrect": false },
+      { "id": "c", "textJp": "ようです", "isCorrect": false },
+      { "id": "d", "textJp": "そうだ", "isCorrect": false }
+    ],
+    "explanationEs": "でしょう expresa una predicción con bastante certeza.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0241",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-20",
+    "promptEs": "Podría nevar mañana (menos certeza).",
+    "questionJp": "明日[あした]は雪[ゆき]{{1}}。",
+    "options": [
+      { "id": "a", "textJp": "かもしれません", "isCorrect": true },
+      { "id": "b", "textJp": "でした", "isCorrect": false },
+      { "id": "c", "textJp": "ました", "isCorrect": false },
+      { "id": "d", "textJp": "ません", "isCorrect": false }
+    ],
+    "explanationEs": "かもしれません expresa menor certeza que でしょう.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0242",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-20",
+    "promptEs": "Según el pronóstico, mañana estará despejado.",
+    "sentenceTemplate": "{{1}}によると、明日は晴れでしょう。",
+    "translationEs": "Según el pronóstico, mañana estará despejado.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["天気予報", "てんきよほう"],
+        "options": ["天気予報", "台風", "曇り", "雪"]
+      }
+    ],
+    "explanationEs": "天気予報 significa 'pronóstico del tiempo'.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0243",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-20",
+    "promptEs": "Podría venir un tifón.",
+    "sentenceTemplate": "{{1}}が来[く]るかもしれません。",
+    "translationEs": "Podría venir un tifón.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["台風", "たいふう"],
+        "options": ["台風", "天気", "雨", "雪"]
+      }
+    ],
+    "explanationEs": "台風 significa 'tifón'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0244",
+    "type": "word-order",
+    "jlptLevel": "N5",
+    "skill": "grammar",
+    "lessonId": "n5-lesson-20",
+    "promptEs": "Ordena las palabras para formar una oración correcta.",
+    "wordBank": ["でしょう", "雨", "明日は"],
+    "correctOrder": ["明日は", "雨", "でしょう"],
+    "translationEs": "Mañana probablemente llueva.",
+    "explanationEs": "Orden: [Tiempo]は + [Sustantivo] + でしょう。",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0245",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-20",
+    "promptEs": "Une cada palabra del clima con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "雨", "right": "lluvia" },
+      { "id": "p2", "left": "雪", "right": "nieve" },
+      { "id": "p3", "left": "曇り", "right": "nublado" },
+      { "id": "p4", "left": "晴れ", "right": "despejado, soleado" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0246",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-20",
+    "promptEs": "¿Cómo se lee 天気 (clima)?",
+    "questionJp": "天気",
+    "options": [
+      { "id": "a", "textJp": "てんき", "isCorrect": true },
+      { "id": "b", "textJp": "てんけ", "isCorrect": false },
+      { "id": "c", "textJp": "あまき", "isCorrect": false },
+      { "id": "d", "textJp": "てんぎ", "isCorrect": false }
+    ],
+    "explanationEs": "天気 se lee てんき.",
+    "difficulty": 2
+  },
+  {
+    "id": "n5-ex-0247",
+    "type": "matching",
+    "jlptLevel": "N5",
+    "skill": "kanji",
+    "lessonId": "n5-lesson-20",
+    "promptEs": "Une cada kanji con su significado.",
+    "pairs": [
+      { "id": "p1", "left": "天", "right": "cielo" },
+      { "id": "p2", "left": "気", "right": "espíritu, aire" },
+      { "id": "p3", "left": "雨", "right": "lluvia" },
+      { "id": "p4", "left": "雪", "right": "nieve" }
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0248",
+    "type": "multiple-choice",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-20",
+    "promptEs": "Hoy está nublado.",
+    "questionJp": "今日[きょう]は{{1}}です。",
+    "options": [
+      { "id": "a", "textJp": "曇り", "isCorrect": true },
+      { "id": "b", "textJp": "雨", "isCorrect": false },
+      { "id": "c", "textJp": "雪", "isCorrect": false },
+      { "id": "d", "textJp": "台風", "isCorrect": false }
+    ],
+    "explanationEs": "曇り significa 'nublado'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0249",
+    "type": "fill-in-blank",
+    "jlptLevel": "N5",
+    "skill": "vocabulary",
+    "lessonId": "n5-lesson-20",
+    "promptEs": "Escuchas el pronóstico del tiempo.",
+    "sentenceTemplate": "天気[てんき]{{1}}を聞[き]きます。",
+    "translationEs": "Escucho el pronóstico del tiempo.",
+    "blanks": [
+      {
+        "id": "1",
+        "acceptedAnswers": ["予報", "よほう"],
+        "options": ["予報", "台風", "曇り", "晴れ"]
+      }
+    ],
+    "explanationEs": "予報 significa 'pronóstico'.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0250",
+    "type": "speaking",
+    "jlptLevel": "N5",
+    "skill": "speaking",
+    "lessonId": "n5-lesson-20",
+    "promptEs": "Pronuncia la siguiente oración en voz alta.",
+    "targetJp": "明日[あした]は雨[あめ]でしょう。",
+    "translationEs": "Mañana probablemente llueva.",
+    "explanationEs": "でしょう expresa una predicción con bastante certeza.",
+    "difficulty": 1
+  },
+  {
+    "id": "n5-ex-0251",
+    "type": "listening",
+    "jlptLevel": "N5",
+    "skill": "listening",
+    "lessonId": "n5-lesson-20",
+    "promptEs": "Escucha el audio y escribe en japonés lo que escuchaste (kana o kanji, sin romaji).",
+    "targetJp": "台風[たいふう]が来[く]るかもしれません。",
+    "targetReading": "たいふうがくるかもしれません。",
+    "translationEs": "Podría venir un tifón.",
+    "explanationEs": "かもしれません expresa menor certeza que でしょう.",
+    "difficulty": 2
   }
 ]

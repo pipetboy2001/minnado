@@ -1193,5 +1193,65 @@
         "es": "Este problema es importante."
       }
     ]
+  },
+  {
+    "id": "n5-gram-0077",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "〜でしょう (probablemente)",
+    "pattern": "[Oración]でしょう。",
+    "explanationEs": "でしょう expresa una predicción con bastante certeza, como 'probablemente...' en español. Es muy común en el pronóstico del tiempo.",
+    "examples": [
+      {
+        "jp": "明日は雨でしょう。",
+        "reading": "あしたはあめでしょう。",
+        "es": "Mañana probablemente llueva."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0078",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "〜かもしれません (podría ser que)",
+    "pattern": "[Oración]かもしれません。",
+    "explanationEs": "かもしれません expresa menor certeza que でしょう, como 'podría ser que...' en español.",
+    "examples": [
+      {
+        "jp": "明日は雪かもしれません。",
+        "reading": "あしたはゆきかもしれません。",
+        "es": "Podría nevar mañana."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0079",
+    "jlptLevel": "N5",
+    "category": "sentence-structure",
+    "title": "天気予報によると、〜でしょう (según el pronóstico)",
+    "pattern": "天気予報によると、〜でしょう。",
+    "explanationEs": "〜によると cita la fuente de la información, como 'según...' en español.",
+    "examples": [
+      {
+        "jp": "天気予報によると、明日は晴れでしょう。",
+        "reading": "てんきよほうによると、あしたははれでしょう。",
+        "es": "Según el pronóstico, mañana estará despejado."
+      }
+    ]
+  },
+  {
+    "id": "n5-gram-0080",
+    "jlptLevel": "N5",
+    "category": "verb-forms",
+    "title": "台風が来るかもしれません (clima severo)",
+    "pattern": "[Fenómeno]が来るかもしれません。",
+    "explanationEs": "Combina かもしれません con 来る para hablar de fenómenos climáticos inciertos.",
+    "examples": [
+      {
+        "jp": "台風が来るかもしれません。",
+        "reading": "たいふうがくるかもしれません。",
+        "es": "Podría venir un tifón."
+      }
+    ]
   }
 ]
