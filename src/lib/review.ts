@@ -105,23 +105,3 @@ export async function getNextDueDate(userId: string): Promise<Date | null> {
   if (candidates.length === 0) return null;
   return candidates.reduce((min, d) => (d < min ? d : min));
 }
-
-export interface ReviewStats {
-  totalEnrolled: number;
-  totalDue: number;
-}
-
-export async function getReviewStats(userId: string): Promise<ReviewStats> {
-  const now = new Date();
-  const [totalVocab, totalKanji, dueVocab, dueKanji] = await Promise.all([
-    prisma.vocabReviewCard.count({ where: { userId } }),
-    prisma.kanjiReviewCard.count({ where: { userId } }),
-    prisma.vocabReviewCard.count({ where: { userId, dueAt: { lte: now } } }),
-    prisma.kanjiReviewCard.count({ where: { userId, dueAt: { lte: now } } }),
-  ]);
-
-  return {
-    totalEnrolled: totalVocab + totalKanji,
-    totalDue: dueVocab + dueKanji,
-  };
-}
