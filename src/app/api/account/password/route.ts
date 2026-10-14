@@ -52,7 +52,8 @@ export const POST = withErrorHandling(async function POST(request: Request) {
   const passwordHash = await bcrypt.hash(newPassword, 10);
   await prisma.user.update({
     where: { id: session.user.id },
-    data: { passwordHash },
+    // Signs out every other session; the client re-signs in this one.
+    data: { passwordHash, sessionVersion: { increment: 1 } },
   });
 
   return NextResponse.json({ ok: true });

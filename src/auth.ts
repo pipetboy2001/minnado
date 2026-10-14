@@ -4,6 +4,7 @@ import { PrismaAdapter } from "@auth/prisma-adapter";
 import bcrypt from "bcryptjs";
 import { prisma } from "@/lib/prisma";
 import { authConfig } from "@/auth.config";
+import { isSessionVersionCurrent } from "@/lib/session-version";
 
 export const { handlers, signIn, signOut, auth } = NextAuth({
   ...authConfig,
@@ -41,14 +42,22 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
           name: user.name,
           email: user.email,
           image: user.image,
+          sessionVersion: user.sessionVersion,
         };
       },
     }),
   ],
   callbacks: {
-    jwt({ token, user, trigger, session }) {
+    async jwt({ token, user, trigger, session }) {
       if (user) {
         token.id = user.id;
+        token.sessionVersion = user.sessionVersion ?? 0;
+      } else if (
+        typeof token.id === "string" &&
+        !(await isSessionVersionCurrent(token.id, token.sessionVersion))
+      ) {
+        // Signed out by a password change/reset (returning null ends it).
+        return null;
       }
       // Lets the client push a name change into the JWT via
       // useSession().update({ name }), instead of requiring a full
