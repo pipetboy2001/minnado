@@ -8,7 +8,7 @@ import {
   RotateCcw,
 } from "lucide-react";
 import { auth, signOut } from "@/auth";
-import { getLessonsN5, getLessonsN4 } from "@/content/loader";
+import { getAllLessons } from "@/content/loader";
 import { getUserLessonProgress } from "@/lib/progress";
 import { Button } from "@/components/ui/button";
 import { AccountMenu } from "@/components/account-menu";
@@ -21,7 +21,7 @@ export default async function ActividadesPage() {
     redirect("/login");
   }
   const userId = session.user.id;
-  const lessons = [...getLessonsN5(), ...getLessonsN4()];
+  const lessons = getAllLessons();
   const progress = await getUserLessonProgress(userId, lessons);
 
   async function signOutAction() {

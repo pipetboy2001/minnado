@@ -50,7 +50,7 @@ export default async function CuentaPage() {
         </CardContent>
       </Card>
 
-      <div className="mt-6 flex items-center justify-between">
+      <div className="mt-6 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
         <div>
           <h2 className="flex items-center gap-2 text-lg font-semibold">
             <Palette className="size-4 text-muted-foreground" />
@@ -63,7 +63,7 @@ export default async function CuentaPage() {
         <ThemeSelectControl />
       </div>
 
-      <div className="mt-6 flex items-center justify-between">
+      <div className="mt-6 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
         <div>
           <h2 className="flex items-center gap-2 text-lg font-semibold">
             <Volume2 className="size-4 text-muted-foreground" />

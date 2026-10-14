@@ -2,12 +2,11 @@ import "dotenv/config";
 import { PrismaNeon } from "@prisma/adapter-neon";
 import { PrismaClient, type Prisma } from "../src/generated/prisma/client";
 import {
-  getVocabN5,
-  getKanjiN5,
-  getKanjiN4,
-  getGrammarN5,
-  getLessonsN5,
-  getExercisesN5,
+  getAllVocab,
+  getAllKanji,
+  getAllGrammar,
+  getAllLessons,
+  getAllExercises,
 } from "../src/content/loader";
 import type { Exercise } from "../src/types/exercise";
 
@@ -38,11 +37,11 @@ function exerciseData(exercise: Exercise) {
 }
 
 async function main() {
-  const lessons = getLessonsN5();
-  const vocab = getVocabN5();
-  const kanji = [...getKanjiN5(), ...getKanjiN4()];
-  const grammar = getGrammarN5();
-  const exercises = getExercisesN5();
+  const lessons = getAllLessons();
+  const vocab = getAllVocab();
+  const kanji = getAllKanji();
+  const grammar = getAllGrammar();
+  const exercises = getAllExercises();
 
   for (const lesson of lessons) {
     await prisma.lesson.upsert({

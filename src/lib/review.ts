@@ -1,10 +1,6 @@
 import { prisma } from "@/lib/prisma";
-import { getVocabN5, getKanjiN5, getKanjiN4 } from "@/content/loader";
+import { getAllVocab, getAllKanji } from "@/content/loader";
 import type { VocabWord, KanjiEntry } from "@/types/content";
-
-function getAllKanji(): KanjiEntry[] {
-  return [...getKanjiN5(), ...getKanjiN4()];
-}
 
 /**
  * Creates a review card (due immediately) for every vocab word and kanji
@@ -14,7 +10,7 @@ function getAllKanji(): KanjiEntry[] {
  * separate "add to review" step for the user.
  */
 export async function ensureReviewCardsSeeded(userId: string) {
-  const vocab = getVocabN5();
+  const vocab = getAllVocab();
   const kanji = getAllKanji();
 
   const [existingVocab, existingKanji] = await Promise.all([
@@ -70,7 +66,7 @@ export async function getDueReviewCards(
     }),
   ]);
 
-  const vocabById = new Map(getVocabN5().map((w) => [w.id, w]));
+  const vocabById = new Map(getAllVocab().map((w) => [w.id, w]));
   const kanjiById = new Map(getAllKanji().map((k) => [k.id, k]));
 
   const vocab = vocabCards

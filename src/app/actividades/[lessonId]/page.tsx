@@ -1,18 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { BookText, ListChecks, Play, PenTool, ScrollText } from "lucide-react";
-import {
-  getLessonsN5,
-  getVocabN5,
-  getKanjiN5,
-  getGrammarN5,
-  getExercisesN5,
-  getLessonsN4,
-  getVocabN4,
-  getKanjiN4,
-  getGrammarN4,
-  getExercisesN4,
-} from "@/content/loader";
+import { getAllLessons, getLevelContent } from "@/content/loader";
 import {
   Card,
   CardContent,
@@ -32,27 +21,25 @@ export default async function LessonPage({
   params: Promise<{ lessonId: string }>;
 }) {
   const { lessonId } = await params;
-  const lesson = [...getLessonsN5(), ...getLessonsN4()].find(
-    (l) => l.id === lessonId,
-  );
+  const lesson = getAllLessons().find((l) => l.id === lessonId);
 
   if (!lesson) {
     notFound();
   }
 
-  const isN4 = lesson.jlptLevel === "N4";
-  const vocab = (isN4 ? getVocabN4() : getVocabN5()).filter((v) =>
-    lesson.vocabIds.includes(v.id),
-  );
-  const kanji = (isN4 ? getKanjiN4() : getKanjiN5()).filter((k) =>
-    lesson.kanjiIds.includes(k.id),
-  );
-  const grammar = (isN4 ? getGrammarN4() : getGrammarN5()).filter((g) =>
-    lesson.grammarIds.includes(g.id),
-  );
-  const exercises = (isN4 ? getExercisesN4() : getExercisesN5()).filter((e) =>
-    lesson.exerciseIds.includes(e.id),
-  );
+  const levelContent = getLevelContent(lesson.jlptLevel);
+  const vocab = levelContent
+    .vocab()
+    .filter((v) => lesson.vocabIds.includes(v.id));
+  const kanji = levelContent
+    .kanji()
+    .filter((k) => lesson.kanjiIds.includes(k.id));
+  const grammar = levelContent
+    .grammar()
+    .filter((g) => lesson.grammarIds.includes(g.id));
+  const exercises = levelContent
+    .exercises()
+    .filter((e) => lesson.exerciseIds.includes(e.id));
 
   return (
     <div className="mx-auto w-full max-w-3xl flex-1 p-6">

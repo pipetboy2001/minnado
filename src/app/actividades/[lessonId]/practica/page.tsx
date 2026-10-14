@@ -1,12 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ListChecks } from "lucide-react";
-import {
-  getLessonsN5,
-  getExercisesN5,
-  getLessonsN4,
-  getExercisesN4,
-} from "@/content/loader";
+import { getAllLessons, getLevelContent } from "@/content/loader";
 import { ExercisePlayer } from "@/components/exercises/exercise-player";
 
 export default async function PracticaPage({
@@ -15,17 +10,15 @@ export default async function PracticaPage({
   params: Promise<{ lessonId: string }>;
 }) {
   const { lessonId } = await params;
-  const lesson = [...getLessonsN5(), ...getLessonsN4()].find(
-    (l) => l.id === lessonId,
-  );
+  const lesson = getAllLessons().find((l) => l.id === lessonId);
 
   if (!lesson) {
     notFound();
   }
 
-  const exercises = (
-    lesson.jlptLevel === "N4" ? getExercisesN4() : getExercisesN5()
-  ).filter((e) => lesson.exerciseIds.includes(e.id));
+  const exercises = getLevelContent(lesson.jlptLevel)
+    .exercises()
+    .filter((e) => lesson.exerciseIds.includes(e.id));
 
   return (
     <div className="mx-auto w-full max-w-2xl flex-1 p-6">

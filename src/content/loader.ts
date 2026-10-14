@@ -7,6 +7,7 @@ import type {
   Lesson,
 } from "@/types/content";
 import type { Exercise } from "@/types/exercise";
+import type { JlptLevel } from "@/types/jlpt";
 import {
   vocabFileSchema,
   kanjiFileSchema,
@@ -86,4 +87,65 @@ export const getLessonsN4 = cache((): Lesson[] =>
 
 export const getExercisesN4 = cache((): Exercise[] =>
   parseContent(exerciseFileSchema, n4Exercises, "n4/exercises.json"),
+);
+
+// Every level the content pipeline currently has JSON for. Adding N3/N2
+// later is: new n3/*.json files, getXN3() getters above, and one new
+// entry here — every getAll*() below and the level toggle in LessonTabs
+// (which reads jlptLevel off the returned lessons) pick it up for free.
+type AvailableLevel = Extract<JlptLevel, "N5" | "N4">;
+
+const LEVELS: Record<
+  AvailableLevel,
+  {
+    lessons: () => Lesson[];
+    vocab: () => VocabWord[];
+    kanji: () => KanjiEntry[];
+    grammar: () => GrammarRule[];
+    exercises: () => Exercise[];
+  }
+> = {
+  N5: {
+    lessons: getLessonsN5,
+    vocab: getVocabN5,
+    kanji: getKanjiN5,
+    grammar: getGrammarN5,
+    exercises: getExercisesN5,
+  },
+  N4: {
+    lessons: getLessonsN4,
+    vocab: getVocabN4,
+    kanji: getKanjiN4,
+    grammar: getGrammarN4,
+    exercises: getExercisesN4,
+  },
+};
+
+/** The getters for one level, e.g. to load only the content a given lesson needs. */
+export function getLevelContent(level: JlptLevel) {
+  const content = LEVELS[level as AvailableLevel];
+  if (!content) {
+    throw new Error(`No content pipeline for JLPT level "${level}" yet`);
+  }
+  return content;
+}
+
+export const getAllLessons = cache((): Lesson[] =>
+  Object.values(LEVELS).flatMap((l) => l.lessons()),
+);
+
+export const getAllVocab = cache((): VocabWord[] =>
+  Object.values(LEVELS).flatMap((l) => l.vocab()),
+);
+
+export const getAllKanji = cache((): KanjiEntry[] =>
+  Object.values(LEVELS).flatMap((l) => l.kanji()),
+);
+
+export const getAllGrammar = cache((): GrammarRule[] =>
+  Object.values(LEVELS).flatMap((l) => l.grammar()),
+);
+
+export const getAllExercises = cache((): Exercise[] =>
+  Object.values(LEVELS).flatMap((l) => l.exercises()),
 );

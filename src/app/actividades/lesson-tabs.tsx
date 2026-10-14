@@ -20,10 +20,16 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import type { Lesson } from "@/types/content";
+import type { JlptLevel } from "@/types/jlpt";
 import type { LessonProgressSummary } from "@/lib/progress";
 
 type Tab = "lesson" | "review";
-type Level = "N5" | "N4";
+
+// Easiest to hardest, matching how learners progress through them. Only
+// levels actually present in `lessons` show up as a toggle option, so N3
+// and N2 appear on their own once that content exists — nothing here
+// needs to change to support them.
+const LEVEL_ORDER: JlptLevel[] = ["N5", "N4", "N3", "N2", "N1"];
 
 export function LessonTabs({
   lessons,
@@ -32,7 +38,14 @@ export function LessonTabs({
   lessons: Lesson[];
   progress: LessonProgressSummary[];
 }) {
-  const [level, setLevel] = useState<Level>("N5");
+  const availableLevels = useMemo(
+    () =>
+      LEVEL_ORDER.filter((l) =>
+        lessons.some((lesson) => lesson.jlptLevel === l),
+      ),
+    [lessons],
+  );
+  const [level, setLevel] = useState<JlptLevel>(availableLevels[0] ?? "N5");
   const [tab, setTab] = useState<Tab>("lesson");
 
   const progressByLesson = useMemo(
@@ -47,24 +60,21 @@ export function LessonTabs({
 
   return (
     <div className="flex flex-col gap-4">
-      <div className="flex gap-1 self-start rounded-lg border border-border bg-muted p-1">
-        <Button
-          type="button"
-          size="sm"
-          variant={level === "N5" ? "default" : "ghost"}
-          onClick={() => setLevel("N5")}
-        >
-          N5
-        </Button>
-        <Button
-          type="button"
-          size="sm"
-          variant={level === "N4" ? "default" : "ghost"}
-          onClick={() => setLevel("N4")}
-        >
-          N4
-        </Button>
-      </div>
+      {availableLevels.length > 1 && (
+        <div className="flex gap-1 self-start rounded-lg border border-border bg-muted p-1">
+          {availableLevels.map((l) => (
+            <Button
+              key={l}
+              type="button"
+              size="sm"
+              variant={level === l ? "default" : "ghost"}
+              onClick={() => setLevel(l)}
+            >
+              {l}
+            </Button>
+          ))}
+        </div>
+      )}
 
       <div className="flex gap-2">
         <Button

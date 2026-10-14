@@ -1,11 +1,11 @@
 import Link from "next/link";
 import { Library } from "lucide-react";
-import { getVocabN5, getKanjiN5, getKanjiN4 } from "@/content/loader";
+import { getAllVocab, getAllKanji } from "@/content/loader";
 import { DictionaryBrowser } from "./dictionary-browser";
 
 export default function DictionaryPage() {
-  const vocab = getVocabN5();
-  const kanji = [...getKanjiN5(), ...getKanjiN4()];
+  const vocab = getAllVocab();
+  const kanji = getAllKanji();
 
   return (
     <div className="mx-auto w-full max-w-3xl flex-1 p-6">
