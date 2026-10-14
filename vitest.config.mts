@@ -11,6 +11,13 @@ export default defineConfig({
     coverage: {
       provider: "v8",
       reporter: ["text", "html"],
+      // Piso mínimo: el CI falla si el coverage baja de aquí. Subirlo a medida que crezcan los tests.
+      thresholds: {
+        statements: 70,
+        branches: 50,
+        functions: 55,
+        lines: 70,
+      },
     },
   },
   resolve: {
