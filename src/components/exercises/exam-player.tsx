@@ -21,19 +21,46 @@ import {
 } from "@/lib/exam";
 import type { Exercise } from "@/types/exercise";
 import type { Lesson } from "@/types/content";
+import type { JlptLevel } from "@/types/jlpt";
 import { gradeExercise, type ExerciseAnswer } from "./grading";
 import { EXERCISE_TYPE_META, ExerciseQuestion } from "./exercise-question";
 
-type Phase = "setup" | "playing" | "finished";
+type Phase = "level" | "setup" | "playing" | "finished";
 type SectionScores = Record<ExamSectionId, { correct: number; total: number }>;
 
+// Easiest to hardest — same order as the level toggle on the lesson list,
+// so the two pickers feel consistent.
+const LEVEL_ORDER: JlptLevel[] = ["N5", "N4", "N3", "N2", "N1"];
+
 export function ExamPlayer({
-  exercises,
-  lessons,
+  exercises: allExercises,
+  lessons: allLessons,
 }: {
   exercises: Exercise[];
   lessons: Lesson[];
 }) {
+  const availableLevels = useMemo(
+    () =>
+      LEVEL_ORDER.filter((l) =>
+        allLessons.some((lesson) => lesson.jlptLevel === l),
+      ),
+    [allLessons],
+  );
+  // Skip the picker entirely when there's only one level to choose from —
+  // same reasoning as LessonTabs's level toggle.
+  const [level, setLevel] = useState<JlptLevel | null>(
+    availableLevels.length === 1 ? availableLevels[0] : null,
+  );
+
+  const lessons = useMemo(
+    () => allLessons.filter((l) => l.jlptLevel === level),
+    [allLessons, level],
+  );
+  const exercises = useMemo(
+    () => allExercises.filter((e) => e.jlptLevel === level),
+    [allExercises, level],
+  );
+
   const lessonOptions = useMemo(
     () => getLessonRangeOptions(lessons),
     [lessons],
@@ -41,11 +68,21 @@ export function ExamPlayer({
   const minOrder = lessonOptions[0]?.order ?? 1;
   const maxOrder = lessonOptions[lessonOptions.length - 1]?.order ?? 1;
 
-  const [phase, setPhase] = useState<Phase>("setup");
+  const [phase, setPhase] = useState<Phase>(level ? "setup" : "level");
   const [timed, setTimed] = useState(false);
   const [fromOrder, setFromOrder] = useState(minOrder);
   const [toOrder, setToOrder] = useState(maxOrder);
   const [speed, setSpeed] = useState<ExamSpeed>(1);
+
+  function selectLevel(chosen: JlptLevel) {
+    const options = getLessonRangeOptions(
+      allLessons.filter((l) => l.jlptLevel === chosen),
+    );
+    setLevel(chosen);
+    setFromOrder(options[0]?.order ?? 1);
+    setToOrder(options[options.length - 1]?.order ?? 1);
+    setPhase("setup");
+  }
 
   const pool = useMemo(
     () => exercisesInLessonRange(exercises, lessons, fromOrder, toOrder),
@@ -151,11 +188,40 @@ export function ExamPlayer({
     }
   }
 
-  if (lessonOptions.length === 0) {
+  if (availableLevels.length === 0) {
     return (
       <p className="text-muted-foreground">
         Todavía no hay lecciones con ejercicios para armar un simulacro.
       </p>
+    );
+  }
+
+  if (phase === "level") {
+    return (
+      <Card>
+        <CardContent className="flex flex-col gap-4 p-6">
+          <div>
+            <h2 className="text-lg font-semibold">
+              ¿Qué nivel querés practicar?
+            </h2>
+            <p className="text-sm text-muted-foreground">
+              El simulacro arma sus secciones con las lecciones de ese nivel.
+            </p>
+          </div>
+          <div className="grid gap-3 sm:grid-cols-2">
+            {availableLevels.map((l) => (
+              <button
+                key={l}
+                type="button"
+                onClick={() => selectLevel(l)}
+                className="rounded-md border-2 border-border px-4 py-6 text-center text-lg font-semibold transition-colors hover:border-primary hover:bg-primary/5"
+              >
+                {l}
+              </button>
+            ))}
+          </div>
+        </CardContent>
+      </Card>
     );
   }
 
@@ -166,6 +232,20 @@ export function ExamPlayer({
     );
     return (
       <div className="flex flex-col gap-5">
+        {availableLevels.length > 1 && (
+          <div className="flex items-center justify-between">
+            <span className="text-sm font-medium text-muted-foreground">
+              Simulacro {level}
+            </span>
+            <button
+              type="button"
+              onClick={() => setPhase("level")}
+              className="text-sm text-muted-foreground underline"
+            >
+              Cambiar nivel
+            </button>
+          </div>
+        )}
         <Card>
           <CardContent className="flex flex-col gap-4 p-6">
             <div>
@@ -188,7 +268,7 @@ export function ExamPlayer({
                 >
                   {lessonOptions.map((o) => (
                     <option key={o.id} value={o.order}>
-                      Lección {o.order} — {o.title}
+                      {o.title}
                     </option>
                   ))}
                 </select>
@@ -206,7 +286,7 @@ export function ExamPlayer({
                 >
                   {lessonOptions.map((o) => (
                     <option key={o.id} value={o.order}>
-                      Lección {o.order} — {o.title}
+                      {o.title}
                     </option>
                   ))}
                 </select>

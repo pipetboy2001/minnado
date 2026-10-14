@@ -1,10 +1,10 @@
 /**
- * Builds a JLPT-style mock exam ("simulacro") out of the N5 exercise pool:
- * grouped into the same broad sections the real test uses (vocab/kanji,
- * grammar, listening — speaking is excluded, since the real JLPT doesn't
- * test it either), each capped to a realistic question count and given a
- * time budget derived from real exam pacing. Used in both timed and
- * untimed exam mode — untimed just skips the countdown, same sections.
+ * Builds a JLPT-style mock exam ("simulacro") out of a level's exercise
+ * pool: grouped into the same broad sections the real test uses (vocab/
+ * kanji, grammar, listening — speaking is excluded, since the real JLPT
+ * doesn't test it either), each capped to a realistic question count and
+ * given a time budget derived from real exam pacing. Used in both timed
+ * and untimed exam mode — untimed just skips the countdown, same sections.
  */
 import type { Exercise } from "@/types/exercise";
 import type { Lesson } from "@/types/content";
