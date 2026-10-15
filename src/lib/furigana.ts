@@ -1,4 +1,4 @@
-import { getVocabN5, getKanjiN5, getKanjiN4 } from "@/content/loader";
+import { getAllKanji, getAllVocab } from "@/content/loader";
 import { EXTRA_KANJI_READINGS } from "./furigana-dictionary";
 
 export interface FuriganaSegment {
@@ -62,17 +62,18 @@ function getDictionary() {
   }
 
   const dictionary = new Map<string, string>();
-  for (const word of getVocabN5()) {
+  // All levels, N5 first, so a word repeated in N4 keeps its N5 reading.
+  for (const word of getAllVocab()) {
     if (!dictionary.has(word.word)) {
       dictionary.set(word.word, word.reading);
     }
   }
-  for (const kanji of [...getKanjiN5(), ...getKanjiN4()]) {
+  for (const kanji of getAllKanji()) {
     if (!dictionary.has(kanji.character)) {
-      dictionary.set(
-        kanji.character,
-        kanji.kunyomi[0] ?? kanji.onyomi[0] ?? "",
-      );
+      // Kunyomi mark okurigana with a hyphen ("まな-ぶ" for 学ぶ); only the
+      // part before it is read on the kanji itself.
+      const reading = kanji.kunyomi[0] ?? kanji.onyomi[0] ?? "";
+      dictionary.set(kanji.character, reading.split("-")[0]);
     }
   }
   for (const [character, reading] of Object.entries(EXTRA_KANJI_READINGS)) {

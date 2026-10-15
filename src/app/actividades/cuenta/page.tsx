@@ -80,7 +80,7 @@ export default async function CuentaPage() {
         <KeyRound className="size-4 text-muted-foreground" />
         Cambiar contraseña
       </h2>
-      <ChangePasswordForm />
+      <ChangePasswordForm email={session.user.email ?? ""} />
     </div>
   );
 }
