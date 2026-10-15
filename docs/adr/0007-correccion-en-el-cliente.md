@@ -1,6 +1,6 @@
 # 0007. Corrección de ejercicios en el cliente
 
-- **Estado:** Aceptado
+- **Estado:** Reemplazado por [0009](0009-correccion-en-el-servidor.md)
 - **Fecha:** 2026-10-11
 
 ## Contexto
