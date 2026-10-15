@@ -47,7 +47,10 @@ export function LoginForm() {
     });
 
     if (result?.error) {
-      const message = "Correo o contraseña incorrectos.";
+      const message =
+        result.code === "rate_limited"
+          ? "Demasiados intentos. Intenta de nuevo en unos minutos."
+          : "Correo o contraseña incorrectos.";
       setServerError(message);
       toast.error(message);
       return;
@@ -64,7 +67,7 @@ export function LoginForm() {
           <LogIn className="size-5 text-primary" />
           Minnado — Iniciar sesión
         </CardTitle>
-        <CardDescription>Entra para practicar japonés N5.</CardDescription>
+        <CardDescription>Entra para practicar japonés N5 y N4.</CardDescription>
       </CardHeader>
       <CardContent>
         <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4">

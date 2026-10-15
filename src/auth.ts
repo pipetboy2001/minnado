@@ -1,10 +1,17 @@
-import NextAuth from "next-auth";
+import NextAuth, { CredentialsSignin } from "next-auth";
 import Credentials from "next-auth/providers/credentials";
 import { PrismaAdapter } from "@auth/prisma-adapter";
 import bcrypt from "bcryptjs";
 import { prisma } from "@/lib/prisma";
 import { authConfig } from "@/auth.config";
 import { isSessionVersionCurrent } from "@/lib/session-version";
+import { checkLoginRateLimit, getClientIp } from "@/lib/rate-limit";
+
+// Surfaces as `code: "rate_limited"` in the client's signIn() result, so
+// the login form can tell "too many attempts" apart from a wrong password.
+class RateLimitedSignin extends CredentialsSignin {
+  code = "rate_limited";
+}
 
 export const { handlers, signIn, signOut, auth } = NextAuth({
   ...authConfig,
@@ -16,12 +23,16 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
         email: { label: "Email", type: "email" },
         password: { label: "Contraseña", type: "password" },
       },
-      authorize: async (credentials) => {
+      authorize: async (credentials, request) => {
         const email = credentials?.email;
         const password = credentials?.password;
 
         if (typeof email !== "string" || typeof password !== "string") {
           return null;
+        }
+
+        if (!(await checkLoginRateLimit(email, getClientIp(request)))) {
+          throw new RateLimitedSignin();
         }
 
         const user = await prisma.user.findUnique({ where: { email } });
