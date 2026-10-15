@@ -1,5 +1,7 @@
 "use client";
 
+import { useRouter } from "next/navigation";
+import { signIn } from "next-auth/react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
@@ -24,7 +26,8 @@ const changePasswordSchema = z
 
 type ChangePasswordValues = z.infer<typeof changePasswordSchema>;
 
-export function ChangePasswordForm() {
+export function ChangePasswordForm({ email }: { email: string }) {
+  const router = useRouter();
   const {
     register,
     handleSubmit,
@@ -50,8 +53,24 @@ export function ChangePasswordForm() {
       return;
     }
 
-    toast.success("Contraseña actualizada.");
+    // Changing the password signs out every session, this one included.
+    // Sign this one back in with the new password so the user stays put.
+    const result = await signIn("credentials", {
+      email,
+      password: values.newPassword,
+      redirect: false,
+    });
+    if (result?.error) {
+      toast.success("Contraseña actualizada. Inicia sesión de nuevo.");
+      router.push("/login");
+      return;
+    }
+
+    toast.success(
+      "Contraseña actualizada. Se cerraron las sesiones en otros dispositivos.",
+    );
     reset();
+    router.refresh();
   }
 
   return (

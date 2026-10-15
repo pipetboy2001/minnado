@@ -41,7 +41,12 @@ export const POST = withErrorHandling(async function POST(request: Request) {
   }
 
   const passwordHash = await bcrypt.hash(newPassword, 10);
-  await prisma.user.update({ where: { email }, data: { passwordHash } });
+  // Signs out every existing session, e.g. one opened by whoever made the
+  // reset necessary.
+  await prisma.user.update({
+    where: { email },
+    data: { passwordHash, sessionVersion: { increment: 1 } },
+  });
   await prisma.verificationToken.deleteMany({ where: { identifier: email } });
 
   return NextResponse.json({ ok: true });
