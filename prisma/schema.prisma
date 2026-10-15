@@ -71,14 +71,17 @@ enum ExerciseSkill {
 // --- Auth (Auth.js / NextAuth v5 + Credentials) ---
 
 model User {
-  id            String    @id @default(cuid())
-  name          String?
-  email         String?   @unique
-  emailVerified DateTime?
-  image         String?
-  passwordHash  String?
-  createdAt     DateTime  @default(now())
-  updatedAt     DateTime  @updatedAt
+  id             String    @id @default(cuid())
+  name           String?
+  email          String?   @unique
+  emailVerified  DateTime?
+  image          String?
+  passwordHash   String?
+  // Bumped on every password change/reset. JWTs carry the version they
+  // were issued with, so older sessions stop being valid.
+  sessionVersion Int       @default(0)
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
 
   accounts         Account[]
   sessions         Session[]

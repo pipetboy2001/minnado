@@ -22,7 +22,7 @@ jobs:
 
       - uses: actions/setup-node@v7
         with:
-          node-version: 22
+          node-version-file: .nvmrc
           cache: npm
 
       - name: Install dependencies
@@ -39,6 +39,9 @@ jobs:
 
       - name: Format check
         run: npm run format:check
+
+      - name: Unused code and dependencies
+        run: npm run knip
 
       - name: Type check
         run: npm run typecheck
@@ -80,7 +83,7 @@ jobs:
 
       - uses: actions/setup-node@v7
         with:
-          node-version: 22
+          node-version-file: .nvmrc
           cache: npm
 
       - name: Cache Next.js build

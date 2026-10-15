@@ -58,7 +58,6 @@ describe("ExercisePlayer", () => {
         method: "POST",
         body: JSON.stringify({
           exerciseId: "ex-1",
-          isCorrect: true,
           userAnswer: { selectedOptionId: "a" },
         }),
       }),

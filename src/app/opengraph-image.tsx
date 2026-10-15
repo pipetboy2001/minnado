@@ -34,7 +34,7 @@ export default function OpengraphImage() {
         Minnado
       </div>
       <div style={{ fontSize: 32, color: "#52525b" }}>
-        Aprende japonés N5 · basado en Minna no Nihongo
+        Aprende japonés N5 y N4 · basado en Minna no Nihongo
       </div>
     </div>,
     size,
