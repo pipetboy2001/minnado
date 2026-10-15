@@ -1,18 +1,24 @@
 import nodemailer from "nodemailer";
+import { env, isSmtpConfigured } from "@/lib/env";
 
 const transporter = nodemailer.createTransport({
-  host: process.env.SMTP_HOST,
-  port: Number(process.env.SMTP_PORT ?? 587),
+  host: env.SMTP_HOST,
+  port: env.SMTP_PORT,
   secure: false,
   auth: {
-    user: process.env.SMTP_USER,
-    pass: process.env.SMTP_PASS,
+    user: env.SMTP_USER,
+    pass: env.SMTP_PASS,
   },
 });
 
 export async function sendPasswordResetEmail(to: string, resetUrl: string) {
+  if (!isSmtpConfigured) {
+    throw new Error(
+      "SMTP no está configurado: define SMTP_HOST, SMTP_USER y SMTP_PASS para enviar correos.",
+    );
+  }
   await transporter.sendMail({
-    from: `"Minnado" <${process.env.SMTP_USER}>`,
+    from: `"Minnado" <${env.SMTP_USER}>`,
     to,
     subject: "Restablece tu contraseña — Minnado",
     html: `
