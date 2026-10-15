@@ -47,7 +47,10 @@ export function LoginForm() {
     });
 
     if (result?.error) {
-      const message = "Correo o contraseña incorrectos.";
+      const message =
+        result.code === "rate_limited"
+          ? "Demasiados intentos. Intenta de nuevo en unos minutos."
+          : "Correo o contraseña incorrectos.";
       setServerError(message);
       toast.error(message);
       return;
