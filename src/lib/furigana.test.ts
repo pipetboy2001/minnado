@@ -78,4 +78,17 @@ describe("autoFurigana", () => {
     const segments = autoFurigana("鬱");
     expect(segments).toEqual([{ text: "鬱" }]);
   });
+
+  it("looks up N4 vocabulary words too, not just N5", () => {
+    // Regression: the dictionary only loaded N5 vocab, so N4 compounds like
+    // 自転車 fell back to per-kanji readings instead of じてんしゃ.
+    expect(autoFurigana("自転車")).toEqual([
+      { text: "自転車", reading: "じてんしゃ" },
+    ]);
+  });
+
+  it("drops the okurigana from kunyomi readings on a lone kanji", () => {
+    // Regression: 学 (kunyomi まな-ぶ) rendered "まな-ぶ" over the kanji.
+    expect(autoFurigana("学")).toEqual([{ text: "学", reading: "まな" }]);
+  });
 });
