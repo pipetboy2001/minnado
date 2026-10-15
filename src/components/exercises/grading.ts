@@ -1,3 +1,4 @@
+import { z } from "zod";
 import { stripFuriganaBrackets } from "@/lib/furigana";
 import { isPronunciationMatch, normalizeSpeech } from "@/lib/speech";
 import type { Exercise } from "@/types/exercise";
@@ -16,6 +17,28 @@ export type ExerciseAnswer =
   | MatchingAnswer
   | SpeakingAnswer
   | ListeningAnswer;
+
+const answerSchemas = {
+  "multiple-choice": z.object({ selectedOptionId: z.string() }),
+  "fill-in-blank": z.object({ values: z.record(z.string(), z.string()) }),
+  "word-order": z.object({ order: z.array(z.string()) }),
+  matching: z.object({ selections: z.record(z.string(), z.string()) }),
+  speaking: z.object({ transcript: z.string() }),
+  listening: z.object({ text: z.string() }),
+} satisfies Record<Exercise["type"], z.ZodType>;
+
+/**
+ * Validates an untrusted answer (e.g. a request body) against the shape
+ * `gradeExercise` expects for this exercise's type. Returns null if it
+ * doesn't match.
+ */
+export function parseAnswer(
+  exercise: Exercise,
+  raw: unknown,
+): ExerciseAnswer | null {
+  const result = answerSchemas[exercise.type].safeParse(raw);
+  return result.success ? result.data : null;
+}
 
 function normalize(value: string) {
   return value.trim();

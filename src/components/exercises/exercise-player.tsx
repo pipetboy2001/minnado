@@ -93,7 +93,6 @@ export function ExercisePlayer({
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         exerciseId: exercise.id,
-        isCorrect,
         userAnswer: answer,
       }),
     });
