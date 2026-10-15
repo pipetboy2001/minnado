@@ -21,9 +21,9 @@ const notoSansJP = Noto_Sans_JP({
 });
 
 const SITE_URL = "https://minnado.vercel.app";
-const SITE_TITLE = "Minnado — Aprende japonés N5";
+const SITE_TITLE = "Minnado — Aprende japonés N5 y N4";
 const SITE_DESCRIPTION =
-  "Plataforma open source para practicar japonés N5 basada en Minna no Nihongo.";
+  "Plataforma open source para practicar japonés N5 y N4 basada en Minna no Nihongo.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
