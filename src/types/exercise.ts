@@ -114,10 +114,3 @@ export type Exercise =
   | MatchingExercise
   | SpeakingExercise
   | ListeningExercise;
-
-export interface ExerciseAttemptResult {
-  exerciseId: string;
-  isCorrect: boolean;
-  userAnswer: unknown;
-  attemptedAt: string;
-}
