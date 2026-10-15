@@ -149,3 +149,11 @@ export const getAllGrammar = cache((): GrammarRule[] =>
 export const getAllExercises = cache((): Exercise[] =>
   Object.values(LEVELS).flatMap((l) => l.exercises()),
 );
+
+const getExercisesById = cache(
+  () => new Map(getAllExercises().map((exercise) => [exercise.id, exercise])),
+);
+
+export function getExerciseById(id: string): Exercise | undefined {
+  return getExercisesById().get(id);
+}
